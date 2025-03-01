@@ -1,11 +1,11 @@
 "use client"
 
+import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Send } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
 
           <h1 className="text-3xl md:text-4xl font-bold text-[#1a1a1a] mb-6 md:mb-8">
-            Hoe kan ik je helpen?
+            How can I help you?
           </h1>
 
           <div className="relative mb-8">
