@@ -113,7 +113,7 @@ function HeroSection() {
   )
 }
 
-function PartnersSection({ partners }) {
+function PartnersSection({ partners }: { partners: { src: string; alt: string; width: number }[] }) {
   return (
     <div className="mb-20 text-center">
       <p className="text-gray-500 mb-4">Onder andere bekend van</p>
@@ -171,7 +171,7 @@ function BVSupportSection() {
   )
 }
 
-function StepsSection({ steps }) {
+function StepsSection({ steps }: { steps: { title: string; description: string; image: string; alt: string; showButton?: boolean }[] }) {
   return (
     <div>
       <h2 className="text-2xl font-bold text-center mb-12">ZO KUNNEN WE JE HELPEN MET JE BV</h2>
