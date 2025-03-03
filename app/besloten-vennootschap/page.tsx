@@ -87,13 +87,13 @@ function HeroSection() {
     <div className="mb-20">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h1 className="text-4xl font-bold mb-4">Expert Ondersteuning voor Besloten Vennootschappen (BV's)</h1>
+          <h1 className="text-4xl font-bold mb-4">Expert Ondersteuning voor Besloten Vennootschappen (BV&apos;s)</h1>
           <p className="text-gray-600 mb-6">
             Beheer je een BV of loop je tegen uitdagingen aan bij het beheren van bedrijfsbelastingen of juridische verplichtingen? 
             Jan de Belastingman helpt je de complexiteit van het runnen van een Besloten Vennootschap in Nederland te doorgronden, zodat je bedrijf compliant en financieel gezond blijft.
           </p>
           <p className="text-gray-600 mb-6">
-            Wil je een BV oprichten? Ontdek met Jan de Belastingman hoe een BV jouw financiële toekomst kan transformeren – start nu jouw winstgevendere ondernemersreis!"
+            Wil je een BV oprichten? Ontdek met Jan de Belastingman hoe een BV jouw financiële toekomst kan transformeren &ndash; start nu jouw winstgevendere ondernemersreis!&quot;
           </p>
           <Button className="bg-[#2B4EE6] text-white hover:bg-[#2341C7] mb-2">Stel je vraag in de chat</Button>
           <p className="text-sm text-gray-500">Direct antwoord</p>
@@ -106,7 +106,7 @@ function HeroSection() {
             height={240}
             className="rounded-lg shadow-lg mx-auto"
           />
-          <div className="mt-4 text-sm text-gray-500 text-center">Al 4.545 vragen over BV's beantwoord</div>
+          <div className="mt-4 text-sm text-gray-500 text-center">Al 4.545 vragen over BV&apos;s beantwoord</div>
         </div>
       </div>
     </div>
@@ -146,7 +146,7 @@ function BVSupportSection() {
             <h2 className="text-3xl font-bold mb-6 text-[#2B4EE6]">BV Ondersteuning in Nederland</h2>
             <p className="text-gray-700 mb-6">
               Het runnen van een BV in Nederland vereist naleving van specifieke financiële regels en
-              belastingverplichtingen. Jan de Belastingman biedt op maat gemaakte begeleiding voor BV's om je te helpen
+              belastingverplichtingen. Jan de Belastingman biedt op maat gemaakte begeleiding voor BV&apos;s om je te helpen
               je bedrijfsverplichtingen effectief te beheren, van belastingplanning tot naleving van de Nederlandse
               ondernemingswetgeving.
             </p>
