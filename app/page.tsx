@@ -9,7 +9,7 @@ import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <main className="flex-1 flex flex-col">
+    <main className="relative flex-1 flex flex-col">
       <Header />
 
       <div className="flex-1 flex items-center justify-center">
