@@ -7,11 +7,6 @@ const nextConfig: NextConfig = {
       'jandebelastingman.nl'
     ],
   },
-  i18n: {
-    defaultLocale: 'nl',
-    locales: ['nl', 'en'],
-    localeDetection: false, // We handle this in middleware
-  },
 };
 
 export default nextConfig;

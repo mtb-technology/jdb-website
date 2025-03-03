@@ -1,17 +1,20 @@
 "use client"
 
-import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Send } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useParams } from "next/navigation";
+import translations from "../i18n/translations.json";
 
 export default function Home() {
-  return (
-    <main className="flex-1 flex flex-col">
-      <Header />
+  const params = useParams();
+  const locale = (params?.local as string) || "nl";
+  const t = translations[locale as keyof typeof translations];
 
+  return (
+    <main className="relative flex-1 flex flex-col">
       <div className="flex-1 flex items-center justify-center">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <div className="mb-8">
@@ -25,13 +28,13 @@ export default function Home() {
           </div>
 
           <h1 className="text-3xl md:text-4xl font-bold text-[#1a1a1a] mb-6 md:mb-8">
-            How can I help you?
+            {t.helpQuestion}
           </h1>
 
           <div className="relative mb-8">
             <Input
               type="text"
-              placeholder="Stel je vraag"
+              placeholder={t.inputPlaceholder}
               className="w-full pl-4 pr-12 py-6 rounded-xl shadow-lg text-base"
             />
             <button className="absolute right-4 top-1/2 -translate-y-1/2 text-primary hover:text-primary/80 transition-colors">
@@ -41,30 +44,28 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-2 justify-center mb-12 text-sm">
             <Button variant="outline" className="rounded-full">
-              Welke aftrekposten kan ik toepassen?
+              {t.commonQuestions.deductions}
             </Button>
             <Button variant="outline" className="rounded-full">
-              Hoe moet de btw-aangifte als zelfstandige?
+              {t.commonQuestions.vatReturn}
             </Button>
             <Button variant="outline" className="rounded-full">
-              Moet ik vermogen in box 3 opgeven?
+              {t.commonQuestions.box3}
             </Button>
             <Button variant="outline" className="rounded-full">
-              Wat is de impact van eenmanszaak naar BV?
+              {t.commonQuestions.businessStructure}
             </Button>
             <Button variant="outline" className="rounded-full">
-              Meer ...
+              {t.commonQuestions.more}
             </Button>
           </div>
 
-          <p className="text-gray-500 mb-12 text-xs">
-            Deze dienst is een digitale assistent, geen gecertificeerde belastingadviseur.
-            <br />
-            Er kunnen geen rechten aan de verstrekte informatie worden ontleend.
+          <p className="text-gray-500 mb-12 text-xs whitespace-pre-line">
+            {t.disclaimer}
           </p>
 
           <div className="text-center">
-            <p className="text-gray-500 mb-4 text-sm">Onder andere bekend van</p>
+            <p className="text-gray-500 mb-4 text-sm">{t.knownFrom}</p>
             <div className="flex justify-center items-center gap-4 md:gap-8 grayscale opacity-60 flex-wrap">
               {[
                 {
@@ -106,17 +107,17 @@ export default function Home() {
       <footer className="py-6 px-6 border-t border-gray-100 mt-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-xs text-gray-500">
-            © {new Date().getFullYear()} Jan de Belastingman. Alle rechten voorbehouden.
+            {t.footer.copyright.replace("{year}", new Date().getFullYear().toString())}
           </div>
           <div className="flex gap-6 text-xs text-gray-500">
             <Link href="#" className="hover:text-primary transition-colors">
-              Privacybeleid
+              {t.footer.privacy}
             </Link>
             <Link href="#" className="hover:text-primary transition-colors">
-              Gebruiksvoorwaarden
+              {t.footer.terms}
             </Link>
             <Link href="#" className="hover:text-primary transition-colors">
-              Contact
+              {t.footer.contact}
             </Link>
           </div>
         </div>

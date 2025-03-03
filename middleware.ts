@@ -32,19 +32,33 @@ function getLocale(request: NextRequest) {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname
   
-  // Check if the pathname is missing a locale
-  const pathnameIsMissingLocale = locales.every(
-    locale => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
+  // Check if the pathname starts with /en/
+  if (pathname.startsWith('/en/') || pathname === '/en') {
+    return // Allow English routes to pass through
+  }
+
+  // Check if the pathname has any locale prefix
+  const hasLocalePrefix = locales.some(
+    locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   )
 
-  // If pathname is missing locale, redirect to locale path
-  if (pathnameIsMissingLocale) {
-    const locale = getLocale(request)
-    
-    // Create new URL with locale
+  const locale = getLocale(request)
+  
+  if (hasLocalePrefix) {
+    // If it has nl prefix, redirect to path without prefix
+    if (pathname.startsWith('/nl/') || pathname === '/nl') {
+      return NextResponse.redirect(
+        new URL(
+          pathname.replace(/^\/nl\/?/, '/'),
+          request.url
+        )
+      )
+    }
+  } else if (locale === 'en') {
+    // Only add prefix for English locale
     return NextResponse.redirect(
       new URL(
-        `/${locale}${pathname === '/' ? '' : pathname}`,
+        `/en${pathname === '/' ? '' : pathname}`,
         request.url
       )
     )

@@ -58,11 +58,10 @@ export default function BVPage() {
     },
   ]
   return (
-    <main className="flex-1 flex flex-col">
+    <main className="flex-1 flex flex-col relative">
       <Header />
-     
 
-      <div className="mt-24 overflow-y-auto h-[calc(100vh-6rem)]">
+      <div className="pt-22 overflow-y-auto h-[calc(100vh)]">
           <div className="max-w-5xl mx-auto px-6 py-12">
             {/* Hero Section */}
             <HeroSection />

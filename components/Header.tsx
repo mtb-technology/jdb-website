@@ -7,7 +7,7 @@ import Link from "next/link"
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-6 text-sm">
+    <header className="absolute top-0 left-0 right-0 z-40 flex justify-between items-center p-6 text-sm bg-white/80 backdrop-blur-lg border-b">
       <div className="flex md:hidden ml-12">
         <Image
           src="https://jandebelastingman.nl/images/brand/logo.svg"
