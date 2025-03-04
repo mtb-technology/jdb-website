@@ -10,11 +10,35 @@ interface TopicMapping {
 }
 
 export const topicENToDictionaryKey: TopicMapping = {
+  'tax-advisor': 'tax-advisor',
+  'income-tax-return': 'income-tax-return',
+  'm-form': 'm-form',
+  'tax-credit': 'tax-credit',
+  'inheritance-tax': 'inheritance-tax',
   'private-limited-company': 'private-company',
+  'self-employed-professional': 'self-employed-professional',
+  'healthcare-allowance': 'healthcare-allowance',
+  'housing-allowance': 'housing-allowance',
+  'childcare-allowance': 'childcare-allowance',
+  'child-benefit': 'child-benefit',
+  'aow-pension': 'aow-pension',
+  'income-aow-pension': 'income-aow-pension',
 };
 
 export const topicNLToDictionaryKey: TopicMapping = {
+  'belastingaangifte-laten-doen': 'tax-advisor',
+  'belastingaangifte': 'income-tax-return',
+  'm-form': 'm-form',
+  'aftrekposten-en-kortingen': 'tax-credit',
+  'erfbelasting': 'inheritance-tax',
   'besloten-vennootschap': 'private-company',
+  'zelfstandigen-zonder-personeel': 'self-employed-professional',
+  'zorgtoeslag': 'healthcare-allowance',
+  'huurtoeslag': 'housing-allowance',
+  'kinderopvangtoeslag': 'childcare-allowance',
+  'kinderbijslag': 'child-benefit',
+  'aow-pensioen': 'aow-pension',
+  'inkomen-aow-pensioen': 'income-aow-pension',
 };
 
 export const routes: RouteMapping = {
@@ -34,9 +58,9 @@ export const routes: RouteMapping = {
       nl: "onderwerpen/belastingaangifte-laten-doen",
       en: "topics/tax-advisor"
     },
-    "incometax-return": {
+    "income-tax-return": {
       nl: "onderwerpen/belastingaangifte",
-      en: "topics/incometax-return"
+      en: "topics/income-tax-return"
     },
     "m-form": {
       nl: "onderwerpen/m-form",
