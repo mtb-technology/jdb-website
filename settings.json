@@ -9,8 +9,9 @@
         "source.fixAll.eslint": true
       },
       "editor.formatOnSave": false
-    },
+    }
   
     // Other settings, don't mind it
     // ...
   }
+  
