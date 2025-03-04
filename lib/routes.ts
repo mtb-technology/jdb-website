@@ -10,6 +10,10 @@ export const routes: RouteMapping = {
     nl: "",
     en: ""
   },
+  "how-it-works": {
+    nl: "hoe-werkt-het",
+    en: "how-it-works"
+  },
   topics: {
     nl: "onderwerpen",
     en: "topics"
