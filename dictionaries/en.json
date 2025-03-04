@@ -9,7 +9,7 @@
       "twitterDescription": "Instant answers to all your tax questions with our AI assistant."
     },
     "pages": {
-      "bv": {
+      "private-company": {
         "metadata": {
           "title": "Private Limited Company (BV) | Jan de Belastingman",
           "description": "Expert advice on establishing and managing a BV in the Netherlands.",
@@ -79,7 +79,44 @@
             "alt": "Account Dashboard",
             "showButton": true
           }
-        ]
+        ],
+        "faq": {
+          "title": "Frequently Asked Questions and Latest Articles",
+          "buttonText": "View all articles",
+          "buttonLink": "/en/blog",
+          "faqItems": [
+            {
+              "question": "Wat is een BV en waarom zou ik er een oprichten?",
+              "answer": "Een BV (Besloten Vennootschap) is een rechtsvorm waarbij het bedrijf een aparte rechtspersoon is, gescheiden van de eigenaren. Het oprichten van een BV kan voordelen bieden op het gebied van aansprakelijkheid, belastingen en het aantrekken van investeerders. Het is vooral geschikt voor ondernemers die hun persoonlijke vermogen willen scheiden van het bedrijfsvermogen en die verwachten dat hun bedrijf zal groeien."
+            },
+            {
+              "question": "Welke belastingvoordelen heeft een BV?",
+              "answer": "Een BV kan verschillende belastingvoordelen bieden, waaronder een lager vennootschapsbelastingtarief voor winsten tot €395.000 (15% in 2023), de mogelijkheid om winst in de BV te houden voor herinvestering tegen een lager tarief, en de optie om jezelf een salaris uit te keren en dividenden te ontvangen. Daarnaast zijn er mogelijkheden voor fiscale optimalisatie die niet beschikbaar zijn voor eenmanszaken of VOF's."
+            },
+            {
+              "question": "Hoe kan Jan de Belastingman mij helpen bij het beheren van mijn BV?",
+              "answer": "Jan de Belastingman biedt expert advies en ondersteuning op verschillende gebieden van BV-beheer, waaronder belastingplanning, compliance met wet- en regelgeving, financiële rapportage, en strategisch advies. Onze AI-gestuurde chatbot kan direct antwoord geven op veel voorkomende vragen, terwijl ons netwerk van ervaren adviseurs beschikbaar is voor meer complexe kwesties. We helpen je om je BV financieel gezond te houden en optimaal gebruik te maken van beschikbare fiscale voordelen."
+            }
+          ],
+          "blogArticles": [
+            {
+              "title": "5 Fiscale Tips voor BV-Eigenaren in 2023",
+              "link": "#"
+            },
+            {
+              "title": "Hoe de Nieuwe Belastingwetgeving Jouw BV Beïnvloedt",
+              "link": "#"
+            },
+            {
+              "title": "BV vs. Eenmanszaak: Wat Past het Beste bij Jouw Onderneming?",
+              "link": "#"
+            },
+            {
+              "title": "Optimaliseer Je BV-Structuur: Een Stap-voor-Stap Gids",
+              "link": "#"
+            }
+          ]
+        }
       },
       "home": {
         "metadata": {

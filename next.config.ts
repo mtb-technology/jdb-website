@@ -175,6 +175,11 @@ const nextConfig: NextConfig = {
       { source: '/en/vacation-days-what-about-it-jan-de-belastingman-stays-home', destination: '/en/blog/vacation-days-what-about-it-jan-de-belastingman-stays-home', permanent: true },
       { source: '/en/jan-de-belastingman-website-2-0', destination: '/en/blog/jan-de-belastingman-website-2-0', permanent: true },
 
+      {
+        source: '/en/hoe-werkt-het',
+        destination: '/en/how-it-works',
+        permanent: true,
+      },
     ];
     return redirects;
   },

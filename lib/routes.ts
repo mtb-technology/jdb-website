@@ -5,6 +5,18 @@ interface RouteMapping {
   };
 }
 
+interface TopicMapping {
+  [key: string]: string;
+}
+
+export const topicENToDictionaryKey: TopicMapping = {
+  'private-limited-company': 'private-company',
+};
+
+export const topicNLToDictionaryKey: TopicMapping = {
+  'besloten-vennootschap': 'private-company',
+};
+
 export const routes: RouteMapping = {
   "home": {
     nl: "",
