@@ -1,17 +1,29 @@
-"use client"
-
+import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { generatePageMetadata } from "@/lib/metadata";
+import { SupportedLocale } from "@/lib/types";
 import { Send } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 import Header from "../components/Header";
+import { getDictionary } from "./dictionaries";
 
-export default function Home() {
+interface HomePageProps {
+  params: {
+    locale: SupportedLocale
+  }
+}
+
+export const generateMetadata = generatePageMetadata;
+
+export default async function Home({ params }: HomePageProps) {
+  const locale = params.locale || 'nl';
+  const dict = await getDictionary(locale);
+  const homeDict = dict.pages.home;
+
   return (
     <main className="relative flex-1 flex flex-col">
       <Header />
-
       <div className="flex-1 flex items-center justify-center">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <div className="mb-8">
@@ -25,13 +37,13 @@ export default function Home() {
           </div>
 
           <h1 className="text-3xl md:text-4xl font-bold text-[#1a1a1a] mb-6 md:mb-8">
-            Hoe kan ik je helpen?
+            {homeDict.helpQuestion}
           </h1>
 
           <div className="relative mb-8">
             <Input
               type="text"
-              placeholder="Stel je vraag"
+              placeholder={homeDict.inputPlaceholder}
               className="w-full pl-4 pr-12 py-6 rounded-xl shadow-lg text-base"
             />
             <button className="absolute right-4 top-1/2 -translate-y-1/2 text-primary hover:text-primary/80 transition-colors">
@@ -41,30 +53,28 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-2 justify-center mb-12 text-sm">
             <Button variant="outline" className="rounded-full">
-              Welke aftrekposten kan ik toepassen?
+              {homeDict.commonQuestions.deductions}
             </Button>
             <Button variant="outline" className="rounded-full">
-              Hoe moet de btw-aangifte als zelfstandige?
+              {homeDict.commonQuestions.vatReturn}
             </Button>
             <Button variant="outline" className="rounded-full">
-              Moet ik vermogen in box 3 opgeven?
+              {homeDict.commonQuestions.box3}
             </Button>
             <Button variant="outline" className="rounded-full">
-              Wat is de impact van eenmanszaak naar BV?
+              {homeDict.commonQuestions.businessStructure}
             </Button>
             <Button variant="outline" className="rounded-full">
-              Meer ...
+              {homeDict.commonQuestions.more}
             </Button>
           </div>
 
-          <p className="text-gray-500 mb-12 text-xs">
-            Deze dienst is een digitale assistent, geen gecertificeerde belastingadviseur.
-            <br />
-            Er kunnen geen rechten aan de verstrekte informatie worden ontleend.
+          <p className="text-gray-500 mb-12 text-xs whitespace-pre-line">
+            {homeDict.disclaimer}
           </p>
 
           <div className="text-center">
-            <p className="text-gray-500 mb-4 text-sm">Onder andere bekend van</p>
+            <p className="text-gray-500 mb-4 text-sm">{homeDict.knownFrom}</p>
             <div className="flex justify-center items-center gap-4 md:gap-8 grayscale opacity-60 flex-wrap">
               {[
                 {
@@ -102,35 +112,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <footer className="py-6 px-6 border-t border-gray-100 mt-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="text-xs text-gray-500">
-            © {new Date().getFullYear()} Jan de Belastingman. Alle rechten voorbehouden.
-          </div>
-          <div className="flex gap-6 text-xs text-gray-500">
-            <Link href="#" className="hover:text-primary transition-colors">
-              Privacybeleid
-            </Link>
-            <Link href="#" className="hover:text-primary transition-colors">
-              Gebruiksvoorwaarden
-            </Link>
-            <Link href="#" className="hover:text-primary transition-colors">
-              Contact
-            </Link>
-          </div>
-        </div>
-      </footer>
-
-      {/* SVG Definitions */}
-      <svg width="0" height="0" className="hidden">
-        <defs>
-          <linearGradient id="half" x1="0" x2="100%" y1="0" y2="0">
-            <stop offset="50%" stopColor="currentColor" />
-            <stop offset="50%" stopColor="transparent" stopOpacity="1" />
-          </linearGradient>
-        </defs>
-      </svg>
+      <Footer dict={dict} />
     </main>
   );
 }

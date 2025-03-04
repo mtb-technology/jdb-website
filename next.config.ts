@@ -7,6 +7,20 @@ const nextConfig: NextConfig = {
       'jandebelastingman.nl'
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/besloten-vennootschap',
+        destination: '/onderwerpen/besloten-vennootschap',
+        permanent: true,
+      },
+      {
+        source: '/en/private-limited-companies',
+        destination: '/topics/private-limited-company',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
