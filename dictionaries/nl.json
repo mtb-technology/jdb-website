@@ -79,7 +79,44 @@
           "alt": "Account Dashboard",
           "showButton": true
         }
-      ]
+      ],
+      "faq": {
+        "title": "Frequently Asked Questions and Latest Articles",
+        "buttonText": "View all articles",
+        "buttonLink": "/en/blog",
+        "faqItems": [
+          {
+            "question": "Wat is een BV en waarom zou ik er een oprichten?",
+            "answer": "Een BV (Besloten Vennootschap) is een rechtsvorm waarbij het bedrijf een aparte rechtspersoon is, gescheiden van de eigenaren. Het oprichten van een BV kan voordelen bieden op het gebied van aansprakelijkheid, belastingen en het aantrekken van investeerders. Het is vooral geschikt voor ondernemers die hun persoonlijke vermogen willen scheiden van het bedrijfsvermogen en die verwachten dat hun bedrijf zal groeien."
+          },
+          {
+            "question": "Welke belastingvoordelen heeft een BV?",
+            "answer": "Een BV kan verschillende belastingvoordelen bieden, waaronder een lager vennootschapsbelastingtarief voor winsten tot €395.000 (15% in 2023), de mogelijkheid om winst in de BV te houden voor herinvestering tegen een lager tarief, en de optie om jezelf een salaris uit te keren en dividenden te ontvangen. Daarnaast zijn er mogelijkheden voor fiscale optimalisatie die niet beschikbaar zijn voor eenmanszaken of VOF's."
+          },
+          {
+            "question": "Hoe kan Jan de Belastingman mij helpen bij het beheren van mijn BV?",
+            "answer": "Jan de Belastingman biedt expert advies en ondersteuning op verschillende gebieden van BV-beheer, waaronder belastingplanning, compliance met wet- en regelgeving, financiële rapportage, en strategisch advies. Onze AI-gestuurde chatbot kan direct antwoord geven op veel voorkomende vragen, terwijl ons netwerk van ervaren adviseurs beschikbaar is voor meer complexe kwesties. We helpen je om je BV financieel gezond te houden en optimaal gebruik te maken van beschikbare fiscale voordelen."
+          }
+        ],
+        "blogArticles": [
+          {
+            "title": "5 Fiscale Tips voor BV-Eigenaren in 2023",
+            "link": "#"
+          },
+          {
+            "title": "Hoe de Nieuwe Belastingwetgeving Jouw BV Beïnvloedt",
+            "link": "#"
+          },
+          {
+            "title": "BV vs. Eenmanszaak: Wat Past het Beste bij Jouw Onderneming?",
+            "link": "#"
+          },
+          {
+            "title": "Optimaliseer Je BV-Structuur: Een Stap-voor-Stap Gids",
+            "link": "#"
+          }
+        ]
+      }
     },
     "home": {
       "metadata": {
@@ -125,25 +162,25 @@
       }
     },
     "how-it-works": {
-      "title": "Hoe werkt Jan de Belastingman?",
+      "title": "How does Jan de Belastingman work?",
       "steps": [
         {
-          "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
-          "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, toeslagen of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten!",
+          "title": "1. Ask your question 24/7 and get instant answers",
+          "description": "Do you have a question about your taxes? At Jan the Tax Man, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface",
           "icon": "message-circle"
         },
         {
-          "title": "2. Kom je er niet uit? Wij vinden een passende adviseur",
-          "description": "Soms is een vraag te specifiek of persoonlijk voor onze chatbot, die nog niet alle regels op jouw unieke situatie kan toepassen. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd de hulp die precies bij jou past, zonder gedoe.",
+          "title": "2. Need more help? We'll find you a suitable advisor",
+          "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan the Tax Man will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
           "alt": "Professional Advisor",
           "icon": "users"
         },
         {
-          "title": "3. Maak een account aan en beheer je belastingvragen",
-          "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen en antwoorden op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
+          "title": "3. Create an account and manage your tax questions",
+          "description": "With a free account at Jan the Tax Man, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
           "alt": "Account Dashboard",
           "icon": "user-plus"
@@ -151,12 +188,12 @@
       ],
       "buttons": {
         "chat": {
-          "text": "Stel je vraag in de chat",
-          "subtext": "Direct antwoord"
+          "text": "Ask your question in chat",
+          "subtext": "Instant answer"
         },
         "advisor": {
-          "text": "Vind een adviseur",
-          "subtext": "Een deskundige die verstand heeft van jouw situatie"
+          "text": "Find an advisor",
+          "subtext": "An expert who understands your situation"
         }
       }
     }

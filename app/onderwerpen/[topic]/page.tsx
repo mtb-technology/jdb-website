@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import FAQAndBlogSection from "@/components/sections/FAQAndBlogSection";
 import HeroSection from "@/components/sections/HeroSection";
 import PartnersSection from "@/components/sections/PartnersSection";
 import StepsSection from "@/components/sections/StepsSection";
@@ -92,7 +93,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
     notFound();
   }
 
-  const { hero, partners, support, steps } = topicContent;
+  const { hero, partners, support, steps, faq } = topicContent;
 
   const heroContent = {
     ...hero,
@@ -114,9 +115,14 @@ export default async function TopicPage({ params }: TopicPageProps) {
           <PartnersSection partners={partners.items} />
           <SupportSection {...support} />
           <StepsSection steps={steps} />
+          <FAQAndBlogSection 
+            {...faq}
+          />
         </div>
       </div>
       <Footer dict={dict} />
     </main>
   );
 }
+
+
