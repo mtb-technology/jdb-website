@@ -1,68 +1,31 @@
-import type { NextRequest } from 'next/server'
-import { NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server';
+import { NextResponse } from 'next/server';
 
-// List of supported locales
-export const locales = ['nl', 'en']
-export const defaultLocale = 'nl'
-
-// Get the preferred locale from cookie, header, or default
-function getLocale(request: NextRequest) {
-  // Check cookie first
-  const localeCookie = request.cookies.get('NEXT_LOCALE')?.value
-  if (localeCookie && locales.includes(localeCookie)) {
-    return localeCookie
-  }
-
-  // Check Accept-Language header
-  const acceptLanguage = request.headers.get('accept-language')
-  if (acceptLanguage) {
-    const preferredLocale = acceptLanguage
-      .split(',')
-      .map(lang => lang.split(';')[0].trim().substring(0, 2))
-      .find(lang => locales.includes(lang))
-    
-    if (preferredLocale) {
-      return preferredLocale
-    }
-  }
-
-  return defaultLocale
-}
+const DEFAULT_LOCALE = 'nl'; // Define your default locale
+const SUPPORTED_LOCALES = ['en']; // Only allow 'nl' as a valid locale
 
 export function middleware(request: NextRequest) {
-  const pathname = request.nextUrl.pathname
-  
-  // Check if the pathname starts with /en/
-  if (pathname.startsWith('/en/') || pathname === '/en') {
-    return // Allow English routes to pass through
-  }
+  const { pathname } = request.nextUrl;
 
-  // Check if the pathname has any locale prefix
-  const hasLocalePrefix = locales.some(
-    locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  )
+  // Match paths like `/app/en/contact`
+  const localeMatch = pathname.match(/^\/app\/([a-z]{2})\/(.*)$/);
 
-  const locale = getLocale(request)
-  
-  if (hasLocalePrefix) {
-    // If it has nl prefix, redirect to path without prefix
-    if (pathname.startsWith('/nl/') || pathname === '/nl') {
-      return NextResponse.redirect(
-        new URL(
-          pathname.replace(/^\/nl\/?/, '/'),
-          request.url
-        )
-      )
+  if (localeMatch) {
+    const locale = localeMatch[1];
+    const restOfPath = localeMatch[2];
+
+    // Redirect `/app/en/contact` to `/app/contact`
+    if (locale === DEFAULT_LOCALE) {
+      return NextResponse.redirect(new URL(`/app/${restOfPath}`, request.url));
     }
-  } else if (locale === 'en') {
-    // Only add prefix for English locale
-    return NextResponse.redirect(
-      new URL(
-        `/en${pathname === '/' ? '' : pathname}`,
-        request.url
-      )
-    )
+
+    // Return 404 for unsupported locales (except 'nl')
+    if (!SUPPORTED_LOCALES.includes(locale)) {
+      return NextResponse.rewrite(new URL('/404', request.url));
+    }
   }
+
+  return NextResponse.next();
 }
 
 export const config = {

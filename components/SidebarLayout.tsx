@@ -6,7 +6,9 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/co
 import { ChevronDown, Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useSelectedLayoutSegment } from "next/navigation";
 import { useState } from "react";
+
 
 interface NavLink {
   href: string;
@@ -14,16 +16,112 @@ interface NavLink {
   children?: NavLink[];
 }
 
+
+
+const features = {
+  nl: [
+    "Gratis en onafhankelijk advies via chat",
+    "Gebouwd op de nieuwste generatie AI",
+    "Direct gekoppeld aan actuele belastingdata",
+  ],
+  en: [
+    "Free and independent advice via chat",
+    "Built on the latest generation AI",
+    "Directly linked to current tax data",
+  ]
+};
+
+const navLinks = {
+  nl: [
+    { href: "/hoe-werkt-het", label: "Hoe werkt het" },
+    {
+      href: "/onderwerpen",
+      label: "Onderwerpen",
+      children: [
+        {
+          label: "Trending",
+          href: "/onderwerpen",
+          children: [
+            { href: "/onderwerpen/gratis-belastingadvies", label: "Gratis belastingadvies" },
+            { href: "/onderwerpen/aangifte-inkomstenbelasting", label: "Aangifte inkomstenbelasting" },
+            { href: "/onderwerpen/m-formulier", label: "M-formulier" }
+          ]
+        },
+        {
+          label: "Toeslagen",
+          href: "/onderwerpen",
+          children: [
+            { href: "/onderwerpen/zorgtoeslag", label: "Zorgtoeslag" },
+            { href: "/onderwerpen/huurtoeslag", label: "Huurtoeslag" },
+            { href: "/onderwerpen/kinderopvangtoeslag", label: "Kinderopvangtoeslag" },
+            { href: "/onderwerpen/kindgebonden-budget", label: "Kindgebonden budget" }
+          ]
+        },
+        {
+          label: "ZZP en BV",
+          href: "/onderwerpen",
+          children: [
+            { href: "/onderwerpen/bv", label: "BV" },
+            { href: "/onderwerpen/zzper", label: "ZZP'er" }
+          ]
+        }
+      ]
+    },
+    { href: "/besloten-vennootschap", label: "Blog" },
+    { href: "/over-ons", label: "Over ons" },
+    { href: "/besloten-vennootschap", label: "Besloten vennootschap" },
+  ],
+  en: [
+    { href: "/en/how-it-works", label: "How it works" },
+    {
+      href: "/en/topics",
+      label: "Topics",
+      children: [
+        {
+          label: "Trending",
+          href: "/en/topics",
+          children: [
+            { href: "/en/topics/free-tax-advice", label: "Free tax advice" },
+            { href: "/en/topics/income-tax-return", label: "Income tax return" },
+            { href: "/en/topics/m-form", label: "M-form" }
+          ]
+        },
+        {
+          label: "Allowances",
+          href: "/en/topics",
+          children: [
+            { href: "/en/topics/healthcare-allowance", label: "Healthcare allowance" },
+            { href: "/en/topics/rent-allowance", label: "Rent allowance" },
+            { href: "/en/topics/childcare-allowance", label: "Childcare allowance" },
+            { href: "/en/topics/child-budget", label: "Child budget" }
+          ]
+        },
+        {
+          label: "Business",
+          href: "/en/topics",
+          children: [
+            { href: "/en/topics/private-limited-company", label: "Private limited company" },
+            { href: "/en/topics/self-employed", label: "Self-employed" }
+          ]
+        }
+      ]
+    },
+    { href: "/en/blog", label: "Blog" },
+    { href: "/en/about-us", label: "About us" },
+    { href: "/en/private-limited-company", label: "Private limited company" },
+  ]
+};
+
 export default function SidebarLayout({ 
   children,
-  features,
-  navLinks,
 }: { 
   children: React.ReactNode;
-  features: string[];
-  navLinks: NavLink[];
 }) {
   const [activeMenus, setActiveMenus] = useState<string[]>([]);
+  const segment = useSelectedLayoutSegment();
+  const locale = segment === "en" ? "en" : "nl";
+  const currentFeatures = features[locale];
+  const currentNavLinks = navLinks[locale];
 
   const toggleSubmenu = (label: string) => {
     setActiveMenus(current => {
@@ -67,7 +165,7 @@ export default function SidebarLayout({
 
     return (
       <Link
-        key={link.href}
+        key={`${link.href}-${link.label}`}
         href={link.href}
         className={`block hover:opacity-80 transition-opacity ${
           level > 0 ? 'text-white/80' : ''
@@ -82,7 +180,7 @@ export default function SidebarLayout({
   return (
     <div className="flex min-h-screen bg-white font-sans text-base">
       {/* Sidebar */}
-      <aside className="hidden md:flex flex-col w-72 bg-[#2B4EE6] text-white p-8">
+      <aside className="hidden md:flex flex-col w-72 bg-primary text-white p-8">
         <div className="mb-16 text-base">
           <Link href="/">
             <Image
@@ -96,7 +194,7 @@ export default function SidebarLayout({
         </div>
 
         <div className="space-y-6 mb-8 text-sm">
-          {features.map((feature, index) => (
+          {currentFeatures.map((feature, index) => (
             <div key={index} className="flex items-start gap-3">
               <div className="mt-1 text-orange-400 text-xl">✓</div>
               <p className="leading-tight">{feature}</p>
@@ -105,10 +203,10 @@ export default function SidebarLayout({
         </div>
 
         <nav className="space-y-4 mb-auto mt-4 pt-10 border-t border-white/20 text-base">
-          {navLinks.map((link) => renderNavLink(link))}
+          {currentNavLinks.map((link) => renderNavLink(link))}
         </nav>
 
-        <Button className="mt-8 bg-white text-[#2B4EE6] hover:bg-gray-100 transition-colors text-sm">
+        <Button className="mt-8 bg-white text-primary hover:bg-gray-100 transition-colors text-sm">
           Vind een adviseur
         </Button>
       </aside>
@@ -121,7 +219,7 @@ export default function SidebarLayout({
           </Button>
         </SheetTrigger>
         <SheetContent side="left" className="w-full p-0">
-          <div className="bg-[#2B4EE6] text-white h-full p-6">
+          <div className="bg-primary text-white h-full p-6">
             <SheetHeader className="mb-8">
               <SheetTitle className="text-white">
                 <Image
@@ -135,7 +233,7 @@ export default function SidebarLayout({
             </SheetHeader>
 
             <div className="space-y-6 mb-8 text-sm">
-              {features.map((feature, index) => (
+              {currentFeatures.map((feature, index) => (
                 <div key={index} className="flex items-start gap-3">
                   <div className="mt-1 text-orange-400 text-xl">✓</div>
                   <p className="leading-tight">{feature}</p>
@@ -146,10 +244,10 @@ export default function SidebarLayout({
             <Separator className="bg-white/20" />
 
             <nav className="space-y-4 my-6 text-lg">
-              {navLinks.map((link) => renderNavLink(link, true))}
+              {currentNavLinks.map((link) => renderNavLink(link, true))}
             </nav>
 
-            <Button className="w-full bg-white text-[#2B4EE6] hover:bg-gray-100 transition-colors text-sm">
+            <Button className="w-full bg-white text-primary hover:bg-gray-100 transition-colors text-sm">
               Vind een adviseur
             </Button>
           </div>
