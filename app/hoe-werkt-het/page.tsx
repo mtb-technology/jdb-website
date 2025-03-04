@@ -57,61 +57,71 @@ interface HowItWorksPageProps {
   );
 }
 
+
+
 function StepsSection({ title, steps, buttons }: HowItWorksDict) {
-  return (
-    <div className="max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-3 mt-0 text-center">{title}</h1>
-      <div className="space-y-8">
-        {steps.map((step, index) => (
-          <div
-            key={index}
-            className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl"
-          >
-            <div className="flex items-center p-6">
-              <div className="mr-6">
-                {step.icon === "message-circle" && <MessageCircle className="w-10 h-10 text-primary" />}
-                {step.icon === "users" && <Users className="w-10 h-10 text-primary" />}
-                {step.icon === "user-plus" && <UserPlus className="w-10 h-10 text-primary" />}
-              </div>
-              <div className="flex-1">
-                <h3 className="text-xl font-bold mb-4">{step.title}</h3>
-                <p className="text-gray-600 text-sm">{step.description}</p>
-              </div>
-              <div className="w-1/3 ml-6">
-                <div className="relative h-48">
-                  <Image
-                    src={step.image}
-                    alt={step.alt}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-lg"
-                  />
+    return (
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-3xl font-bold mb-3 mt-0 text-center">{title}</h1>
+        <div className="space-y-8">
+          {steps.map((step, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl"
+            >
+              <div className="flex flex-col sm:flex-row items-start sm:items-center p-4 sm:p-6">
+                <div className="flex items-center mb-4 sm:mb-0">
+                  <div className="mr-4 sm:mr-6 flex-shrink-0">
+                    {step.icon === "message-circle" && (
+                      <MessageCircle className="w-8 h-8 sm:w-10 sm:h-10 text-[#2B4EE6]" />
+                    )}
+                    {step.icon === "users" && <Users className="w-8 h-8 sm:w-10 sm:h-10 text-[#2B4EE6]" />}
+                    {step.icon === "user-plus" && <UserPlus className="w-8 h-8 sm:w-10 sm:h-10 text-[#2B4EE6]" />}
+                  </div>
+                  <h3 className="text-lg sm:text-xl font-bold sm:hidden">{step.title}</h3>
+                </div>
+  
+                <div className="flex-1 sm:pr-6">
+                  <h3 className="text-xl font-bold mb-4 hidden sm:block">{step.title}</h3>
+                  <p className="text-gray-600 text-sm">{step.description}</p>
+                </div>
+  
+                <div className="w-full sm:w-1/3 mt-4 sm:mt-0 sm:ml-6">
+                  <div className="relative h-40 sm:h-48">
+                    <Image
+                      src={step.image || "/placeholder.svg"}
+                      alt={step.alt}
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-lg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
-
-      <div className="mt-16 grid sm:grid-cols-2 gap-8">
-        <div className="text-center">
-          <Button className="w-full bg-primary text-white hover:bg-[#2341C7] transition-colors duration-300">
+          ))}
+        </div>
+  
+        <div className="mt-12 sm:mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+          <div className="text-center">
+            <Button className="w-full bg-[#2B4EE6] text-white hover:bg-[#2341C7] transition-colors duration-300 py-3 sm:py-4">
             {buttons.chat.text}
-          </Button>
-          <p className="text-sm text-gray-500 mt-2">{buttons.chat.subtext}</p>
-        </div>
-        <div className="text-center">
-          <Button
-            variant="outline"
-            className="w-full border-primary text-primary hover:bg-[#EEF2FF] transition-colors duration-300"
-          >
-            {buttons.advisor.text}
-          </Button>
-          <p className="text-sm text-gray-500 mt-2">{buttons.advisor.subtext}</p>
+            </Button>
+            <p className="text-sm text-gray-500 mt-2">{buttons.chat.subtext}</p>
+          </div>
+          <div className="text-center">
+            <Button
+              variant="outline"
+              className="w-full border-[#2B4EE6] text-[#2B4EE6] hover:bg-[#EEF2FF] transition-colors duration-300 py-3 sm:py-4"
+            >
+              {buttons.advisor.text}
+            </Button>
+            <p className="text-sm text-gray-500 mt-2">{buttons.advisor.subtext}</p>
+          </div>
         </div>
       </div>
-    </div>
-  );
-} 
+    )
+  }
 
+  
 

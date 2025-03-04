@@ -9,7 +9,7 @@
     "twitterDescription": "Instant answers to all your tax questions with our AI assistant."
   },
   "pages": {
-    "bv": {
+    "private-company": {
       "metadata": {
         "title": "Private Limited Company (BV) | Jan de Belastingman",
         "description": "Expert advice on establishing and managing a BV in the Netherlands.",

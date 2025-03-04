@@ -33,7 +33,7 @@ const features = {
 
 const navLinks = {
   nl: [
-    { href: "/hoe-werkt-het", label: "Hoe werkt het" },
+    { href: "/hoe-werkt-het", label: "Hoe werkt het" }, //check
     {
       href: "/onderwerpen",
       label: "Onderwerpen",
@@ -81,7 +81,7 @@ const navLinks = {
     { href: "/over-ons", label: "Over ons" },
   ],
   en: [
-    { href: "/en/how-it-works", label: "How it works" },
+    { href: "/en/how-it-works", label: "How it works" }, //check
     {
       href: "/en/topics",
       label: "Topics",
