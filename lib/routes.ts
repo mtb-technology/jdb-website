@@ -22,9 +22,9 @@ export const routes: RouteMapping = {
       nl: "onderwerpen/belastingaangifte-laten-doen",
       en: "topics/tax-advisor"
     },
-    "income-tax-return": {
+    "incometax-return": {
       nl: "onderwerpen/belastingaangifte",
-      en: "topics/income-tax-return"
+      en: "topics/incometax-return"
     },
     "m-form": {
       nl: "onderwerpen/m-form",
@@ -52,7 +52,7 @@ export const routes: RouteMapping = {
     },
     "housing-allowance": {
       nl: "onderwerpen/huurtoeslag",
-      en: "housing-allowance"
+      en: "topic/housing-allowance"
     },
     "childcare-allowance": {
       nl: "onderwerpen/kinderopvangtoeslag",
