@@ -39,12 +39,22 @@ const navLinks = {
       label: "Onderwerpen",
       children: [
         {
-          label: "Trending",
+          label: "Belastingaangifte",
           href: "/onderwerpen",
           children: [
-            { href: "/onderwerpen/gratis-belastingadvies", label: "Gratis belastingadvies" },
-            { href: "/onderwerpen/aangifte-inkomstenbelasting", label: "Aangifte inkomstenbelasting" },
-            { href: "/onderwerpen/m-formulier", label: "M-formulier" }
+            { href: "/onderwerpen/belastingaangifte-laten-doen", label: "Belastingaangifte laten doen" },
+            { href: "/onderwerpen/belastingaangifte", label: "Aangifte inkomstenbelasting" },
+            { href: "/onderwerpen/m-formulier", label: "M-formulier" },
+            { href: "/onderwerpen/aftrekposten-en-kortingen", label: "Aftrekposten en kortingen" },
+            { href: "/onderwerpen/erfbelasting", label: "Erfbelasting" }
+          ]
+        },
+        {
+          label: "ZZP en BV",
+          href: "/onderwerpen",
+          children: [
+            { href: "/onderwerpen/besloten-vennootschap", label: "BV" },
+            { href: "/onderwerpen/zelfstandigen-zonder-personeel", label: "ZZP" }
           ]
         },
         {
@@ -54,22 +64,21 @@ const navLinks = {
             { href: "/onderwerpen/zorgtoeslag", label: "Zorgtoeslag" },
             { href: "/onderwerpen/huurtoeslag", label: "Huurtoeslag" },
             { href: "/onderwerpen/kinderopvangtoeslag", label: "Kinderopvangtoeslag" },
-            { href: "/onderwerpen/kindgebonden-budget", label: "Kindgebonden budget" }
+            { href: "/onderwerpen/kinderbijslag", label: "Kinderbijslag" }
           ]
         },
         {
-          label: "ZZP en BV",
+          label: "AOW",
           href: "/onderwerpen",
           children: [
-            { href: "/onderwerpen/bv", label: "BV" },
-            { href: "/onderwerpen/zzper", label: "ZZP'er" }
+            { href: "/onderwerpen/aow-pensioen", label: "AOW pensioen" },
+            { href: "/onderwerpen/inkomen-aow-pensioen", label: "Bijverdiensten AOW pensioen" }
           ]
         }
       ]
     },
-    { href: "/besloten-vennootschap", label: "Blog" },
+    { href: "/blog", label: "Blog" },
     { href: "/over-ons", label: "Over ons" },
-    { href: "/besloten-vennootschap", label: "Besloten vennootschap" },
   ],
   en: [
     { href: "/en/how-it-works", label: "How it works" },
@@ -78,12 +87,22 @@ const navLinks = {
       label: "Topics",
       children: [
         {
-          label: "Trending",
+          label: "Tax Returns",
           href: "/en/topics",
           children: [
-            { href: "/en/topics/free-tax-advice", label: "Free tax advice" },
-            { href: "/en/topics/income-tax-return", label: "Income tax return" },
-            { href: "/en/topics/m-form", label: "M-form" }
+            { href: "/en/topics/tax-advisor", label: "Tax return assistance" },
+            { href: "/en/topics/incometax-return", label: "Income tax return" },
+            { href: "/en/topics/m-form", label: "M-form" },
+            { href: "/en/topics/tax-credit", label: "Tax credit and deductions" },
+            { href: "/en/topics/inheritance-tax", label: "Inheritance tax" }
+          ]
+        },
+        {
+          label: "ZZP en BV",
+          href: "/en/topics",
+          children: [
+            { href: "/en/topics/private-limited-company", label: "Private limited company" },
+            { href: "/en/topics/self-employed-professional", label: "Self-employed professional" }
           ]
         },
         {
@@ -91,24 +110,23 @@ const navLinks = {
           href: "/en/topics",
           children: [
             { href: "/en/topics/healthcare-allowance", label: "Healthcare allowance" },
-            { href: "/en/topics/rent-allowance", label: "Rent allowance" },
+            { href: "/en/topics/housing-allowance", label: "Housing allowance" },
             { href: "/en/topics/childcare-allowance", label: "Childcare allowance" },
-            { href: "/en/topics/child-budget", label: "Child budget" }
+            { href: "/en/topics/child-benefit", label: "Child benefit" }
           ]
         },
         {
-          label: "Business",
+          label: "AOW",
           href: "/en/topics",
           children: [
-            { href: "/en/topics/private-limited-company", label: "Private limited company" },
-            { href: "/en/topics/self-employed", label: "Self-employed" }
+            { href: "/en/topics/aow-pension", label: "AOW pension" },
+            { href: "/en/topics/income-aow-pension", label: "Extra income AOW pension" }
           ]
         }
       ]
     },
     { href: "/en/blog", label: "Blog" },
     { href: "/en/about-us", label: "About us" },
-    { href: "/en/private-limited-company", label: "Private limited company" },
   ]
 };
 
