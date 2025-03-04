@@ -42,7 +42,7 @@ const navLinks = {
           label: "Belastingaangifte",
           href: "/onderwerpen",
           children: [
-            { href: "/onderwerpen/belastingaangifte-laten-doen", label: "Belastingaangifte uitbesteden" },
+            { href: "/onderwerpen/belastingaangifte-laten-doen", label: "Belastingaangifte laten doen" },
             { href: "/onderwerpen/belastingaangifte", label: "Aangifte inkomstenbelasting" },
             { href: "/onderwerpen/m-formulier", label: "M-formulier" },
             { href: "/onderwerpen/aftrekposten-en-kortingen", label: "Aftrekposten en kortingen" },
@@ -90,7 +90,7 @@ const navLinks = {
           label: "Tax Returns",
           href: "/en/topics",
           children: [
-            { href: "/en/topics/tax-advisor", label: "Tax return outsourcing" },
+            { href: "/en/topics/tax-advisor", label: "Tax return assistance" },
             { href: "/en/topics/incometax-return", label: "Income tax return" },
             { href: "/en/topics/m-form", label: "M-form" },
             { href: "/en/topics/tax-credit", label: "Tax credit and deductions" },
