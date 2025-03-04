@@ -9,6 +9,69 @@
       "twitterDescription": "Instant answers to all your tax questions with our AI assistant."
     },
     "pages": {
+      "home": {
+        "metadata": {
+          "title": "Jan de Belastingman | Your AI Tax Advisor",
+          "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
+          "ogTitle": "Jan de Belastingman - AI Tax Advisor",
+          "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
+        },
+        "helpQuestion": "How can I help you?",
+        "inputPlaceholder": "Ask your question",
+        "commonQuestions": {
+          "deductions": "What deductions can I apply?",
+          "vatReturn": "How to file VAT returns as self-employed?",
+          "box3": "Do I need to declare assets in box 3?",
+          "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",
+          "more": "More ..."
+        },
+        "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
+        "knownFrom": "As featured in"
+      },
+      "how-it-works": {
+        "title": "How does Jan de Belastingman work?",
+        "steps": [
+          {
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan the Tax Man, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "alt": "Chat Interface",
+            "icon": "message-circle"
+          },
+          {
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan the Tax Man will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "alt": "Professional Advisor",
+            "icon": "users"
+          },
+          {
+            "title": "3. Create an account and manage your tax questions",
+            "description": "With a free account at Jan the Tax Man, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "alt": "Account Dashboard",
+            "icon": "user-plus"
+          }
+        ],
+        "buttons": {
+          "chat": {
+            "text": "Ask your question in chat",
+            "subtext": "Instant answer"
+          },
+          "advisor": {
+            "text": "Find an advisor",
+            "subtext": "An expert who understands your situation"
+          }
+        }
+      },
+      "topics": {
+        "metadata": {
+          "title": "Tax Topics | Jan de Belastingman",
+          "description": "Discover everything about taxes in the Netherlands. From income tax to allowances, we have the answers to all your questions.",
+          "ogTitle": "Tax Topics - Jan de Belastingman",
+          "ogDescription": "Find information about all tax topics in the Netherlands. Expert advice from our AI assistant."
+        }
+      },
       "private-company": {
         "metadata": {
           "title": "Private Limited Company (BV) | Jan de Belastingman",
@@ -118,39 +181,113 @@
           ]
         }
       },
-      "home": {
+      "tax-advisor": {
         "metadata": {
-          "title": "Jan de Belastingman | Your AI Tax Advisor",
-          "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
-          "ogTitle": "Jan de Belastingman - AI Tax Advisor",
-          "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
+          "title": "Tax Advisor | Jan de Belastingman",
+          "description": "Learn everything about filing your tax return. Get help with your income tax declaration.",
+          "ogTitle": "Tax Advisor - Jan de Belastingman",
+          "ogDescription": "Expert help with your income tax return. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "Tax Advisor from Jan de Belastingman"
         },
-        "helpQuestion": "How can I help you?",
-        "inputPlaceholder": "Ask your question",
-        "commonQuestions": {
-          "deductions": "What deductions can I apply?",
-          "vatReturn": "How to file VAT returns as self-employed?",
-          "box3": "Do I need to declare assets in box 3?",
-          "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",
-          "more": "More ..."
+        "hero": {
+          "title": "Expert Support for Private Limited Companies (BVs)",
+          "description": "Managing a BV or facing challenges with business taxes or legal obligations? Jan the Tax Man helps you understand the complexities of running a Private Limited Company in the Netherlands, ensuring your business stays compliant and financially healthy.",
+          "callToAction": "Want to establish a BV? Discover with Jan the Tax Man how a Private Limited Company can transform your financial future – start your more profitable entrepreneurial journey now!",
+          "buttonText": "Ask your question in chat",
+          "buttonSubtext": "Instant answer",
+          "imageAlt": "Chat Interface Preview",
+          "stats": "4,545 BV questions answered"
         },
-        "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
-        "knownFrom": "As featured in"
-      },
-      "topics": {
-        "metadata": {
-          "title": "Tax Topics | Jan de Belastingman",
-          "description": "Discover everything about taxes in the Netherlands. From income tax to allowances, we have the answers to all your questions.",
-          "ogTitle": "Tax Topics - Jan de Belastingman",
-          "ogDescription": "Find information about all tax topics in the Netherlands. Expert advice from our AI assistant."
-        }
-      },
-      "free-tax-advice": {
-        "metadata": {
-          "title": "Free Tax Advice | Jan de Belastingman",
-          "description": "Get instant free tax advice from our AI assistant. Ask your question and receive professional guidance.",
-          "ogTitle": "Free Tax Advice - Jan de Belastingman",
-          "ogDescription": "Receive instant free tax advice from our AI assistant. Professional and reliable."
+        "partners": {
+          "items": [
+            {
+              "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+              "alt": "The Lawyer",
+              "width": 100
+            },
+            {
+              "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+              "alt": "Accountant",
+              "width": 120
+            },
+            {
+              "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+              "alt": "Quote",
+              "width": 90
+            },
+            {
+              "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+              "alt": "FD",
+              "width": 60
+            }
+          ]
+        },
+        "support": {
+          "title": "Private Limited Company Support in the Netherlands",
+          "description": "Running a Private Limited Company (BV) in the Netherlands requires compliance with specific financial rules and tax obligations. Jan the Tax Man provides tailored guidance for BVs to help you effectively manage your business obligations, from tax planning to compliance with Dutch business legislation.",
+          "buttonText": "Ask your question in chat",
+          "buttonSubtext": "Instant answer",
+          "buttonLink": "/en/chat",
+          "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+          "imageAlt": "Business Professional"
+        },
+        "steps": [
+          {
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan the Tax Man, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "alt": "Chat Interface"
+          },
+          {
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan the Tax Man will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "alt": "Professional Advisor"
+          },
+          {
+            "title": "3. Create an account and manage your tax questions",
+            "description": "With a free account at Jan the Tax Man, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "alt": "Account Dashboard",
+            "showButton": true
+          }
+        ],
+        "faq": {
+          "title": "Frequently Asked Questions and Latest Articles",
+          "buttonText": "View all articles",
+          "buttonLink": "/en/blog",
+          "faqItems": [
+            {
+              "question": "Wat is een BV en waarom zou ik er een oprichten?",
+              "answer": "Een BV (Besloten Vennootschap) is een rechtsvorm waarbij het bedrijf een aparte rechtspersoon is, gescheiden van de eigenaren. Het oprichten van een BV kan voordelen bieden op het gebied van aansprakelijkheid, belastingen en het aantrekken van investeerders. Het is vooral geschikt voor ondernemers die hun persoonlijke vermogen willen scheiden van het bedrijfsvermogen en die verwachten dat hun bedrijf zal groeien."
+            },
+            {
+              "question": "Welke belastingvoordelen heeft een BV?",
+              "answer": "Een BV kan verschillende belastingvoordelen bieden, waaronder een lager vennootschapsbelastingtarief voor winsten tot €395.000 (15% in 2023), de mogelijkheid om winst in de BV te houden voor herinvestering tegen een lager tarief, en de optie om jezelf een salaris uit te keren en dividenden te ontvangen. Daarnaast zijn er mogelijkheden voor fiscale optimalisatie die niet beschikbaar zijn voor eenmanszaken of VOF's."
+            },
+            {
+              "question": "Hoe kan Jan de Belastingman mij helpen bij het beheren van mijn BV?",
+              "answer": "Jan de Belastingman biedt expert advies en ondersteuning op verschillende gebieden van BV-beheer, waaronder belastingplanning, compliance met wet- en regelgeving, financiële rapportage, en strategisch advies. Onze AI-gestuurde chatbot kan direct antwoord geven op veel voorkomende vragen, terwijl ons netwerk van ervaren adviseurs beschikbaar is voor meer complexe kwesties. We helpen je om je BV financieel gezond te houden en optimaal gebruik te maken van beschikbare fiscale voordelen."
+            }
+          ],
+          "blogArticles": [
+            {
+              "title": "5 Fiscale Tips voor BV-Eigenaren in 2023",
+              "link": "#"
+            },
+            {
+              "title": "Hoe de Nieuwe Belastingwetgeving Jouw BV Beïnvloedt",
+              "link": "#"
+            },
+            {
+              "title": "BV vs. Eenmanszaak: Wat Past het Beste bij Jouw Onderneming?",
+              "link": "#"
+            },
+            {
+              "title": "Optimaliseer Je BV-Structuur: Een Stap-voor-Stap Gids",
+              "link": "#"
+            }
+          ]
         }
       },
       "income-tax-return": {
@@ -158,46 +295,130 @@
           "title": "Income Tax Return | Jan de Belastingman",
           "description": "Learn everything about filing your tax return. Get help with your income tax declaration.",
           "ogTitle": "Income Tax Return - Jan de Belastingman",
-          "ogDescription": "Expert help with your income tax return. Discover tips and advice from our AI assistant."
+          "ogDescription": "Expert help with your income tax return. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "Income Tax Return from Jan de Belastingman"
         }
       },
-      "how-it-works": {
-        "title": "How does Jan de Belastingman work?",
-        "steps": [
-          {
-            "title": "1. Ask your question 24/7 and get instant answers",
-            "description": "Do you have a question about your taxes? At Jan the Tax Man, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-            "alt": "Chat Interface",
-            "icon": "message-circle"
-          },
-          {
-            "title": "2. Need more help? We'll find you a suitable advisor",
-            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan the Tax Man will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor",
-            "icon": "users"
-          },
-          {
-            "title": "3. Create an account and manage your tax questions",
-            "description": "With a free account at Jan the Tax Man, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
-            "alt": "Account Dashboard",
-            "icon": "user-plus"
-          }
-        ],
-        "buttons": {
-          "chat": {
-            "text": "Ask your question in chat",
-            "subtext": "Instant answer"
-          },
-          "advisor": {
-            "text": "Find an advisor",
-            "subtext": "An expert who understands your situation"
-          }
+      "m-form": {
+        "metadata": {
+          "title": "M-Form | Jan de Belastingman",
+          "description": "Learn everything about the M-Form. Get help with your M-Form declaration.",
+          "ogTitle": "M-Form - Jan de Belastingman",
+          "ogDescription": "Expert help with your M-Form declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "M-Form from Jan de Belastingman"
+        }
+      },
+      "tax-credit": {
+        "metadata": {
+          "title": "Tax Credit | Jan de Belastingman",
+          "description": "Learn every thing about the Tax Credit. Get help with your Tax Credit declaration.",
+          "ogTitle": "Tax Credit - Jan de Belastingman",
+          "ogDescription": "Expert help with your Tax Credit declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "Tax Credit from Jan de Belastingman"
+        }
+      },
+      "inheritance-tax": {
+        "metadata": {
+          "title": "Inheritance Tax | Jan de Belastingman",
+          "description": "Learn everything about the Inheritance Tax. Get help with your Inheritance Tax declaration.",
+          "ogTitle": "Inheritance Tax - Jan de Belastingman",
+          "ogDescription": "Expert help with your Inheritance Tax declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "Inheritance Tax from Jan de Belastingman"
+        }
+      },
+      "self-employed-professional": {
+        "metadata": {
+          "title": "Self-Employed Professional | Jan de Belastingman",
+          "description": "Learn everything about the Self-Employed Professional. Get help with your Self-Employed Professional declaration.",
+          "ogTitle": "Self-Employed Professional - Jan de Belastingman",
+          "ogDescription": "Expert help with your Self-Employed Professional declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "Self-Employed Professional from Jan de Belastingman"
+        }
+      },
+      "healthcare-allowance": {
+        "metadata": {
+          "title": "Healthcare Allowance | Jan de Belastingman",
+          "description": "Learn everything about the Healthcare Allowance. Get help with your Healthcare Allowance declaration.",
+          "ogTitle": "Healthcare Allowance - Jan de Belastingman",
+          "ogDescription": "Expert help with your Healthcare Allowance declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "Healthcare Allowance from Jan de Belastingman"
+        }
+      },
+      "housing-allowance": {
+        "metadata": {
+          "title": "Housing Allowance | Jan de Belastingman",
+          "description": "Learn everything about the Housing Allowance. Get help with your Housing Allowance declaration.",
+          "ogTitle": "Housing Allowance - Jan de Belastingman",
+          "ogDescription": "Expert help with your Housing Allowance declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "Housing Allowance from Jan de Belastingman"
+        }
+      },
+      "childcare-allowance": {
+        "metadata": {
+          "title": "Childcare Allowance | Jan de Belastingman",
+          "description": "Learn everything about the Childcare Allowance. Get help with your Childcare Allowance declaration.",
+          "ogTitle": "Childcare Allowance - Jan de Belastingman",
+          "ogDescription": "Expert help with your Childcare Allowance declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "Childcare Allowance from Jan de Belastingman"
+        } 
+      },
+      "child-benefit": {
+        "metadata": {
+          "title": "Child Benefit | Jan de Belastingman",
+          "description": "Learn everything about the Child Benefit. Get help with your Child Benefit declaration.",
+          "ogTitle": "Child Benefit - Jan de Belastingman",
+          "ogDescription": "Expert help with your Child Benefit declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "Child Benefit from Jan de Belastingman"
+        }
+      },
+      "aow-pension": {
+        "metadata": {
+          "title": "AOW Pension | Jan de Belastingman",
+          "description": "Learn everything about the AOW Pension. Get help with your AOW Pension declaration.",
+          "ogTitle": "AOW Pension - Jan de Belastingman",
+          "ogDescription": "Expert help with your AOW Pension declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "AOW Pension from Jan de Belastingman"
+        }
+      },
+      "income-aow-pension": {
+        "metadata": {
+          "title": "Income AOW Pension | Jan de Belastingman",
+          "description": "Learn everything about the Income AOW Pension. Get help with your Income AOW Pension declaration.",
+          "ogTitle": "Income AOW Pension - Jan de Belastingman",
+          "ogDescription": "Expert help with your Income AOW Pension declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "Income AOW Pension from Jan de Belastingman"
+        }
+      },
+      "blog": {
+        "metadata": {
+          "title": "Blog | Jan de Belastingman",
+          "description": "Read our latest blog articles and stay updated on the latest tax news and tips.",
+          "ogTitle": "Blog - Jan de Belastingman",
+          "ogDescription": "Read our latest blog articles and stay updated on the latest tax news and tips.",
+          "ogImageAlt": "Blog from Jan de Belastingman"
+        }
+      },
+      "about-us": {
+        "metadata": {
+          "title": "About Us | Jan de Belastingman",
+          "description": "Learn everything about Jan de Belastingman. Get help with your about us declaration.",
+          "ogTitle": "About Us - Jan de Belastingman",
+          "ogDescription": "Expert help with your about us declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "About Us from Jan de Belastingman"
+        } 
+      },
+      "find-advisor": {
+        "metadata": {
+          "title": "Find Advisor | Jan de Belastingman",
+          "description": "Find an advisor near you. Get help with your find advisor declaration.",
+          "ogTitle": "Find Advisor - Jan de Belastingman",
+          "ogDescription": "Expert help with your find advisor declaration. Discover tips and advice from our AI assistant.",
+          "ogImageAlt": "Find Advisor from Jan de Belastingman"
         }
       }
-    },  
+        
+      },
+      
     "footer": {
       "copyright": "© {year} Jan de Belastingman. All rights reserved.",
       "privacy": "Privacy Policy",
