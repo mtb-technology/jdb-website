@@ -123,6 +123,42 @@
         "ogTitle": "Income Tax Return - Jan de Belastingman",
         "ogDescription": "Expert help with your income tax return. Discover tips and advice from our AI assistant."
       }
+    },
+    "how-it-works": {
+      "title": "Hoe werkt Jan de Belastingman?",
+      "steps": [
+        {
+          "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+          "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, toeslagen of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten!",
+          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "alt": "Chat Interface",
+          "icon": "message-circle"
+        },
+        {
+          "title": "2. Kom je er niet uit? Wij vinden een passende adviseur",
+          "description": "Soms is een vraag te specifiek of persoonlijk voor onze chatbot, die nog niet alle regels op jouw unieke situatie kan toepassen. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd de hulp die precies bij jou past, zonder gedoe.",
+          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+          "alt": "Professional Advisor",
+          "icon": "users"
+        },
+        {
+          "title": "3. Maak een account aan en beheer je belastingvragen",
+          "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen en antwoorden op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
+          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+          "alt": "Account Dashboard",
+          "icon": "user-plus"
+        }
+      ],
+      "buttons": {
+        "chat": {
+          "text": "Stel je vraag in de chat",
+          "subtext": "Direct antwoord"
+        },
+        "advisor": {
+          "text": "Vind een adviseur",
+          "subtext": "Een deskundige die verstand heeft van jouw situatie"
+        }
+      }
     }
   },  
   "footer": {
