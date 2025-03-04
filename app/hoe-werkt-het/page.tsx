@@ -10,7 +10,13 @@ import { getDictionary } from "../dictionaries";
 
 interface HowItWorksDict {
     title: string;
-    steps: any[];
+    steps: {
+        title: string;
+        description: string;
+        image: string;
+        alt: string;
+        icon: string;
+    }[];
     buttons: {
       chat: {
         text: string;
