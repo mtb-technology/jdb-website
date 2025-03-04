@@ -6,7 +6,7 @@ interface RouteMapping {
 }
 
 export const routes: RouteMapping = {
-  home: {
+  "home": {
     nl: "",
     en: ""
   },
@@ -14,66 +14,74 @@ export const routes: RouteMapping = {
     nl: "hoe-werkt-het",
     en: "how-it-works"
   },
-  topics: {
+  "topics": {
     nl: "onderwerpen",
     en: "topics"
   },
-  // "free-tax-advice": {
-  //   nl: "gratis-belastingadvies",
-  //   en: "free-tax-advice"
-  // },
-  // "income-tax-return": {
-  //   nl: "aangifte-inkomstenbelasting",
-  //   en: "income-tax-return"
-  // },
-  "m-form": {
-    nl: "m-form",
-    en: "m-form-assistant"
-  },
-  // "healthcare-allowance": {
-  //   nl: "zorgtoeslag",
-  //   en: "healthcare-allowance"
-  // },
-  // "rent-allowance": {
-  //   nl: "huurtoeslag",
-  //   en: "rent-allowance"
-  // },
-  // "childcare-allowance": {
-  //   nl: "kinderopvangtoeslag",
-  //   en: "childcare-allowance"
-  // },
-  // "child-budget": {
-  //   nl: "kindgebonden-budget",
-  //   en: "child-budget"
-  // },
-    "private-company": {
+    "tax-advisor": {
+      nl: "onderwerpen/belastingaangifte-laten-doen",
+      en: "topics/tax-advisor"
+    },
+    "income-tax-return": {
+      nl: "onderwerpen/belastingaangifte",
+      en: "topics/income-tax-return"
+    },
+    "m-form": {
+      nl: "onderwerpen/m-form",
+      en: "topics/m-form"
+    },
+    "tax-credit": {
+      nl: "onderwerpen/aftrekposten-en-kortingen",
+      en: "topics/tax-credit"
+    },
+    "inheritance-tax": {
+      nl: "onderwerpen/erfbelasting",
+      en: "topics/inheritance-tax"
+    },
+    "private-limited-company": {
       nl: "onderwerpen/besloten-vennootschap",
       en: "topics/private-limited-company"
     },
-  // "self-employed": {
-  //   nl: "zzper",
-  //   en: "self-employed"
-  // },
-  // "tax-deductions": {
-  //   nl: "aftrekposten",
-  //   en: "tax-deductions"
-  // },
-  // "inheritance-tax": {
-  //   nl: "erfbelasting",
-  //   en: "inheritance-tax"
-  // },
-  // "state-pension": {
-  //   nl: "aow-uitkering",
-  //   en: "state-pension"
-  // },
-  // "additional-income-pension": {
-  //   nl: "extra-inkomen-aow",
-  //   en: "additional-income-pension"
-  // },
-  // blog: {
-  //   nl: "blog",
-  //   en: "blog"
-  // }
+    "self-employed-professional": {
+      nl: "onderwerpen/zelfstandigen-zonder-personeel",
+      en: "topics/self-employed-professional"
+      },
+    "healthcare-allowance": {
+      nl: "onderwerpen/zorgtoeslag",
+      en: "topics/healthcare-allowance"
+    },
+    "housing-allowance": {
+      nl: "onderwerpen/huurtoeslag",
+      en: "housing-allowance"
+    },
+    "childcare-allowance": {
+      nl: "onderwerpen/kinderopvangtoeslag",
+      en: "topics/childcare-allowance"
+    },
+    "child-benefit": {
+      nl: "onderwerpen/kinderbijslag",
+      en: "topics/child-benefit"
+    },
+    "aow-pension": {
+      nl: "onderwerpen/aow-pensioen",
+      en: "topics/aow-pension"
+    },
+    "income-aow-pension": {
+      nl: "onderwerpen/inkomen-aow-pensioen",
+      en: "topics/income-aow-pension"
+    },
+  "blog": {
+    nl: "blog",
+    en: "blog"
+  },
+  "about-us": {
+    nl: "over-ons",
+    en: "about-us"
+  },
+  "find-advisor": {
+    nl: "vind-een-adviseur",
+    en: "find-advisor"
+  }
 };
 
 export function getLocalizedPath(path: string, locale: string): string {
