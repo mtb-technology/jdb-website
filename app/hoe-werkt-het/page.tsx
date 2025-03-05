@@ -5,9 +5,11 @@ import { generatePageMetadata } from "@/lib/metadata";
 import { SupportedLocale } from "@/lib/types";
 import { MessageCircle, UserPlus, Users } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { getDictionary } from "../dictionaries";
 
 interface HowItWorksDict {
+  locale: SupportedLocale;
   title: string;
   steps: {
     title: string;
@@ -47,7 +49,7 @@ export default async function HowItWorksPage({ params }: HowItWorksPageProps) {
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-5xl mx-auto px-6 py-12">
           {/* Steps Section */}
-          <StepsSection {...howItWorks} />
+          <StepsSection {...howItWorks} locale={locale} />
         </div>
       </div>
       <Footer dict={dict} />
@@ -55,7 +57,7 @@ export default async function HowItWorksPage({ params }: HowItWorksPageProps) {
   );
 }
 
-function StepsSection({ title, steps, buttons }: HowItWorksDict) {
+function StepsSection({ title, steps, buttons, locale }: HowItWorksDict) {
   return (
     <div className="max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-3 mt-0 text-center">{title}</h1>
@@ -115,10 +117,15 @@ function StepsSection({ title, steps, buttons }: HowItWorksDict) {
         </div>
         <div className="text-center">
           <Button
+            asChild
             variant="outline"
             className="w-full border-[#2B4EE6] text-[#2B4EE6] hover:bg-[#EEF2FF] transition-colors duration-300 py-3 sm:py-4"
           >
-            {buttons.advisor.text}
+            <Link
+              href={locale === "nl" ? "/vind-een-adviseur" : "/en/find-advisor"}
+            >
+              {buttons.advisor.text}
+            </Link>
           </Button>
           <p className="text-sm text-gray-500 mt-2">
             {buttons.advisor.subtext}

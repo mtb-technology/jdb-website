@@ -224,8 +224,17 @@ export default function SidebarLayout({
           {currentNavLinks.map((link) => renderNavLink(link))}
         </nav>
 
-        <Button className="mt-8 bg-white text-primary hover:bg-gray-100 transition-colors text-sm">
-          Vind een adviseur
+        <Button
+          asChild
+          className="mt-8 bg-white text-primary hover:bg-gray-100 transition-colors text-sm"
+        >
+          <Link
+            href={
+              locale === "nl" ? "/vind-een-adviseur" : "/en/find-an-advisor"
+            }
+          >
+            {locale === "nl" ? "Vind een adviseur" : "Find an advisor"}
+          </Link>
         </Button>
       </aside>
 
@@ -273,7 +282,13 @@ export default function SidebarLayout({
               asChild
               className="w-full bg-white text-primary hover:bg-gray-100 transition-colors text-sm"
             >
-              <Link href="/vind-een-adviseur">Vind een adviseur</Link>
+              <Link
+                href={
+                  locale === "nl" ? "/vind-een-adviseur" : "/en/find-advisor"
+                }
+              >
+                {locale === "nl" ? "Vind een adviseur" : "Find an advisor"}
+              </Link>
             </Button>
           </div>
         </SheetContent>

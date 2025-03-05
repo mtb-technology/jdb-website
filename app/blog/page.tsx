@@ -58,7 +58,13 @@ async function BlogContent({
   ]);
 
   const categories = [
-    { name: dict.pages.blog.allCategories, slug: "" },
+    {
+      name: {
+        nl: dict.pages.blog.allCategories,
+        en: dict.pages.blog.allCategories,
+      },
+      slug: "",
+    },
     ...categoriesResponse.categories,
   ];
   const posts = postsResponse.posts;
@@ -97,16 +103,16 @@ async function BlogContent({
         {/* Category Filters */}
         <section className="max-w-6xl mx-auto px-6 mb-12">
           <div className="flex flex-wrap gap-3 justify-center">
-            {categories.map((category) => (
+            {/* {categories.map((category, index) => (
               <Link
-                key={category.slug}
-                href={`/blog${category.slug ? `?category=${category.slug}` : ""}`}
+                key={index + "-" + category.slug[locale]}
+                href={`/blog${category.slug[locale] ? `?category=${category.slug[locale]}` : ""}`}
                 className={`px-6 py-2 rounded-full text-sm font-medium transition-colors 
-                  ${category.slug === activeCategory ? "bg-[#2B4EE6] text-white" : "bg-white border border-gray-200 text-gray-700 hover:bg-gray-50"}`}
+                  ${category.slug[locale] === activeCategory ? "bg-[#2B4EE6] text-white" : "bg-white border border-gray-200 text-gray-700 hover:bg-gray-50"}`}
               >
-                {category.name}
+                {category.name[locale]}
               </Link>
-            ))}
+            ))} */}
           </div>
         </section>
 

@@ -18,9 +18,15 @@ export default function Footer({ dict }: { dict: FooterDictionary }) {
   const locale = getCurrentLocale(pathname);
 
   const footerLinks = [
-    { href: "privacy", label: dict.footer.privacy },
-    { href: "terms", label: dict.footer.terms },
-    { href: "contact", label: dict.footer.contact },
+    {
+      href: locale === "nl" ? "privacy" : "en/privacy",
+      label: dict.footer.privacy,
+    },
+    { href: locale === "nl" ? "terms" : "en/terms", label: dict.footer.terms },
+    {
+      href: locale === "nl" ? "contact" : "en/contact",
+      label: dict.footer.contact,
+    },
   ];
 
   return ( 
