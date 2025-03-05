@@ -1,6 +1,9 @@
 import { getDictionary } from "@/app/dictionaries";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { generatePageMetadata } from "@/lib/metadata";
+
+export const generateMetadata = generatePageMetadata;
 
 export default async function PrivacyPage() {
     const dict = await getDictionary('en');

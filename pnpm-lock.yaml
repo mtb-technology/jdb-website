@@ -71,11 +71,17 @@ devDependencies:
     specifier: ^19
     version: 19.0.4(@types/react@19.0.10)
   eslint:
-    specifier: ^9
+    specifier: ^9.21.0
     version: 9.21.0
   eslint-config-next:
-    specifier: 15.2.0
-    version: 15.2.0(eslint@9.21.0)(typescript@5.8.2)
+    specifier: 15.2.1
+    version: 15.2.1(eslint@9.21.0)(typescript@5.8.2)
+  eslint-config-prettier:
+    specifier: ^10.0.2
+    version: 10.0.2(eslint@9.21.0)
+  prettier:
+    specifier: ^3.5.3
+    version: 3.5.3
   tailwindcss:
     specifier: ^4
     version: 4.0.9
@@ -412,8 +418,8 @@ packages:
     resolution: {integrity: sha512-eMgJu1RBXxxqqnuRJQh5RozhskoNUDHBFybvi+Z+yK9qzKeG7dadhv/Vp1YooSZmCnegf7JxWuapV77necLZNA==}
     dev: false
 
-  /@next/eslint-plugin-next@15.2.0:
-    resolution: {integrity: sha512-jHFUG2OwmAuOASqq253RAEG/5BYcPHn27p1NoWZDCf4OdvdK0yRYWX92YKkL+Mk2s+GyJrmd/GATlL5b2IySpw==}
+  /@next/eslint-plugin-next@15.2.1:
+    resolution: {integrity: sha512-6ppeToFd02z38SllzWxayLxjjNfzvc7Wm07gQOKSLjyASvKcXjNStZrLXMHuaWkhjqxe+cnhb2uzfWXm1VEj/Q==}
     dependencies:
       fast-glob: 3.3.1
     dev: true
@@ -1910,8 +1916,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-next@15.2.0(eslint@9.21.0)(typescript@5.8.2):
-    resolution: {integrity: sha512-LkG0KKpinAoNPk2HXSx0fImFb/hQ6RnhSxTkpJFTkQ0SmnzsbRsjjN95WC/mDY34nKOenpptYEVvfkCR/h+VjA==}
+  /eslint-config-next@15.2.1(eslint@9.21.0)(typescript@5.8.2):
+    resolution: {integrity: sha512-mhsprz7l0no8X+PdDnVHF4dZKu9YBJp2Rf6ztWbXBLJ4h6gxmW//owbbGJMBVUU+PibGJDAqZhW4pt8SC8HSow==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -1919,7 +1925,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 15.2.0
+      '@next/eslint-plugin-next': 15.2.1
       '@rushstack/eslint-patch': 1.10.5
       '@typescript-eslint/eslint-plugin': 8.25.0(@typescript-eslint/parser@8.25.0)(eslint@9.21.0)(typescript@5.8.2)
       '@typescript-eslint/parser': 8.25.0(eslint@9.21.0)(typescript@5.8.2)
@@ -1935,6 +1941,15 @@ packages:
       - eslint-import-resolver-webpack
       - eslint-plugin-import-x
       - supports-color
+    dev: true
+
+  /eslint-config-prettier@10.0.2(eslint@9.21.0):
+    resolution: {integrity: sha512-1105/17ZIMjmCOJOPNfVdbXafLCLj3hPmkmB7dLgt7XsQ/zkxSuDerE/xgO3RxoHysR1N1whmquY0lSn2O0VLg==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 9.21.0
     dev: true
 
   /eslint-import-resolver-node@0.3.9:
@@ -3135,6 +3150,12 @@ packages:
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /prop-types@15.8.1:

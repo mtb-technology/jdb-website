@@ -44,6 +44,7 @@ export interface MetadataTranslations extends BaseMetadata {
     'inheritance-tax': PageSpecificMetadata;
     'state-pension': PageSpecificMetadata;
     'additional-income-pension': PageSpecificMetadata;
+    'find-advisor': AdvisorFinderDict;
     blog: PageSpecificMetadata;
   };
 }
@@ -74,6 +75,62 @@ export interface Dictionary {
   footer: {
     links: FooterLinks;
     copyright: string;
+  };
+}
+
+export interface AdvisorFinderDict {
+  title: string;
+  subtitle: string;
+  intro: {
+    text: string;
+    benefits: string[];
+    networkDescription: string;
+  };
+  categories: {
+    id: string;
+    title: string;
+    description: string;
+  }[];
+  form: {
+    title: string;
+    backButton: string;
+    fields: {
+      firstName: string;
+      lastName: string;
+      email: string;
+      phone: string;
+      message: {
+        label: string;
+        placeholder: string;
+      };
+    };
+    privacyConsent: string;
+    submitButton: string;
+  };
+  success: {
+    title: string;
+    message: string;
+    newRequestButton: string;
+  };
+  testimonials: {
+    title: string;
+    items: {
+      name: string;
+      role: string;
+      quote: string;
+      avatar: string;
+    }[];
+  };
+  faq: {
+    title: string;
+    items: {
+      question: string;
+      answer: string;
+    }[];
+  };
+  promise: {
+    title: string;
+    items: string[];
   };
 }
 

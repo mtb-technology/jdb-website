@@ -1,8 +1,8 @@
+import VindEenAdviseurPage from "@/app/vind-een-adviseur/page";
 import { generatePageMetadata } from "@/lib/metadata";
-import { default as DefaultHome } from "../page";
 
 export const generateMetadata = generatePageMetadata;
 
 export default async function LocalizedPage() {
-  return <DefaultHome params={{ locale: 'en' }} />;
-} 
+  return <VindEenAdviseurPage params={{ locale: "en" }} />;
+}
