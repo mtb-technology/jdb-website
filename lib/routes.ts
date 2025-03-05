@@ -9,6 +9,37 @@ interface TopicMapping {
   [key: string]: string;
 }
 
+interface ChatMapping {
+  [key: string]: string;
+}
+
+export const chatENToDictionaryKey: ChatMapping = {
+  'income-tax-return': 'income-tax-return',
+  'besloten-vennootschap-assist': 'private-limited-company-assist',
+  'entrepreneurs-self-employed': 'entrepreneurs-self-employed',
+  'm-form-assistant': 'm-form',
+  'tax-return-checklist': 'tax-return-checklist',
+  'child-benefit-assistent': 'child-benefit-assistant',
+  'general-questions': 'general-questions',
+  'general-old-age-act': 'general-old-age-act',
+  'health-care-allowance-chat': 'health-care-allowance-chat',
+  'belastingchat': 'tax-chat',
+};
+
+export const chatNLToDictionaryKey: ChatMapping = {
+  'aangifte-inkomstenbelasting': 'income-tax-return',
+  'besloten-vennootschap-hulp': 'private-limited-company-assist',
+  'ondernemers-zzp': 'entrepreneurs-self-employed',
+  'm-form': 'm-form',
+  'belastingaangifte-checklist': 'tax-return-checklist',
+  'kindertoeslag': 'child-benefit-assistant',
+  'algemene-vragen': 'general-questions',
+  'algemene-ouderdomswet': 'general-old-age-act',
+  'zorgtoeslag': 'health-care-allowance-chat',
+  'expat-assistant': 'expat-assistant',
+  'belastingchat': 'tax-chat',
+};
+
 export const topicENToDictionaryKey: TopicMapping = {
   'tax-advisor': 'tax-advisor',
   'income-tax-return': 'income-tax-return',

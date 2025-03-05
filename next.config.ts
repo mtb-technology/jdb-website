@@ -98,7 +98,7 @@ const nextConfig: NextConfig = {
       { source: '/aangifte-inkomstenbelasting', destination: '/chat/aangifte-inkomstenbelasting', permanent: true },
       { source: '/en/income-tax-return', destination: '/en/chat/income-tax-return', permanent: true },
       { source: '/besloten-vennootschap-hulp', destination: '/chat/besloten-vennootschap-hulp', permanent: true },
-      { source: '/en/besloten-vennootschap-assist', destination: '/en/chat/besloten-vennootschap-assist', permanent: true },
+      { source: '/en/besloten-vennootschap-assist', destination: '/en/chat/besloten-vennootschap-assist', permanent: true },  //check
       { source: '/ondernemers-zzp', destination: '/chat/ondernemers-zzp', permanent: true },
       { source: '/en/entrepreneurs-self-employed', destination: '/en/chat/entrepreneurs-self-employed', permanent: true },
       { source: '/m-form', destination: '/chat/m-form', permanent: true },
