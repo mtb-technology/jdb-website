@@ -5,16 +5,28 @@ import Header from "@/components/Header";
 import { generatePageMetadata } from "@/lib/metadata";
 import { SupportedLocale } from "@/lib/types";
 
-interface HomePageProps {
-  params: {
-    locale: SupportedLocale;
-  };
-}
+type PageParams = Promise<{
+  employee: string;
+  locale: SupportedLocale;
+}>;
 
-export const generateMetadata = generatePageMetadata;
+type HomePageProps = {
+  params: PageParams;
+  searchParams: Promise<{
+    [key: string]: string | string[] | undefined;
+  }>;
+};
+
+export const generateMetadata = async ({ params }: HomePageProps) => {
+  const resolvedParams = await params;
+  return generatePageMetadata({
+    params: resolvedParams,
+  });
+};
 
 export default async function Home({ params }: HomePageProps) {
-  const locale = params.locale || "nl";
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale || "nl";
   const dict = await getDictionary(locale);
 
   return (
