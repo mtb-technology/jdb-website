@@ -185,66 +185,56 @@ const nextConfig: NextConfig = {
         source: '/nl/general-questions',
         destination: 'https://jandebelastingman.nl/algemene-vragen',
         permanent: true,
-        basePath: false as const,
         has: [
           {
             type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl',
-          },
-        ],
+            value: 'chat.jandebelastingman.nl'
+          }
+        ]
       },
       {
         source: '/en/general-questions',
         destination: 'https://jandebelastingman.nl/en/general-questions',
         permanent: true,
-        basePath: false as const,
         has: [
           {
             type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl',
-          },
-        ],
+            value: 'chat.jandebelastingman.nl'
+          }
+        ]
       },
       {
         source: '/nl/aangifte-inkomstenbelasting',
         destination: 'https://jandebelastingman.nl/aangifte-inkomstenbelasting',
         permanent: true,
-        basePath: false as const,
         has: [
           {
             type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl',
-          },
-        ],
+            value: 'chat.jandebelastingman.nl'
+          }
+        ]
       },
       {
         source: '/en/aangifte-inkomstenbelasting',
         destination: 'https://jandebelastingman.nl/en/income-tax-return',
         permanent: true,
-        basePath: false as const,
         has: [
           {
             type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl',
-          },
-        ],
+            value: 'chat.jandebelastingman.nl'
+          }
+        ]
       },
       {
         source: '/nl/m-form-assistant',
         destination: 'https://jandebelastingman.nl/m-form',
         permanent: true,
-        basePath: false as const,
         has: [
           {
             type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl',
-          },
-        ],
+            value: 'chat.jandebelastingman.nl'
+          }
+        ]
       },
       {
         source: '/en/m-form-assistant',
