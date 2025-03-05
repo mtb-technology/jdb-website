@@ -1,11 +1,32 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { generatePageMetadata } from "@/lib/metadata";
+import { SupportedLocale } from "@/lib/types";
+import { Metadata } from "next";
 import { getDictionary } from "../dictionaries";
 
-export const generateMetadata = generatePageMetadata;
+type PageParams = Promise<{
+  locale: SupportedLocale;
+}>;
 
-export default async function PrivacyPage() {
+type PageProps = {
+  params: PageParams;
+  searchParams: Promise<{
+    [key: string]: string | string[] | undefined;
+  }>;
+};
+
+export const generateMetadata = async ({
+  params,
+}: PageProps): Promise<Metadata> => {
+  const resolvedParams = await params;
+  return generatePageMetadata({
+    params: { ...resolvedParams, locale: "nl" },
+  });
+};
+
+export default async function PrivacyPage({ params, searchParams }: PageProps) {
+  const [resolvedParams] = await Promise.all([params]);
   const dict = await getDictionary("nl");
 
   return (

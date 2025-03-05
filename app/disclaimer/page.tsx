@@ -1,9 +1,13 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { generatePageMetadata } from "@/lib/metadata";
+import { Metadata } from "next";
 import { getDictionary } from "../dictionaries";
 
-export const generateMetadata = generatePageMetadata;
+export async function generateMetadata(): Promise<Metadata> {
+  return generatePageMetadata({ params: { locale: "nl" }, page: "disclaimer" });
+}
+
 export default async function DisclaimerPage() {
   const dict = await getDictionary("nl");
   return (

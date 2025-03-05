@@ -140,8 +140,7 @@ export function getLocalizedPath(path: string, locale: string): string {
   // Translate each segment
   const translatedSegments = segments.map(segment => {
     // Find the route key that matches either nl or en value
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const routeKey = Object.entries(routes).find(([_key, values]) => 
+    const routeKey = Object.entries(routes).find(([, values]) => 
       values.nl === segment || values.en === segment
     );
 
