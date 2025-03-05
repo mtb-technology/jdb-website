@@ -188,6 +188,7 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: 'host',
+            key: 'host',
             value: 'chat.jandebelastingman.nl'
           }
         ]
@@ -199,6 +200,7 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: 'host',
+            key: 'host',
             value: 'chat.jandebelastingman.nl'
           }
         ]
@@ -210,6 +212,7 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: 'host',
+            key: 'host',
             value: 'chat.jandebelastingman.nl'
           }
         ]
@@ -221,6 +224,7 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: 'host',
+            key: 'host',
             value: 'chat.jandebelastingman.nl'
           }
         ]
@@ -232,6 +236,7 @@ const nextConfig: NextConfig = {
         has: [
           {
             type: 'host',
+            key: 'host',
             value: 'chat.jandebelastingman.nl'
           }
         ]
