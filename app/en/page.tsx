@@ -9,9 +9,7 @@ type PageParams = Promise<{
 
 type PageProps = {
   params: PageParams;
-  searchParams: Promise<{
-    [key: string]: string | string[] | undefined;
-  }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
 export const generateMetadata = async ({
@@ -27,6 +25,14 @@ export default async function LocalizedPage({
   params,
   searchParams,
 }: PageProps) {
-  const [resolvedParams] = await Promise.all([params]);
-  return <DefaultHome params={{ ...resolvedParams, locale: "en" }} />;
+  const [resolvedParams, resolvedSearchParams] = await Promise.all([
+    params,
+    searchParams,
+  ]);
+  return (
+    <DefaultHome
+      params={Promise.resolve({ ...resolvedParams, locale: "en" })}
+      searchParams={Promise.resolve(resolvedSearchParams)}
+    />
+  );
 } 
