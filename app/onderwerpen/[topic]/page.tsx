@@ -65,6 +65,19 @@ interface PageContent {
     imageAlt: string;
   };
   steps: Step[];
+  faq: {
+    title: string;
+    faqItems: Array<{
+      question: string;
+      answer: string;
+    }>;
+    blogArticles: Array<{
+      title: string;
+      link: string;
+    }>;
+    buttonText: string;
+    buttonLink: string;
+  };
 }
 
 export const generateMetadata = generatePageMetadata;
@@ -118,8 +131,12 @@ export default async function TopicPage({ params }: TopicPageProps) {
           <PartnersSection partners={partners.items} />
           <SupportSection {...support} />
           <StepsSection steps={steps} />
-          <FAQAndBlogSection 
-            {...faq}
+          <FAQAndBlogSection
+            title={faq.title}
+            faqItems={faq.faqItems}
+            blogArticles={faq.blogArticles}
+            buttonText={faq.buttonText}
+            buttonLink={faq.buttonLink}
           />
         </div>
       </div>
