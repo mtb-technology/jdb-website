@@ -174,11 +174,142 @@ const nextConfig: NextConfig = {
       { source: '/en/wondering-how-you-can-make-your-income-tax-return-more-fun', destination: '/en/blog/wondering-how-you-can-make-your-income-tax-return-more-fun', permanent: true },
       { source: '/en/vacation-days-what-about-it-jan-de-belastingman-stays-home', destination: '/en/blog/vacation-days-what-about-it-jan-de-belastingman-stays-home', permanent: true },
       { source: '/en/jan-de-belastingman-website-2-0', destination: '/en/blog/jan-de-belastingman-website-2-0', permanent: true },
-
       {
         source: '/en/hoe-werkt-het',
         destination: '/en/how-it-works',
         permanent: true,
+      },
+
+      // Chat domain redirects
+      {
+        source: '/nl/general-questions',
+        destination: 'https://jandebelastingman.nl/algemene-vragen',
+        permanent: true,
+        basePath: false as const,
+        has: [
+          {
+            type: 'host',
+            key: 'host',
+            value: 'chat.jandebelastingman.nl',
+          },
+        ],
+      },
+      {
+        source: '/en/general-questions',
+        destination: 'https://jandebelastingman.nl/en/general-questions',
+        permanent: true,
+        basePath: false as const,
+        has: [
+          {
+            type: 'host',
+            key: 'host',
+            value: 'chat.jandebelastingman.nl',
+          },
+        ],
+      },
+      {
+        source: '/nl/aangifte-inkomstenbelasting',
+        destination: 'https://jandebelastingman.nl/aangifte-inkomstenbelasting',
+        permanent: true,
+        basePath: false as const,
+        has: [
+          {
+            type: 'host',
+            key: 'host',
+            value: 'chat.jandebelastingman.nl',
+          },
+        ],
+      },
+      {
+        source: '/en/aangifte-inkomstenbelasting',
+        destination: 'https://jandebelastingman.nl/en/income-tax-return',
+        permanent: true,
+        basePath: false as const,
+        has: [
+          {
+            type: 'host',
+            key: 'host',
+            value: 'chat.jandebelastingman.nl',
+          },
+        ],
+      },
+      {
+        source: '/nl/m-form-assistant',
+        destination: 'https://jandebelastingman.nl/m-form',
+        permanent: true,
+        basePath: false as const,
+        has: [
+          {
+            type: 'host',
+            key: 'host',
+            value: 'chat.jandebelastingman.nl',
+          },
+        ],
+      },
+      {
+        source: '/en/m-form-assistant',
+        destination: 'https://jandebelastingman.nl/en/m-form-assistant',
+        permanent: true,
+        basePath: false as const,
+        has: [
+          {
+            type: 'host',
+            key: 'host',
+            value: 'chat.jandebelastingman.nl',
+          },
+        ],
+      },
+      {
+        source: '/nl/bv',
+        destination: 'https://jandebelastingman.nl/besloten-vennootschap-hulp',
+        permanent: true,
+        basePath: false as const,
+        has: [
+          {
+            type: 'host',
+            key: 'host',
+            value: 'chat.jandebelastingman.nl',
+          },
+        ],
+      },
+      {
+        source: '/en/bv',
+        destination: 'https://jandebelastingman.nl/en/besloten-vennootschap-assist',
+        permanent: true,
+        basePath: false as const,
+        has: [
+          {
+            type: 'host',
+            key: 'host',
+            value: 'chat.jandebelastingman.nl',
+          },
+        ],
+      },
+      {
+        source: '/nl/ondernemers-zzp',
+        destination: 'https://jandebelastingman.nl/ondernemers-zzp',
+        permanent: true,
+        basePath: false as const,
+        has: [
+          {
+            type: 'host',
+            key: 'host',
+            value: 'chat.jandebelastingman.nl',
+          },
+        ],
+      },
+      {
+        source: '/en/ondernemers-zzp',
+        destination: 'https://jandebelastingman.nl/en/entrepreneurs-self-employed',
+        permanent: true,
+        basePath: false as const,
+        has: [
+          {
+            type: 'host',
+            key: 'host',
+            value: 'chat.jandebelastingman.nl',
+          },
+        ],
       },
     ];
     return redirects;
