@@ -180,132 +180,132 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
-      // Chat domain redirects
-      {
-        source: '/nl/general-questions',
-        destination: 'https://jandebelastingman.nl/algemene-vragen',
-        permanent: true,
-        has: [
-          {
-            type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl'
-          }
-        ]
-      },
-      {
-        source: '/en/general-questions',
-        destination: 'https://jandebelastingman.nl/en/general-questions',
-        permanent: true,
-        has: [
-          {
-            type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl'
-          }
-        ]
-      },
-      {
-        source: '/nl/aangifte-inkomstenbelasting',
-        destination: 'https://jandebelastingman.nl/aangifte-inkomstenbelasting',
-        permanent: true,
-        has: [
-          {
-            type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl'
-          }
-        ]
-      },
-      {
-        source: '/en/aangifte-inkomstenbelasting',
-        destination: 'https://jandebelastingman.nl/en/income-tax-return',
-        permanent: true,
-        has: [
-          {
-            type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl'
-          }
-        ]
-      },
-      {
-        source: '/nl/m-form-assistant',
-        destination: 'https://jandebelastingman.nl/m-form',
-        permanent: true,
-        has: [
-          {
-            type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl'
-          }
-        ]
-      },
-      {
-        source: '/en/m-form-assistant',
-        destination: 'https://jandebelastingman.nl/en/m-form-assistant',
-        permanent: true,
-        basePath: false as const,
-        has: [
-          {
-            type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl',
-          },
-        ],
-      },
-      {
-        source: '/nl/bv',
-        destination: 'https://jandebelastingman.nl/besloten-vennootschap-hulp',
-        permanent: true,
-        basePath: false as const,
-        has: [
-          {
-            type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl',
-          },
-        ],
-      },
-      {
-        source: '/en/bv',
-        destination: 'https://jandebelastingman.nl/en/besloten-vennootschap-assist',
-        permanent: true,
-        basePath: false as const,
-        has: [
-          {
-            type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl',
-          },
-        ],
-      },
-      {
-        source: '/nl/ondernemers-zzp',
-        destination: 'https://jandebelastingman.nl/ondernemers-zzp',
-        permanent: true,
-        basePath: false as const,
-        has: [
-          {
-            type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl',
-          },
-        ],
-      },
-      {
-        source: '/en/ondernemers-zzp',
-        destination: 'https://jandebelastingman.nl/en/entrepreneurs-self-employed',
-        permanent: true,
-        basePath: false as const,
-        has: [
-          {
-            type: 'host',
-            key: 'host',
-            value: 'chat.jandebelastingman.nl',
-          },
-        ],
-      },
+      // // Chat domain redirects
+      // {
+      //   source: '/nl/general-questions',
+      //   destination: 'https://jandebelastingman.nl/algemene-vragen',
+      //   permanent: true,
+      //   has: [
+      //     {
+      //       type: 'host',
+      //       key: 'host',
+      //       value: 'chat.jandebelastingman.nl'
+      //     }
+      //   ]
+      // },
+      // {
+      //   source: '/en/general-questions',
+      //   destination: 'https://jandebelastingman.nl/en/general-questions',
+      //   permanent: true,
+      //   has: [
+      //     {
+      //       type: 'host',
+      //       key: 'host',
+      //       value: 'chat.jandebelastingman.nl'
+      //     }
+      //   ]
+      // },
+      // {
+      //   source: '/nl/aangifte-inkomstenbelasting',
+      //   destination: 'https://jandebelastingman.nl/aangifte-inkomstenbelasting',
+      //   permanent: true,
+      //   has: [
+      //     {
+      //       type: 'host',
+      //       key: 'host',
+      //       value: 'chat.jandebelastingman.nl'
+      //     }
+      //   ]
+      // },
+      // {
+      //   source: '/en/aangifte-inkomstenbelasting',
+      //   destination: 'https://jandebelastingman.nl/en/income-tax-return',
+      //   permanent: true,
+      //   has: [
+      //     {
+      //       type: 'host',
+      //       key: 'host',
+      //       value: 'chat.jandebelastingman.nl'
+      //     }
+      //   ]
+      // },
+      // {
+      //   source: '/nl/m-form-assistant',
+      //   destination: 'https://jandebelastingman.nl/m-form',
+      //   permanent: true,
+      //   has: [
+      //     {
+      //       type: 'host',
+      //       key: 'host',
+      //       value: 'chat.jandebelastingman.nl'
+      //     }
+      //   ]
+      // },
+      // {
+      //   source: '/en/m-form-assistant',
+      //   destination: 'https://jandebelastingman.nl/en/m-form-assistant',
+      //   permanent: true,
+      //   basePath: false as const,
+      //   has: [
+      //     {
+      //       type: 'host',
+      //       key: 'host',
+      //       value: 'chat.jandebelastingman.nl',
+      //     },
+      //   ],
+      // },
+      // {
+      //   source: '/nl/bv',
+      //   destination: 'https://jandebelastingman.nl/besloten-vennootschap-hulp',
+      //   permanent: true,
+      //   basePath: false as const,
+      //   has: [
+      //     {
+      //       type: 'host',
+      //       key: 'host',
+      //       value: 'chat.jandebelastingman.nl',
+      //     },
+      //   ],
+      // },
+      // {
+      //   source: '/en/bv',
+      //   destination: 'https://jandebelastingman.nl/en/besloten-vennootschap-assist',
+      //   permanent: true,
+      //   basePath: false as const,
+      //   has: [
+      //     {
+      //       type: 'host',
+      //       key: 'host',
+      //       value: 'chat.jandebelastingman.nl',
+      //     },
+      //   ],
+      // },
+      // {
+      //   source: '/nl/ondernemers-zzp',
+      //   destination: 'https://jandebelastingman.nl/ondernemers-zzp',
+      //   permanent: true,
+      //   basePath: false as const,
+      //   has: [
+      //     {
+      //       type: 'host',
+      //       key: 'host',
+      //       value: 'chat.jandebelastingman.nl',
+      //     },
+      //   ],
+      // },
+      // {
+      //   source: '/en/ondernemers-zzp',
+      //   destination: 'https://jandebelastingman.nl/en/entrepreneurs-self-employed',
+      //   permanent: true,
+      //   basePath: false as const,
+      //   has: [
+      //     {
+      //       type: 'host',
+      //       key: 'host',
+      //       value: 'chat.jandebelastingman.nl',
+      //     },
+      //   ],
+      // },
     ];
     return redirects;
   },
