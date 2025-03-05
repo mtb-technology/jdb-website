@@ -6,8 +6,18 @@ interface Post {
   excerpt: string;
   published_at: string;
   featured_image?: string;
+  banner: {
+    thumbnail?: string;
+    small?: string;
+    medium?: string;
+    large?: string;
+    full?: string;
+  };
   image: {
     thumbnail?: string;
+    small?: string;
+    medium?: string;
+    large?: string;
     full?: string;
   };
   category: Category;
@@ -65,6 +75,8 @@ interface PaginatedPostResponse<T> {
 
 interface BlogPostsResponse extends PaginatedPostResponse<Post> {}
 
+interface BlogPostResponse extends Post {}
+
 interface BlogCategoriesResponse {
   categories: Category[];
 }
@@ -118,6 +130,18 @@ export class JDBApi {
     const endpoint = `/blog/posts${queryString ? `?${queryString}` : ''}`;
 
     return this.fetchApi<BlogPostsResponse>(endpoint);
+  }
+
+  async getBlogPost(slug: string, locale?: string): Promise<BlogPostResponse> {
+    const searchParams = new URLSearchParams();
+    if (locale) searchParams.append('locale', locale);
+
+    const queryString = searchParams.toString();
+    const endpoint = `/blog/posts/${slug}${queryString ? `?${queryString}` : ''}`;
+
+    return this.fetchApi<{post: BlogPostResponse}>(endpoint).then(function(res){
+      return res.post;
+    });
   }
 
   async getBlogCategories(locale?: string): Promise<BlogCategoriesResponse> {
