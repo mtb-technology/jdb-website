@@ -196,9 +196,9 @@ export default function SidebarLayout({
   };
 
   return (
-    <div className="flex min-h-screen bg-white font-sans text-base">
+    <div className="flex h-screen bg-white font-sans text-base">
       {/* Sidebar */}
-      <aside className="hidden md:flex flex-col w-72 bg-primary text-white p-8">
+      <aside className="hidden md:flex flex-col w-72 bg-primary text-white p-8 h-screen">
         <div className="mb-16 text-base">
           <Link href="/">
             <Image
@@ -232,7 +232,11 @@ export default function SidebarLayout({
       {/* Mobile Menu */}
       <Sheet>
         <SheetTrigger asChild>
-          <Button variant="ghost" size="icon" className="md:hidden z-50 absolute top-6 left-6">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="md:hidden z-50 absolute top-6 left-6"
+          >
             <Menu className="h-6 w-6" />
           </Button>
         </SheetTrigger>
@@ -265,8 +269,11 @@ export default function SidebarLayout({
               {currentNavLinks.map((link) => renderNavLink(link, true))}
             </nav>
 
-            <Button className="w-full bg-white text-primary hover:bg-gray-100 transition-colors text-sm">
-              Vind een adviseur
+            <Button
+              asChild
+              className="w-full bg-white text-primary hover:bg-gray-100 transition-colors text-sm"
+            >
+              <Link href="/vind-een-adviseur">Vind een adviseur</Link>
             </Button>
           </div>
         </SheetContent>

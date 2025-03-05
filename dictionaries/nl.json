@@ -316,6 +316,118 @@
         "emailPlaceholder": "Je e-mailadres",
         "subscribeButton": "Aanmelden"
       }
+    },
+    "about-us": {
+      "title": "Over ons",
+      "story": {
+        "title": "Ons Verhaal",
+        "paragraphs": [
+          "Het idee voor Jan de Belastingman ontstond tijdens een frustrerende belastingaangiftesessie in 2022. Onze oprichters, Mathijs en Marcus, worstelden urenlang met ingewikkelde formulieren en onduidelijke regels. Ze dachten: \"Dit moet toch makkelijker kunnen?\"",
+          "Met Mathijs' achtergrond als belastingadviseur en Marcus' ervaring in fintech, zagen ze de kans om belastingadvies te democratiseren met behulp van AI-technologie. Ze droomden van een toekomst waarin iedereen toegang heeft tot persoonlijk, betrouwbaar belastingadvies - zonder de hoge kosten.",
+          "Zo werd Jan de Belastingman geboren: een virtuele belastingassistent die 24/7 klaarstaat om al je vragen te beantwoorden, ondersteund door een netwerk van gecertificeerde partners voor gespecialiseerd advies."
+        ]
+      },
+      "team": {
+        "title": "Ons Team",
+        "description": "Ons diverse team brengt een unieke combinatie van financiële expertise, technologische innovatie en klantgerichte focus samen. Samen werken we aan onze missie om belastingadvies toegankelijk te maken voor iedereen.",
+        "members": [
+          {
+            "name": "Mathijs",
+            "role": "Finance",
+            "background": "background?"
+          },
+          {
+            "name": "Marcus",
+            "role": "Founder",
+            "background": "background?"
+          },
+          {
+            "name": "Tim",
+            "role": "Sales & Marketing",
+            "background": "background?"
+          },
+          {
+            "name": "Beaudinn",
+            "role": "Engineering",
+            "background": "background?"
+          },
+          {
+            "name": "Bo",
+            "role": "Product & Operations",
+            "background": "background?"
+          }
+        ]
+      },
+      "journey": {
+        "title": "Onze Reis",
+        "milestones": [
+          {
+            "year": "2022",
+            "subtitle": "Het Begin",
+            "description": "Jan de Belastingman wordt opgericht met een missie om belastingadvies te democratiseren."
+          },
+          {
+            "year": "2023",
+            "subtitle": "Groei & Innovatie",
+            "description": "We lanceren ons AI-gestuurde chatplatform en helpen onze eerste 10.000 klanten."
+          },
+          {
+            "year": "2024",
+            "subtitle": "Uitbreiding",
+            "description": "We breiden ons team uit en introduceren geavanceerde functies voor bedrijven en ZZP'ers."
+          },
+          {
+            "year": "2025",
+            "subtitle": "De Toekomst",
+            "description": "We blijven innoveren en streven ernaar de go-to belastingassistent voor heel Nederland te worden."
+          }
+        ]
+      },
+      "partners": {
+        "title": "Onze Gecertificeerde Partners",
+        "description": "Om onze dienstverlening te versterken, werken we nauw samen met een netwerk van betrouwbare, gecertificeerde partners. Deze experts brengen diepgaande kennis en ervaring in specifieke fiscale domeinen, waardoor we een nog breder scala aan gespecialiseerde belastingadviezen kunnen aanbieden.",
+        "types": [
+          {
+            "title": "Fiscale Specialisten",
+            "description": "Experts in complexe belastingwetgeving en -planning voor bedrijven en particulieren."
+          },
+          {
+            "title": "Accountants",
+            "description": "Gecertificeerde professionals voor financiële rapportage en compliance."
+          },
+          {
+            "title": "Juridische Adviseurs",
+            "description": "Gespecialiseerd in fiscaal recht en bedrijfsstructurering."
+          }
+        ]
+      },
+      "mission": {
+        "title": "Onze Missie",
+        "description": "Jan de Belastingman streeft ernaar om kwalitatief belastingadvies bereikbaar te maken voor iedereen. We willen mensen tijd en geld besparen door betrouwbare, begrijpelijke begeleiding te bieden bij hun belastingzaken.",
+        "points": [
+          "Democratiseren van belastingexpertise",
+          "Vereenvoudigen van complexe belastingkwesties",
+          "24/7 ondersteuning bieden aan iedereen"
+        ]
+      },
+      "vision": {
+        "title": "Onze Visie",
+        "description": "We zien een toekomst waarin iedereen in Nederland met vertrouwen hun belastingzaken kan regelen, ondersteund door geavanceerde AI-technologie en menselijke expertise.",
+        "points": [
+          "AI-gedreven persoonlijk advies voor iedereen",
+          "Naadloze integratie met financiële systemen",
+          "Continu lerende en evoluerende dienstverlening",
+          "Samenwerking met top-experts voor gespecialiseerd advies"
+        ]
+      },
+      "cta": {
+        "title": "Klaar om je belastingzaken te vereenvoudigen?",
+        "description": "Sluit je aan bij duizenden Nederlanders die al profiteren van ons persoonlijke, AI-gestuurde belastingadvies. Laat Jan de Belastingman je helpen bij het navigeren door de complexe wereld van belastingen.",
+        "buttons": {
+          "chat": "Stel je vraag in de chat",
+          "howItWorks": "Hoe werkt het"
+        }
+      }
     }
   },  
   "footer": {

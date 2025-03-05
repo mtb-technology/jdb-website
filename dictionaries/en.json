@@ -316,6 +316,118 @@
         "emailPlaceholder": "Je e-mailadres",
         "subscribeButton": "Aanmelden"
       }
+    },
+    "about-us": {
+      "title": "About Us",
+      "story": {
+        "title": "Our Story",
+        "paragraphs": [
+          "The idea for Jan de Belastingman was born during a frustrating tax filing session in 2022. Our founders, Mathijs and Marcus, spent hours struggling with complicated forms and unclear rules. They thought: \"There must be an easier way!\"",
+          "With Mathijs's background as a tax advisor and Marcus's experience in fintech, they saw an opportunity to democratize tax advice using AI technology. They dreamed of a future where everyone has access to personal, reliable tax advice - without the high costs.",
+          "Thus, Jan de Belastingman was born: a virtual tax assistant available 24/7 to answer all your questions, supported by a network of certified partners for specialized advice."
+        ]
+      },
+      "team": {
+        "title": "Our Team",
+        "description": "Our diverse team brings together a unique combination of financial expertise, technological innovation, and customer-focused approach. Together, we work towards our mission of making tax advice accessible to everyone.",
+        "members": [
+          {
+            "name": "Mathijs",
+            "role": "Finance",
+            "background": "background?"
+          },
+          {
+            "name": "Marcus",
+            "role": "Founder",
+            "background": "background?"
+          },
+          {
+            "name": "Tim",
+            "role": "Sales & Marketing",
+            "background": "background?"
+          },
+          {
+            "name": "Beaudinn",
+            "role": "Engineering",
+            "background": "background?"
+          },
+          {
+            "name": "Bo",
+            "role": "Product & Operations",
+            "background": "background?"
+          }
+        ]
+      },
+      "journey": {
+        "title": "Our Journey",
+        "milestones": [
+          {
+            "year": "2022",
+            "subtitle": "The Beginning",
+            "description": "Jan de Belastingman is founded with a mission to democratize tax advice."
+          },
+          {
+            "year": "2023",
+            "subtitle": "Growth & Innovation",
+            "description": "We launch our AI-driven chat platform and help our first 10,000 customers."
+          },
+          {
+            "year": "2024",
+            "subtitle": "Expansion",
+            "description": "We expand our team and introduce advanced features for businesses and freelancers."
+          },
+          {
+            "year": "2025",
+            "subtitle": "The Future",
+            "description": "We continue to innovate and strive to become the go-to tax assistant for all of the Netherlands."
+          }
+        ]
+      },
+      "partners": {
+        "title": "Our Certified Partners",
+        "description": "To strengthen our services, we work closely with a network of reliable, certified partners. These experts bring deep knowledge and experience in specific tax domains, allowing us to offer an even broader range of specialized tax advice.",
+        "types": [
+          {
+            "title": "Tax Specialists",
+            "description": "Experts in complex tax legislation and planning for businesses and individuals."
+          },
+          {
+            "title": "Accountants",
+            "description": "Certified professionals for financial reporting and compliance."
+          },
+          {
+            "title": "Legal Advisors",
+            "description": "Specialized in tax law and business structuring."
+          }
+        ]
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description": "Jan de Belastingman strives to make quality tax advice accessible to everyone. We want to save people time and money by providing reliable, understandable guidance on their tax matters.",
+        "points": [
+          "Democratizing tax expertise",
+          "Simplifying complex tax issues",
+          "Providing 24/7 support to everyone"
+        ]
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "We envision a future where everyone in the Netherlands can handle their tax matters with confidence, supported by advanced AI technology and human expertise.",
+        "points": [
+          "AI-driven personal advice for everyone",
+          "Seamless integration with financial systems",
+          "Continuously learning and evolving service",
+          "Collaboration with top experts for specialized advice"
+        ]
+      },
+      "cta": {
+        "title": "Ready to simplify your tax matters?",
+        "description": "Join thousands of Dutch citizens already benefiting from our personal, AI-driven tax advice. Let Jan de Belastingman help you navigate through the complex world of taxes.",
+        "buttons": {
+          "chat": "Ask your question in chat",
+          "howItWorks": "How it works"
+        }
+      }
     }
   },
   "footer": {
