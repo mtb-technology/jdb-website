@@ -196,6 +196,126 @@
           "subtext": "An expert who understands your situation"
         }
       }
+    },
+    "find-advisor": {
+      "title": "Vind een adviseur",
+      "subtitle": "Expertise op maat voor jouw fiscale uitdagingen",
+      "intro": {
+        "text": "Wij koppelen je aan de juiste specialist voor:",
+        "benefits": [
+          "Complexe financiële situaties die specialistische kennis vereisen",
+          "Zorgeloze en professionele belastingaangiftes",
+          "Ondersteuning bij groeiende fiscale administraties"
+        ],
+        "networkDescription": "Ons netwerk van betrouwbare, gecertificeerde partners staat klaar om jou passende begeleiding te bieden."
+      },
+      "categories": [
+        {
+          "id": "income-tax",
+          "title": "Aangifte inkomstenbelasting",
+          "description": "Hulp nodig bij je belastingaangifte? Onze adviseurs helpen je met het correct invullen en optimaliseren van je aangifte."
+        },
+        {
+          "id": "m-form",
+          "title": "Hulp bij M-formulier",
+          "description": "Internationale verhuizing gehad of gepland? Onze experts helpen je met het M-formulier voor emigratie of immigratie."
+        },
+        {
+          "id": "business-admin",
+          "title": "Administratie voor mijn bedrijf",
+          "description": "Laat je bedrijfsadministratie verzorgen door experts die je helpen alles op orde te houden en fiscaal te optimaliseren."
+        },
+        {
+          "id": "business-creation",
+          "title": "Ondernemers/ZZPers",
+          "description": "Hulp nodig bij BTW, vennootschapsbelasting, fiscale optimalisatie of boekhouding."
+        }
+      ],
+      "form": {
+        "title": "Waar heb je hulp bij nodig?",
+        "backButton": "Terug naar categorieën",
+        "fields": {
+          "firstName": "Voornaam",
+          "lastName": "Achternaam",
+          "email": "E-mailadres",
+          "phone": "Telefoonnummer",
+          "message": {
+            "label": "Je vraag of situatie",
+            "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur..."
+          }
+        },
+        "privacyConsent": "Ik ga akkoord met de <a href=\"/privacy\" class=\"text-[#2B4EE6] hover:underline\">privacyvoorwaarden</a> en geef toestemming om contact met mij op te nemen.",
+        "submitButton": "Verstuur aanvraag"
+      },
+      "success": {
+        "title": "Bedankt voor je aanvraag!",
+        "message": "We hebben je gegevens ontvangen en zullen binnen 24 uur contact met je opnemen om je te koppelen aan de juiste adviseur.",
+        "newRequestButton": "Nieuwe aanvraag"
+      },
+      "testimonials": {
+        "title": "Wat onze klanten zeggen",
+        "items": [
+          {
+            "name": "Martijn de Vries",
+            "role": "Eigenaar, De Vries Consultancy",
+            "quote": "Dankzij Jan de Belastingman heb ik een uitstekende fiscalist gevonden die mijn BV-structuur heeft geoptimaliseerd. Dit heeft me duizenden euro's bespaard.",
+            "avatar": "/placeholder.svg?height=100&width=100"
+          },
+          {
+            "name": "Sophie Jansen",
+            "role": "ZZP'er, Grafisch Ontwerper",
+            "quote": "De adviseur waar ik aan gekoppeld werd begreep mijn situatie als freelancer perfect. Eindelijk iemand die mijn administratie op orde heeft gebracht!",
+            "avatar": "/placeholder.svg?height=100&width=100"
+          },
+          {
+            "name": "Thomas Bakker",
+            "role": "Directeur, Bakker Techniek BV",
+            "quote": "Het matchingsproces was snel en efficiënt. Binnen een dag had ik contact met een adviseur die precies wist hoe hij mijn internationale belastingvraagstuk moest aanpakken.",
+            "avatar": "/placeholder.svg?height=100&width=100"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Veelgestelde vragen",
+        "items": [
+          {
+            "question": "Hoe werkt het matchingsproces?",
+            "answer": "Na het invullen van het formulier bekijken wij je vraag en situatie. Op basis daarvan selecteren we een adviseur uit ons netwerk die het beste past bij jouw behoeften. Binnen 24 uur nemen we contact met je op om je te koppelen aan deze adviseur."
+          },
+          {
+            "question": "Zijn er kosten verbonden aan de matching?",
+            "answer": "Nee, het matchingsproces is volledig gratis en vrijblijvend. Je betaalt alleen voor de diensten die je eventueel afneemt bij de adviseur waarmee we je in contact brengen."
+          },
+          {
+            "question": "Wat voor adviseurs zitten er in jullie netwerk?",
+            "answer": "Ons netwerk bestaat uit gecertificeerde belastingadviseurs, accountants, administratiekantoren en fiscaal juristen. Alle adviseurs zijn zorgvuldig geselecteerd op basis van hun expertise, ervaring en klanttevredenheid."
+          },
+          {
+            "question": "Kan ik ook een adviseur vinden voor mijn particuliere belastingaangifte?",
+            "answer": "Zeker! We hebben adviseurs die gespecialiseerd zijn in zowel zakelijke als particuliere belastingzaken. Of je nu hulp nodig hebt bij je inkomstenbelasting, vermogensbelasting of andere fiscale zaken, we kunnen je koppelen aan de juiste expert."
+          }
+        ]
+      },
+      "promise": {
+        "title": "Onze belofte aan jou",
+        "items": [
+          "Binnen 24 uur koppelen we je aan een geschikte adviseur",
+          "Alle adviseurs zijn gecertificeerd en gecontroleerd",
+          "Vrijblijvend en zonder verplichtingen"
+        ]
+      }
+    },
+    "blog": {
+      "title": "Nieuwsberichten",
+      "description": "Vind hier alle berichten omtrent belastingnieuws. Daarnaast geeft Jan de Belastingman updates over tips & tricks die jou helpen belasting te besparen.",
+      "allCategories": "Alle",
+      "loadMore": "Meer artikelen laden",
+      "newsletter": {
+        "title": "Blijf op de hoogte",
+        "description": "Ontvang de nieuwste belastingtips en updates direct in je inbox.",
+        "emailPlaceholder": "Je e-mailadres",
+        "subscribeButton": "Aanmelden"
+      }
     }
   },  
   "footer": {

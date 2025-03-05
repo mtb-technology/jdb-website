@@ -6,6 +6,7 @@ import PartnersSection from "@/components/sections/PartnersSection";
 import StepsSection from "@/components/sections/StepsSection";
 import SupportSection from "@/components/sections/SupportSection";
 import { getDictionary } from "@/lib/getDictionary";
+import { generatePageMetadata } from "@/lib/metadata";
 import { topicENToDictionaryKey, topicNLToDictionaryKey } from "@/lib/routes";
 import { SupportedLocale } from "@/lib/types";
 import { notFound } from "next/navigation";
@@ -65,6 +66,8 @@ interface PageContent {
   };
   steps: Step[];
 }
+
+export const generateMetadata = generatePageMetadata;
 
 export default async function TopicPage({ params }: TopicPageProps) {
   const locale = params.locale || 'nl';
