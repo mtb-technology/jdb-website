@@ -11,12 +11,22 @@ interface Step {
 
 interface StepsSectionProps {
   steps: Step[];
+  buttonText: string;
+  buttonLink: string;
+  buttonSubtext: string;
 }
 
-export default function StepsSection({ steps }: StepsSectionProps) {
+export default function StepsSection({
+  steps,
+  buttonText,
+  buttonLink,
+  buttonSubtext,
+}: StepsSectionProps) {
   return (
     <div>
-      <h2 className="text-2xl font-bold text-center mb-12">ZO KUNNEN WE JE HELPEN MET JE BV</h2>
+      <h2 className="text-2xl font-bold text-center mb-12">
+        ZO KUNNEN WE JE HELPEN MET JE BV
+      </h2>
       <div className="space-y-16">
         {steps.map((step, index) => (
           <div key={index} className="grid md:grid-cols-2 gap-12 items-center">
@@ -25,8 +35,13 @@ export default function StepsSection({ steps }: StepsSectionProps) {
               <p className="text-gray-600">{step.description}</p>
               {step.showButton && (
                 <>
-                  <Button className="bg-primary text-white hover:bg-[#2341C7] mt-6">Stel je vraag in de chat</Button>
-                  <p className="text-sm text-gray-500 mt-2">Direct antwoord</p>
+                  <Button
+                    className="bg-primary text-white hover:bg-[#2341C7] mt-6"
+                    asChild
+                  >
+                    <a href={buttonLink}>{buttonText}</a>
+                  </Button>
+                  <p className="text-sm text-gray-500 mt-2">{buttonSubtext}</p>
                 </>
               )}
             </div>

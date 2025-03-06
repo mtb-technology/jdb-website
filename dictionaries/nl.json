@@ -9,115 +9,6 @@
     "twitterDescription": "Instant answers to all your tax questions with our AI assistant."
   },
   "pages": {
-    "private-company": {
-      "metadata": {
-        "title": "Private Limited Company (BV) | Jan de Belastingman",
-        "description": "Expert advice on establishing and managing a BV in the Netherlands.",
-        "ogTitle": "BV Advice - Jan de Belastingman",
-        "ogDescription": "Get expert advice on establishing and managing a BV in the Netherlands. Instant answers to all your BV-related questions.",
-        "ogImageAlt": "BV Advice from Jan de Belastingman"
-      },
-      "hero": {
-        "title": "Expert Support for Private Limited Companies (BVs)",
-        "description": "Managing a BV or facing challenges with business taxes or legal obligations? Jan the Tax Man helps you understand the complexities of running a Private Limited Company in the Netherlands, ensuring your business stays compliant and financially healthy.",
-        "callToAction": "Want to establish a BV? Discover with Jan the Tax Man how a Private Limited Company can transform your financial future – start your more profitable entrepreneurial journey now!",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4,545 BV questions answered"
-      },
-      "partners": {
-        "items": [
-          {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
-            "alt": "The Lawyer",
-            "width": 100
-          },
-          {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
-            "alt": "Accountant",
-            "width": 120
-          },
-          {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "alt": "Quote",
-            "width": 90
-          },
-          {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
-            "alt": "FD",
-            "width": 60
-          }
-        ]
-      },
-      "support": {
-        "title": "Private Limited Company Support in the Netherlands",
-        "description": "Running a Private Limited Company (BV) in the Netherlands requires compliance with specific financial rules and tax obligations. Jan the Tax Man provides tailored guidance for BVs to help you effectively manage your business obligations, from tax planning to compliance with Dutch business legislation.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Business Professional"
-      },
-      "steps": [
-        {
-          "title": "1. Ask your question 24/7 and get instant answers",
-          "description": "Do you have a question about your taxes? At Jan the Tax Man, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface"
-        },
-        {
-          "title": "2. Need more help? We'll find you a suitable advisor",
-          "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan the Tax Man will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-          "alt": "Professional Advisor"
-        },
-        {
-          "title": "3. Create an account and manage your tax questions",
-          "description": "With a free account at Jan the Tax Man, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
-          "alt": "Account Dashboard",
-          "showButton": true
-        }
-      ],
-      "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
-        "faqItems": [
-          {
-            "question": "Wat is een BV en waarom zou ik er een oprichten?",
-            "answer": "Een BV (Besloten Vennootschap) is een rechtsvorm waarbij het bedrijf een aparte rechtspersoon is, gescheiden van de eigenaren. Het oprichten van een BV kan voordelen bieden op het gebied van aansprakelijkheid, belastingen en het aantrekken van investeerders. Het is vooral geschikt voor ondernemers die hun persoonlijke vermogen willen scheiden van het bedrijfsvermogen en die verwachten dat hun bedrijf zal groeien."
-          },
-          {
-            "question": "Welke belastingvoordelen heeft een BV?",
-            "answer": "Een BV kan verschillende belastingvoordelen bieden, waaronder een lager vennootschapsbelastingtarief voor winsten tot €395.000 (15% in 2023), de mogelijkheid om winst in de BV te houden voor herinvestering tegen een lager tarief, en de optie om jezelf een salaris uit te keren en dividenden te ontvangen. Daarnaast zijn er mogelijkheden voor fiscale optimalisatie die niet beschikbaar zijn voor eenmanszaken of VOF's."
-          },
-          {
-            "question": "Hoe kan Jan de Belastingman mij helpen bij het beheren van mijn BV?",
-            "answer": "Jan de Belastingman biedt expert advies en ondersteuning op verschillende gebieden van BV-beheer, waaronder belastingplanning, compliance met wet- en regelgeving, financiële rapportage, en strategisch advies. Onze AI-gestuurde chatbot kan direct antwoord geven op veel voorkomende vragen, terwijl ons netwerk van ervaren adviseurs beschikbaar is voor meer complexe kwesties. We helpen je om je BV financieel gezond te houden en optimaal gebruik te maken van beschikbare fiscale voordelen."
-          }
-        ],
-        "blogArticles": [
-          {
-            "title": "5 Fiscale Tips voor BV-Eigenaren in 2023",
-            "link": "#"
-          },
-          {
-            "title": "Hoe de Nieuwe Belastingwetgeving Jouw BV Beïnvloedt",
-            "link": "#"
-          },
-          {
-            "title": "BV vs. Eenmanszaak: Wat Past het Beste bij Jouw Onderneming?",
-            "link": "#"
-          },
-          {
-            "title": "Optimaliseer Je BV-Structuur: Een Stap-voor-Stap Gids",
-            "link": "#"
-          }
-        ]
-      }
-    },
     "home": {
       "metadata": {
         "title": "Jan de Belastingman | Your AI Tax Advisor",
@@ -136,30 +27,6 @@
       },
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
-    },
-    "topics": {
-      "metadata": {
-        "title": "Tax Topics | Jan de Belastingman",
-        "description": "Discover everything about taxes in the Netherlands. From income tax to allowances, we have the answers to all your questions.",
-        "ogTitle": "Tax Topics - Jan de Belastingman",
-        "ogDescription": "Find information about all tax topics in the Netherlands. Expert advice from our AI assistant."
-      }
-    },
-    "free-tax-advice": {
-      "metadata": {
-        "title": "Free Tax Advice | Jan de Belastingman",
-        "description": "Get instant free tax advice from our AI assistant. Ask your question and receive professional guidance.",
-        "ogTitle": "Free Tax Advice - Jan de Belastingman",
-        "ogDescription": "Receive instant free tax advice from our AI assistant. Professional and reliable."
-      }
-    },
-    "income-tax-return": {
-      "metadata": {
-        "title": "Income Tax Return | Jan de Belastingman",
-        "description": "Learn everything about filing your tax return. Get help with your income tax declaration.",
-        "ogTitle": "Income Tax Return - Jan de Belastingman",
-        "ogDescription": "Expert help with your income tax return. Discover tips and advice from our AI assistant."
-      }
     },
     "how-it-works": {
       "title": "How does Jan de Belastingman work?",
@@ -244,7 +111,7 @@
             "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur..."
           }
         },
-        "privacyConsent": "Ik ga akkoord met de <a href=\"/privacy\" class=\"text-[#2B4EE6] hover:underline\">privacyvoorwaarden</a> en geef toestemming om contact met mij op te nemen.",
+        "privacyConsent": "Ik ga akkoord met de <a href=\"/privacy\" class=\"text-primary hover:underline\">privacyvoorwaarden</a> en geef toestemming om contact met mij op te nemen.",
         "submitButton": "Verstuur aanvraag"
       },
       "success": {
@@ -318,18 +185,18 @@
       }
     },
     "about-us": {
-      "title": "Over ons",
+      "title": "About Us",
       "story": {
-        "title": "Ons Verhaal",
+        "title": "Our Story",
         "paragraphs": [
-          "Het idee voor Jan de Belastingman ontstond tijdens een frustrerende belastingaangiftesessie in 2022. Onze oprichters, Mathijs en Marcus, worstelden urenlang met ingewikkelde formulieren en onduidelijke regels. Ze dachten: \"Dit moet toch makkelijker kunnen?\"",
-          "Met Mathijs' achtergrond als belastingadviseur en Marcus' ervaring in fintech, zagen ze de kans om belastingadvies te democratiseren met behulp van AI-technologie. Ze droomden van een toekomst waarin iedereen toegang heeft tot persoonlijk, betrouwbaar belastingadvies - zonder de hoge kosten.",
-          "Zo werd Jan de Belastingman geboren: een virtuele belastingassistent die 24/7 klaarstaat om al je vragen te beantwoorden, ondersteund door een netwerk van gecertificeerde partners voor gespecialiseerd advies."
+          "The idea for Jan de Belastingman was born during a frustrating tax filing session in 2022. Our founders, Mathijs and Marcus, spent hours struggling with complicated forms and unclear rules. They thought: \"There must be an easier way!\"",
+          "With Mathijs's background as a tax advisor and Marcus's experience in fintech, they saw an opportunity to democratize tax advice using AI technology. They dreamed of a future where everyone has access to personal, reliable tax advice - without the high costs.",
+          "Thus, Jan de Belastingman was born: a virtual tax assistant available 24/7 to answer all your questions, supported by a network of certified partners for specialized advice."
         ]
       },
       "team": {
-        "title": "Ons Team",
-        "description": "Ons diverse team brengt een unieke combinatie van financiële expertise, technologische innovatie en klantgerichte focus samen. Samen werken we aan onze missie om belastingadvies toegankelijk te maken voor iedereen.",
+        "title": "Our Team",
+        "description": "Our diverse team brings together a unique combination of financial expertise, technological innovation, and customer-focused approach. Together, we work towards our mission of making tax advice accessible to everyone.",
         "members": [
           {
             "name": "Mathijs",
@@ -359,77 +226,223 @@
         ]
       },
       "journey": {
-        "title": "Onze Reis",
+        "title": "Our Journey",
         "milestones": [
           {
             "year": "2022",
-            "subtitle": "Het Begin",
-            "description": "Jan de Belastingman wordt opgericht met een missie om belastingadvies te democratiseren."
+            "subtitle": "The Beginning",
+            "description": "Jan de Belastingman is founded with a mission to democratize tax advice."
           },
           {
             "year": "2023",
-            "subtitle": "Groei & Innovatie",
-            "description": "We lanceren ons AI-gestuurde chatplatform en helpen onze eerste 10.000 klanten."
+            "subtitle": "Growth & Innovation",
+            "description": "We launch our AI-driven chat platform and help our first 10,000 customers."
           },
           {
             "year": "2024",
-            "subtitle": "Uitbreiding",
-            "description": "We breiden ons team uit en introduceren geavanceerde functies voor bedrijven en ZZP'ers."
+            "subtitle": "Expansion",
+            "description": "We expand our team and introduce advanced features for businesses and freelancers."
           },
           {
             "year": "2025",
-            "subtitle": "De Toekomst",
-            "description": "We blijven innoveren en streven ernaar de go-to belastingassistent voor heel Nederland te worden."
+            "subtitle": "The Future",
+            "description": "We continue to innovate and strive to become the go-to tax assistant for all of the Netherlands."
           }
         ]
       },
       "partners": {
-        "title": "Onze Gecertificeerde Partners",
-        "description": "Om onze dienstverlening te versterken, werken we nauw samen met een netwerk van betrouwbare, gecertificeerde partners. Deze experts brengen diepgaande kennis en ervaring in specifieke fiscale domeinen, waardoor we een nog breder scala aan gespecialiseerde belastingadviezen kunnen aanbieden.",
+        "title": "Our Certified Partners",
+        "description": "To strengthen our services, we work closely with a network of reliable, certified partners. These experts bring deep knowledge and experience in specific tax domains, allowing us to offer an even broader range of specialized tax advice.",
         "types": [
           {
-            "title": "Fiscale Specialisten",
-            "description": "Experts in complexe belastingwetgeving en -planning voor bedrijven en particulieren."
+            "title": "Tax Specialists",
+            "description": "Experts in complex tax legislation and planning for businesses and individuals."
           },
           {
             "title": "Accountants",
-            "description": "Gecertificeerde professionals voor financiële rapportage en compliance."
+            "description": "Certified professionals for financial reporting and compliance."
           },
           {
-            "title": "Juridische Adviseurs",
-            "description": "Gespecialiseerd in fiscaal recht en bedrijfsstructurering."
+            "title": "Legal Advisors",
+            "description": "Specialized in tax law and business structuring."
           }
         ]
       },
       "mission": {
-        "title": "Onze Missie",
-        "description": "Jan de Belastingman streeft ernaar om kwalitatief belastingadvies bereikbaar te maken voor iedereen. We willen mensen tijd en geld besparen door betrouwbare, begrijpelijke begeleiding te bieden bij hun belastingzaken.",
+        "title": "Our Mission",
+        "description": "Jan de Belastingman strives to make quality tax advice accessible to everyone. We want to save people time and money by providing reliable, understandable guidance on their tax matters.",
         "points": [
-          "Democratiseren van belastingexpertise",
-          "Vereenvoudigen van complexe belastingkwesties",
-          "24/7 ondersteuning bieden aan iedereen"
+          "Democratizing tax expertise",
+          "Simplifying complex tax issues",
+          "Providing 24/7 support to everyone"
         ]
       },
       "vision": {
-        "title": "Onze Visie",
-        "description": "We zien een toekomst waarin iedereen in Nederland met vertrouwen hun belastingzaken kan regelen, ondersteund door geavanceerde AI-technologie en menselijke expertise.",
+        "title": "Our Vision",
+        "description": "We envision a future where everyone in the Netherlands can handle their tax matters with confidence, supported by advanced AI technology and human expertise.",
         "points": [
-          "AI-gedreven persoonlijk advies voor iedereen",
-          "Naadloze integratie met financiële systemen",
-          "Continu lerende en evoluerende dienstverlening",
-          "Samenwerking met top-experts voor gespecialiseerd advies"
+          "AI-driven personal advice for everyone",
+          "Seamless integration with financial systems",
+          "Continuously learning and evolving service",
+          "Collaboration with top experts for specialized advice"
         ]
       },
       "cta": {
-        "title": "Klaar om je belastingzaken te vereenvoudigen?",
-        "description": "Sluit je aan bij duizenden Nederlanders die al profiteren van ons persoonlijke, AI-gestuurde belastingadvies. Laat Jan de Belastingman je helpen bij het navigeren door de complexe wereld van belastingen.",
+        "title": "Ready to simplify your tax matters?",
+        "description": "Join thousands of Dutch citizens already benefiting from our personal, AI-driven tax advice. Let Jan de Belastingman help you navigate through the complex world of taxes.",
         "buttons": {
-          "chat": "Stel je vraag in de chat",
-          "howItWorks": "Hoe werkt het"
+          "chat": "Ask your question in chat",
+          "howItWorks": "How it works"
         }
       }
     }
-  },  
+  },
+  "topics": {
+    "private-company": {
+      "metadata": {
+        "title": "Private Limited Company (BV) | Jan de Belastingman",
+        "description": "Expert advice on establishing and managing a BV in the Netherlands.",
+        "ogTitle": "BV Advice - Jan de Belastingman",
+        "ogDescription": "Get expert advice on establishing and managing a BV in the Netherlands. Instant answers to all your BV-related questions.",
+        "ogImageAlt": "BV Advice from Jan de Belastingman"
+      },
+      "hero": {
+        "title": "Expert Support for Private Limited Companies (BVs)",
+        "description": "Managing a BV or facing challenges with business taxes or legal obligations? Jan the Tax Man helps you understand the complexities of running a Private Limited Company in the Netherlands, ensuring your business stays compliant and financially healthy.",
+        "callToAction": "Want to establish a BV? Discover with Jan the Tax Man how a Private Limited Company can transform your financial future – start your more profitable entrepreneurial journey now!",
+        "buttonText": "Ask your question in chat",
+        "buttonSubtext": "Instant answer",
+        "buttonLink": "/en/chat",
+        "image": {
+          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "alt": "Chat Interface Preview",
+          "width": 800,
+          "height": 600
+        },
+        "stats": "4,545 BV questions answered"
+      },
+      "partners": {
+        "title": "Onder andere bekend van",
+        "items": [
+          {
+            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "alt": "The Lawyer",
+            "width": 100
+          },
+          {
+            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "alt": "Accountant",
+            "width": 120
+          },
+          {
+            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "alt": "Quote",
+            "width": 90
+          },
+          {
+            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "alt": "FD",
+            "width": 60
+          }
+        ]
+      },
+      "support": {
+        "title": "Private Limited Company Support in the Netherlands",
+        "description": "Running a Private Limited Company (BV) in the Netherlands requires compliance with specific financial rules and tax obligations. Jan the Tax Man provides tailored guidance for BVs to help you effectively manage your business obligations, from tax planning to compliance with Dutch business legislation.",
+        "buttonText": "Ask your question in chat",
+        "buttonSubtext": "Instant answer",
+        "buttonLink": "/en/chat",
+        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageAlt": "Business Professional"
+      },
+      "stepsSection": {
+        "buttonText": "Ask your question in chat",
+        "buttonLink": "/en/chat",
+        "buttonSubtext": "Instant answer",
+        "items": [
+          {
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan the Tax Man, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "alt": "Chat Interface"
+          },
+          {
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan the Tax Man will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "alt": "Professional Advisor"
+          },
+          {
+            "title": "3. Create an account and manage your tax questions",
+            "description": "With a free account at Jan the Tax Man, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "alt": "Account Dashboard",
+            "showButton": true
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions and Latest Articles",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Blogartikelen over BV's",
+        "buttonText": "View all articles",
+        "buttonLink": "/en/blog",
+        "faqItems": [
+          {
+            "question": "Wat is een BV en waarom zou ik er een oprichten?",
+            "answer": "Een BV (Besloten Vennootschap) is een rechtsvorm waarbij het bedrijf een aparte rechtspersoon is, gescheiden van de eigenaren. Het oprichten van een BV kan voordelen bieden op het gebied van aansprakelijkheid, belastingen en het aantrekken van investeerders. Het is vooral geschikt voor ondernemers die hun persoonlijke vermogen willen scheiden van het bedrijfsvermogen en die verwachten dat hun bedrijf zal groeien."
+          },
+          {
+            "question": "Welke belastingvoordelen heeft een BV?",
+            "answer": "Een BV kan verschillende belastingvoordelen bieden, waaronder een lager vennootschapsbelastingtarief voor winsten tot €395.000 (15% in 2023), de mogelijkheid om winst in de BV te houden voor herinvestering tegen een lager tarief, en de optie om jezelf een salaris uit te keren en dividenden te ontvangen. Daarnaast zijn er mogelijkheden voor fiscale optimalisatie die niet beschikbaar zijn voor eenmanszaken of VOF's."
+          },
+          {
+            "question": "Hoe kan Jan de Belastingman mij helpen bij het beheren van mijn BV?",
+            "answer": "Jan de Belastingman biedt expert advies en ondersteuning op verschillende gebieden van BV-beheer, waaronder belastingplanning, compliance met wet- en regelgeving, financiële rapportage, en strategisch advies. Onze AI-gestuurde chatbot kan direct antwoord geven op veel voorkomende vragen, terwijl ons netwerk van ervaren adviseurs beschikbaar is voor meer complexe kwesties. We helpen je om je BV financieel gezond te houden en optimaal gebruik te maken van beschikbare fiscale voordelen."
+          }
+        ],
+        "blogArticles": [
+          {
+            "title": "5 Fiscale Tips voor BV-Eigenaren in 2023",
+            "link": "#"
+          },
+          {
+            "title": "Hoe de Nieuwe Belastingwetgeving Jouw BV Beïnvloedt",
+            "link": "#"
+          },
+          {
+            "title": "BV vs. Eenmanszaak: Wat Past het Beste bij Jouw Onderneming?",
+            "link": "#"
+          },
+          {
+            "title": "Optimaliseer Je BV-Structuur: Een Stap-voor-Stap Gids",
+            "link": "#"
+          }
+        ]
+      }
+    }
+  },
+  "chats": {
+    "employee": {
+      "metadata": {
+        "title": "Jan de Belastingman | Your AI Tax Advisor",
+        "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
+        "ogTitle": "Jan de Belastingman - AI Tax Advisor",
+        "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
+      },
+      "helpQuestion": "How can I help you?",
+      "inputPlaceholder": "Ask your question",
+      "commonQuestions": {
+        "deductions": "What deductions can I apply?",
+        "vatReturn": "How to file VAT returns as self-employed?",
+        "box3": "Do I need to declare assets in box 3?",
+        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",
+        "more": "More ..."
+      },
+      "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
+      "knownFrom": "As featured in"
+    }
+  },
   "footer": {
     "copyright": "© {year} Jan de Belastingman. All rights reserved.",
     "privacy": "Privacy Policy",

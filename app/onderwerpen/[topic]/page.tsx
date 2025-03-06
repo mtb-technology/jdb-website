@@ -19,7 +19,7 @@ interface TopicPageProps {
 }
 
 type Dictionary = Awaited<ReturnType<typeof getDictionary>>;
-type DictionaryKeys = keyof Dictionary['pages'];
+type DictionaryKeys = keyof Dictionary["topics"];
 
 interface Partner {
   src: string;
@@ -49,10 +49,18 @@ interface PageContent {
     callToAction: string;
     buttonText: string;
     buttonSubtext: string;
+    buttonLink: string;
+    image: {
+      src: string;
+      alt: string;
+      width: number;
+      height: number;
+    };
     imageAlt: string;
     stats: string;
   };
   partners: {
+    title: string;
     items: Partner[];
   };
   support: {
@@ -64,77 +72,112 @@ interface PageContent {
     imageSrc: string;
     imageAlt: string;
   };
-  steps: Step[];
+  stepsSection: {
+    buttonText: string;
+    buttonLink: string;
+    buttonSubtext: string;
+    items: Step[];
+  };
   faq: {
     title: string;
+    faqTitle: string;
+    blogTitle: string;
     faqItems: Array<{
       question: string;
       answer: string;
     }>;
-    blogArticles: Array<{
-      title: string;
-      link: string;
-    }>;
+    blogCategory: string;
     buttonText: string;
     buttonLink: string;
   };
 }
 
+export async function generateStaticParams() {
+  // Get all unique chat routes for both languages
+  const nlRoutes = Object.keys(topicNLToDictionaryKey);
+  const enRoutes = Object.keys(topicENToDictionaryKey);
+
+  // Generate params for both NL and EN routes
+  const params = [
+    // NL routes don't need locale in the URL
+    ...nlRoutes.map((topic) => ({
+      topic,
+      locale: "nl",
+    })),
+    // EN routes need locale in the URL
+    ...enRoutes.map((topic) => ({
+      topic,
+      locale: "en",
+    })),
+  ];
+
+  return params;
+}
+
 export const generateMetadata = generatePageMetadata;
 
 export default async function TopicPage({ params }: TopicPageProps) {
-  const locale = params.locale || 'nl';
+  const { topic, locale = "nl" } = await params;
   const dict = await getDictionary(locale as SupportedLocale);
-  const { topic } = params;
   let dictionaryKey: string;
   // Get the dictionary key for this topic
-  if (locale === 'nl') {
+  console.log("topic", topic);
+  if (locale === "nl") {
     dictionaryKey = topicNLToDictionaryKey[topic];
   } else {
     dictionaryKey = topicENToDictionaryKey[topic];
   }
-  
+
   // If we don't have a mapping for this topic, show 404
-  if (!dictionaryKey || !(dictionaryKey in dict.pages)) {
-    console.log('No dictionary key found for topic:', topic, dictionaryKey);
+  if (!dictionaryKey || !(dictionaryKey in dict.topics)) {
+    console.log("No dictionary key found for topic:", topic, dictionaryKey);
     notFound();
   }
-  
+
   // Get the topic-specific content using the dictionary key
-  const topicContent = dict.pages[dictionaryKey as DictionaryKeys] as PageContent;
-  
+  const topicContent = dict.topics[
+    dictionaryKey as DictionaryKeys
+  ] as PageContent;
+
   // If the topic content doesn't exist, show 404
   if (!topicContent) {
-    console.log('No content found for dictionary key:', dictionaryKey);
+    console.log("No content found for dictionary key:", dictionaryKey);
     notFound();
   }
 
-  const { hero, partners, support, steps, faq } = topicContent;
+  const { hero, partners, support, faq } = topicContent;
 
-  const heroContent = {
-    ...hero,
-    image: {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-      alt: hero.imageAlt,
-      width: 400,
-      height: 240,
-    }
-  };
-  
+  console.log("hero", hero);
 
   return (
     <main className="flex-1 flex flex-col relative">
       <Header />
       <div className="pt-22 overflow-y-auto h-[calc(100vh)]">
         <div className="max-w-5xl mx-auto px-6 py-12">
-          <HeroSection {...heroContent} />
-          <PartnersSection partners={partners.items} />
+          <HeroSection
+            title={hero.title}
+            description={hero.description}
+            callToAction={hero.callToAction}
+            buttonText={hero.buttonText}
+            buttonSubtext={hero.buttonSubtext}
+            buttonLink={hero.buttonLink}
+            image={hero.image}
+            stats={hero.stats}
+          />
+          <PartnersSection title={partners.title} partners={partners.items} />
           <SupportSection {...support} />
-          <StepsSection steps={steps} />
+          <StepsSection
+            steps={topicContent.stepsSection.items}
+            buttonText={topicContent.stepsSection.buttonText}
+            buttonLink={topicContent.stepsSection.buttonLink}
+            buttonSubtext={topicContent.stepsSection.buttonSubtext}
+          />
           <FAQAndBlogSection
             title={faq.title}
+            faqTitle={faq.faqTitle}
+            blogTitle={faq.blogTitle}
+            blogCategory={faq.blogCategory}
             faqItems={faq.faqItems}
-            blogArticles={faq.blogArticles}
             buttonText={faq.buttonText}
             buttonLink={faq.buttonLink}
           />

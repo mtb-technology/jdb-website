@@ -265,7 +265,7 @@ export function ChatInterface({ initialMessage, onReset }: ChatInterfaceProps) {
           variant="ghost"
           size="icon"
           onClick={handleResetChat}
-          className="text-gray-500 hover:text-[#2B4EE6]"
+          className="text-gray-500 hover:text-primary"
         >
           <RefreshCw className="h-5 w-5" />
         </Button>
@@ -335,7 +335,7 @@ export function ChatInterface({ initialMessage, onReset }: ChatInterfaceProps) {
                   max-w-[80%] sm:max-w-[70%] rounded-2xl p-4 
                   ${
                     message.role === "user"
-                      ? "bg-[#2B4EE6] text-white rounded-tr-none"
+                      ? "bg-primary text-white rounded-tr-none"
                       : "bg-gray-100 text-gray-800 rounded-tl-none"
                   }
                 `}
@@ -462,7 +462,7 @@ export function ChatInterface({ initialMessage, onReset }: ChatInterfaceProps) {
               disabled={isTyping}
               placeholder="Stel je vraag..."
               rows={1}
-              className={`w-full pl-4 pr-12 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#2B4EE6] focus:border-transparent resize-none overflow-hidden leading-[44px] align-middle transition-colors duration-200
+              className={`w-full pl-4 pr-12 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent resize-none overflow-hidden leading-[44px] align-middle transition-colors duration-200
                 ${isTyping ? "bg-gray-50 text-gray-500 cursor-not-allowed placeholder-gray-400" : "bg-white"}
               `}
               style={{
@@ -479,7 +479,7 @@ export function ChatInterface({ initialMessage, onReset }: ChatInterfaceProps) {
                 ${
                   isTyping
                     ? "bg-gray-400 cursor-not-allowed"
-                    : "bg-[#2B4EE6] hover:bg-[#2B4EE6]/90"
+                    : "bg-primary hover:bg-primary/90"
                 }`}
             >
               <Send className="h-4 w-4 text-white" />

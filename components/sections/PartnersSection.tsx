@@ -7,13 +7,17 @@ interface Partner {
 }
 
 interface PartnersSectionProps {
+  title: string;
   partners: Partner[];
 }
 
-export default function PartnersSection({ partners }: PartnersSectionProps) {
+export default function PartnersSection({
+  title,
+  partners,
+}: PartnersSectionProps) {
   return (
     <div className="mb-20 text-center">
-      <p className="text-gray-500 mb-4">Onder andere bekend van</p>
+      <p className="text-gray-500 mb-4">{title}</p>
       <div className="flex justify-center items-center gap-8 grayscale opacity-60">
         {partners.map(
           (image, index) =>
@@ -27,7 +31,7 @@ export default function PartnersSection({ partners }: PartnersSectionProps) {
                   className="h-full w-auto"
                 />
               </div>
-            ),
+            )
         )}
       </div>
     </div>

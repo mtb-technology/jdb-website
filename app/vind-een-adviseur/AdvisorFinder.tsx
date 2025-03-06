@@ -33,7 +33,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
   return (
     <div className="relative">
       {/* Blue background with wave */}
-      <div className="absolute top-0 left-0 right-0 h-[500px] bg-[#2B4EE6] -z-10">
+      <div className="absolute top-0 left-0 right-0 h-[500px] bg-primary -z-10">
         <div className="absolute bottom-0 left-0 right-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
             <p className="text-lg mb-6">{dict.success.message}</p>
             <Button
               onClick={resetForm}
-              className="bg-[#2B4EE6] text-white hover:bg-[#2341C7]"
+              className="bg-primary text-white hover:bg-[#2341C7]"
             >
               {dict.success.newRequestButton}
             </Button>
@@ -133,7 +133,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
                     <button
                       key={category.id}
                       onClick={() => handleCategorySelect(category.id)}
-                      className="p-6 border border-gray-200 rounded-xl text-left hover:border-[#2B4EE6] hover:shadow-md transition-all"
+                      className="p-6 border border-gray-200 rounded-xl text-left hover:border-primary hover:shadow-md transition-all"
                     >
                       <h3 className="text-lg font-medium mb-2">
                         {category.title}
@@ -149,7 +149,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
                   <div className="flex items-center mb-6">
                     <button
                       onClick={() => setSelectedCategory(null)}
-                      className="text-[#2B4EE6] hover:underline flex items-center"
+                      className="text-primary hover:underline flex items-center"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -187,7 +187,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
                             id="firstName"
                             name="firstName"
                             required
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2B4EE6] focus:border-transparent"
+                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
                           />
                         </div>
                         <div>
@@ -202,7 +202,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
                             id="lastName"
                             name="lastName"
                             required
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2B4EE6] focus:border-transparent"
+                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
                           />
                         </div>
                       </div>
@@ -218,7 +218,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
                           id="email"
                           name="email"
                           required
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2B4EE6] focus:border-transparent"
+                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
                         />
                       </div>
                       <div>
@@ -232,7 +232,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
                           type="tel"
                           id="phone"
                           name="phone"
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2B4EE6] focus:border-transparent"
+                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
                         />
                       </div>
                       <div>
@@ -247,7 +247,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
                           name="message"
                           rows={4}
                           required
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2B4EE6] focus:border-transparent"
+                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
                           placeholder={dict.form.fields.message.placeholder}
                         ></textarea>
                       </div>
@@ -258,7 +258,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
                           id="privacy"
                           name="privacy"
                           required
-                          className="mt-1 h-4 w-4 text-[#2B4EE6] border-gray-300 rounded focus:ring-[#2B4EE6]"
+                          className="mt-1 h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary"
                         />
                         <label
                           htmlFor="privacy"
@@ -272,7 +272,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
                       <div>
                         <Button
                           type="submit"
-                          className="w-full bg-[#2B4EE6] text-white hover:bg-[#2341C7] py-3"
+                          className="w-full bg-primary text-white hover:bg-[#2341C7] py-3"
                         >
                           {dict.form.submitButton}
                         </Button>
@@ -287,10 +287,10 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
               <div className="bg-gray-50 rounded-xl p-8 max-w-4xl mx-auto">
                 <div className="flex flex-col md:flex-row items-center gap-8">
                   <div className="md:w-1/3 flex justify-center">
-                    <div className="w-24 h-24 bg-[#2B4EE6]/10 rounded-full flex items-center justify-center">
+                    <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-12 w-12 text-[#2B4EE6]"
+                        className="h-12 w-12 text-primary"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"

@@ -229,9 +229,7 @@ export default function SidebarLayout({
           className="mt-8 bg-white text-primary hover:bg-gray-100 transition-colors text-sm"
         >
           <Link
-            href={
-              locale === "nl" ? "/vind-een-adviseur" : "/en/find-an-advisor"
-            }
+            href={locale === "nl" ? "/vind-een-adviseur" : "/en/find-advisor"}
           >
             {locale === "nl" ? "Vind een adviseur" : "Find an advisor"}
           </Link>
