@@ -110,8 +110,13 @@ function StepsSection({ title, steps, buttons, locale }: HowItWorksDict) {
 
       <div className="mt-12 sm:mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
         <div className="text-center">
-          <Button className="w-full bg-primary text-white hover:bg-[#2341C7] transition-colors duration-300 py-3 sm:py-4">
-            {buttons.chat.text}
+          <Button
+            asChild
+            className="w-full bg-primary text-white hover:bg-[#2341C7] transition-colors duration-300 py-3 sm:py-4"
+          >
+            <Link href={locale === "nl" ? "/" : "/en/"}>
+              {buttons.chat.text}
+            </Link>
           </Button>
           <p className="text-sm text-gray-500 mt-2">{buttons.chat.subtext}</p>
         </div>
