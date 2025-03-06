@@ -217,7 +217,7 @@ export default function SidebarLayout({
   return (
     <div className="flex h-screen bg-white font-sans text-base">
       {/* Sidebar */}
-      <aside className="hidden md:flex flex-col w-72 bg-primary text-white p-8 h-screen">
+      <aside className="hidden md:flex flex-col w-72 bg-primary text-white p-8 h-screen ">
         <div className="mb-16 text-base">
           <Link href="/">
             <Image
@@ -239,7 +239,7 @@ export default function SidebarLayout({
           ))}
         </div>
 
-        <nav className="space-y-4 mb-auto mt-4 pt-10 border-t border-white/20 text-base">
+        <nav className="space-y-4 mb-auto mt-4 pt-10 border-t border-white/20 text-base overflow-y-auto pr-6 -mr-6">
           {currentNavLinks.map((link) => renderNavLink(link))}
         </nav>
 
