@@ -30,11 +30,7 @@
     },
     "how-it-works": {
       "title": "How does Jan de Belastingman work?",
-      "stepsSection": {
-        "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
-        "buttonSubtext": "Instant answer",
-        "items": [
+      "steps": [
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan the Tax Man, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
@@ -55,9 +51,8 @@
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "icon": "user-plus"
-          }
-        ]
-      },
+        }
+      ],
       "buttons": {
         "chat": {
           "text": "Ask your question in chat",
