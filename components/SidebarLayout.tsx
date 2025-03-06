@@ -44,43 +44,49 @@ const navLinks = {
       href: "/onderwerpen",
       label: "Onderwerpen",
       children: [
-        {
-          label: "Belastingaangifte",
-          href: "/onderwerpen",
-          children: [
             { href: "/onderwerpen/belastingaangifte-laten-doen", label: "Belastingaangifte laten doen" },
-            { href: "/onderwerpen/belastingaangifte", label: "Aangifte inkomstenbelasting" },
+            { href: "/onderwerpen/belastingaangifte", label: "Inkomstenbelasting" },
             { href: "/onderwerpen/m-formulier", label: "M-formulier" },
-            { href: "/onderwerpen/aftrekposten-en-kortingen", label: "Aftrekposten en kortingen" },
-            { href: "/onderwerpen/erfbelasting", label: "Erfbelasting" }
-          ]
-        },
-        {
-          label: "ZZP en BV",
-          href: "/onderwerpen",
-          children: [
+            { href: "/onderwerpen/erfbelasting", label: "Erfbelasting" },
             { href: "/onderwerpen/besloten-vennootschap", label: "BV" },
-            { href: "/onderwerpen/zelfstandigen-zonder-personeel", label: "ZZP" }
-          ]
-        },
-        {
-          label: "Toeslagen",
-          href: "/onderwerpen",
-          children: [
-            { href: "/onderwerpen/zorgtoeslag", label: "Zorgtoeslag" },
-            { href: "/onderwerpen/huurtoeslag", label: "Huurtoeslag" },
-            { href: "/onderwerpen/kinderopvangtoeslag", label: "Kinderopvangtoeslag" },
-            { href: "/onderwerpen/kinderbijslag", label: "Kinderbijslag" }
-          ]
-        },
-        {
-          label: "AOW",
-          href: "/onderwerpen",
-          children: [
-            { href: "/onderwerpen/aow-pensioen", label: "AOW pensioen" },
-            { href: "/onderwerpen/inkomen-aow-pensioen", label: "Bijverdiensten AOW pensioen" }
-          ]
-        }
+            { href: "/onderwerpen/ondernemer", label: "Ondernemer/ZZP" }
+        // {
+        //   label: "Belastingaangifte",
+        //   href: "/onderwerpen",
+        //   children: [
+        //     { href: "/onderwerpen/belastingaangifte-laten-doen", label: "Belastingaangifte laten doen" },
+        //     { href: "/onderwerpen/belastingaangifte", label: "Aangifte inkomstenbelasting" },
+        //     { href: "/onderwerpen/m-formulier", label: "M-formulier" },
+        //     { href: "/onderwerpen/aftrekposten-en-kortingen", label: "Aftrekposten en kortingen" },
+        //     { href: "/onderwerpen/erfbelasting", label: "Erfbelasting" }
+        //   ]
+        // },
+        // {
+        //   label: "ZZP en BV",
+        //   href: "/onderwerpen",
+        //   children: [
+        //     { href: "/onderwerpen/besloten-vennootschap", label: "BV" },
+        //     { href: "/onderwerpen/zelfstandigen-zonder-personeel", label: "ZZP" }
+        //   ]
+        // },
+        // {
+        //   label: "Toeslagen",
+        //   href: "/onderwerpen",
+        //   children: [
+        //     { href: "/onderwerpen/zorgtoeslag", label: "Zorgtoeslag" },
+        //     { href: "/onderwerpen/huurtoeslag", label: "Huurtoeslag" },
+        //     { href: "/onderwerpen/kinderopvangtoeslag", label: "Kinderopvangtoeslag" },
+        //     { href: "/onderwerpen/kinderbijslag", label: "Kinderbijslag" }
+        //   ]
+        // },
+        // {
+        //   label: "AOW",
+        //   href: "/onderwerpen",
+        //   children: [
+        //     { href: "/onderwerpen/aow-pensioen", label: "AOW pensioen" },
+        //     { href: "/onderwerpen/inkomen-aow-pensioen", label: "Bijverdiensten AOW pensioen" }
+        //   ]
+        // }
       ]
     },
     { href: "/blog", label: "Blog" },
@@ -92,43 +98,50 @@ const navLinks = {
       href: "/en/topics",
       label: "Topics",
       children: [
-        {
-          label: "Tax Returns",
-          href: "/en/topics",
-          children: [
-            { href: "/en/topics/tax-advisor", label: "Tax return assistance" },
-            { href: "/en/topics/incometax-return", label: "Income tax return" },
-            { href: "/en/topics/m-form", label: "M-form" },
-            { href: "/en/topics/tax-credit", label: "Tax credit and deductions" },
-            { href: "/en/topics/inheritance-tax", label: "Inheritance tax" }
-          ]
-        },
-        {
-          label: "ZZP en BV",
-          href: "/en/topics",
-          children: [
-            { href: "/en/topics/private-limited-company", label: "Private limited company" },
-            { href: "/en/topics/self-employed-professional", label: "Self-employed professional" }
-          ]
-        },
-        {
-          label: "Allowances",
-          href: "/en/topics",
-          children: [
-            { href: "/en/topics/healthcare-allowance", label: "Healthcare allowance" },
-            { href: "/en/topics/housing-allowance", label: "Housing allowance" },
-            { href: "/en/topics/childcare-allowance", label: "Childcare allowance" },
-            { href: "/en/topics/child-benefit", label: "Child benefit" }
-          ]
-        },
-        {
-          label: "AOW",
-          href: "/en/topics",
-          children: [
-            { href: "/en/topics/aow-pension", label: "AOW pension" },
-            { href: "/en/topics/income-aow-pension", label: "Extra income AOW pension" }
-          ]
-        }
+          { href: "/en/topics/tax-advisor", label: "Tax return assistance" },
+          { href: "/en/topics/income-tax-return", label: "Income tax" },
+          { href: "/en/topics/inheritance-tax", label: "Inheritance tax" },
+          { href: "/en/topics/m-form", label: "M-form" },
+          { href: "/en/topics/private-limited-company", label: "Private limited company" },
+          { href: "/en/topics/entrepreneur", label: "Entrepreneur/ZZP" }
+          
+        // {
+        //   label: "Tax Returns",
+        //   href: "/en/topics",
+        //   children: [
+        //     { href: "/en/topics/tax-advisor", label: "Tax return assistance" },
+        //     { href: "/en/topics/incometax-return", label: "Income tax return" },
+        //     { href: "/en/topics/m-form", label: "M-form" },
+        //     { href: "/en/topics/tax-credit", label: "Tax credit and deductions" },
+        //     { href: "/en/topics/inheritance-tax", label: "Inheritance tax" }
+        //   ]
+        // },
+        // {
+        //   label: "ZZP en BV",
+        //   href: "/en/topics",
+        //   children: [
+        //     { href: "/en/topics/private-limited-company", label: "Private limited company" },
+        //     { href: "/en/topics/self-employed-professional", label: "Self-employed professional" }
+        //   ]
+        // },
+        // {
+        //   label: "Allowances",
+        //   href: "/en/topics",
+        //   children: [
+        //     { href: "/en/topics/healthcare-allowance", label: "Healthcare allowance" },
+        //     { href: "/en/topics/housing-allowance", label: "Housing allowance" },
+        //     { href: "/en/topics/childcare-allowance", label: "Childcare allowance" },
+        //     { href: "/en/topics/child-benefit", label: "Child benefit" }
+        //   ]
+        // },
+        // {
+        //   label: "AOW",
+        //   href: "/en/topics",
+        //   children: [
+        //     { href: "/en/topics/aow-pension", label: "AOW pension" },
+        //     { href: "/en/topics/income-aow-pension", label: "Extra income AOW pension" }
+        //   ]
+        // }
       ]
     },
     { href: "/en/blog", label: "Blog" },
