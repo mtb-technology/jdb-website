@@ -23,6 +23,7 @@ export const chatENToDictionaryKey: ChatMapping = {
   'general-questions': 'general-questions',
   'general-old-age-act': 'general-old-age-act',
   'healthcare-allowance': 'healthcare-allowance',
+  'tax': 'tax',
 };
 
 export const chatNLToDictionaryKey: ChatMapping = {
@@ -36,7 +37,7 @@ export const chatNLToDictionaryKey: ChatMapping = {
   'algemene-ouderdomswet': 'general-old-age-act',
   'zorgtoeslag': 'health-care-allowance-chat',
   'assistent-expat': 'expat-assistant',
-  'belastingchat': 'tax-chat',
+  'belasting': 'tax',
 };
 
 export const topicENToDictionaryKey: TopicMapping = {
@@ -156,6 +157,10 @@ export const routes: RouteMapping = {
   "chat": {
     nl: "chat",
     en: "chat"
+  },
+  "tax-chat": {
+    nl: "belastingchat",
+    en: "tax-chat"
   }
 };
 

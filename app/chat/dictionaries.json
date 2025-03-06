@@ -20,7 +20,7 @@
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
-    "health-care-allowance-chat": {
+    "healthcare-allowance": {
       "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | Zorgtoeslag Adviseur",
@@ -40,7 +40,7 @@
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
-    "private-limited-company-assist": {
+    "private-company": {
       "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | BV Adviseur",
@@ -60,7 +60,7 @@
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
-    "entrepreneurs-self-employed": {
+    "entrepreneur": {
       "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | ZZP Adviseur",
@@ -120,7 +120,7 @@
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
-    "child-benefit-assistant": {
+    "child-benefit": {
       "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | Kinderbijslag Adviseur",
@@ -180,7 +180,7 @@
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
-    "tax-chat": {
+    "tax": {
       "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | Belasting Chat",
@@ -222,7 +222,7 @@
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
-    "health-care-allowance-chat": {
+    "healthcare-allowance": {
       "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | Healthcare Allowance Advisor",
@@ -242,7 +242,7 @@
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
-    "private-limited-company-assist": {
+    "private-company": {
       "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | Private Limited Company Advisor",
@@ -262,7 +262,7 @@
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
-    "entrepreneurs-self-employed": {
+    "entrepreneur": {
       "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | Self-Employed Professional Advisor",
@@ -322,7 +322,7 @@
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
-    "child-benefit-assistant": {
+    "child-benefit": {
       "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | Child Benefit Advisor",
@@ -382,7 +382,7 @@
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
-    "tax-chat": {
+    "tax": {
       "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | Tax Chat",
