@@ -401,29 +401,13 @@
             "answer": "Jan de Belastingman biedt expert advies en ondersteuning op verschillende gebieden van BV-beheer, waaronder belastingplanning, compliance met wet- en regelgeving, financiële rapportage, en strategisch advies. Onze AI-gestuurde chatbot kan direct antwoord geven op veel voorkomende vragen, terwijl ons netwerk van ervaren adviseurs beschikbaar is voor meer complexe kwesties. We helpen je om je BV financieel gezond te houden en optimaal gebruik te maken van beschikbare fiscale voordelen."
           }
         ],
-        "blogArticles": [
-          {
-            "title": "5 Fiscale Tips voor BV-Eigenaren in 2023",
-            "link": "#"
-          },
-          {
-            "title": "Hoe de Nieuwe Belastingwetgeving Jouw BV Beïnvloedt",
-            "link": "#"
-          },
-          {
-            "title": "BV vs. Eenmanszaak: Wat Past het Beste bij Jouw Onderneming?",
-            "link": "#"
-          },
-          {
-            "title": "Optimaliseer Je BV-Structuur: Een Stap-voor-Stap Gids",
-            "link": "#"
-          }
-        ]
+        "blogCategory": "business-tax"
       }
     }
   },
   "chats": {
-    "employee": {
+    "income-tax-return": {
+      "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | Your AI Tax Advisor",
         "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",

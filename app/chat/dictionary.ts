@@ -29,6 +29,7 @@ export type ChatDictionary = CommonDictionary & ChatSpecificDictionary;
 export type ChatType = keyof typeof chatDictionaries.nl;
 
 const commonNLDictionary: CommonDictionary = {
+  assistantId: 12,
   disclaimer: "Jan de Belastingman is een AI-assistent die je helpt met belastingvragen.\nDe antwoorden zijn informatief van aard en niet bedoeld als professioneel advies.",
   knownFrom: "Bekend van:",
   footer: {

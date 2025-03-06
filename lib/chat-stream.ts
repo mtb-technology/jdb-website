@@ -78,12 +78,15 @@ export async function* sendMessage({
   message,
   chatSessionId,
   parentMessageId,
+  assistantId,
 }: {
   message: string;
   chatSessionId?: number;
   parentMessageId?: number;
+    assistantId: number;
 }) {
   if (!chatSessionId || !parentMessageId) {
+    console.log("Creating chat session with assistantId", assistantId);
     const createSessionResponse = await fetch(
       `${API_URL}/chat/create-chat-session`,
       {
@@ -93,7 +96,7 @@ export async function* sendMessage({
           Authorization: `Bearer ${API_KEY}`,
         },
         body: JSON.stringify({
-          persona_id: 0,
+          persona_id: assistantId,
         }),
       },
     );

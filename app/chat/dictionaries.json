@@ -124,6 +124,7 @@
   },
   "en": {
     "income-tax-return": {
+      "assistantId": 12,
       "helpQuestion": "How can I help you with your tax return?",
       "inputPlaceholder": "Ask your question about tax returns",
       "commonQuestions": {

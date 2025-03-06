@@ -5,7 +5,7 @@ import { generatePageMetadata } from "@/lib/metadata";
 import { chatENToDictionaryKey, chatNLToDictionaryKey } from "@/lib/routes";
 import { SupportedLocale } from "@/lib/types";
 import { notFound } from "next/navigation";
-import { ChatType, getChatDictionary } from "../dictionary";
+import { ChatType, getChatDictionary } from "../../../chat/dictionary";
 
 type PageParams = Promise<{
   employee: string;
