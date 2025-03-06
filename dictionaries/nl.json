@@ -30,11 +30,7 @@
     },
     "how-it-works": {
       "title": "How does Jan de Belastingman work?",
-      "stepsSection": {
-        "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
-        "buttonSubtext": "Instant answer",
-        "items": [
+      "items": [
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan the Tax Man, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
@@ -55,17 +51,18 @@
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "icon": "user-plus"
-          }
-        ]
-      },
+        }
+      ],
       "buttons": {
         "chat": {
           "text": "Ask your question in chat",
-          "subtext": "Instant answer"
+          "subtext": "Instant answer",
+          "link": "/en/chat/tax-advisor"
         },
         "advisor": {
           "text": "Find an advisor",
-          "subtext": "An expert who understands your situation"
+          "subtext": "An expert who understands your situation",
+          "link": "/en/find-advisor"
         }
       }
     },
@@ -449,6 +446,11 @@
       "support": {
         "title": "Why Choose Our Tax Advisors?",
         "description": "Our network of certified tax advisors provides expert guidance for all your tax matters.",
+        "buttonText": "Ask your question in chat",
+        "buttonSubtext": "Instant answer",
+        "buttonLink": "/en/chat/tax-advisor",
+        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageAlt": "Professional Tax Advisor",
         "items": [
           {
             "title": "Expert Knowledge",
@@ -531,7 +533,12 @@
       },
       "support": {
         "title": "Why File Your Tax Return with Us?",
-        "description": "Get expert help with your Dutch income tax return",
+        "description": "Get expert help with your Dutch income tax return to ensure accuracy and maximize your benefits. Our experienced advisors guide you through the entire process.",
+        "buttonText": "Ask your question in chat",
+        "buttonSubtext": "Instant answer",
+        "buttonLink": "/en/chat/income-tax-return",
+        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageAlt": "Professional Tax Return Service",
         "items": [
           {
             "title": "Maximum Benefits",
@@ -614,7 +621,12 @@
       },
       "support": {
         "title": "Why Explore Tax Credits with Us?",
-        "description": "Get expert guidance on all available tax benefits",
+        "description": "Get expert guidance on all available tax benefits and deductions. Our experienced advisors help you identify and claim every eligible credit to optimize your tax situation.",
+        "buttonText": "Ask your question in chat",
+        "buttonSubtext": "Instant answer",
+        "buttonLink": "/en/chat/tax-credit",
+        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageAlt": "Professional Tax Advisor",
         "items": [
           {
             "title": "Comprehensive Overview",
@@ -696,8 +708,13 @@
         "items": []
       },
       "support": {
-        "title": "Why Choose Us for Inheritance Tax?",
-        "description": "Expert guidance for all inheritance tax matters",
+        "title": "Waarom kiezen voor onze erfbelasting diensten?",
+        "description": "Deskundige begeleiding voor alle erfbelasting zaken",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "buttonLink": "/nl/chat/erfbelasting",
+        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageAlt": "Professionele Belastingadviseur",
         "items": [
           {
             "title": "Expert Knowledge",
@@ -751,7 +768,7 @@
         ]
       }
     },
-    "self-employed-professional": {
+    "entrepreneur": {
       "metadata": {
         "title": "Self-Employed Tax Advice | Jan de Belastingman",
         "description": "Expert tax guidance for self-employed professionals in the Netherlands.",
@@ -781,6 +798,11 @@
       "support": {
         "title": "Why Choose Us for Self-Employed Tax Matters?",
         "description": "Expert guidance for all self-employed tax obligations",
+        "buttonText": "Ask your question in chat",
+        "buttonSubtext": "Instant answer",
+        "buttonLink": "/en/chat/entrepreneurs-self-employed",
+        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageAlt": "Professional Tax Advisor",
         "items": [
           {
             "title": "Business Expertise",
@@ -864,6 +886,11 @@
       "support": {
         "title": "Why Choose Us for Healthcare Allowance?",
         "description": "Expert guidance for healthcare allowance matters",
+        "buttonText": "Ask your question in chat",
+        "buttonSubtext": "Instant answer",
+        "buttonLink": "/en/chat/health-care-allowance-chat",
+        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageAlt": "Professional Tax Advisor",
         "items": [
           {
             "title": "Eligibility Check",
@@ -971,7 +998,7 @@
         "description": "The rent benefit (huurtoeslag) is a subsidy provided by the government to help with your rent expenses. Originally aimed at households with moderate incomes, it predominantly benefits those on the lower income spectrum.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/general-questions",
+        "buttonLink": "/en/chat/housing-allowance-assist",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
@@ -1077,7 +1104,7 @@
         "description": "Childcare allowance (kinderopvangtoeslag) helps parents with the costs of childcare while they work or study. The amount depends on your income, the number of children, and the type of childcare used. Our experts can help you understand your entitlements and guide you through the application process.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/general-questions",
+        "buttonLink": "/en/chat/childcare-allowance-assist",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
@@ -1183,7 +1210,7 @@
         "description": "Child benefit (kinderbijslag) is a quarterly payment from the government to help with the costs of raising children under 18. The amount depends on your child's age and living situation. Our experts can help you understand your entitlements and guide you through the application process.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/general-questions",
+        "buttonLink": "/en/chat/child-benefit-assist",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
@@ -1235,7 +1262,7 @@
         "blogCategory": "business-tax"
       }
     },
-    "aow-pension": {
+    "general-old-age-act": {
       "metadata": {
         "title": "AOW State Pension | Jan de Belastingman",
         "description": "Expert guidance on Dutch state pension (AOW). Learn about eligibility, payments, and tax implications.",
@@ -1289,7 +1316,7 @@
         "description": "The AOW (Algemene Ouderdomswet) is the Dutch state pension, providing basic income security for everyone who has lived or worked in the Netherlands. Understanding your rights, the tax implications, and how to maximize your benefits is essential for a comfortable retirement.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/general-questions",
+        "buttonLink": "/en/chat/aow-pension-assist",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
@@ -1341,7 +1368,7 @@
         "blogCategory": "business-tax"
       }
     },
-    "income-aow-pension": {
+    "income-general-old-age-act": {
       "metadata": {
         "title": "Income During AOW Pension | Jan de Belastingman",
         "description": "Expert guidance on earning income while receiving AOW pension. Learn about tax implications and regulations.",
@@ -1395,7 +1422,7 @@
         "description": "Many people continue working or earn additional income while receiving AOW pension. This can affect your tax situation and potentially your benefits. Understanding these implications is essential for making informed financial decisions.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/general-questions",
+        "buttonLink": "/en/chat/income-aow-pension-assist",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
@@ -1446,6 +1473,31 @@
         ],
         "blogCategory": "business-tax"
       }
+    }
+  },
+  "support": {
+    "inheritance-tax": {
+      "title": "Why Choose Us for Inheritance Tax Matters?",
+      "description": "Navigate the complexities of Dutch inheritance tax with our expert guidance. We help you understand your obligations, available exemptions, and ensure proper tax declaration.",
+      "buttonText": "Ask your question in chat",
+      "buttonSubtext": "Instant answer",
+      "buttonLink": "/en/chat/inheritance-tax",
+      "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+      "imageAlt": "Professional Tax Advisor",
+      "items": [
+        {
+          "title": "Expert Guidance",
+          "description": "Get clear explanations about inheritance tax rates, exemptions, and filing requirements"
+        },
+        {
+          "title": "Timely Support",
+          "description": "Receive assistance with meeting deadlines and proper documentation"
+        },
+        {
+          "title": "Maximum Benefits",
+          "description": "Learn about available exemptions and strategies to minimize tax burden legally"
+        }
+      ]
     }
   },
   "footer": {

@@ -1,5 +1,6 @@
 import TopicPage from "@/app/onderwerpen/[topic]/page";
 import { generatePageMetadata } from "@/lib/metadata";
+import { topicENToDictionaryKey } from "@/lib/routes";
 import { SupportedLocale } from "@/lib/types";
 import { Metadata } from "next";
 
@@ -23,6 +24,22 @@ export const generateMetadata = async ({
     params: { ...resolvedParams, locale: "en" },
   });
 };
+
+export async function generateStaticParams() {
+  // Get all unique chat routes for both languages
+  const enRoutes = Object.keys(topicENToDictionaryKey);
+
+  // Generate params for EN routes
+  const params = [
+    // EN routes need locale in the URL
+    ...enRoutes.map((topic) => ({
+      topic,
+      locale: "en",
+    })),
+  ];
+
+  return params;
+}
 
 export default async function LocalizedPage({
   params,

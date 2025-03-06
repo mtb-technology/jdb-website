@@ -10,26 +10,23 @@ import { getDictionary } from "../dictionaries";
 
 interface HowItWorksDict {
   title: string;
-  stepsSection: {
-    buttonText: string;
-    buttonLink: string;
-    buttonSubtext: string;
-    items: Array<{
-      title: string;
-      description: string;
-      image: string;
-      alt: string;
-      icon: string;
-    }>;
-  };
+  items: Array<{
+    title: string;
+    description: string;
+    image: string;
+    alt: string;
+    icon: string;
+  }>;
   buttons: {
     chat: {
       text: string;
       subtext: string;
+      link: string;
     };
     advisor: {
       text: string;
       subtext: string;
+      link: string;
     };
   };
 }
@@ -57,7 +54,12 @@ export default async function HowItWorksPage({ params }: HowItWorksPageProps) {
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-5xl mx-auto px-6 py-12">
           {/* Steps Section */}
-          <StepsSection {...howItWorks} locale={locale} />
+          <StepsSection
+            title={howItWorks.title}
+            items={howItWorks.items}
+            buttons={howItWorks.buttons}
+            locale={locale}
+          />
         </div>
       </div>
       <Footer dict={dict} />
@@ -65,17 +67,12 @@ export default async function HowItWorksPage({ params }: HowItWorksPageProps) {
   );
 }
 
-function StepsSection({
-  title,
-  stepsSection,
-  buttons,
-  locale,
-}: StepsSectionProps) {
+function StepsSection({ title, items, buttons, locale }: StepsSectionProps) {
   return (
     <div className="max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-3 mt-0 text-center">{title}</h1>
       <div className="space-y-8">
-        {stepsSection.items.map((step, index) => (
+        {items.map((step, index) => (
           <div
             key={index}
             className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl"
@@ -127,9 +124,7 @@ function StepsSection({
             asChild
             className="w-full bg-primary text-white hover:bg-[#2341C7] transition-colors duration-300 py-3 sm:py-4"
           >
-            <Link href={locale === "nl" ? "/" : "/en/"}>
-              {buttons.chat.text}
-            </Link>
+            <Link href={buttons.chat.link}>{buttons.chat.text}</Link>
           </Button>
           <p className="text-sm text-gray-500 mt-2">{buttons.chat.subtext}</p>
         </div>
@@ -139,11 +134,7 @@ function StepsSection({
             variant="outline"
             className="w-full border-primary text-primary hover:bg-[#EEF2FF] transition-colors duration-300 py-3 sm:py-4"
           >
-            <Link
-              href={locale === "nl" ? "/vind-een-adviseur" : "/en/find-advisor"}
-            >
-              {buttons.advisor.text}
-            </Link>
+            <Link href={buttons.advisor.link}>{buttons.advisor.text}</Link>
           </Button>
           <p className="text-sm text-gray-500 mt-2">
             {buttons.advisor.subtext}

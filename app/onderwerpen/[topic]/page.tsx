@@ -21,29 +21,22 @@ interface TopicPageProps {
 export async function generateStaticParams() {
   // Get all unique chat routes for both languages
   const nlRoutes = Object.keys(topicNLToDictionaryKey);
-  const enRoutes = Object.keys(topicENToDictionaryKey);
 
-  // Generate params for both NL and EN routes
+  // Generate params for EN routes
   const params = [
-    // NL routes don't need locale in the URL
+    // EN routes need locale in the URL
     ...nlRoutes.map((topic) => ({
       topic,
       locale: "nl",
-    })),
-    // EN routes need locale in the URL
-    ...enRoutes.map((topic) => ({
-      topic,
-      locale: "en",
     })),
   ];
 
   return params;
 }
-
 export const generateMetadata = generatePageMetadata;
 
 export default async function TopicPage({ params }: TopicPageProps) {
-  const { topic, locale = "nl" } = params;
+  const { topic, locale = "nl" } = await params;
   const dict = await getDictionary(locale as SupportedLocale);
   let dictionaryKey: string;
 
@@ -55,7 +48,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
   }
 
   // If we don't have a mapping for this topic, show 404
-  if (!dictionaryKey || !(dictionaryKey in dict.topics)) {
+  if (!dictionaryKey || !Object.hasOwn(dict.topics, dictionaryKey)) {
     console.log("No dictionary key found for topic:", topic, dictionaryKey);
     notFound();
   }
@@ -71,7 +64,6 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
   const { hero, partners, support, stepsSection, faq } = topicContent;
 
-  console.log("topicContent", topicContent);
   return (
     <main className="relative flex-1 flex flex-col pt-20">
       <Header dict={dict} />
