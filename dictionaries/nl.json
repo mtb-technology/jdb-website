@@ -111,7 +111,7 @@
             "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur..."
           }
         },
-        "privacyConsent": "Ik ga akkoord met de <a href=\"/privacy\" class=\"text-[#2B4EE6] hover:underline\">privacyvoorwaarden</a> en geef toestemming om contact met mij op te nemen.",
+        "privacyConsent": "Ik ga akkoord met de <a href=\"/privacy\" class=\"text-primary hover:underline\">privacyvoorwaarden</a> en geef toestemming om contact met mij op te nemen.",
         "submitButton": "Verstuur aanvraag"
       },
       "success": {

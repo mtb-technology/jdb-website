@@ -86,10 +86,7 @@ interface PageContent {
       question: string;
       answer: string;
     }>;
-    blogArticles: Array<{
-      title: string;
-      link: string;
-    }>;
+    blogCategory: string;
     buttonText: string;
     buttonLink: string;
   };
@@ -130,9 +127,6 @@ export default async function TopicPage({ params }: TopicPageProps) {
   } else {
     dictionaryKey = topicENToDictionaryKey[topic];
   }
-
-  console.log("dictionaryKey", dictionaryKey);
-  console.log("dict", dict.topics[dictionaryKey]);
 
   // If we don't have a mapping for this topic, show 404
   if (!dictionaryKey || !(dictionaryKey in dict.topics)) {
@@ -182,8 +176,8 @@ export default async function TopicPage({ params }: TopicPageProps) {
             title={faq.title}
             faqTitle={faq.faqTitle}
             blogTitle={faq.blogTitle}
+            blogCategory={faq.blogCategory}
             faqItems={faq.faqItems}
-            blogArticles={faq.blogArticles}
             buttonText={faq.buttonText}
             buttonLink={faq.buttonLink}
           />

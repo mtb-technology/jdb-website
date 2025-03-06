@@ -117,7 +117,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
       <section className="bg-gray-50 rounded-2xl p-10">
         <div className="flex flex-col md:flex-row gap-10 items-center">
           <div className="md:w-1/2">
-            <h2 className="text-3xl font-bold mb-4 text-[#2B4EE6]">
+            <h2 className="text-3xl font-bold mb-4 text-primary">
               {dict.story.title}
             </h2>
             {dict.story.paragraphs.map((paragraph: string, index: number) => (
@@ -152,7 +152,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
               key={index}
               className="text-center bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow"
             >
-              <div className="relative w-32 h-32 rounded-full overflow-hidden mb-4 mx-auto border-4 border-[#2B4EE6]/10">
+              <div className="relative w-32 h-32 rounded-full overflow-hidden mb-4 mx-auto border-4 border-primary/10">
                 <Image
                   src={`/placeholder.svg?height=300&width=300`}
                   alt={member.name}
@@ -170,7 +170,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
       </section>
 
       {/* Company Evolution Section */}
-      <section className="bg-[#2B4EE6] text-white rounded-2xl p-10">
+      <section className="bg-primary text-white rounded-2xl p-10">
         <h2 className="text-3xl font-bold mb-8 text-center">
           {dict.journey.title}
         </h2>
@@ -203,7 +203,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {dict.partners.types.map((type: any, index: number) => (
             <div key={index} className="bg-white p-6 rounded-xl shadow-md">
-              <h3 className="text-xl font-bold mb-2 text-[#2B4EE6]">
+              <h3 className="text-xl font-bold mb-2 text-primary">
                 {type.title}
               </h3>
               <p className="text-gray-600">{type.description}</p>
@@ -216,7 +216,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
       <section>
         <div className="grid md:grid-cols-2 gap-10">
           <div className="bg-gray-50 p-8 rounded-xl">
-            <h2 className="text-3xl font-bold mb-4 text-[#2B4EE6]">
+            <h2 className="text-3xl font-bold mb-4 text-primary">
               {dict.mission.title}
             </h2>
             <p className="text-gray-700 mb-6">{dict.mission.description}</p>
@@ -227,7 +227,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
             </ul>
           </div>
           <div className="bg-gray-50 p-8 rounded-xl">
-            <h2 className="text-3xl font-bold mb-4 text-[#2B4EE6]">
+            <h2 className="text-3xl font-bold mb-4 text-primary">
               {dict.vision.title}
             </h2>
             <p className="text-gray-700 mb-6">{dict.vision.description}</p>
@@ -247,12 +247,12 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
           {dict.cta.description}
         </p>
         <div className="flex justify-center gap-4">
-          <Button className="bg-[#2B4EE6] text-white hover:bg-[#2341C7] transition-colors duration-300">
+          <Button className="bg-primary text-white hover:bg-[#2341C7] transition-colors duration-300">
             {dict.cta.buttons.chat}
           </Button>
           <Button
             variant="outline"
-            className="border-[#2B4EE6] text-[#2B4EE6] hover:bg-[#2B4EE6] hover:text-white transition-colors duration-300"
+            className="border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300"
           >
             {dict.cta.buttons.howItWorks}
           </Button>

@@ -71,13 +71,13 @@ function StepsSection({ title, steps, buttons, locale }: HowItWorksDict) {
               <div className="flex items-center mb-4 sm:mb-0">
                 <div className="mr-4 sm:mr-6 flex-shrink-0">
                   {step.icon === "message-circle" && (
-                    <MessageCircle className="w-8 h-8 sm:w-10 sm:h-10 text-[#2B4EE6]" />
+                    <MessageCircle className="w-8 h-8 sm:w-10 sm:h-10 text-primary" />
                   )}
                   {step.icon === "users" && (
-                    <Users className="w-8 h-8 sm:w-10 sm:h-10 text-[#2B4EE6]" />
+                    <Users className="w-8 h-8 sm:w-10 sm:h-10 text-primary" />
                   )}
                   {step.icon === "user-plus" && (
-                    <UserPlus className="w-8 h-8 sm:w-10 sm:h-10 text-[#2B4EE6]" />
+                    <UserPlus className="w-8 h-8 sm:w-10 sm:h-10 text-primary" />
                   )}
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold sm:hidden">
@@ -110,7 +110,7 @@ function StepsSection({ title, steps, buttons, locale }: HowItWorksDict) {
 
       <div className="mt-12 sm:mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
         <div className="text-center">
-          <Button className="w-full bg-[#2B4EE6] text-white hover:bg-[#2341C7] transition-colors duration-300 py-3 sm:py-4">
+          <Button className="w-full bg-primary text-white hover:bg-[#2341C7] transition-colors duration-300 py-3 sm:py-4">
             {buttons.chat.text}
           </Button>
           <p className="text-sm text-gray-500 mt-2">{buttons.chat.subtext}</p>
@@ -119,7 +119,7 @@ function StepsSection({ title, steps, buttons, locale }: HowItWorksDict) {
           <Button
             asChild
             variant="outline"
-            className="w-full border-[#2B4EE6] text-[#2B4EE6] hover:bg-[#EEF2FF] transition-colors duration-300 py-3 sm:py-4"
+            className="w-full border-primary text-primary hover:bg-[#EEF2FF] transition-colors duration-300 py-3 sm:py-4"
           >
             <Link
               href={locale === "nl" ? "/vind-een-adviseur" : "/en/find-advisor"}

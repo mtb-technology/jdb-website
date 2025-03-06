@@ -51,7 +51,7 @@ export default async function BlogPostPage({
       <Header />
       <div className="relative flex-1 overflow-y-auto">
         {/* Blue background with wave */}
-        <div className="absolute top-0 left-0 right-0 h-[500px] bg-[#2B4EE6] -z-10">
+        <div className="absolute top-0 left-0 right-0 h-[500px] bg-primary -z-10">
           <div className="absolute bottom-0 left-0 right-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@ export default async function BlogPostPage({
           {/* Post Header */}
           <div className="max-w-4xl mx-auto px-6 mb-8">
             <div className="inline-block mb-4">
-              <span className="bg-[#2B4EE6] text-white text-sm font-medium px-3 py-1 rounded-full">
+              <span className="bg-primary text-white text-sm font-medium px-3 py-1 rounded-full">
                 {currentPost.category.name}
               </span>
             </div>
@@ -161,13 +161,13 @@ export default async function BlogPostPage({
                           className="object-cover hover:scale-105 transition-transform duration-300"
                         />
                         <div className="absolute top-4 left-4">
-                          <span className="bg-[#2B4EE6] text-white text-xs font-medium px-3 py-1 rounded-full">
+                          <span className="bg-primary text-white text-xs font-medium px-3 py-1 rounded-full">
                             {post.category}
                           </span>
                         </div>
                       </div>
                       <div className="p-4 flex-1 flex flex-col">
-                        <h3 className="text-lg font-bold mb-2 hover:text-[#2B4EE6] transition-colors">
+                        <h3 className="text-lg font-bold mb-2 hover:text-primary transition-colors">
                           {post.title}
                         </h3>
                         <time className="text-sm text-gray-500 mt-auto">
@@ -199,10 +199,10 @@ export default async function BlogPostPage({
                 <input
                   type="email"
                   placeholder="Je e-mailadres"
-                  className="flex-1 px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#2B4EE6]"
+                  className="flex-1 px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
                   required
                 />
-                <Button className="bg-[#2B4EE6] text-white hover:bg-[#2341C7] whitespace-nowrap">
+                <Button className="bg-primary text-white hover:bg-[#2341C7] whitespace-nowrap">
                   Aanmelden
                 </Button>
               </form>

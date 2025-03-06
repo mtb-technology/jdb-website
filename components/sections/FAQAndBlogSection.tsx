@@ -36,7 +36,7 @@ async function RecentBlogPosts({ category }: { category: string }) {
         >
           <Link
             href={`/blog/${post.slug}`}
-            className="text-[#2B4EE6] hover:underline block"
+            className="text-primary hover:underline block"
           >
             {post.title}
           </Link>
@@ -60,7 +60,7 @@ export default function FAQAndBlogSection({
       <h2 className="text-3xl font-bold text-center mb-12">{title}</h2>
       <div className="grid md:grid-cols-2 gap-8">
         <div className="bg-white rounded-lg shadow-md p-8">
-          <h3 className="text-2xl font-semibold mb-6 text-[#2B4EE6]">
+          <h3 className="text-2xl font-semibold mb-6 text-primary">
             {faqTitle}
           </h3>
           <Accordion type="single" collapsible className="w-full space-y-4">
@@ -81,7 +81,7 @@ export default function FAQAndBlogSection({
           </Accordion>
         </div>
         <div className="bg-[#EEF2FF] rounded-lg shadow-md p-8">
-          <h3 className="text-2xl font-semibold mb-6 text-[#2B4EE6]">
+          <h3 className="text-2xl font-semibold mb-6 text-primary">
             {blogTitle}
           </h3>
           <Suspense
@@ -99,7 +99,7 @@ export default function FAQAndBlogSection({
             <Button
               asChild
               variant="outline"
-              className="text-sm bg-white hover:bg-gray-50 text-[#2B4EE6]"
+              className="text-sm bg-white hover:bg-gray-50 text-primary"
             >
               <Link href={buttonLink}>{buttonText}</Link>
             </Button>
