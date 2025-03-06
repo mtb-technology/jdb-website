@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 import { generatePageMetadata } from "@/lib/metadata";
 import { chatENToDictionaryKey, chatNLToDictionaryKey } from "@/lib/routes";
 import { SupportedLocale } from "@/lib/types";
-import { notFound } from "next/navigation";
 import { ChatType, getChatDictionary } from "../dictionary";
 
 type PageParams = Promise<{
@@ -55,15 +54,21 @@ export default async function Home({ params }: HomePageProps) {
       : chatENToDictionaryKey[employee];
 
   if (!dictionaryKey) {
-    notFound();
+    //notFound();
+    return <>Not found</>;
   }
 
   const chatDict = getChatDictionary(locale, dictionaryKey as ChatType);
   const dict = await getDictionary(locale);
 
+  if (!chatDict) {
+    //notFound();
+    return <>Not found</>;
+  }
+
   return (
     <main className="relative flex-1 flex flex-col">
-      <Header />
+      <Header dict={dict} />
       <div className="flex-1 flex items-center justify-center">
         <ChatWindow dict={chatDict} />
       </div>

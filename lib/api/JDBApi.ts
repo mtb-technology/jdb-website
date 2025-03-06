@@ -94,7 +94,6 @@ export class JDBApi {
 
   private async fetchApi<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
     try {
-      console.log(`${this.baseUrl}${endpoint}`);
       const response = await fetch(`${this.baseUrl}${endpoint}`, {
         ...options,
         headers: {
@@ -129,7 +128,6 @@ export class JDBApi {
     const queryString = searchParams.toString();
     const endpoint = `/blog/posts${queryString ? `?${queryString}` : ''}`;
 
-    console.log("endpoint", endpoint);
     return this.fetchApi<BlogPostsResponse>(endpoint);
   }
 

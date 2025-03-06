@@ -94,8 +94,8 @@ export async function generatePageMetadata({
     ogTitle: dict.metadata.ogTitle,
     ogDescription: dict.metadata.ogDescription,
     ogImageAlt: dict.metadata.ogImageAlt,
-    twitterTitle: dict.metadata.twitterTitle,
-    twitterDescription: dict.metadata.twitterDescription,
+    twitterTitle: dict.metadata.twitterTitle || dict.metadata.ogTitle,
+    twitterDescription: dict.metadata.twitterDescription || dict.metadata.ogDescription,
   };
 
   // Get page-specific metadata from the correct location in the dictionary
@@ -171,8 +171,8 @@ export async function generatePageMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: pageMetadata.ogTitle,
-      description: pageMetadata.ogDescription,
+      title: baseMetadata.twitterTitle,
+      description: baseMetadata.twitterDescription,
       images: [absoluteOgImageUrl],
       creator: "@jandebelastingman",
     },

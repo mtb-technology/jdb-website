@@ -65,18 +65,6 @@ export interface FooterLinks {
   terms: string;
 }
 
-export interface Dictionary {
-  metadata: MetadataTranslations;
-  helpQuestion: string;
-  inputPlaceholder: string;
-  commonQuestions: CommonQuestions;
-  disclaimer: string;
-  knownFrom: string;
-  footer: {
-    links: FooterLinks;
-    copyright: string;
-  };
-}
 
 export interface AdvisorFinderDict {
   title: string;

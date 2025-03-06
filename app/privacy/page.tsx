@@ -31,7 +31,7 @@ export default async function PrivacyPage({ params, searchParams }: PageProps) {
 
   return (
     <main className="flex-1 flex flex-col relative">
-      <Header />
+      <Header dict={dict} />
       <article className="max-w-4xl prose text-gray-500 mx-auto">
         <h2>Privacy Policy</h2>
         <p>

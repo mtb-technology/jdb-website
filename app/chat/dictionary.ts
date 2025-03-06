@@ -15,12 +15,12 @@ interface ChatSpecificDictionary {
 
 export type ChatType = keyof typeof chatDictionaries.nl;
 
-export function getChatDictionary(locale: SupportedLocale, chatType: ChatType): ChatSpecificDictionary {
+export function getChatDictionary(locale: SupportedLocale, chatType: ChatType): ChatSpecificDictionary | false {
   const chatDict = chatDictionaries[locale][chatType] as ChatSpecificDictionary;
 
   if (!chatDict) {
     console.warn(`Warning: No dictionary found for chat type: ${chatType}`);
-    return {} as ChatSpecificDictionary;
+    return false;
   }
 
   return chatDict;

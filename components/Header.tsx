@@ -1,5 +1,6 @@
 "use client"
 
+import { Dictionary } from "@/app/dictionaries/types";
 import { Button } from "@/components/ui/button";
 import { getCurrentLocale } from "@/lib/routes";
 import { Star } from "lucide-react";
@@ -8,7 +9,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
-export default function Header() {
+interface HeaderProps {
+  dict: Dictionary;
+}
+
+export default function Header({ dict }: HeaderProps) {
   const pathname = usePathname();
   const locale = getCurrentLocale(pathname);
 
@@ -28,9 +33,15 @@ export default function Header() {
           {[...Array(4)].map((_, i) => (
             <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
           ))}
-          <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" strokeWidth={0} fill="url(#half)" />
+          <Star
+            className="w-5 h-5 fill-yellow-400 text-yellow-400"
+            strokeWidth={0}
+            fill="url(#half)"
+          />
           <span className="ml-2 text-gray-600">
-            {locale === "nl" ? "4.8/5, 101 geverifieerde reviews" : "4.8/5, 101 verified reviews"}
+            {locale === "nl"
+              ? "4.8/5, 101 geverifieerde reviews"
+              : "4.8/5, 101 verified reviews"}
           </span>
         </div>
         <LanguageSwitcher />
@@ -65,5 +76,5 @@ export default function Header() {
         </defs>
       </svg>
     </header>
-  )
+  );
 } 

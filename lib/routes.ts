@@ -33,8 +33,10 @@ export const chatNLToDictionaryKey: ChatMapping = {
   'belastingaangifte-checklist': 'tax-return-checklist',
   'kindertoeslag': 'child-benefit',
   'algemene-vragen': 'general-questions',
-  'aow': 'general-old-age-act',
-  'zorgtoeslag': 'healthcare-allowance',
+  'algemene-ouderdomswet': 'general-old-age-act',
+  'zorgtoeslag': 'health-care-allowance-chat',
+  'assistent-expat': 'expat-assistant',
+  'belastingchat': 'tax-chat',
 };
 
 export const topicENToDictionaryKey: TopicMapping = {
@@ -180,8 +182,6 @@ export function getLocalizedPath(path: string, locale: string): string {
     const routeKey = Object.entries(routes).find(([, values]) =>
       values.nl === segment || values.en === segment
     );
-
-    console.log("routeKey", routeKey, Object.entries(routes), segment);
 
     if (routeKey) {
       return routeKey[1][locale as keyof typeof routeKey[1]];
