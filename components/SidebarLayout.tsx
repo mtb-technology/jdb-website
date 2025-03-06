@@ -20,14 +20,20 @@ interface NavLink {
 
 const features = {
   nl: [
-    "Gratis en onafhankelijk advies via chat",
-    "Gebouwd op de nieuwste generatie AI",
-    "Direct gekoppeld aan actuele belastingdata",
+    "Belastingadvies, direct via chat",
+    "Netwerk van betrouwbare experts",
+    "AI-gedreven met actuele belastingdata",
+    // "Gratis en onafhankelijk advies via chat",
+    // "Gebouwd op de nieuwste generatie AI",
+    // "Direct gekoppeld aan actuele belastingdata",
   ],
   en: [
-    "Free and independent advice via chat",
-    "Built on the latest generation AI",
-    "Directly linked to current tax data",
+    "Tax advice, directly via chat",
+    "Trusted expert network",
+    "AI-driven with real-time tax data",
+    // "Free and independent advice via chat",
+    // "Built on the latest generation AI",
+    // "Directly linked to current tax data",
   ]
 };
 
