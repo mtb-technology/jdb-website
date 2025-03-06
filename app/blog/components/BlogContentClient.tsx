@@ -8,7 +8,8 @@ import { SupportedLocale } from "@/lib/types";
 import { Loader2 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useCallback, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { useCallback, useEffect, useState } from "react";
 
 interface BlogContentClientProps {
   initialPosts: BlogPostsResponse;
@@ -25,6 +26,18 @@ interface BlogContentClientProps {
   activeCategory?: string;
 }
 
+function PostSkeleton() {
+  return (
+    <div className="bg-white rounded-xl overflow-hidden shadow-md animate-pulse">
+      <div className="relative h-48 bg-gray-200" />
+      <div className="p-6">
+        <div className="h-6 bg-gray-200 rounded w-3/4 mb-3" />
+        <div className="h-4 bg-gray-200 rounded w-1/2" />
+      </div>
+    </div>
+  );
+}
+
 export function BlogContentClient({
   initialPosts,
   categories,
@@ -36,8 +49,33 @@ export function BlogContentClient({
   const [currentPage, setCurrentPage] = useState(
     initialPosts.meta.current_page
   );
-  const [totalPages] = useState(initialPosts.meta.last_page);
+  const [totalPages, setTotalPages] = useState(initialPosts.meta.last_page);
   const [isLoading, setIsLoading] = useState(false);
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const fetchPosts = async () => {
+      setIsLoading(true);
+      setPosts([]); // Clear posts while loading
+      try {
+        const response = await jdbApi.getBlogPosts({
+          page: 1,
+          category: activeCategory,
+          locale,
+        });
+        setPosts(response.posts);
+        setCurrentPage(1);
+        setTotalPages(response.meta.last_page);
+      } catch (error) {
+        console.error("Error fetching posts:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    // Fetch posts whenever the URL search params change
+    fetchPosts();
+  }, [activeCategory, locale]);
 
   const loadMorePosts = useCallback(async () => {
     if (isLoading || currentPage >= totalPages) return;
@@ -90,8 +128,8 @@ export function BlogContentClient({
         </header>
 
         {/* Category Filters */}
-        <section className="max-w-6xl mx-auto px-6 mb-12">
-          <div className="flex flex-wrap gap-3 justify-center">
+        <section className="max-w-6xl mx-auto px-6 mb-12 overflow-x-auto">
+          <div className="flex flex-nowrap flex-wrap gap-3 justify-center   min-w-0 pb-4 md:pb-0">
             {categories.map((category, index) => (
               <Link
                 key={index + "-" + category.slug[locale]}
@@ -100,14 +138,16 @@ export function BlogContentClient({
                     ? `?category=${category.slug[locale]}`
                     : ""
                 }`}
-                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors 
+                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors whitespace-nowrap
                   ${
                     category.slug[locale] === activeCategory
                       ? "bg-primary text-white"
                       : "bg-white border border-gray-200 text-gray-700 hover:bg-gray-50"
                   }`}
               >
-                {category.name[locale]}
+                {index === 0
+                  ? dict.pages.blog.allCategories
+                  : category.name[locale]}
               </Link>
             ))}
           </div>
@@ -115,47 +155,63 @@ export function BlogContentClient({
 
         {/* Blog Posts Grid */}
         <section className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {posts.map((post) => (
-              <Link href={`/blog/${post.slug}`} key={post.id} className="group">
-                <article className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-                  <div className="relative h-48 overflow-hidden">
-                    <Image
-                      src={post.image.thumbnail || "/placeholder.svg"}
-                      alt={post.title}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                    <div className="absolute top-4 left-4">
-                      <span className="bg-primary text-white text-xs font-medium px-3 py-1 rounded-full">
-                        {post.category.name}
-                      </span>
+          {isLoading ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[...Array(6)].map((_, index) => (
+                <PostSkeleton key={index} />
+              ))}
+            </div>
+          ) : posts.length > 0 ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {posts.map((post) => (
+                <Link
+                  href={`/blog/${post.slug}`}
+                  key={post.id}
+                  className="group"
+                >
+                  <article className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow h-full flex flex-col">
+                    <div className="relative h-48 overflow-hidden">
+                      <Image
+                        src={post.image.thumbnail || "/placeholder.svg"}
+                        alt={post.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <div className="absolute top-4 left-4">
+                        <span className="bg-primary text-white text-xs font-medium px-3 py-1 rounded-full">
+                          {post.category.name}
+                        </span>
+                      </div>
                     </div>
-                  </div>
-                  <div className="p-6">
-                    <h2 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
-                      {post.title}
-                    </h2>
-                    <time className="text-sm text-gray-500">
-                      {new Date(post.published_at).toLocaleDateString(
-                        locale === "nl" ? "nl-NL" : "en-US",
-                        {
-                          weekday: "long",
-                          day: "numeric",
-                          month: "long",
-                          year: "numeric",
-                        }
-                      )}
-                    </time>
-                  </div>
-                </article>
-              </Link>
-            ))}
-          </div>
+                    <div className="p-6 flex-1 flex flex-col">
+                      <h2 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
+                        {post.title}
+                      </h2>
+                      <time className="text-sm text-gray-500 mt-auto">
+                        {new Date(post.published_at).toLocaleDateString(
+                          locale === "nl" ? "nl-NL" : "en-US",
+                          {
+                            weekday: "long",
+                            day: "numeric",
+                            month: "long",
+                            year: "numeric",
+                          }
+                        )}
+                      </time>
+                    </div>
+                  </article>
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-12">
+              <p className="text-gray-500">{dict.pages.blog.noPosts}</p>
+            </div>
+          )}
         </section>
 
         {/* Load More Button */}
-        {currentPage < totalPages && (
+        {!isLoading && currentPage < totalPages && (
           <section className="max-w-6xl mx-auto px-6 mt-12 text-center">
             <Button
               onClick={loadMorePosts}

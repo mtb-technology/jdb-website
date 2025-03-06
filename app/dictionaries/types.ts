@@ -1,5 +1,3 @@
-
-
 export interface Dictionary {
   metadata: {
     title: string;
@@ -104,6 +102,8 @@ export interface Dictionary {
       description: string;
       loading: string;
       loadMore: string;
+      noPosts: string;
+      allCategories: string;
       newsletter: {
         title: string;
         description: string;

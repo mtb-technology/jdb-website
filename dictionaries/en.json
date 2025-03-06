@@ -175,10 +175,12 @@
       }
     },
     "blog": {
-      "title": "Nieuwsberichten",
-      "description": "Vind hier alle berichten omtrent belastingnieuws. Daarnaast geeft Jan de Belastingman updates over tips & tricks die jou helpen belasting te besparen.",
-      "allCategories": "Alle",
-      "loadMore": "Meer artikelen laden",
+      "title": "Blog",
+      "description": "Discover the latest insights and tips about taxes",
+      "loading": "Loading...",
+      "loadMore": "Load more articles",
+      "noPosts": "No articles found in this category",
+      "allCategories": "All",
       "newsletter": {
         "title": "Blijf op de hoogte",
         "description": "Ontvang de nieuwste belastingtips en updates direct in je inbox.",

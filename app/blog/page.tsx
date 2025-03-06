@@ -58,6 +58,7 @@ async function InitialBlogData({
   locale: SupportedLocale;
   dict: Dictionary;
 }) {
+  console.log("InitialBlogData", searchParams, locale, dict);
   // Fetch initial data
   const [categoriesResponse, postsResponse] = await Promise.all([
     jdbApi.getBlogCategories(locale),
