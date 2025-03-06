@@ -148,8 +148,6 @@ export function getLocalizedPath(path: string, locale: string): string {
       values.nl === segment || values.en === segment
     );
 
-    console.log("routeKey", routeKey, Object.entries(routes), segment);
-
     if (routeKey) {
       return routeKey[1][locale as keyof typeof routeKey[1]];
     }

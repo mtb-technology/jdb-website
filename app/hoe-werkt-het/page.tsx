@@ -9,15 +9,19 @@ import Link from "next/link";
 import { getDictionary } from "../dictionaries";
 
 interface HowItWorksDict {
-  locale: SupportedLocale;
   title: string;
-  steps: {
-    title: string;
-    description: string;
-    image: string;
-    alt: string;
-    icon: string;
-  }[];
+  stepsSection: {
+    buttonText: string;
+    buttonLink: string;
+    buttonSubtext: string;
+    items: Array<{
+      title: string;
+      description: string;
+      image: string;
+      alt: string;
+      icon: string;
+    }>;
+  };
   buttons: {
     chat: {
       text: string;
@@ -36,12 +40,16 @@ interface HowItWorksPageProps {
   };
 }
 
+interface StepsSectionProps extends HowItWorksDict {
+  locale: SupportedLocale;
+}
+
 export const generateMetadata = generatePageMetadata;
 
 export default async function HowItWorksPage({ params }: HowItWorksPageProps) {
-  const locale = params.locale || "nl";
+  const { locale } = await params;
   const dict = await getDictionary(locale);
-  const howItWorks = dict.pages["how-it-works"] as HowItWorksDict;
+  const howItWorks = dict.pages["how-it-works"] as unknown as HowItWorksDict;
 
   return (
     <main className="relative flex-1 flex flex-col pt-20">
@@ -57,12 +65,17 @@ export default async function HowItWorksPage({ params }: HowItWorksPageProps) {
   );
 }
 
-function StepsSection({ title, steps, buttons, locale }: HowItWorksDict) {
+function StepsSection({
+  title,
+  stepsSection,
+  buttons,
+  locale,
+}: StepsSectionProps) {
   return (
     <div className="max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-3 mt-0 text-center">{title}</h1>
       <div className="space-y-8">
-        {steps.map((step, index) => (
+        {stepsSection.items.map((step, index) => (
           <div
             key={index}
             className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl"
