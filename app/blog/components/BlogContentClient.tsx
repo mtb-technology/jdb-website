@@ -129,7 +129,7 @@ export function BlogContentClient({
 
         {/* Category Filters */}
         <section className="max-w-6xl mx-auto px-6 mb-12 overflow-x-auto">
-          <div className="flex flex-nowrap md:flex-wrap gap-3 justify-start md:justify-center min-w-max md:min-w-0 pb-4 md:pb-0">
+          <div className="flex flex-nowrap flex-wrap gap-3 justify-center   min-w-0 pb-4 md:pb-0">
             {categories.map((category, index) => (
               <Link
                 key={index + "-" + category.slug[locale]}
