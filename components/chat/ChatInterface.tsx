@@ -1,7 +1,15 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Message, sendMessage } from "@/lib/chat-stream";
+import { chatENToDictionaryKey, chatNLToDictionaryKey } from "@/lib/routes";
 import confetti from "canvas-confetti";
 import { AnimatePresence, motion } from "framer-motion";
 import {
@@ -13,6 +21,7 @@ import {
   ThumbsUp,
 } from "lucide-react";
 import Image from "next/image";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 
@@ -20,12 +29,14 @@ type ChatInterfaceProps = {
   initialMessage?: string;
   onReset: () => void;
   assistantId: number;
+  dict: any;
 };
 
 export function ChatInterface({
   initialMessage,
   onReset,
   assistantId,
+  dict,
 }: ChatInterfaceProps) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
@@ -41,6 +52,34 @@ export function ChatInterface({
   const [feedbackGiven, setFeedbackGiven] = useState<
     "useful" | "not-useful" | null
   >(null);
+  const router = useRouter();
+  const pathname = usePathname();
+  const isEnglish = pathname.startsWith("/en");
+
+  // Get the current employee ID from the URL
+  const currentEmployeeId = pathname.split("/").pop() || "algemene-vragen";
+
+  // Get the appropriate dictionary mapping based on language
+  const dictionaryMapping = isEnglish
+    ? chatENToDictionaryKey
+    : chatNLToDictionaryKey;
+
+  // Create employees array from the dictionary mapping
+  const employees = Object.entries(dictionaryMapping).map(([key, value]) => ({
+    id: key,
+    name: dict[value]?.assistantName || "Jan de Belastingman",
+    description:
+      dict[value]?.assistantDescription || "AI-gedreven belastingadviseur",
+  }));
+
+  // Find current employee
+  const currentEmployee =
+    employees.find((e) => e.id === currentEmployeeId) || employees[0];
+
+  const handleEmployeeChange = (value: string) => {
+    const basePath = isEnglish ? "/en/chat/" : "/chat/";
+    router.push(basePath + value);
+  };
 
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const [shouldAutoScroll, setShouldAutoScroll] = useState(true);
@@ -252,6 +291,7 @@ export function ChatInterface({
     <div className="flex flex-col h-[calc(100vh-165px)] max-w-4xl mx-auto w-full relative bg-white">
       {/* Fixed Header */}
       <div className="absolute top-0 left-0 right-0 z-10 flex items-center justify-between p-4 border-b bg-white/30 backdrop-blur-lg">
+        {/* start employee dropdown */}
         <div className="flex items-center gap-3">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JDB%20Logo-0SbQBOHUCYE5RAXYrZm7ZjafR4lLfS.png"
@@ -260,13 +300,39 @@ export function ChatInterface({
             height={40}
             className="rounded-full"
           />
-          <div>
-            <h2 className="font-semibold text-[#1a1a1a]">
-              Jan de Belastingman
-            </h2>
-            <p className="text-xs text-gray-500">Belastingassistent</p>
-          </div>
+          <Select
+            value={currentEmployeeId}
+            onValueChange={handleEmployeeChange}
+          >
+            <SelectTrigger className="w-[200px] border-none shadow-none focus:ring-0 pl-0">
+              <SelectValue>
+                <div className="flex flex-col items-start">
+                  <span className="font-semibold text-[#1a1a1a]">
+                    {currentEmployee.name}
+                  </span>
+                  <span className="text-xs text-gray-500">
+                    {currentEmployee.description}
+                  </span>
+                </div>
+              </SelectValue>
+            </SelectTrigger>
+            <SelectContent>
+              {employees.map((employee) => (
+                <SelectItem key={employee.id} value={employee.id}>
+                  <div className="flex flex-col items-start py-1">
+                    <span className="font-medium">
+                      {employee.name} - ({employee.id})
+                    </span>
+                    <span className="text-xs text-gray-500">
+                      {employee.description}
+                    </span>
+                  </div>
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
         </div>
+        {/* end employee dropdown */}
         <Button
           variant="ghost"
           size="icon"

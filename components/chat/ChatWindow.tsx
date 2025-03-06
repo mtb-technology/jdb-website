@@ -34,6 +34,7 @@ export default function ChatWindow({ dict }: { dict: any }) {
               initialMessage={initialMessage}
               onReset={handleResetChat}
               assistantId={dict.assistantId}
+              dict={dict}
             />
           </div>
         ) : (
@@ -144,12 +145,6 @@ export default function ChatWindow({ dict }: { dict: any }) {
                     url: "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
                     width: 60,
                   },
-                  // {
-                  //   src: "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
-                  //   alt: "Parool",
-                  //   url: "https://www.parool.nl/ps/vu-student-wint-kort-geding-van-jan-het-was-even-zweten~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
-                  //   width: 60,
-                  // },
                 ].map((image, index) => (
                   <div key={index} className="h-6">
                     <Link href={image.url} target="_blank">
