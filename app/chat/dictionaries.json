@@ -14,14 +14,13 @@
         "deductions": "What deductions can I apply?",
         "vatReturn": "How to file VAT returns as self-employed?",
         "box3": "Do I need to declare assets in box 3?",
-        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",
-        "more": "More ..."
+        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?"
       },
-      "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
-      "knownFrom": "As featured in"
+      "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
+      "knownFrom": "Bekend van"
     },
     "healthcare-allowance": {
-      "assistantId": 12,
+      "assistantId": 9,
       "metadata": {
         "title": "Jan de Belastingman | Zorgtoeslag Adviseur",
         "description": "Krijg direct antwoord op al je vragen over zorgtoeslag met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -34,14 +33,13 @@
         "deductions": "Kom ik in aanmerking voor zorgtoeslag?",
         "vatReturn": "Hoeveel zorgtoeslag kan ik krijgen?",
         "box3": "Wanneer moet ik wijzigingen doorgeven?",
-        "businessStructure": "Wat gebeurt er als mijn inkomen verandert?",
-        "more": "Meer ..."
+        "businessStructure": "Wat gebeurt er als mijn inkomen verandert?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
     "private-company": {
-      "assistantId": 12,
+      "assistantId": 7,
       "metadata": {
         "title": "Jan de Belastingman | BV Adviseur",
         "description": "Krijg direct antwoord op al je vragen over BV's met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -54,14 +52,13 @@
         "deductions": "Wat zijn de voordelen van een BV?",
         "vatReturn": "Hoe zit het met de belasting in een BV?",
         "box3": "Wanneer is een BV interessant?",
-        "businessStructure": "Wat zijn de kosten van een BV?",
-        "more": "Meer ..."
+        "businessStructure": "Wat zijn de kosten van een BV?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
     "entrepreneur": {
-      "assistantId": 12,
+      "assistantId": 8,
       "metadata": {
         "title": "Jan de Belastingman | ZZP Adviseur",
         "description": "Krijg direct antwoord op al je vragen over ZZP met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -74,14 +71,13 @@
         "deductions": "Welke aftrekposten zijn er voor ZZP'ers?",
         "vatReturn": "Hoe werkt de BTW-aangifte?",
         "box3": "Wat moet ik weten over de KOR?",
-        "businessStructure": "Hoe bereken ik mijn winst?",
-        "more": "Meer ..."
+        "businessStructure": "Hoe bereken ik mijn winst?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
     "m-form": {
-      "assistantId": 12,
+      "assistantId": 5,
       "metadata": {
         "title": "Jan de Belastingman | M-formulier Adviseur",
         "description": "Krijg direct antwoord op al je vragen over het M-formulier met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -94,14 +90,13 @@
         "deductions": "Wanneer moet ik een M-formulier invullen?",
         "vatReturn": "Wat moet ik invullen bij buitenlands inkomen?",
         "box3": "Hoe werkt de 30%-regeling?",
-        "businessStructure": "Wat zijn de deadlines?",
-        "more": "Meer ..."
+        "businessStructure": "Wat zijn de deadlines?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
     "tax-return-checklist": {
-      "assistantId": 12,
+      "assistantId": 14,
       "metadata": {
         "title": "Jan de Belastingman | Belastingaangifte Checklist",
         "description": "Krijg direct antwoord op al je vragen over de belastingaangifte checklist met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -114,14 +109,13 @@
         "deductions": "Welke documenten heb ik nodig?",
         "vatReturn": "Wat moet ik voorbereiden?",
         "box3": "Hoe lang moet ik documenten bewaren?",
-        "businessStructure": "Wat zijn belangrijke deadlines?",
-        "more": "Meer ..."
+        "businessStructure": "Wat zijn belangrijke deadlines?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
     "child-benefit": {
-      "assistantId": 12,
+      "assistantId": 9,
       "metadata": {
         "title": "Jan de Belastingman | Kinderbijslag Adviseur",
         "description": "Krijg direct antwoord op al je vragen over kinderbijslag met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -134,14 +128,13 @@
         "deductions": "Wanneer heb ik recht op kinderbijslag?",
         "vatReturn": "Hoeveel kinderbijslag krijg ik?",
         "box3": "Wat als mijn kind 18 wordt?",
-        "businessStructure": "Hoe vraag ik kinderbijslag aan?",
-        "more": "Meer ..."
+        "businessStructure": "Hoe vraag ik kinderbijslag aan?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
     "general-questions": {
-      "assistantId": 12,
+      "assistantId": 9,
       "metadata": {
         "title": "Jan de Belastingman | Algemene Vragen",
         "description": "Krijg direct antwoord op al je algemene belastingvragen met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -154,14 +147,13 @@
         "deductions": "Wat zijn de belangrijkste aftrekposten?",
         "vatReturn": "Hoe werkt de BTW?",
         "box3": "Wat is box 1, 2 en 3?",
-        "businessStructure": "Wanneer moet ik aangifte doen?",
-        "more": "Meer ..."
+        "businessStructure": "Wanneer moet ik aangifte doen?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
     "general-old-age-act": {
-      "assistantId": 12,
+      "assistantId": 9,
       "metadata": {
         "title": "Jan de Belastingman | AOW Adviseur",
         "description": "Krijg direct antwoord op al je vragen over AOW met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -174,14 +166,13 @@
         "deductions": "Wanneer krijg ik AOW?",
         "vatReturn": "Hoeveel AOW krijg ik?",
         "box3": "Wat als ik in het buitenland heb gewoond?",
-        "businessStructure": "Kan ik blijven werken met AOW?",
-        "more": "Meer ..."
+        "businessStructure": "Kan ik blijven werken met AOW?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
     "tax": {
-      "assistantId": 12,
+      "assistantId": 9,
       "metadata": {
         "title": "Jan de Belastingman | Belasting Chat",
         "description": "Krijg direct antwoord op al je belastingvragen met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -194,8 +185,7 @@
         "deductions": "Welke aftrekposten zijn er?",
         "vatReturn": "Hoe werkt de BTW-aangifte?",
         "box3": "Wat moet ik aangeven in box 3?",
-        "businessStructure": "Wat is het beste voor mijn situatie?",
-        "more": "Meer ..."
+        "businessStructure": "Wat is het beste voor mijn situatie?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -216,14 +206,13 @@
         "deductions": "What deductions can I apply?",
         "vatReturn": "How to file VAT returns as self-employed?",
         "box3": "Do I need to declare assets in box 3?",
-        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",
-        "more": "More ..."
+        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?"
       },
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
     "healthcare-allowance": {
-      "assistantId": 12,
+      "assistantId": 9,
       "metadata": {
         "title": "Jan de Belastingman | Healthcare Allowance Advisor",
         "description": "Get instant answers to all your healthcare allowance questions with our AI assistant. Professional, reliable, and available 24/7.",
@@ -236,14 +225,13 @@
         "deductions": "Am I eligible for healthcare allowance?",
         "vatReturn": "How much healthcare allowance can I receive?",
         "box3": "When do I need to report changes?",
-        "businessStructure": "What happens if my income changes?",
-        "more": "More ..."
+        "businessStructure": "What happens if my income changes?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
     "private-company": {
-      "assistantId": 12,
+      "assistantId": 7,
       "metadata": {
         "title": "Jan de Belastingman | Private Limited Company Advisor",
         "description": "Get instant answers to all your private limited company questions with our AI assistant. Professional, reliable, and available 24/7.",
@@ -256,14 +244,13 @@
         "deductions": "What are the benefits of a private limited company?",
         "vatReturn": "How does taxation work in a private limited company?",
         "box3": "When is a private limited company beneficial?",
-        "businessStructure": "What are the costs of a private limited company?",
-        "more": "More ..."
+        "businessStructure": "What are the costs of a private limited company?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
     "entrepreneur": {
-      "assistantId": 12,
+      "assistantId": 8,
       "metadata": {
         "title": "Jan de Belastingman | Self-Employed Professional Advisor",
         "description": "Get instant answers to all your self-employed questions with our AI assistant. Professional, reliable, and available 24/7.",
@@ -276,14 +263,13 @@
         "deductions": "What deductions are available for self-employed?",
         "vatReturn": "How does VAT return work?",
         "box3": "What should I know about the small business scheme?",
-        "businessStructure": "How do I calculate my profit?",
-        "more": "More ..."
+        "businessStructure": "How do I calculate my profit?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
     "m-form": {
-      "assistantId": 12,
+      "assistantId": 5,
       "metadata": {
         "title": "Jan de Belastingman | M Form Advisor",
         "description": "Get instant answers to all your M Form questions with our AI assistant. Professional, reliable, and available 24/7.",
@@ -296,8 +282,7 @@
         "deductions": "When do I need to file an M Form?",
         "vatReturn": "How do I declare foreign income?",
         "box3": "How does the 30% ruling work?",
-        "businessStructure": "What are the deadlines?",
-        "more": "More ..."
+        "businessStructure": "What are the deadlines?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
@@ -316,14 +301,13 @@
         "deductions": "What documents do I need?",
         "vatReturn": "What should I prepare?",
         "box3": "How long should I keep documents?",
-        "businessStructure": "What are important deadlines?",
-        "more": "More ..."
+        "businessStructure": "What are important deadlines?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
     "child-benefit": {
-      "assistantId": 12,
+      "assistantId": 9,
       "metadata": {
         "title": "Jan de Belastingman | Child Benefit Advisor",
         "description": "Get instant answers to all your child benefit questions with our AI assistant. Professional, reliable, and available 24/7.",
@@ -336,14 +320,13 @@
         "deductions": "When am I eligible for child benefit?",
         "vatReturn": "How much child benefit will I receive?",
         "box3": "What happens when my child turns 18?",
-        "businessStructure": "How do I apply for child benefit?",
-        "more": "More ..."
+        "businessStructure": "How do I apply for child benefit?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
     "general-questions": {
-      "assistantId": 12,
+      "assistantId": 9,
       "metadata": {
         "title": "Jan de Belastingman | General Questions",
         "description": "Get instant answers to all your general tax questions with our AI assistant. Professional, reliable, and available 24/7.",
@@ -356,14 +339,13 @@
         "deductions": "What are the main deductions?",
         "vatReturn": "How does VAT work?",
         "box3": "What is box 1, 2, and 3?",
-        "businessStructure": "When do I need to file taxes?",
-        "more": "More ..."
+        "businessStructure": "When do I need to file taxes?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
     "general-old-age-act": {
-      "assistantId": 12,
+      "assistantId": 9,
       "metadata": {
         "title": "Jan de Belastingman | AOW Pension Advisor",
         "description": "Get instant answers to all your AOW pension questions with our AI assistant. Professional, reliable, and available 24/7.",
@@ -376,14 +358,13 @@
         "deductions": "When will I receive AOW?",
         "vatReturn": "How much AOW will I receive?",
         "box3": "What if I lived abroad?",
-        "businessStructure": "Can I continue working with AOW?",
-        "more": "More ..."
+        "businessStructure": "Can I continue working with AOW?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
     "tax": {
-      "assistantId": 12,
+      "assistantId": 9,
       "metadata": {
         "title": "Jan de Belastingman | Tax Chat",
         "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
@@ -396,8 +377,7 @@
         "deductions": "What deductions are available?",
         "vatReturn": "How does VAT return work?",
         "box3": "What should I declare in box 3?",
-        "businessStructure": "What's best for my situation?",
-        "more": "More ..."
+        "businessStructure": "What's best for my situation?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
