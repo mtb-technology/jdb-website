@@ -12,10 +12,18 @@ import { getDictionary } from "../dictionaries";
 
 export const generateMetadata = generatePageMetadata;
 
-export default async function Page() {
-  const params = { locale: "nl" };
-  const searchParams = { category: "", page: "" };
-  const dict = await getDictionary("nl");
+interface PageProps {
+  params: { locale?: string };
+  searchParams: { [key: string]: string | string[] | undefined };
+}
+
+export default async function Page({
+  params = { locale: "nl" },
+  searchParams = {},
+}: PageProps) {
+  const { locale } = await params;
+  const resolvedSearchParams = await searchParams;
+  const dict = await getDictionary(locale || "nl");
 
   return (
     <main className="relative flex-1 flex flex-col pt-20">
@@ -25,8 +33,8 @@ export default async function Page() {
         <div className="max-w-5xl mx-auto px-6 py-12">
           <Suspense fallback={<BlogLoadingSkeleton />}>
             <BlogContent
-              searchParams={searchParams}
-              locale={params.locale}
+              searchParams={resolvedSearchParams}
+              locale={locale || "nl"}
               dict={dict}
             />
           </Suspense>
@@ -38,12 +46,17 @@ export default async function Page() {
   );
 }
 
+interface BlogSearchParams {
+  category?: string | string[];
+  page?: string | string[];
+}
+
 async function BlogContent({
   searchParams = {},
   locale,
   dict,
 }: {
-  searchParams?: BlogSearchParams;
+  searchParams: BlogSearchParams;
   locale: SupportedLocale;
   dict: Dictionary;
 }) {
@@ -51,8 +64,16 @@ async function BlogContent({
   const [categoriesResponse, postsResponse] = await Promise.all([
     jdbApi.getBlogCategories(locale),
     jdbApi.getBlogPosts({
-      page: searchParams.page ? parseInt(searchParams.page) : 1,
-      category: searchParams.category,
+      page: searchParams.page
+        ? parseInt(
+            Array.isArray(searchParams.page)
+              ? searchParams.page[0]
+              : searchParams.page
+          )
+        : 1,
+      category: Array.isArray(searchParams.category)
+        ? searchParams.category[0]
+        : searchParams.category || "",
       locale,
     }),
   ]);
@@ -103,7 +124,7 @@ async function BlogContent({
         {/* Category Filters */}
         <section className="max-w-6xl mx-auto px-6 mb-12">
           <div className="flex flex-wrap gap-3 justify-center">
-            {/* {categories.map((category, index) => (
+            {categories.map((category, index) => (
               <Link
                 key={index + "-" + category.slug[locale]}
                 href={`/blog${category.slug[locale] ? `?category=${category.slug[locale]}` : ""}`}
@@ -112,7 +133,7 @@ async function BlogContent({
               >
                 {category.name[locale]}
               </Link>
-            ))} */}
+            ))}
           </div>
         </section>
 

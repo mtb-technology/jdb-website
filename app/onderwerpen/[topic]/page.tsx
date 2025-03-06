@@ -49,6 +49,13 @@ interface PageContent {
     callToAction: string;
     buttonText: string;
     buttonSubtext: string;
+    buttonLink: string;
+    image: {
+      src: string;
+      alt: string;
+      width: number;
+      height: number;
+    };
     imageAlt: string;
     stats: string;
   };
@@ -88,19 +95,44 @@ interface PageContent {
   };
 }
 
+export async function generateStaticParams() {
+  // Get all unique chat routes for both languages
+  const nlRoutes = Object.keys(topicNLToDictionaryKey);
+  const enRoutes = Object.keys(topicENToDictionaryKey);
+
+  // Generate params for both NL and EN routes
+  const params = [
+    // NL routes don't need locale in the URL
+    ...nlRoutes.map((topic) => ({
+      topic,
+      locale: "nl",
+    })),
+    // EN routes need locale in the URL
+    ...enRoutes.map((topic) => ({
+      topic,
+      locale: "en",
+    })),
+  ];
+
+  return params;
+}
+
 export const generateMetadata = generatePageMetadata;
 
 export default async function TopicPage({ params }: TopicPageProps) {
-  const locale = params.locale || "nl";
+  const { topic, locale = "nl" } = await params;
   const dict = await getDictionary(locale as SupportedLocale);
-  const { topic } = params;
   let dictionaryKey: string;
   // Get the dictionary key for this topic
+  console.log("topic", topic);
   if (locale === "nl") {
     dictionaryKey = topicNLToDictionaryKey[topic];
   } else {
     dictionaryKey = topicENToDictionaryKey[topic];
   }
+
+  console.log("dictionaryKey", dictionaryKey);
+  console.log("dict", dict.topics[dictionaryKey]);
 
   // If we don't have a mapping for this topic, show 404
   if (!dictionaryKey || !(dictionaryKey in dict.topics)) {
@@ -109,7 +141,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
   }
 
   // Get the topic-specific content using the dictionary key
-  const topicContent = dict.pages[
+  const topicContent = dict.topics[
     dictionaryKey as DictionaryKeys
   ] as PageContent;
 
@@ -120,6 +152,8 @@ export default async function TopicPage({ params }: TopicPageProps) {
   }
 
   const { hero, partners, support, faq } = topicContent;
+
+  console.log("hero", hero);
 
   return (
     <main className="flex-1 flex flex-col relative">
@@ -132,7 +166,9 @@ export default async function TopicPage({ params }: TopicPageProps) {
             callToAction={hero.callToAction}
             buttonText={hero.buttonText}
             buttonSubtext={hero.buttonSubtext}
+            buttonLink={hero.buttonLink}
             image={hero.image}
+            stats={hero.stats}
           />
           <PartnersSection title={partners.title} partners={partners.items} />
           <SupportSection {...support} />
