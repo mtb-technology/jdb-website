@@ -103,7 +103,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
         <div className="max-w-3xl mx-auto">
           <div className="relative h-80 rounded-xl overflow-hidden shadow-xl">
             <Image
-              src="/placeholder.svg?height=600&width=1200"
+              src="https://jandebelastingman.nl/storage/media/belastinghulp.png"
               alt="Jan de Belastingman Team"
               layout="fill"
               objectFit="cover"
@@ -128,7 +128,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
           </div>
           <div className="md:w-1/2 relative h-64 rounded-xl overflow-hidden shadow-lg">
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
               alt="Oprichters Mathijs en Marcus"
               layout="fill"
               objectFit="cover"
@@ -154,7 +154,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
             >
               <div className="relative w-32 h-32 rounded-full overflow-hidden mb-4 mx-auto border-4 border-[#2B4EE6]/10">
                 <Image
-                  src={`/placeholder.svg?height=300&width=300`}
+                  src={member.imageSrc}
                   alt={member.name}
                   layout="fill"
                   objectFit="cover"
