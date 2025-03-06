@@ -1,31 +1,40 @@
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 interface FAQItem {
-  question: string
-  answer: string
+  question: string;
+  answer: string;
 }
 
 interface BlogArticle {
-  title: string
-  link: string
+  title: string;
+  link: string;
 }
 
 interface FAQAndBlogSectionProps {
-  faqItems: readonly FAQItem[]
-  blogArticles: readonly BlogArticle[]
-  title: string
-  buttonText: string
-  buttonLink: string
+  faqItems: readonly FAQItem[];
+  blogArticles: readonly BlogArticle[];
+  title: string;
+  buttonText: string;
+  buttonLink: string;
+  faqTitle: string;
+  blogTitle: string;
 }
 
-export default function FAQAndBlogSection({ 
+export default function FAQAndBlogSection({
   faqItems,
   blogArticles,
   title,
   buttonText,
   buttonLink,
+  faqTitle,
+  blogTitle,
 }: FAQAndBlogSectionProps) {
   return (
     <section className="my-24">
@@ -33,7 +42,7 @@ export default function FAQAndBlogSection({
       <div className="grid md:grid-cols-2 gap-8">
         <div className="bg-white rounded-lg shadow-md p-8">
           <h3 className="text-2xl font-semibold mb-6 text-[#2B4EE6]">
-            Veelgestelde Vragen
+            {faqTitle}
           </h3>
           <Accordion type="single" collapsible className="w-full space-y-4">
             {faqItems.map((item, index) => (
@@ -54,7 +63,7 @@ export default function FAQAndBlogSection({
         </div>
         <div className="bg-[#EEF2FF] rounded-lg shadow-md p-8">
           <h3 className="text-2xl font-semibold mb-6 text-[#2B4EE6]">
-            Laatste Blogartikelen over BV&#39;s
+            {blogTitle}
           </h3>
           <ul className="space-y-4">
             {blogArticles.map((article, index) => (

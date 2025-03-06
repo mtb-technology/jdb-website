@@ -19,7 +19,7 @@ interface TopicPageProps {
 }
 
 type Dictionary = Awaited<ReturnType<typeof getDictionary>>;
-type DictionaryKeys = keyof Dictionary['pages'];
+type DictionaryKeys = keyof Dictionary["topics"];
 
 interface Partner {
   src: string;
@@ -53,6 +53,7 @@ interface PageContent {
     stats: string;
   };
   partners: {
+    title: string;
     items: Partner[];
   };
   support: {
@@ -64,9 +65,16 @@ interface PageContent {
     imageSrc: string;
     imageAlt: string;
   };
-  steps: Step[];
+  stepsSection: {
+    buttonText: string;
+    buttonLink: string;
+    buttonSubtext: string;
+    items: Step[];
+  };
   faq: {
     title: string;
+    faqTitle: string;
+    blogTitle: string;
     faqItems: Array<{
       question: string;
       answer: string;
@@ -83,56 +91,61 @@ interface PageContent {
 export const generateMetadata = generatePageMetadata;
 
 export default async function TopicPage({ params }: TopicPageProps) {
-  const locale = params.locale || 'nl';
+  const locale = params.locale || "nl";
   const dict = await getDictionary(locale as SupportedLocale);
   const { topic } = params;
   let dictionaryKey: string;
   // Get the dictionary key for this topic
-  if (locale === 'nl') {
+  if (locale === "nl") {
     dictionaryKey = topicNLToDictionaryKey[topic];
   } else {
     dictionaryKey = topicENToDictionaryKey[topic];
   }
-  
+
   // If we don't have a mapping for this topic, show 404
-  if (!dictionaryKey || !(dictionaryKey in dict.pages)) {
-    console.log('No dictionary key found for topic:', topic, dictionaryKey);
+  if (!dictionaryKey || !(dictionaryKey in dict.topics)) {
+    console.log("No dictionary key found for topic:", topic, dictionaryKey);
     notFound();
   }
-  
+
   // Get the topic-specific content using the dictionary key
-  const topicContent = dict.pages[dictionaryKey as DictionaryKeys] as PageContent;
-  
+  const topicContent = dict.pages[
+    dictionaryKey as DictionaryKeys
+  ] as PageContent;
+
   // If the topic content doesn't exist, show 404
   if (!topicContent) {
-    console.log('No content found for dictionary key:', dictionaryKey);
+    console.log("No content found for dictionary key:", dictionaryKey);
     notFound();
   }
 
-  const { hero, partners, support, steps, faq } = topicContent;
-
-  const heroContent = {
-    ...hero,
-    image: {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-      alt: hero.imageAlt,
-      width: 400,
-      height: 240,
-    }
-  };
-  
+  const { hero, partners, support, faq } = topicContent;
 
   return (
     <main className="flex-1 flex flex-col relative">
       <Header />
       <div className="pt-22 overflow-y-auto h-[calc(100vh)]">
         <div className="max-w-5xl mx-auto px-6 py-12">
-          <HeroSection {...heroContent} />
-          <PartnersSection partners={partners.items} />
+          <HeroSection
+            title={hero.title}
+            description={hero.description}
+            callToAction={hero.callToAction}
+            buttonText={hero.buttonText}
+            buttonSubtext={hero.buttonSubtext}
+            image={hero.image}
+          />
+          <PartnersSection title={partners.title} partners={partners.items} />
           <SupportSection {...support} />
-          <StepsSection steps={steps} />
+          <StepsSection
+            steps={topicContent.stepsSection.items}
+            buttonText={topicContent.stepsSection.buttonText}
+            buttonLink={topicContent.stepsSection.buttonLink}
+            buttonSubtext={topicContent.stepsSection.buttonSubtext}
+          />
           <FAQAndBlogSection
             title={faq.title}
+            faqTitle={faq.faqTitle}
+            blogTitle={faq.blogTitle}
             faqItems={faq.faqItems}
             blogArticles={faq.blogArticles}
             buttonText={faq.buttonText}

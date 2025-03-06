@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 interface HeroSectionProps {
   title: string;
@@ -7,6 +8,7 @@ interface HeroSectionProps {
   callToAction: string;
   buttonText: string;
   buttonSubtext: string;
+  buttonLink: string;
   image: {
     src: string;
     alt: string;
@@ -22,6 +24,7 @@ export default function HeroSection({
   callToAction,
   buttonText,
   buttonSubtext,
+  buttonLink,
   image,
   stats,
 }: HeroSectionProps) {
@@ -32,7 +35,11 @@ export default function HeroSection({
           <h1 className="text-4xl font-bold mb-4">{title}</h1>
           <p className="text-gray-600 mb-6">{description}</p>
           <p className="text-gray-600 mb-6">{callToAction}</p>
-          <Button className="bg-primary text-white hover:bg-[#2341C7] mb-2">{buttonText}</Button>
+          <Link href={buttonLink}>
+            <Button className="bg-primary text-white hover:bg-[#2341C7] mb-2">
+              {buttonText}
+            </Button>
+          </Link>
           <p className="text-sm text-gray-500">{buttonSubtext}</p>
         </div>
         <div>
