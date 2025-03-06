@@ -948,17 +948,17 @@
         "blogCategory": "business-tax"
       }
     },
-    "self-employed-professional": {
+    "entrepreneur": {
       "metadata": {
-        "title": "Expert Support for Self-Employed Professionals (ZZP) | Jan de Belastingman",
-        "description": "Get expert guidance on tax matters for self-employed professionals in the Netherlands. From deductions to VAT returns, we help you optimize your taxes.",
-        "ogTitle": "Self-Employed Tax Support - Jan de Belastingman",
+        "title": "Expert Support for Entrepreneurs & Self-Employed Professionals (ZZP) | Jan de Belastingman",
+        "description": "Get expert guidance on tax matters for entrepreneurs & self-employed professionals in the Netherlands. From deductions to VAT returns, we help you optimize your taxes.",
+        "ogTitle": "Entrepreneur & ZZP Tax Support - Jan de Belastingman",
         "ogDescription": "Professional tax assistance for ZZP'ers in the Netherlands. Get reliable advice and maximize your deductions.",
-        "ogImageAlt": "Self-Employed Professional Tax Support from Jan de Belastingman"
+        "ogImageAlt": "Entrepreneur & ZZP Tax Support from Jan de Belastingman"
       },
       "hero": {
-        "title": "Expert Support for Self-Employed Professionals (Zelfstandigen Zonder Personeel - ZZP)",
-        "description": "Do you, as a freelancer, want to earn more and spend less time on your taxes? Jan de Belastingman helps you save smart with deductions, VAT returns and tax optimization.",
+        "title": "Expert Support for Entrepreneurs & Self-Employed Professionals (ZZP)",
+        "description": "Do you, as a entrepeneur, want to earn more and spend less time on your taxes? Jan de Belastingman helps you save smart with deductions, VAT returns and tax optimization.",
         "callToAction": "Are you self-employed and struggling with managing your business finances or navigating tax regulations? With the right advice, you can streamline your administrative tasks and focus on what you do best.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
@@ -998,17 +998,17 @@
         ]
       },
       "support": {
-        "title": "Self-Employment Support In the Netherlands",
+        "title": "Entrepreneur/ZZP Support In the Netherlands",
         "description": "Running your own business in the Netherlands comes with unique challenges, especially when it comes to financial management and tax obligations. Jan de Belastingman offers tailored guidance to help self-employed workers navigate these hurdles, from tax deductions to financial planning, ensuring your business thrives in a competitive environment.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/entrepreneurs-self-employed",
+        "buttonLink": "/en/chat/entrepreneur",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/en/chat/entrepreneur",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -1039,15 +1039,15 @@
         "buttonLink": "/en/blog",
         "faqItems": [
           {
-            "question": "What are the requirements for self-employed professionals?",
+            "question": "What are the requirements for entrepreneurs/ZZP?",
             "answer": "You must be registered with the KVK (Chamber of Commerce), maintain accurate financial records, and comply with Dutch tax regulations including VAT and income tax obligations to stay compliant as a self-employed professional."
           },
           {
-            "question": "How can Jan de Belastingman help self-employed professionals?",
+            "question": "How can Jan de Belastingman help entrepreneurs/ZZP?",
             "answer": "We provide comprehensive support for ZZP'ers, from answering specific questions about deductions and VAT returns through our AI chatbot to connecting you with expert advisors for complex situations. We help you optimize your taxes while maintaining compliance."
           },
           {
-            "question": "What tax deductions are available for self-employed professionals?",
+            "question": "What tax deductions are available for entrepreneurs/ZZP?",
             "answer": "Self-employed professionals can claim various deductions including business expenses, home office costs, travel expenses, and professional development costs. Our system helps identify which deductions apply to your specific situation."
           }
         ],
@@ -1478,7 +1478,7 @@
         "blogCategory": "business-tax"
       }
     },
-    "aow-pension": {
+    "general-old-age-act": {
       "metadata": {
         "title": "AOW State Pension | Jan de Belastingman",
         "description": "Expert guidance on Dutch state pension (AOW). Learn about eligibility, payments, and tax implications.",
@@ -1584,7 +1584,7 @@
         "blogCategory": "business-tax"
       }
     },
-    "income-aow-pension": {
+    "income-general-old-age-act": {
       "metadata": {
         "title": "Income During AOW Pension | Jan de Belastingman",
         "description": "Expert guidance on earning income while receiving AOW pension. Learn about tax implications and regulations.",
