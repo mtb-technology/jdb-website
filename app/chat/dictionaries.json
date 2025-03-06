@@ -19,6 +19,26 @@
       },
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
+    },
+    "health-care-allowance-chat": {
+      "assistantId": 12,
+      "metadata": {
+        "title": "Jan de Belastingman | Zorgtoeslag Adviseur",
+        "description": "Krijg direct antwoord op al je vragen over zorgtoeslag met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
+        "ogTitle": "Jan de Belastingman - Zorgtoeslag Adviseur",
+        "ogDescription": "Stel je vragen over zorgtoeslag en krijg direct deskundig advies van onze AI-assistent."
+      },
+      "helpQuestion": "Hoe kan ik je helpen?",
+      "inputPlaceholder": "Stel je vraag",
+      "commonQuestions": {
+        "deductions": "Kom ik in aanmerking voor zorgtoeslag?",
+        "vatReturn": "Hoeveel zorgtoeslag kan ik krijgen?",
+        "box3": "Wanneer moet ik wijzigingen doorgeven?",
+        "businessStructure": "Wat gebeurt er als mijn inkomen verandert?",
+        "more": "Meer ..."
+      },
+      "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
+      "knownFrom": "Bekend van"
     }
   },
   "en": {
@@ -40,6 +60,26 @@
         "more": "More ..."
       },
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
+      "knownFrom": "As featured in"
+    },
+    "health-care-allowance-chat": {
+      "assistantId": 12,
+      "metadata": {
+        "title": "Jan de Belastingman | Healthcare Allowance Advisor",
+        "description": "Get instant answers to all your healthcare allowance questions with our AI assistant. Professional, reliable, and available 24/7.",
+        "ogTitle": "Jan de Belastingman - Healthcare Allowance Advisor",
+        "ogDescription": "Ask your healthcare allowance questions and get expert advice instantly from our AI assistant."
+      },
+      "helpQuestion": "How can I help you?",
+      "inputPlaceholder": "Ask your question",
+      "commonQuestions": {
+        "deductions": "Am I eligible for healthcare allowance?",
+        "vatReturn": "How much healthcare allowance can I receive?",
+        "box3": "When do I need to report changes?",
+        "businessStructure": "What happens if my income changes?",
+        "more": "More ..."
+      },
+      "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     }
   }
