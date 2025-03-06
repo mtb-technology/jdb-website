@@ -870,7 +870,7 @@
         "callToAction": "Find out if you're eligible for healthcare allowance and maximize your benefits.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/health-care-allowance-chat",
+        "buttonLink": "/en/chat/health-care-allowance",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -888,7 +888,7 @@
         "description": "Expert guidance for healthcare allowance matters",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/health-care-allowance-chat",
+        "buttonLink": "/en/chat/health-care-allowance",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor",
         "items": [
@@ -922,7 +922,7 @@
           }
         ],
         "buttonText": "Check your eligibility",
-        "buttonLink": "/en/chat/health-care-allowance-chat",
+        "buttonLink": "/en/chat/health-care-allowance",
         "buttonSubtext": "Expert assistance available"
       },
       "faq": {

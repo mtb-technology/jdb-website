@@ -95,27 +95,26 @@ const nextConfig: NextConfig = {
       // { source: '/en/disclaimer', destination: '/en/disclaimer', permanent: true },
 
       // Chats
-      { source: '/aangifte-inkomstenbelasting', destination: '/chat/aangifte-inkomstenbelasting', permanent: true },
+      { source: '/aangifte-inkomstenbelasting', destination: '/chat/belastingaangifte', permanent: true },
       { source: '/en/income-tax-return', destination: '/en/chat/income-tax-return', permanent: true },
-      { source: '/besloten-vennootschap-hulp', destination: '/chat/besloten-vennootschap-hulp', permanent: true },
+      { source: '/besloten-vennootschap-hulp', destination: '/chat/besloten-vennootschap', permanent: true },
       { source: '/en/besloten-vennootschap-assist', destination: '/en/chat/private-limited-company', permanent: true },  //check
-      { source: '/ondernemers-zzp', destination: '/chat/ondernemers-zzp', permanent: true },
-      { source: '/en/entrepreneurs-self-employed', destination: '/en/chat/entrepreneurs-self-employed', permanent: true },
+      { source: '/ondernemers-zzp', destination: '/chat/ondernemer', permanent: true },
+      { source: '/en/entrepreneurs-self-employed', destination: '/en/chat/entrepreneur', permanent: true },
       { source: '/m-form', destination: '/chat/m-form', permanent: true },
-      { source: '/en/m-form-assistant', destination: '/en/chat/m-form-assistant', permanent: true },
+      { source: '/en/m-form-assistant', destination: '/en/chat/m-form', permanent: true },
       { source: '/belastingaangifte-checklist', destination: '/chat/belastingaangifte-checklist', permanent: true },
       { source: '/en/tax-return-checklist', destination: '/en/chat/tax-return-checklist', permanent: true },
       { source: '/kindertoeslag', destination: '/chat/kindertoeslag', permanent: true },
-      { source: '/en/child-benefit-assistent', destination: '/en/chat/child-benefit-assistent', permanent: true },
+      { source: '/en/child-benefit-assistent', destination: '/en/chat/child-benefit', permanent: true },
       { source: '/algemene-vragen', destination: '/chat/algemene-vragen', permanent: true },
       { source: '/en/general-questions', destination: '/en/chat/general-questions', permanent: true },
       { source: '/algemene-ouderdomswe-chat', destination: '/chat/algemene-ouderdomswet', permanent: true },
       { source: '/en/general-old-age-act', destination: '/en/chat/general-old-age-act', permanent: true },
       { source: '/zorgtoeslag-chat', destination: '/chat/zorgtoeslag', permanent: true },
-      { source: '/en/health-care-allowance-chat', destination: '/en/chat/health-care-allowance-chat', permanent: true },
-      { source: '/expat-assistant', destination: '/chat/expat-assistant', permanent: true },
-      { source: '/belastingchat', destination: '/chat/belastingchat', permanent: true },
-      { source: '/en/belastingchat', destination: '/en/chat/belastingchat', permanent: true },
+      { source: '/en/health-care-allowance', destination: '/en/chat/healthcare-allowance', permanent: true },
+      { source: '/belastingchat', destination: '/chat/belasting', permanent: true },
+      { source: '/en/belastingchat', destination: '/en/chat/tax', permanent: true },
       
     
       // // Saas related

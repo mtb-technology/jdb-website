@@ -35,8 +35,7 @@ export const chatNLToDictionaryKey: ChatMapping = {
   'kindertoeslag': 'child-benefit',
   'algemene-vragen': 'general-questions',
   'algemene-ouderdomswet': 'general-old-age-act',
-  'zorgtoeslag': 'health-care-allowance-chat',
-  'assistent-expat': 'expat-assistant',
+  'zorgtoeslag': 'health-care-allowance',
   'belasting': 'tax',
 };
 
