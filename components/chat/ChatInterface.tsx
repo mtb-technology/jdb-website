@@ -19,9 +19,14 @@ import ReactMarkdown from "react-markdown";
 type ChatInterfaceProps = {
   initialMessage?: string;
   onReset: () => void;
+  assistantId: number;
 };
 
-export function ChatInterface({ initialMessage, onReset }: ChatInterfaceProps) {
+export function ChatInterface({
+  initialMessage,
+  onReset,
+  assistantId,
+}: ChatInterfaceProps) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [isTyping, setIsTyping] = useState(false);
@@ -105,6 +110,7 @@ export function ChatInterface({ initialMessage, onReset }: ChatInterfaceProps) {
         message: messageText,
         chatSessionId: currentSession.chatSessionId,
         parentMessageId: currentSession.parentMessageId,
+        assistantId: assistantId,
       });
 
       let fullResponse = "";
@@ -332,11 +338,11 @@ export function ChatInterface({ initialMessage, onReset }: ChatInterfaceProps) {
               >
                 <div
                   className={`
-                  max-w-[80%] sm:max-w-[70%] rounded-2xl p-4 
+                  rounded-2xl p-4 
                   ${
                     message.role === "user"
-                      ? "bg-primary text-white rounded-tr-none"
-                      : "bg-gray-100 text-gray-800 rounded-tl-none"
+                      ? "bg-gray-100 text-gray-800 rounded-tr-none"
+                      : " text-gray-800 rounded-tl-none"
                   }
                 `}
                 >
@@ -344,9 +350,9 @@ export function ChatInterface({ initialMessage, onReset }: ChatInterfaceProps) {
                     <div className="text-sm mb-1">
                       <ReactMarkdown>{message.content}</ReactMarkdown>
                     </div>
-                    <div className="text-xs self-end mt-1 opacity-70">
+                    {/* <div className="text-xs self-end mt-1 opacity-70">
                       {formatTime(message.timestamp)}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </motion.div>

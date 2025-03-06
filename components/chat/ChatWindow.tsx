@@ -32,6 +32,7 @@ export default function ChatWindow({ dict }: { dict: any }) {
             <ChatInterface
               initialMessage={initialMessage}
               onReset={handleResetChat}
+              assistantId={dict.assistantId}
             />
           </div>
         ) : (

@@ -27,7 +27,7 @@ export const chatENToDictionaryKey: ChatMapping = {
 };
 
 export const chatNLToDictionaryKey: ChatMapping = {
-  'aangifte-inkomstenbelasting': 'income-tax-return',
+  'belastingaangifte': 'income-tax-return',
   'besloten-vennootschap-hulp': 'private-limited-company-assist',
   'ondernemers-zzp': 'entrepreneurs-self-employed',
   'm-form': 'm-form',
@@ -73,6 +73,7 @@ export const topicNLToDictionaryKey: TopicMapping = {
 };
 
 export const routes: RouteMapping = {
+  //start pages
   "home": {
     nl: "",
     en: ""
@@ -85,58 +86,14 @@ export const routes: RouteMapping = {
     nl: "onderwerpen",
     en: "topics"
   },
-    "tax-advisor": {
-      nl: "onderwerpen/belastingaangifte-laten-doen",
-      en: "topics/tax-advisor"
-    },
-    "income-tax-return": {
-      nl: "onderwerpen/belastingaangifte",
-      en: "topics/income-tax-return"
-    },
-    "m-form": {
-      nl: "onderwerpen/m-form",
-      en: "topics/m-form"
-    },
-    "tax-credit": {
-      nl: "onderwerpen/aftrekposten-en-kortingen",
-      en: "topics/tax-credit"
-    },
-    "inheritance-tax": {
-      nl: "onderwerpen/erfbelasting",
-      en: "topics/inheritance-tax"
-    },
-    "private-limited-company": {
-      nl: "onderwerpen/besloten-vennootschap",
-      en: "topics/private-limited-company"
-    },
-    "self-employed-professional": {
-      nl: "onderwerpen/zelfstandigen-zonder-personeel",
-      en: "topics/self-employed-professional"
-      },
-    "healthcare-allowance": {
-      nl: "onderwerpen/zorgtoeslag",
-      en: "topics/healthcare-allowance"
-    },
-    "housing-allowance": {
-      nl: "onderwerpen/huurtoeslag",
-      en: "topic/housing-allowance"
-    },
-    "childcare-allowance": {
-      nl: "onderwerpen/kinderopvangtoeslag",
-      en: "topics/childcare-allowance"
-    },
-    "child-benefit": {
-      nl: "onderwerpen/kinderbijslag",
-      en: "topics/child-benefit"
-    },
-    "aow-pension": {
-      nl: "onderwerpen/aow-pensioen",
-      en: "topics/aow-pension"
-    },
-    "income-aow-pension": {
-      nl: "onderwerpen/inkomen-aow-pensioen",
-      en: "topics/income-aow-pension"
-    },
+  "bv": {
+    nl: "besloten-vennootschap",
+    en: "private-limited-company"
+  },
+  "tax-advisor": {
+    nl: "elastingaangifte-laten-doen",
+    en: "tax-advisor"
+  },
   "blog": {
     nl: "blog",
     en: "blog"
@@ -148,13 +105,29 @@ export const routes: RouteMapping = {
   "find-advisor": {
     nl: "vind-een-adviseur",
     en: "find-advisor"
+  },
+  //end pages
+  //start topics
+  "onderwerpen": {
+    nl: "onderwerpen",
+    en: "topics"
+  },
+  //end topics
+  //start chat
+  "chat": {
+    nl: "chat",
+    en: "chat"
+  },
+  "income-tax-return": {
+    nl: "aangifte-inkomstenbelasting",
+    en: "income-tax-return"
   }
 };
 
 export function getLocalizedPath(path: string, locale: string): string {
   // Remove leading slash if present
   const cleanPath = path.startsWith("/") ? path.slice(1) : path;
-  
+
   // If path is just the locale or empty, return /
   if (cleanPath === "" || cleanPath === locale) {
     return "/";
@@ -162,7 +135,7 @@ export function getLocalizedPath(path: string, locale: string): string {
 
   // Split path into segments
   const segments = cleanPath.split("/");
-  
+
   // Remove locale from start if present
   if (segments[0] === "nl" || segments[0] === "en") {
     segments.shift();
@@ -171,9 +144,11 @@ export function getLocalizedPath(path: string, locale: string): string {
   // Translate each segment
   const translatedSegments = segments.map(segment => {
     // Find the route key that matches either nl or en value
-    const routeKey = Object.entries(routes).find(([, values]) => 
+    const routeKey = Object.entries(routes).find(([, values]) =>
       values.nl === segment || values.en === segment
     );
+
+    console.log("routeKey", routeKey, Object.entries(routes), segment);
 
     if (routeKey) {
       return routeKey[1][locale as keyof typeof routeKey[1]];
@@ -182,7 +157,7 @@ export function getLocalizedPath(path: string, locale: string): string {
   });
 
   // Only include locale prefix for English
-  return locale === "en" 
+  return locale === "en"
     ? `/${locale}/${translatedSegments.join("/")}`
     : `/${translatedSegments.join("/")}`;
 }
