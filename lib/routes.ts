@@ -33,8 +33,10 @@ export const chatNLToDictionaryKey: ChatMapping = {
   'belastingaangifte-checklist': 'tax-return-checklist',
   'kindertoeslag': 'child-benefit',
   'algemene-vragen': 'general-questions',
-  'aow': 'general-old-age-act',
-  'zorgtoeslag': 'healthcare-allowance',
+  'algemene-ouderdomswet': 'general-old-age-act',
+  'zorgtoeslag': 'health-care-allowance-chat',
+  'assistent-expat': 'expat-assistant',
+  'belastingchat': 'tax-chat',
 };
 
 export const topicENToDictionaryKey: TopicMapping = {

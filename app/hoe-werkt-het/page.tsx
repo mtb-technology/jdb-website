@@ -47,13 +47,13 @@ interface StepsSectionProps extends HowItWorksDict {
 export const generateMetadata = generatePageMetadata;
 
 export default async function HowItWorksPage({ params }: HowItWorksPageProps) {
-  const { locale } = await params;
+  const { locale = "nl" } = await params;
   const dict = await getDictionary(locale);
   const howItWorks = dict.pages["how-it-works"] as unknown as HowItWorksDict;
 
   return (
     <main className="relative flex-1 flex flex-col pt-20">
-      <Header />
+      <Header dict={dict} />
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-5xl mx-auto px-6 py-12">
           {/* Steps Section */}

@@ -31,7 +31,7 @@ export default async function Home({ params }: PageProps) {
 
   return (
     <main className="relative flex-1 flex flex-col">
-      <Header />
+      <Header dict={dict} />
       <div className="flex-1 flex items-center justify-center">
         <ChatWindow dict={dict.pages.home} />
       </div>

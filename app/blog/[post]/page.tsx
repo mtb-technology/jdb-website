@@ -48,7 +48,7 @@ export default async function BlogPostPage({
 
   return (
     <main className="relative flex-1 flex flex-col pt-20">
-      <Header />
+      <Header dict={dict} />
       <div className="relative flex-1 overflow-y-auto">
         {/* Blue background with wave */}
         <div className="absolute top-0 left-0 right-0 h-[500px] bg-primary -z-10">

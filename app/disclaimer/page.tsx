@@ -12,7 +12,7 @@ export default async function DisclaimerPage() {
   const dict = await getDictionary("nl");
   return (
     <main className="flex-1 flex flex-col relative">
-      <Header />
+      <Header dict={dict} />
       <article className="max-w-4xl prose text-gray-500 mx-auto">
         <h2>DISCLAIMER</h2>
         <p>

@@ -57,10 +57,13 @@ export default async function Home({ params }: HomePageProps) {
 
   const chatDict = getChatDictionary(locale, dictionaryKey as ChatType);
   const dict = await getDictionary("en");
-
+  if (!chatDict) {
+    //notFound();
+    return <>Not found</>;
+  }
   return (
     <main className="relative flex-1 flex flex-col">
-      <Header />
+      <Header dict={dict} />
       <div className="flex-1 flex items-center justify-center">
         <ChatWindow dict={chatDict} />
       </div>

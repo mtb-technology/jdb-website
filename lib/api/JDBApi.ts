@@ -128,7 +128,6 @@ export class JDBApi {
     const queryString = searchParams.toString();
     const endpoint = `/blog/posts${queryString ? `?${queryString}` : ''}`;
 
-    console.log("endpoint", endpoint);
     return this.fetchApi<BlogPostsResponse>(endpoint);
   }
 
