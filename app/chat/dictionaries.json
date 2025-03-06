@@ -1,249 +1,46 @@
 {
   "nl": {
     "income-tax-return": {
-      "helpQuestion": "Waar kan ik je helpen met je belastingaangifte?",
-      "inputPlaceholder": "Stel je vraag over belastingaangifte",
+      "assistantId": 12,
+      "metadata": {
+        "title": "Jan de Belastingman | Your AI Tax Advisor",
+        "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
+        "ogTitle": "Jan de Belastingman - AI Tax Advisor",
+        "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
+      },
+      "helpQuestion": "How can I help you?",
+      "inputPlaceholder": "Ask your question",
       "commonQuestions": {
-        "deductions": "Welke aftrekposten kan ik gebruiken?",
-        "vatReturn": "Wanneer moet ik aangifte doen?",
-        "box3": "Hoe werkt box 3 bij de aangifte?",
-        "businessStructure": "Hoe geef ik zakelijke inkomsten aan?",
-        "more": "Meer vragen over belastingaangifte"
-      }
-    },
-    "expat-assistant": {
-      "helpQuestion": "Waar kan ik je helpen met expat belastingzaken?",
-      "inputPlaceholder": "Stel je vraag over belastingen als expat",
-      "commonQuestions": {
-        "deductions": "Welke aftrekposten zijn er voor expats?",
-        "vatReturn": "Hoe werkt de 30% regeling?",
-        "box3": "Hoe geef ik buitenlands vermogen aan?",
-        "businessStructure": "Werken als ZZP'er als expat",
-        "more": "Meer vragen over expat belastingen"
-      }
-    },
-    "private-limited-company-assist": {
-      "helpQuestion": "Waar kan ik je helpen met je BV?",
-      "inputPlaceholder": "Stel je vraag over je BV",
-      "commonQuestions": {
-        "deductions": "Welke zakelijke kosten kan ik aftrekken?",
-        "vatReturn": "Hoe werkt BTW aangifte voor mijn BV?",
-        "box3": "Hoe werkt de VPB aangifte?",
-        "businessStructure": "Wat zijn de voordelen van een BV?",
-        "more": "Meer vragen over BV's"
-      }
-    },
-    "entrepreneurs-self-employed": {
-      "helpQuestion": "Waar kan ik je helpen met je onderneming?",
-      "inputPlaceholder": "Stel je vraag over ondernemen",
-      "commonQuestions": {
-        "deductions": "Welke ondernemersaftrek kan ik gebruiken?",
-        "vatReturn": "Hoe werkt kwartaalaangifte BTW?",
-        "box3": "Hoe geef ik mijn zakelijke vermogen aan?",
-        "businessStructure": "ZZP of BV, wat past bij mij?",
-        "more": "Meer vragen over ondernemen"
-      }
-    },
-    "m-form": {
-      "helpQuestion": "Waar kan ik je helpen met het M-formulier?",
-      "inputPlaceholder": "Stel je vraag over het M-formulier",
-      "commonQuestions": {
-        "deductions": "Welke buitenlandse inkomsten moet ik opgeven?",
-        "vatReturn": "Hoe werkt emigratie/immigratie aangifte?",
-        "box3": "Hoe geef ik buitenlands vermogen aan?",
-        "businessStructure": "Hoe werkt het M-biljet?",
-        "more": "Meer vragen over M-formulier"
-      }
-    },
-    "tax-return-checklist": {
-      "helpQuestion": "Waar kan ik je helpen met je belastingaangifte checklist?",
-      "inputPlaceholder": "Stel je vraag over de checklist",
-      "commonQuestions": {
-        "deductions": "Welke documenten heb ik nodig?",
-        "vatReturn": "Wanneer moet alles binnen zijn?",
-        "box3": "Wat heb ik nodig voor box 3?",
-        "businessStructure": "Checklist voor ondernemers",
-        "more": "Meer vragen over de checklist"
-      }
-    },
-    "child-benefit-assistant": {
-      "helpQuestion": "Waar kan ik je helpen met kinderbijslag?",
-      "inputPlaceholder": "Stel je vraag over kinderbijslag",
-      "commonQuestions": {
-        "deductions": "Hoeveel kinderbijslag krijg ik?",
-        "vatReturn": "Wanneer ontvang ik kinderbijslag?",
-        "box3": "Hoe vraag ik kinderbijslag aan?",
-        "businessStructure": "Kinderbijslag bij co-ouderschap",
-        "more": "Meer vragen over kinderbijslag"
-      }
-    },
-    "general-questions": {
-      "helpQuestion": "Waar kan ik je helpen met belastingvragen?",
-      "inputPlaceholder": "Stel je algemene belastingvraag",
-      "commonQuestions": {
-        "deductions": "Welke aftrekposten zijn er?",
-        "vatReturn": "Hoe werkt de BTW?",
-        "box3": "Uitleg over box 1, 2 en 3",
-        "businessStructure": "Verschillende ondernemingsvormen",
-        "more": "Meer algemene vragen"
-      }
-    },
-    "general-old-age-act": {
-      "helpQuestion": "Waar kan ik je helpen met AOW vragen?",
-      "inputPlaceholder": "Stel je vraag over AOW",
-      "commonQuestions": {
-        "deductions": "Hoeveel AOW krijg ik?",
-        "vatReturn": "Wanneer krijg ik AOW?",
-        "box3": "AOW en andere inkomsten",
-        "businessStructure": "AOW en ondernemen",
-        "more": "Meer vragen over AOW"
-      }
-    },
-    "health-care-allowance-chat": {
-      "helpQuestion": "Waar kan ik je helpen met zorgtoeslag?",
-      "inputPlaceholder": "Stel je vraag over zorgtoeslag",
-      "commonQuestions": {
-        "deductions": "Hoeveel zorgtoeslag krijg ik?",
-        "vatReturn": "Wanneer zorgtoeslag aanvragen?",
-        "box3": "Voorwaarden zorgtoeslag",
-        "businessStructure": "Zorgtoeslag als ondernemer",
-        "more": "Meer vragen over zorgtoeslag"
-      }
-    },
-    "tax-chat": {
-      "helpQuestion": "Waar kan ik je helpen met belastingvragen?",
-      "inputPlaceholder": "Stel je belastingvraag",
-      "commonQuestions": {
-        "deductions": "Welke aftrekposten zijn er?",
-        "vatReturn": "Hoe werkt de BTW?",
-        "box3": "Uitleg over box 1, 2 en 3",
-        "businessStructure": "Verschillende ondernemingsvormen",
-        "more": "Meer belastingvragen"
-      }
+        "deductions": "What deductions can I apply?",
+        "vatReturn": "How to file VAT returns as self-employed?",
+        "box3": "Do I need to declare assets in box 3?",
+        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",
+        "more": "More ..."
+      },
+      "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
+      "knownFrom": "As featured in"
     }
   },
   "en": {
     "income-tax-return": {
       "assistantId": 12,
-      "helpQuestion": "How can I help you with your tax return?",
-      "inputPlaceholder": "Ask your question about tax returns",
+      "metadata": {
+        "title": "Jan de Belastingman | Your AI Tax Advisor",
+        "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
+        "ogTitle": "Jan de Belastingman - AI Tax Advisor",
+        "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
+      },
+      "helpQuestion": "How can I help you?",
+      "inputPlaceholder": "Ask your question",
       "commonQuestions": {
-        "deductions": "What deductions can I use?",
-        "vatReturn": "When do I need to file?",
-        "box3": "How does box 3 work in returns?",
-        "businessStructure": "How do I declare business income?",
-        "more": "More questions about tax returns"
-      }
-    },
-    "expat-assistant": {
-      "helpQuestion": "How can I help you with expat tax matters?",
-      "inputPlaceholder": "Ask your question about taxes as an expat",
-      "commonQuestions": {
-        "deductions": "What deductions are available for expats?",
-        "vatReturn": "How does the 30% ruling work?",
-        "box3": "How do I declare foreign assets?",
-        "businessStructure": "Working as self-employed as an expat",
-        "more": "More questions about expat taxation"
-      }
-    },
-    "private-limited-company-assist": {
-      "helpQuestion": "How can I help you with your Ltd?",
-      "inputPlaceholder": "Ask your question about your Ltd",
-      "commonQuestions": {
-        "deductions": "What business expenses can I deduct?",
-        "vatReturn": "How does VAT work for my Ltd?",
-        "box3": "How does corporate tax return work?",
-        "businessStructure": "What are the benefits of a Ltd?",
-        "more": "More questions about Ltd"
-      }
-    },
-    "entrepreneurs-self-employed": {
-      "helpQuestion": "How can I help you with your business?",
-      "inputPlaceholder": "Ask your question about entrepreneurship",
-      "commonQuestions": {
-        "deductions": "What entrepreneur deductions can I use?",
-        "vatReturn": "How do quarterly VAT returns work?",
-        "box3": "How do I declare business assets?",
-        "businessStructure": "Self-employed or Ltd, what suits me?",
-        "more": "More questions about business"
-      }
-    },
-    "m-form": {
-      "helpQuestion": "How can I help you with the M-form?",
-      "inputPlaceholder": "Ask your question about the M-form",
-      "commonQuestions": {
-        "deductions": "What foreign income should I declare?",
-        "vatReturn": "How does emigration/immigration return work?",
-        "box3": "How do I declare foreign assets?",
-        "businessStructure": "How does the M-form work?",
-        "more": "More questions about M-form"
-      }
-    },
-    "tax-return-checklist": {
-      "helpQuestion": "How can I help you with your tax return checklist?",
-      "inputPlaceholder": "Ask your question about the checklist",
-      "commonQuestions": {
-        "deductions": "What documents do I need?",
-        "vatReturn": "When is the deadline?",
-        "box3": "What do I need for box 3?",
-        "businessStructure": "Checklist for entrepreneurs",
-        "more": "More questions about the checklist"
-      }
-    },
-    "child-benefit-assistant": {
-      "helpQuestion": "How can I help you with child benefits?",
-      "inputPlaceholder": "Ask your question about child benefits",
-      "commonQuestions": {
-        "deductions": "How much child benefit will I receive?",
-        "vatReturn": "When do I receive child benefits?",
-        "box3": "How do I apply for child benefits?",
-        "businessStructure": "Child benefits with co-parenting",
-        "more": "More questions about child benefits"
-      }
-    },
-    "general-questions": {
-      "helpQuestion": "How can I help you with tax questions?",
-      "inputPlaceholder": "Ask your general tax question",
-      "commonQuestions": {
-        "deductions": "What deductions are available?",
-        "vatReturn": "How does VAT work?",
-        "box3": "Explanation of box 1, 2 and 3",
-        "businessStructure": "Different business structures",
-        "more": "More general questions"
-      }
-    },
-    "general-old-age-act": {
-      "helpQuestion": "How can I help you with AOW questions?",
-      "inputPlaceholder": "Ask your question about AOW",
-      "commonQuestions": {
-        "deductions": "How much AOW will I receive?",
-        "vatReturn": "When will I receive AOW?",
-        "box3": "AOW and other income",
-        "businessStructure": "AOW and entrepreneurship",
-        "more": "More questions about AOW"
-      }
-    },
-    "health-care-allowance-chat": {
-      "helpQuestion": "How can I help you with healthcare allowance?",
-      "inputPlaceholder": "Ask your question about healthcare allowance",
-      "commonQuestions": {
-        "deductions": "How much allowance will I receive?",
-        "vatReturn": "When to apply for healthcare allowance?",
-        "box3": "Healthcare allowance conditions",
-        "businessStructure": "Healthcare allowance as entrepreneur",
-        "more": "More questions about healthcare allowance"
-      }
-    },
-    "tax-chat": {
-      "helpQuestion": "How can I help you with tax questions?",
-      "inputPlaceholder": "Ask your tax question",
-      "commonQuestions": {
-        "deductions": "What deductions are available?",
-        "vatReturn": "How does VAT work?",
-        "box3": "Explanation of box 1, 2 and 3",
-        "businessStructure": "Different business structures",
-        "more": "More tax questions"
-      }
+        "deductions": "What deductions can I apply?",
+        "vatReturn": "How to file VAT returns as self-employed?",
+        "box3": "Do I need to declare assets in box 3?",
+        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",
+        "more": "More ..."
+      },
+      "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
+      "knownFrom": "As featured in"
     }
   }
 }

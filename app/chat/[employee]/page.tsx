@@ -1,3 +1,4 @@
+import { getDictionary } from "@/app/dictionaries";
 import ChatWindow from "@/components/chat/ChatWindow";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -22,7 +23,6 @@ type HomePageProps = {
 export async function generateStaticParams() {
   // Get all unique chat routes for both languages
   const nlRoutes = Object.keys(chatNLToDictionaryKey);
-  const enRoutes = Object.keys(chatENToDictionaryKey);
 
   // Generate params for both NL and EN routes
   const params = [
@@ -30,11 +30,6 @@ export async function generateStaticParams() {
     ...nlRoutes.map((employee) => ({
       employee,
       locale: "nl",
-    })),
-    // EN routes need locale in the URL
-    ...enRoutes.map((employee) => ({
-      employee,
-      locale: "en",
     })),
   ];
 
@@ -63,15 +58,14 @@ export default async function Home({ params }: HomePageProps) {
     notFound();
   }
 
-  const dict = getChatDictionary(locale, dictionaryKey as ChatType);
-
-  console.log("dict", dict);
+  const chatDict = getChatDictionary(locale, dictionaryKey as ChatType);
+  const dict = await getDictionary(locale);
 
   return (
     <main className="relative flex-1 flex flex-col">
       <Header />
       <div className="flex-1 flex items-center justify-center">
-        <ChatWindow dict={dict} />
+        <ChatWindow dict={chatDict} />
       </div>
       <Footer dict={dict} />
     </main>

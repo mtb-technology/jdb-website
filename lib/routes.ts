@@ -119,7 +119,7 @@ export const routes: RouteMapping = {
     en: "chat"
   },
   "income-tax-return": {
-    nl: "aangifte-inkomstenbelasting",
+    nl: "belastingaangifte",
     en: "income-tax-return"
   }
 };
