@@ -15,29 +15,26 @@ interface ChatMapping {
 
 export const chatENToDictionaryKey: ChatMapping = {
   'income-tax-return': 'income-tax-return',
-  'besloten-vennootschap-assist': 'private-limited-company-assist',
-  'entrepreneurs-self-employed': 'entrepreneurs-self-employed',
-  'm-form-assistant': 'm-form',
+  'private-limited-company': 'private-company',
+  'entrepreneur': 'entrepreneur',
+  'm-form': 'm-form',
   'tax-return-checklist': 'tax-return-checklist',
-  'child-benefit-assistent': 'child-benefit-assistant',
+  'child-benefit-assistent': 'child-benefit',
   'general-questions': 'general-questions',
   'general-old-age-act': 'general-old-age-act',
-  'health-care-allowance-chat': 'health-care-allowance-chat',
-  'belastingchat': 'tax-chat',
+  'healthcare-allowance': 'healthcare-allowance',
 };
 
 export const chatNLToDictionaryKey: ChatMapping = {
   'belastingaangifte': 'income-tax-return',
-  'besloten-vennootschap-hulp': 'private-limited-company-assist',
-  'ondernemers-zzp': 'entrepreneurs-self-employed',
-  'm-form': 'm-form',
+  'besloten-vennootschap': 'private-company',
+  'ondernemer': 'entrepreneur',
+  'm-formulier': 'm-form',
   'belastingaangifte-checklist': 'tax-return-checklist',
-  'kindertoeslag': 'child-benefit-assistant',
+  'kindertoeslag': 'child-benefit',
   'algemene-vragen': 'general-questions',
-  'algemene-ouderdomswet': 'general-old-age-act',
-  'zorgtoeslag': 'health-care-allowance-chat',
-  'expat-assistant': 'expat-assistant',
-  'belastingchat': 'tax-chat',
+  'aow': 'general-old-age-act',
+  'zorgtoeslag': 'healthcare-allowance',
 };
 
 export const topicENToDictionaryKey: TopicMapping = {
@@ -47,29 +44,29 @@ export const topicENToDictionaryKey: TopicMapping = {
   'tax-credit': 'tax-credit',
   'inheritance-tax': 'inheritance-tax',
   'private-limited-company': 'private-company',
-  'self-employed-professional': 'self-employed-professional',
+  'entrepreneur': 'entrepreneur',
   'healthcare-allowance': 'healthcare-allowance',
   'housing-allowance': 'housing-allowance',
   'childcare-allowance': 'childcare-allowance',
   'child-benefit': 'child-benefit',
-  'aow-pension': 'aow-pension',
-  'income-aow-pension': 'income-aow-pension',
+  'general-old-age-act': 'general-old-age-act',
+  'income-general-old-age-act': 'income-general-old-age-act',
 };
 
 export const topicNLToDictionaryKey: TopicMapping = {
   'belastingaangifte-laten-doen': 'tax-advisor',
   'belastingaangifte': 'income-tax-return',
-  'm-form': 'm-form',
+  'm-formulier': 'm-form',
   'aftrekposten-en-kortingen': 'tax-credit',
   'erfbelasting': 'inheritance-tax',
   'besloten-vennootschap': 'private-company',
-  'zelfstandigen-zonder-personeel': 'self-employed-professional',
+  'ondernemer': 'entrepreneur',
   'zorgtoeslag': 'healthcare-allowance',
   'huurtoeslag': 'housing-allowance',
   'kinderopvangtoeslag': 'childcare-allowance',
   'kinderbijslag': 'child-benefit',
-  'aow-pensioen': 'aow-pension',
-  'inkomen-aow-pensioen': 'income-aow-pension',
+  'aow': 'general-old-age-act',
+  'inkomen-aow': 'income-general-old-age-act',
 };
 
 export const routes: RouteMapping = {
@@ -81,18 +78,6 @@ export const routes: RouteMapping = {
   "how-it-works": {
     nl: "hoe-werkt-het",
     en: "how-it-works"
-  },
-  "topics": {
-    nl: "onderwerpen",
-    en: "topics"
-  },
-  "bv": {
-    nl: "besloten-vennootschap",
-    en: "private-limited-company"
-  },
-  "tax-advisor": {
-    nl: "elastingaangifte-laten-doen",
-    en: "tax-advisor"
   },
   "blog": {
     nl: "blog",
@@ -108,19 +93,67 @@ export const routes: RouteMapping = {
   },
   //end pages
   //start topics
-  "onderwerpen": {
+  "topics": {
     nl: "onderwerpen",
     en: "topics"
+  },
+  "tax-advisor": {
+    nl: "belastingaangifte-laten-doen",
+    en: "tax-advisor"
+  },
+  "income-tax-return": {
+    nl: "belastingaangifte",
+    en: "income-tax-return"
+  },
+  "m-form": {
+    nl: "m-formulier",
+    en: "m-form"
+  },
+  "tax-credit": {
+    nl: "aftrekposten-en-kortingen",
+    en: "tax-credit"
+  },
+  "inheritance-tax": {
+    nl: "erfbelasting",
+    en: "inheritance-tax"
+  },
+  "private-limited-company": {
+    nl: "besloten-vennootschap",
+    en: "private-limited-company"
+  },
+  "entrepreneur": {
+    nl: "ondernemer",
+    en: "entrepreneur"
+  },
+  "healthcare-allowance": {
+    nl: "zorgtoeslag",
+    en: "healthcare-allowance"
+  },
+  "housing-allowance": {
+    nl: "huurtoeslag",
+    en: "housing-allowance"
+  },
+  "childcare-allowance": {
+    nl: "kinderopvangtoeslag",
+    en: "childcare-allowance"
+  },
+  "child-benefit": {
+    nl: "kinderbijslag",
+    en: "child-benefit"
+  },
+  "general-old-age-act": {
+    nl: "aow",
+    en: "general-old-age-act"
+  },
+  "income-general-old-age-act": {
+    nl: "inkomen-aow",
+    en: "income-general-old-age-act"
   },
   //end topics
   //start chat
   "chat": {
     nl: "chat",
     en: "chat"
-  },
-  "income-tax-return": {
-    nl: "belastingaangifte",
-    en: "income-tax-return"
   }
 };
 
