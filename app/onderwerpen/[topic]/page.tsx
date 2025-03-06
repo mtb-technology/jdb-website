@@ -27,7 +27,7 @@ export async function generateStaticParams() {
     // EN routes need locale in the URL
     ...nlRoutes.map((topic) => ({
       topic,
-      locale: "nl",
+      locale: "en",
     })),
   ];
 
