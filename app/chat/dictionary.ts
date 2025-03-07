@@ -3,14 +3,14 @@ import { SupportedLocale } from "@/lib/types";
 import chatDictionaries from "./dictionaries.json";
 
 interface ChatSpecificDictionary {
-  assistantId: number;
-  assistantName: string;
-  assistantDescription: string;
   helpQuestion: string;
   inputPlaceholder: string;
   commonQuestions: {
     [key: string]: string;
   };
+  assistantId?: number;
+  assistantName?: string;
+  assistantDescription?: string;
 }
 
 export type ChatType = keyof typeof chatDictionaries.nl;
@@ -33,11 +33,16 @@ interface ChatEmployee {
 }
 
 export function getChatEmployees(locale: SupportedLocale): ChatEmployee[] {
-  return Object.entries(chatDictionaries[locale] as unknown as Record<string, ChatSpecificDictionary>).map(([chatKey, chatEmployee]) => {
-    return {
-      id: getLocalizedPath(chatKey, locale),
-      name: chatEmployee.assistantName,
-      description: chatEmployee.assistantDescription,
-    };
-  });
+  return Object.entries(chatDictionaries[locale] as unknown as Record<string, ChatSpecificDictionary>)
+    .map(([chatKey, chatEmployee]) => {
+      if (!chatEmployee.assistantName || !chatEmployee.assistantDescription) {
+        return null;
+      }
+      return {
+        id: getLocalizedPath('chat/' + chatKey, locale),
+        name: chatEmployee.assistantName,
+        description: chatEmployee.assistantDescription,
+      };
+    })
+    .filter((employee): employee is ChatEmployee => employee !== null);
 }

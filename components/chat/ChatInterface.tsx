@@ -86,8 +86,8 @@ export function ChatInterface({
     employees.find((e) => e.id === currentEmployeeId) || employees[0];
 
   const handleEmployeeChange = (value: string) => {
-    const basePath = isEnglish ? "/en/chat/" : "/chat/";
-    router.push(basePath + value);
+    const basePath = isEnglish ? "/en/" : "";
+    router.push(value);
   };
 
   const chatContainerRef = useRef<HTMLDivElement>(null);
@@ -167,6 +167,7 @@ export function ChatInterface({
       for await (const chunks of messageGenerator) {
         for (const chunk of chunks) {
           if ("answer_piece" in chunk) {
+            console.log("chunk", chunk);
             if (!hasStartedReceiving) {
               hasStartedReceiving = true;
               const assistantMessage: Message = {
@@ -178,15 +179,21 @@ export function ChatInterface({
               setMessages((prev) => [...prev, assistantMessage]);
               setIsTyping(false);
             } else {
-              fullResponse = fullResponse + chunk.answer_piece;
               setMessages((prev) => {
-                const newMessages = [...prev];
-                const lastMessage = newMessages[newMessages.length - 1];
-                if (lastMessage && lastMessage.role === "assistant") {
-                  lastMessage.content =
-                    lastMessage.content + chunk.answer_piece;
+                // Only update if the last chunk hasn't been added yet
+                const lastMessage = prev[prev.length - 1];
+                if (
+                  lastMessage?.role === "assistant" &&
+                  !lastMessage.content.endsWith(chunk.answer_piece)
+                ) {
+                  const newMessages = [...prev];
+                  newMessages[newMessages.length - 1] = {
+                    ...lastMessage,
+                    content: lastMessage.content + chunk.answer_piece,
+                  };
+                  return newMessages;
                 }
-                return newMessages;
+                return prev;
               });
             }
           } else if (Object.hasOwn(chunk, "message_id")) {
@@ -216,6 +223,10 @@ export function ChatInterface({
       ]);
     } finally {
       setIsTyping(false);
+      // Focus the textarea after the stream completes
+      if (textareaRef.current) {
+        textareaRef.current.focus();
+      }
     }
   };
 
@@ -327,9 +338,6 @@ export function ChatInterface({
                   <span className="text-xs text-gray-500">
                     {currentEmployee.description}
                   </span>
-                  <span className="text-xs text-gray-500">
-                    {currentEmployee.id}
-                  </span>
                 </div>
               </SelectValue>
             </SelectTrigger>
@@ -347,7 +355,6 @@ export function ChatInterface({
                     <span className="text-xs text-gray-500">
                       {employee.description}
                     </span>
-                    <span className="text-xs text-gray-500">{employee.id}</span>
                   </div>
                 </SelectItem>
               ))}
@@ -436,7 +443,7 @@ export function ChatInterface({
                 >
                   <div className="flex flex-col">
                     <div className=" text-sm mb-1">
-                      <div className="prose prose-sm max-w-none prose-p:leading-normal prose-p:my-0 prose-ul:my-0 prose-li:my-0 prose-pre:my-0 prose-headings:my-0">
+                      <div className="prose prose-sm max-w-none">
                         <ReactMarkdown>{message.content}</ReactMarkdown>
                       </div>
                     </div>

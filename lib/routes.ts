@@ -235,9 +235,14 @@ export function getLocalizedPath(path: string, locale: SupportedLocale): string 
 
   // Try to find the full path first in routes
   const fullPath = segments.join("/");
-  const routeEntry = routes[fullPath];
+  const nlRoutes = Object.keys(routes).filter((route) => routes[route].nl === fullPath);
+  const enRoutes = Object.keys(routes).filter((route) => routes[route].en === fullPath);
+  const routeEntry = nlRoutes[0] || enRoutes[0];
+
+
+  //const routeEntry = routes[fullPath];
   if (routeEntry) {
-    const localizedPath = routeEntry[locale];
+    const localizedPath = routes[routeEntry][locale];
     return locale === "en" ? `/en/${localizedPath}` : `/${localizedPath}`;
   }
 
