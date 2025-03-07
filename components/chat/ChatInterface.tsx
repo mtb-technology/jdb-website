@@ -24,6 +24,13 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 
+
+export interface ToolCallMetadata {
+  tool_name: string;
+  tool_args: Record<string, any>;
+  tool_result?: Record<string, any>;
+}
+
 type ChatInterfaceProps = {
   initialMessage?: string;
   onReset: () => void;
@@ -66,6 +73,7 @@ export function ChatInterface({
   console.log("dictionaryMapping", dictionaryMapping);
 
   // Create employees array from the dictionary mapping
+  console.log("isEnglish", isEnglish);
   const chatDicts = getChatEmployees(isEnglish ? "en" : "nl");
   console.log("chatDicts", chatDicts);
   const employees = chatDicts;
@@ -183,6 +191,27 @@ export function ChatInterface({
               chatSessionId: chunk.chat_session_id,
               parentMessageId: chunk.message_id,
             });
+          } else if (Object.hasOwn(chunk, "tool_name")) {
+            // Will only ever be one tool call per message
+            let toolCall = {
+              tool_name: (chunk as ToolCallMetadata).tool_name,
+              tool_args: (chunk as ToolCallMetadata).tool_args,
+              tool_result: (chunk as ToolCallMetadata).tool_result,
+            };
+
+            console.log("toolCall", toolCall);
+            // if (!toolCall.tool_result || toolCall.tool_result == undefined) {
+            //     updateChatState("toolBuilding", frozenSessionId);
+            // } else {
+            //     updateChatState("streaming", frozenSessionId);
+            // }
+
+            // This will be consolidated in upcoming tool calls udpate,
+            // but for now, we need to set query as early as possible
+            // if (toolCall.tool_name == SEARCH_TOOL_NAME) {
+            // if (toolCall.tool_name == SEARCH_TOOL_NAME) {
+            //     query = toolCall.tool_args["query"];
+            // }
           }
         }
       }
@@ -413,13 +442,15 @@ export function ChatInterface({
                   ${
                     message.role === "user"
                       ? "bg-gray-100 text-gray-800 rounded-tr-none"
-                      : " text-gray-800 rounded-tl-none"
+                      : " ext-gray-800 rounded-tl-none"
                   }
                 `}
                 >
                   <div className="flex flex-col">
-                    <div className="text-sm mb-1">
-                      <ReactMarkdown>{message.content}</ReactMarkdown>
+                    <div className=" text-sm mb-1">
+                      <div className="prose prose-sm max-w-none prose-p:leading-normal prose-p:my-0 prose-ul:my-0 prose-li:my-0 prose-pre:my-0 prose-headings:my-0">
+                        <ReactMarkdown>{message.content}</ReactMarkdown>
+                      </div>
                     </div>
                     {/* <div className="text-xs self-end mt-1 opacity-70">
                       {formatTime(message.timestamp)}
