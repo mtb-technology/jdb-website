@@ -16,8 +16,8 @@
         "ogTitle": "Jan de Belastingman - AI Tax Advisor",
         "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
       },
-      "helpQuestion": "How can I help you?",
-      "inputPlaceholder": "Ask your question",
+      "helpQuestion": "Hoe kan ik je helpen?",
+      "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
         "deductions": "What deductions can I apply?",
         "vatReturn": "How to file VAT returns as self-employed?",
@@ -56,7 +56,7 @@
         "chat": {
           "text": "Ask your question in chat",
           "subtext": "Instant answer",
-          "link": "/chat/income-tax-return"
+          "link": "/chat/belastingaangifte"
         },
         "advisor": {
           "text": "Find an advisor",
@@ -325,7 +325,7 @@
         "callToAction": "Want to establish a BV? Discover with Jan de Belastingman how a Private Limited Company can transform your financial future – start your more profitable entrepreneurial journey now!",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/besloten-vennootschap-assist",
+        "buttonLink": "/chat/besloten-vennootschap",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -364,13 +364,13 @@
         "description": "Running a Private Limited Company (BV) in the Netherlands requires compliance with specific financial rules and tax obligations. Jan de Belastingman provides tailored guidance for BVs to help you effectively manage your business obligations, from tax planning to compliance with Dutch business legislation.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/besloten-vennootschap",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Business Professional"
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/besloten-vennootschap",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -399,7 +399,7 @@
         "faqTitle": "Frequently Asked Questions",
         "blogTitle": "Latest Articles about BV's",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "What is a BV and why should I establish one?",
@@ -431,7 +431,7 @@
         "callToAction": "Start the chat to receive reliable & understandable advice. Enter your contact details in the chat for an expert to help you with your tax return. You will be contacted within 24 hours with a tailored offer.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/tax-advisor-assist",
+        "buttonLink": "/chat/belastingaangifte",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -470,7 +470,7 @@
         "description": "Navigating Dutch taxes as an expat can be confusing, especially with foreign income, deductions, and complex forms like the M Form. Mistakes can lead to overpaying or missing out on benefits like the 30% ruling. Instead of spending hours figuring it all out, let our specialists handle everything for you—accurately, stress-free, and fully optimized for expat tax laws. Whether you've just moved, have dual-tax obligations, or want to maximize deductions, we ensure your tax return is filed correctly and on time.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/income-tax-return",
+        "buttonLink": "/chat/belastingaangifte",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor",
         "items": [
@@ -490,7 +490,7 @@
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/belastingaangifte",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -519,7 +519,7 @@
         "blogTitle": "Latest Articles about BV's",
         "blogCategory": "business-tax",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "What is the 30% ruling and am I eligible?",
@@ -552,7 +552,7 @@
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
         "stats": "4.8 stars from reviews",
-        "buttonLink": "/en/chat/income-tax-return-assist",
+        "buttonLink": "/chat/belastingaangifte",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -590,13 +590,13 @@
         "description": "Navigating the Dutch tax system as an expat can be challenging. Questions about applicable deductions, the impact of tax treaties with your home country, and ensuring compliance are common. Our instant tax advice chat provides clear, personalized answers in seconds, eliminating jargon and long waits. Whether you seek guidance or prefer a professional to handle your return, we're here to assist.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/income-tax-return",
+        "buttonLink": "/chat/belastingaangifte",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/belastingaangifte",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -624,7 +624,7 @@
         "faqTitle": "Frequently Asked Questions",
         "blogTitle": "Latest Articles",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "Is the advice free?",
@@ -658,7 +658,7 @@
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
         "stats": "4.8 stars from reviews",
-        "buttonLink": "/en/chat/m-form-assist",
+        "buttonLink": "/chat/m-formulier",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -696,13 +696,13 @@
         "description": "The M form is required when you've moved to or from the Netherlands during a tax year. Our experts understand the complexities of international taxation and ensure you claim all eligible deductions and benefits. Whether you're dealing with foreign income, the 30% ruling, or other migration-related tax matters, we'll help you file accurately and on time.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/m-form-assistant",
+        "buttonLink": "/chat/m-formulier",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/m-formulier",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -731,7 +731,7 @@
         "blogTitle": "Latest Articles",
         "blogCategory": "business-tax",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "When do I need to file an M form?",
@@ -764,7 +764,7 @@
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
         "stats": "4.8 stars from reviews",
-        "buttonLink": "/en/chat/tax-credit-assist",
+        "buttonLink": "/chat/algemene-vragen",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -802,7 +802,7 @@
         "description": "When you submit your income tax return, it automatically calculates your entitlements. If you and your tax partner both earn income from the Netherlands, you have the option to file a joint tax return.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/income-tax-return",
+        "buttonLink": "/chat/algemene-vragen",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor",
         "items": [
@@ -822,7 +822,7 @@
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/algemene-vragen",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -851,7 +851,7 @@
         "blogTitle": "Latest Articles",
         "blogCategory": "business-tax",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "What tax credits am I entitled to?",
@@ -884,7 +884,7 @@
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
         "stats": "4.8 stars from reviews",
-        "buttonLink": "/en/chat/inheritance-tax-assist",
+        "buttonLink": "/chat/belastingaangifte",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -922,7 +922,7 @@
         "description": "Gift tax in the Netherlands applies to gifts from Dutch residents to others, regardless of the recipient's location. Similarly, inheritance tax is levied when a Dutch resident dies, affecting beneficiaries both in and outside the Netherlands. These taxes may also apply to individuals who have moved away from the Netherlands: Dutch citizens for up to 10 years after emigration for gifts or inheritance, and individuals of other nationalities for gifts made within one year of leaving.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/income-tax-return",
+        "buttonLink": "/chat/belastingaangifte",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor",
         "items": [
@@ -942,7 +942,7 @@
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/belastingaangifte",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -971,7 +971,7 @@
         "blogTitle": "Latest Articles",
         "blogCategory": "business-tax",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "What are the inheritance tax rates in the Netherlands?",
@@ -1004,7 +1004,7 @@
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
         "stats": "4.8 stars from reviews",
-        "buttonLink": "/en/chat/entrepreneur",
+        "buttonLink": "/chat/ondernemer",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -1042,7 +1042,7 @@
         "description": "Running your own business in the Netherlands comes with unique challenges, especially when it comes to financial management and tax obligations. Jan de Belastingman offers tailored guidance to help self-employed workers navigate these hurdles, from tax deductions to financial planning, ensuring your business thrives in a competitive environment.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/entrepreneur",
+        "buttonLink": "/chat/ondernemer",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor",
         "items": [
@@ -1062,7 +1062,7 @@
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat/entrepreneur",
+        "buttonLink": "/chat/ondernemer",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -1091,7 +1091,7 @@
         "blogTitle": "Latest Articles",
         "blogCategory": "business-tax",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "What are the requirements for entrepreneurs/ZZP?",
@@ -1124,7 +1124,7 @@
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
         "stats": "4.8 stars from reviews",
-        "buttonLink": "/en/chat/healthcare-allowance-assist",
+        "buttonLink": "/chat/zorgtoeslag",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -1162,7 +1162,7 @@
         "description": "The Dutch government provides the healthcare allowance (zorgtoeslag) to assist individuals with lower incomes, offering them a periodic contribution to aid in paying the monthly premiums for Dutch health insurance (zorgverzekering).",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/general-questions",
+        "buttonLink": "/chat/zorgtoeslag",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor",
         "items": [
@@ -1182,7 +1182,7 @@
       },
       "stepsSection": {
       "buttonText": "Ask your question in chat",
-      "buttonLink": "/en/chat",
+      "buttonLink": "/chat/zorgtoeslag",
       "buttonSubtext": "Instant answer",
       "items": [
         {
@@ -1211,7 +1211,7 @@
         "blogTitle": "Latest Articles",
         "blogCategory": "business-tax",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "What are the requirements for healthcare allowance?",
@@ -1244,7 +1244,7 @@
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
         "stats": "4.8 stars from reviews",
-        "buttonLink": "/en/chat/housing-allowance-assist",
+        "buttonLink": "/chat/algemene-vragen",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -1282,13 +1282,13 @@
         "description": "The rent benefit (huurtoeslag) is a subsidy provided by the government to help with your rent expenses. Originally aimed at households with moderate incomes, it predominantly benefits those on the lower income spectrum.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/general-questions",
+        "buttonLink": "/chat/algemene-vragen",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/algemene-vragen",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -1316,7 +1316,7 @@
         "faqTitle": "Frequently Asked Questions",
         "blogTitle": "Latest Articles",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "What are the requirements for housing allowance?",
@@ -1350,7 +1350,7 @@
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
         "stats": "4.8 stars from reviews",
-        "buttonLink": "/en/chat/childcare-allowance-assist",
+        "buttonLink": "/chat/kindertoeslag",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -1388,13 +1388,13 @@
         "description": "Childcare allowance (kinderopvangtoeslag) helps parents with the costs of childcare while they work or study. The amount depends on your income, the number of children, and the type of childcare used. Our experts can help you understand your entitlements and guide you through the application process.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/general-questions",
+        "buttonLink": "/chat/kindertoeslag",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/kindertoeslag",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -1422,7 +1422,7 @@
         "faqTitle": "Frequently Asked Questions",
         "blogTitle": "Latest Articles",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "Who is eligible for childcare allowance?",
@@ -1456,7 +1456,7 @@
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
         "stats": "4.8 stars from reviews",
-        "buttonLink": "/en/chat/child-benefit-assist",
+        "buttonLink": "/chat/kindertoeslag",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -1494,13 +1494,13 @@
         "description": "Child benefit (kinderbijslag) is a quarterly payment from the government to help with the costs of raising children under 18. The amount depends on your child's age and living situation. Our experts can help you understand your entitlements and guide you through the application process.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-      "buttonLink": "/en/chat/general-questions",
+        "buttonLink": "/chat/kindertoeslag",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/kindertoeslag",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -1528,7 +1528,7 @@
         "faqTitle": "Frequently Asked Questions",
         "blogTitle": "Latest Articles",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "Who is eligible for child benefit?",
@@ -1562,7 +1562,7 @@
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
         "stats": "4.8 stars from reviews",
-        "buttonLink": "/en/chat/aow-pension-assist",
+        "buttonLink": "/chat/algemene-ouderdomswet",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -1600,13 +1600,13 @@
         "description": "The AOW (Algemene Ouderdomswet) is the Dutch state pension, providing basic income security for everyone who has lived or worked in the Netherlands. Understanding your rights, the tax implications, and how to maximize your benefits is essential for a comfortable retirement.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-        "buttonLink": "/en/chat/general-questions",
+        "buttonLink": "/chat/algemene-ouderdomswet",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/algemene-ouderdomswet",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -1634,7 +1634,7 @@
         "faqTitle": "Frequently Asked Questions",
         "blogTitle": "Latest Articles",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "When do I receive AOW pension?",
@@ -1668,7 +1668,7 @@
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
         "stats": "4.8 stars from reviews",
-        "buttonLink": "/en/chat/income-aow-pension-assist",
+        "buttonLink": "/chat/algemene-ouderdomswet",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface Preview",
@@ -1706,13 +1706,13 @@
         "description": "Many people continue working or earn additional income while receiving AOW pension. This can affect your tax situation and potentially your benefits. Understanding these implications is essential for making informed financial decisions.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
-      "buttonLink": "/en/chat/general-questions",
+      "buttonLink": "/chat/algemene-ouderdomswet",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
         "buttonText": "Ask your question in chat",
-        "buttonLink": "/en/chat",
+        "buttonLink": "/chat/algemene-ouderdomswet",
         "buttonSubtext": "Instant answer",
         "items": [
           {
@@ -1740,7 +1740,7 @@
         "faqTitle": "Frequently Asked Questions",
         "blogTitle": "Latest ArticlesW",
         "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+        "buttonLink": "/blog",
         "faqItems": [
           {
             "question": "How does additional income affect my AOW pension?",

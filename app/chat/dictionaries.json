@@ -21,27 +21,7 @@
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
-    "healthcare-allowance": {
-      "assistantId": 9,
-      "metadata": {
-        "title": "Jan de Belastingman | Zorgtoeslag Adviseur",
-        "description": "Krijg direct antwoord op al je vragen over zorgtoeslag met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
-        "ogTitle": "Jan de Belastingman - Zorgtoeslag Adviseur",
-        "ogDescription": "Stel je vragen over zorgtoeslag en krijg direct deskundig advies van onze AI-assistent."
-      },
-      "assistantName": "Jan de Belastingman",
-      "assistantDescription": "Zorgtoeslag assistent",
-      "helpQuestion": "Hoe kan ik je helpen?",
-      "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Kom ik in aanmerking voor zorgtoeslag?",
-        "vatReturn": "Hoeveel zorgtoeslag kan ik krijgen?",
-        "box3": "Wanneer moet ik wijzigingen doorgeven?",
-        "businessStructure": "Wat gebeurt er als mijn inkomen verandert?"
-      },
-      "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
-      "knownFrom": "Bekend van"
-    },
+
     "private-company": {
       "assistantId": 7,
       "metadata": {
@@ -101,6 +81,27 @@
         "vatReturn": "Wat moet ik invullen bij buitenlands inkomen?",
         "box3": "Hoe werkt de 30%-regeling?",
         "businessStructure": "Wat zijn de deadlines?"
+      },
+      "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
+      "knownFrom": "Bekend van"
+    },
+    "healthcare-allowance": {
+      "assistantId": 9,
+      "metadata": {
+        "title": "Jan de Belastingman | Zorgtoeslag Adviseur",
+        "description": "Krijg direct antwoord op al je vragen over zorgtoeslag met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
+        "ogTitle": "Jan de Belastingman - Zorgtoeslag Adviseur",
+        "ogDescription": "Stel je vragen over zorgtoeslag en krijg direct deskundig advies van onze AI-assistent."
+      },
+      "assistantName": "Jan de Belastingman",
+      "assistantDescription": "Zorgtoeslag assistent",
+      "helpQuestion": "Hoe kan ik je helpen?",
+      "inputPlaceholder": "Stel je vraag",
+      "commonQuestions": {
+        "deductions": "Kom ik in aanmerking voor zorgtoeslag?",
+        "vatReturn": "Hoeveel zorgtoeslag kan ik krijgen?",
+        "box3": "Wanneer moet ik wijzigingen doorgeven?",
+        "businessStructure": "Wat gebeurt er als mijn inkomen verandert?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -200,7 +201,7 @@
         "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "Income tax assistant",
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
@@ -212,27 +213,7 @@
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
-    "healthcare-allowance": {
-      "assistantId": 9,
-      "metadata": {
-        "title": "Jan de Belastingman | Healthcare Allowance Advisor",
-        "description": "Get instant answers to all your healthcare allowance questions with our AI assistant. Professional, reliable, and available 24/7.",
-        "ogTitle": "Jan de Belastingman - Healthcare Allowance Advisor",
-        "ogDescription": "Ask your healthcare allowance questions and get expert advice instantly from our AI assistant."
-      },
-      "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
-      "helpQuestion": "How can I help you?",
-      "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "Am I eligible for healthcare allowance?",
-        "vatReturn": "How much healthcare allowance can I receive?",
-        "box3": "When do I need to report changes?",
-        "businessStructure": "What happens if my income changes?"
-      },
-      "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
-      "knownFrom": "As featured in"
-    },
+
     "private-company": {
       "assistantId": 7,
       "metadata": {
@@ -242,7 +223,7 @@
         "ogDescription": "Ask your private limited company questions and get expert advice instantly from our AI assistant."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "Private limited company assistant",
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
@@ -263,7 +244,7 @@
         "ogDescription": "Ask your self-employed questions and get expert advice instantly from our AI assistant."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "Entrepreneur / Freelancer assistant",
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
@@ -284,7 +265,7 @@
         "ogDescription": "Ask your M Form questions and get expert advice instantly from our AI assistant."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "M-form assistant",
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
@@ -296,8 +277,27 @@
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
-    "assistantName": "Jan de Belastingman",
-    "assistantDescription": "AI-gedreven belastingadviseur",
+    "healthcare-allowance": {
+      "assistantId": 9,
+      "metadata": {
+        "title": "Jan de Belastingman | Healthcare Allowance Advisor",
+        "description": "Get instant answers to all your healthcare allowance questions with our AI assistant. Professional, reliable, and available 24/7.",
+        "ogTitle": "Jan de Belastingman - Healthcare Allowance Advisor",
+        "ogDescription": "Ask your healthcare allowance questions and get expert advice instantly from our AI assistant."
+      },
+      "assistantName": "Jan de Belastingman",
+      "assistantDescription": "Healthcare allowance assistant",
+      "helpQuestion": "How can I help you?",
+      "inputPlaceholder": "Ask your question",
+      "commonQuestions": {
+        "deductions": "Am I eligible for healthcare allowance?",
+        "vatReturn": "How much healthcare allowance can I receive?",
+        "box3": "When do I need to report changes?",
+        "businessStructure": "What happens if my income changes?"
+      },
+      "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
+      "knownFrom": "As featured in"
+    },
     "tax-return-checklist": {
       "assistantId": 12,
       "metadata": {
@@ -306,6 +306,8 @@
         "ogTitle": "Jan de Belastingman - Tax Return Checklist",
         "ogDescription": "Ask your tax return checklist questions and get expert advice instantly from our AI assistant."
       },
+      "assistantName": "Jan de Belastingman",
+      "assistantDescription": "Tax return checklist assistant",
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
@@ -326,7 +328,7 @@
         "ogDescription": "Ask your child benefit questions and get expert advice instantly from our AI assistant."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "Child benefit assistant",
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
@@ -347,7 +349,7 @@
         "ogDescription": "Ask your general tax questions and get expert advice instantly from our AI assistant."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "General tax questions assistant",
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
@@ -368,7 +370,7 @@
         "ogDescription": "Ask your AOW pension questions and get expert advice instantly from our AI assistant."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "AOW pension assistant",
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
