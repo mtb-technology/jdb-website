@@ -97,6 +97,10 @@ export const routes: Routes = {
   "chat": {
     nl: "chat",
     en: "chat"
+  },
+  "tax-chat": {
+    nl: "belastingchat",
+    en: "tax-chat"
   }
 };
 
@@ -109,7 +113,8 @@ export const chatENToDictionaryKey: ChatMapping = {
   'child-benefit-assistent': 'child-benefit',
   'general-questions': 'general-questions',
   'general-old-age-act': 'general-old-age-act',
-  'healthcare-allowance': 'healthcare-allowance'
+  'healthcare-allowance': 'healthcare-allowance',
+  'tax': 'tax',
 };
 
 export const chatNLToDictionaryKey: ChatMapping = {
@@ -121,7 +126,8 @@ export const chatNLToDictionaryKey: ChatMapping = {
   'kindertoeslag': 'child-benefit',
   'algemene-vragen': 'general-questions',
   'algemene-ouderdomswet': 'general-old-age-act',
-  'zorgtoeslag': 'health-care-allowance'
+  'zorgtoeslag': 'health-care-allowance',
+  'belasting': 'tax',
 };
 
 export const topicENToDictionaryKey: TopicMapping = {
@@ -163,7 +169,8 @@ export const routeNLToDictionaryKey: RouteMapping = {
   'over-ons': 'about-us',
   'vind-een-adviseur': 'find-advisor',
   'onderwerpen': 'topics',
-  'chat': 'chat'
+  'chat': 'chat',
+  'belastingchat': 'tax-chat'
 };
 
 export const routeENToDictionaryKey: RouteMapping = {
@@ -173,7 +180,8 @@ export const routeENToDictionaryKey: RouteMapping = {
   'about-us': 'about-us',
   'find-advisor': 'find-advisor',
   'topics': 'topics',
-  'chat': 'chat'
+  'chat': 'chat',
+  'tax-chat': 'tax-chat'
 };
 
 export function getLocalizedPath(path: string, locale: string): string {
