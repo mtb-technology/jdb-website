@@ -113,9 +113,6 @@ const nextConfig: NextConfig = {
       { source: '/en/general-old-age-act', destination: '/en/chat/general-old-age-act', permanent: true },
       { source: '/zorgtoeslag-chat', destination: '/chat/zorgtoeslag', permanent: true },
       { source: '/en/health-care-allowance', destination: '/en/chat/healthcare-allowance', permanent: true },
-      { source: '/belastingchat', destination: '/chat/belasting', permanent: true },
-      { source: '/en/belastingchat', destination: '/en/chat/tax', permanent: true },
-      
     
       // // Saas related
       // { source: '/saas', destination: '/saas', permanent: true },

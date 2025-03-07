@@ -22,8 +22,7 @@
         "deductions": "What deductions can I apply?",
         "vatReturn": "How to file VAT returns as self-employed?",
         "box3": "Do I need to declare assets in box 3?",
-        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",
-        "more": "More ..."
+        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?"
       },
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
@@ -57,7 +56,7 @@
         "chat": {
           "text": "Ask your question in chat",
           "subtext": "Instant answer",
-          "link": "/en/chat/tax-advisor"
+          "link": "/en/chat/income-tax-return"
         },
         "advisor": {
           "text": "Find an advisor",
@@ -176,11 +175,11 @@
     },
     "blog": {
       "title": "Blog",
-      "description": "Ontdek de laatste inzichten en tips over belastingen",
-      "loading": "Laden...",
-      "loadMore": "Meer artikelen laden",
-      "noPosts": "Geen artikelen gevonden in deze categorie",
-      "allCategories": "Alle",
+      "description": "Discover the latest insights and tips about taxes",
+      "loading": "Loading...",
+      "loadMore": "Load more articles",
+      "noPosts": "No articles found in this category",
+      "allCategories": "All",
       "newsletter": {
         "title": "Blijf op de hoogte",
         "description": "Ontvang de nieuwste belastingtips en updates direct in je inbox.",
