@@ -124,6 +124,7 @@ interface Partner {
   src: string;
   alt: string;
   width: number;
+  url: string;
 }
 
 interface Step {
