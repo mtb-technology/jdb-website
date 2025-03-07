@@ -1,10 +1,3 @@
-interface RouteMapping {
-  [key: string]: {
-    nl: string;
-    en: string;
-  };
-}
-
 interface TopicMapping {
   [key: string]: string;
 }
@@ -13,64 +6,18 @@ interface ChatMapping {
   [key: string]: string;
 }
 
-export const chatENToDictionaryKey: ChatMapping = {
-  'income-tax-return': 'income-tax-return',
-  'private-limited-company': 'private-company',
-  'entrepreneur': 'entrepreneur',
-  'm-form': 'm-form',
-  'tax-return-checklist': 'tax-return-checklist',
-  'child-benefit-assistent': 'child-benefit',
-  'general-questions': 'general-questions',
-  'general-old-age-act': 'general-old-age-act',
-  'healthcare-allowance': 'healthcare-allowance'
-};
+interface RouteMapping {
+  [key: string]: string;
+}
 
-export const chatNLToDictionaryKey: ChatMapping = {
-  'belastingaangifte': 'income-tax-return',
-  'besloten-vennootschap': 'private-company',
-  'ondernemer': 'entrepreneur',
-  'm-formulier': 'm-form',
-  'belastingaangifte-checklist': 'tax-return-checklist',
-  'kindertoeslag': 'child-benefit',
-  'algemene-vragen': 'general-questions',
-  'algemene-ouderdomswet': 'general-old-age-act',
-  'zorgtoeslag': 'health-care-allowance'
-};
+interface Routes {
+  [key: string]: {
+    nl: string;
+    en: string;
+  };
+}
 
-export const topicENToDictionaryKey: TopicMapping = {
-  'tax-advisor': 'tax-advisor',
-  'income-tax-return': 'income-tax-return',
-  'm-form': 'm-form',
-  'tax-credit': 'tax-credit',
-  'inheritance-tax': 'inheritance-tax',
-  'private-limited-company': 'private-company',
-  'entrepreneur': 'entrepreneur',
-  'healthcare-allowance': 'healthcare-allowance',
-  'housing-allowance': 'housing-allowance',
-  'childcare-allowance': 'childcare-allowance',
-  'child-benefit': 'child-benefit',
-  'general-old-age-act': 'general-old-age-act',
-  'income-general-old-age-act': 'income-general-old-age-act',
-};
-
-export const topicNLToDictionaryKey: TopicMapping = {
-  'belastingaangifte-laten-doen': 'tax-advisor',
-  'belastingaangifte': 'income-tax-return',
-  'm-formulier': 'm-form',
-  'aftrekposten-en-kortingen': 'tax-credit',
-  'erfbelasting': 'inheritance-tax',
-  'besloten-vennootschap': 'private-company',
-  'ondernemer': 'entrepreneur',
-  'zorgtoeslag': 'healthcare-allowance',
-  'huurtoeslag': 'housing-allowance',
-  'kinderopvangtoeslag': 'childcare-allowance',
-  'kinderbijslag': 'child-benefit',
-  'aow': 'general-old-age-act',
-  'inkomen-aow': 'income-general-old-age-act',
-};
-
-export const routes: RouteMapping = {
-  //start pages
+export const routes: Routes = {
   "home": {
     nl: "",
     en: ""
@@ -91,8 +38,6 @@ export const routes: RouteMapping = {
     nl: "vind-een-adviseur",
     en: "find-advisor"
   },
-  //end pages
-  //start topics
   "topics": {
     nl: "onderwerpen",
     en: "topics"
@@ -149,12 +94,86 @@ export const routes: RouteMapping = {
     nl: "inkomen-aow",
     en: "income-general-old-age-act"
   },
-  //end topics
-  //start chat
   "chat": {
     nl: "chat",
     en: "chat"
   }
+};
+
+export const chatENToDictionaryKey: ChatMapping = {
+  'income-tax-return': 'income-tax-return',
+  'private-limited-company': 'private-company',
+  'entrepreneur': 'entrepreneur',
+  'm-form': 'm-form',
+  'tax-return-checklist': 'tax-return-checklist',
+  'child-benefit-assistent': 'child-benefit',
+  'general-questions': 'general-questions',
+  'general-old-age-act': 'general-old-age-act',
+  'healthcare-allowance': 'healthcare-allowance'
+};
+
+export const chatNLToDictionaryKey: ChatMapping = {
+  'belastingaangifte': 'income-tax-return',
+  'besloten-vennootschap': 'private-company',
+  'ondernemer': 'entrepreneur',
+  'm-formulier': 'm-form',
+  'belastingaangifte-checklist': 'tax-return-checklist',
+  'kindertoeslag': 'child-benefit',
+  'algemene-vragen': 'general-questions',
+  'algemene-ouderdomswet': 'general-old-age-act',
+  'zorgtoeslag': 'health-care-allowance'
+};
+
+export const topicENToDictionaryKey: TopicMapping = {
+  'tax-advisor': 'tax-advisor',
+  'income-tax-return': 'income-tax-return',
+  'm-form': 'm-form',
+  'tax-credit': 'tax-credit',
+  'inheritance-tax': 'inheritance-tax',
+  'private-limited-company': 'private-limited-company',
+  'entrepreneur': 'entrepreneur',
+  'healthcare-allowance': 'healthcare-allowance',
+  'housing-allowance': 'housing-allowance',
+  'childcare-allowance': 'childcare-allowance',
+  'child-benefit': 'child-benefit',
+  'general-old-age-act': 'general-old-age-act',
+  'income-general-old-age-act': 'income-general-old-age-act',
+};
+
+export const topicNLToDictionaryKey: TopicMapping = {
+  'belastingaangifte-laten-doen': 'tax-advisor',
+  'belastingaangifte': 'income-tax-return',
+  'm-formulier': 'm-form',
+  'aftrekposten-en-kortingen': 'tax-credit',
+  'erfbelasting': 'inheritance-tax',
+  'besloten-vennootschap': 'private-limited-company',
+  'ondernemer': 'entrepreneur',
+  'zorgtoeslag': 'healthcare-allowance',
+  'huurtoeslag': 'housing-allowance',
+  'kinderopvangtoeslag': 'childcare-allowance',
+  'kinderbijslag': 'child-benefit',
+  'aow': 'general-old-age-act',
+  'inkomen-aow': 'income-general-old-age-act',
+};
+
+export const routeNLToDictionaryKey: RouteMapping = {
+  '': 'home',
+  'hoe-werkt-het': 'how-it-works',
+  'blog': 'blog',
+  'over-ons': 'about-us',
+  'vind-een-adviseur': 'find-advisor',
+  'onderwerpen': 'topics',
+  'chat': 'chat'
+};
+
+export const routeENToDictionaryKey: RouteMapping = {
+  '': 'home',
+  'how-it-works': 'how-it-works',
+  'blog': 'blog',
+  'about-us': 'about-us',
+  'find-advisor': 'find-advisor',
+  'topics': 'topics',
+  'chat': 'chat'
 };
 
 export function getLocalizedPath(path: string, locale: string): string {
@@ -174,15 +193,25 @@ export function getLocalizedPath(path: string, locale: string): string {
     segments.shift();
   }
 
+  // Get the appropriate mappings based on locale
+  const routeMapping = locale === "en" ? routeENToDictionaryKey : routeNLToDictionaryKey;
+  const topicMapping = locale === "en" ? topicENToDictionaryKey : topicNLToDictionaryKey;
+
   // Translate each segment
   const translatedSegments = segments.map(segment => {
-    // Find the route key that matches either nl or en value
-    const routeKey = Object.entries(routes).find(([, values]) =>
-      values.nl === segment || values.en === segment
-    );
+    // First check in routes, then in topics
+    const routeKey = Object.entries(routeMapping).find(([key]) => key === segment)?.[1];
+    const topicKey = Object.entries(topicMapping).find(([key]) => key === segment)?.[1];
 
-    if (routeKey) {
-      return routeKey[1][locale as keyof typeof routeKey[1]];
+    const key = routeKey || topicKey;
+
+    if (key) {
+    // If found in either mapping, get the localized version
+      if (routeKey) {
+        return locale === "en" ? routeENToDictionaryKey[key] : routeNLToDictionaryKey[key];
+      } else {
+        return locale === "en" ? topicENToDictionaryKey[key] : topicNLToDictionaryKey[key];
+      }
     }
     return segment;
   });
