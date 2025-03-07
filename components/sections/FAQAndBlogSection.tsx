@@ -30,10 +30,7 @@ async function RecentBlogPosts({ category }: { category: string }) {
   return (
     <ul className="space-y-4">
       {posts.posts.slice(0, 4).map((post) => (
-        <li
-          key={post.id}
-          className="border-b border-blue-200 pb-4 last:border-b-0"
-        >
+        <li key={post.id} className="border-b border-blue-200 pb-4">
           <Link
             href={`/blog/${post.slug}`}
             className="text-primary hover:underline block"
