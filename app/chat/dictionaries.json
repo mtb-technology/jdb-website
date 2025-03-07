@@ -1,5 +1,24 @@
 {
   "nl": {
+    "home": {
+      "assistantId": 12,
+      "metadata": {
+        "title": "Jan de Belastingman | Your AI Tax Advisor",
+        "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
+        "ogTitle": "Jan de Belastingman - AI Tax Advisor",
+        "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
+      },
+      "helpQuestion": "Hoe kan ik je helpen?",
+      "inputPlaceholder": "Stel je vraag",
+      "commonQuestions": {
+        "deductions": "What deductions can I apply?",
+        "vatReturn": "How to file VAT returns as self-employed?",
+        "box3": "Do I need to declare assets in box 3?",
+        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?"
+      },
+      "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
+      "knownFrom": "As featured in"
+    },
     "income-tax-return": {
       "assistantId": 12,
       "metadata": {
@@ -192,6 +211,27 @@
     }
   },
   "en": {
+    "home": {
+      "assistantId": 12,
+      "metadata": {
+        "title": "Jan de Belastingman | Your AI Tax Advisor",
+        "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
+        "ogTitle": "Jan de Belastingman - AI Tax Advisor",
+        "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
+      },
+      "assistantName": "Jan de Belastingman",
+      "assistantDescription": "Tax assistent",
+      "helpQuestion": "How can I help you?",
+      "inputPlaceholder": "Ask your question",
+      "commonQuestions": {
+        "deductions": "What deductions can I apply?",
+        "vatReturn": "How to file VAT returns as self-employed?",
+        "box3": "Do I need to declare assets in box 3?",
+        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?"
+      },
+      "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
+      "knownFrom": "As featured in"
+    },
     "income-tax-return": {
       "assistantId": 12,
       "metadata": {
