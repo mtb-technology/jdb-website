@@ -1,9 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface Partner {
   src: string;
   alt: string;
   width: number;
+  url: string;
 }
 
 interface PartnersSectionProps {
@@ -23,13 +25,15 @@ export default function PartnersSection({
           (image, index) =>
             image.src && (
               <div key={index} className="h-6">
-                <Image
-                  src={image.src || "/placeholder.svg"}
-                  alt={image.alt}
-                  width={image.width}
-                  height={24}
-                  className="h-full w-auto"
-                />
+                <Link href={image.url} target="_blank">
+                  <Image
+                    src={image.src || "/placeholder.svg"}
+                    alt={image.alt}
+                    width={image.width}
+                    height={24}
+                    className="h-full w-auto"
+                  />
+                </Link>
               </div>
             )
         )}

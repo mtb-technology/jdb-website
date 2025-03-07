@@ -104,13 +104,13 @@ export default function ChatWindow({ dict }: { dict: any }) {
               >
                 {dict.commonQuestions.businessStructure}
               </Button>
-              <Button
+              {/* <Button
                 variant="outline"
                 className="rounded-full"
                 onClick={() => handleStartChat(dict.commonQuestions.more)}
               >
                 {dict.commonQuestions.more}
-              </Button>
+              </Button> */}
             </div>
 
             <p className="text-gray-500 mb-12 text-xs whitespace-pre-line">
