@@ -22,8 +22,7 @@ export const chatENToDictionaryKey: ChatMapping = {
   'child-benefit-assistent': 'child-benefit',
   'general-questions': 'general-questions',
   'general-old-age-act': 'general-old-age-act',
-  'healthcare-allowance': 'healthcare-allowance',
-  'tax': 'tax',
+  'healthcare-allowance': 'healthcare-allowance'
 };
 
 export const chatNLToDictionaryKey: ChatMapping = {
@@ -35,8 +34,7 @@ export const chatNLToDictionaryKey: ChatMapping = {
   'kindertoeslag': 'child-benefit',
   'algemene-vragen': 'general-questions',
   'algemene-ouderdomswet': 'general-old-age-act',
-  'zorgtoeslag': 'health-care-allowance',
-  'belasting': 'tax',
+  'zorgtoeslag': 'health-care-allowance'
 };
 
 export const topicENToDictionaryKey: TopicMapping = {
@@ -156,10 +154,6 @@ export const routes: RouteMapping = {
   "chat": {
     nl: "chat",
     en: "chat"
-  },
-  "tax-chat": {
-    nl: "belastingchat",
-    en: "tax-chat"
   }
 };
 

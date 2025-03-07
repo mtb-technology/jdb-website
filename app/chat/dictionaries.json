@@ -9,9 +9,9 @@
         "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
-      "helpQuestion": "How can I help you?",
-      "inputPlaceholder": "Ask your question",
+      "assistantDescription": "Inkomstenbelasting assistent",
+      "helpQuestion": "Hoe kan ik je helpen?",
+      "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
         "deductions": "What deductions can I apply?",
         "vatReturn": "How to file VAT returns as self-employed?",
@@ -30,7 +30,7 @@
         "ogDescription": "Stel je vragen over zorgtoeslag en krijg direct deskundig advies van onze AI-assistent."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "Zorgtoeslag assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
@@ -51,7 +51,7 @@
         "ogDescription": "Stel je vragen over BV's en krijg direct deskundig advies van onze AI-assistent."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "B.V. assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
@@ -72,7 +72,7 @@
         "ogDescription": "Stel je vragen over ZZP en krijg direct deskundig advies van onze AI-assistent."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "Ondernemer / ZZP assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
@@ -93,7 +93,7 @@
         "ogDescription": "Stel je vragen over het M-formulier en krijg direct deskundig advies van onze AI-assistent."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "M-formulier assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
@@ -114,7 +114,7 @@
         "ogDescription": "Stel je vragen over de belastingaangifte checklist en krijg direct deskundig advies van onze AI-assistent."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "Belastingaangifte checklist assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
@@ -135,7 +135,7 @@
         "ogDescription": "Stel je vragen over kinderbijslag en krijg direct deskundig advies van onze AI-assistent."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "Kinderbijslag assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
@@ -156,7 +156,7 @@
         "ogDescription": "Stel je algemene belastingvragen en krijg direct deskundig advies van onze AI-assistent."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "Algemene belastingvragen assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
@@ -177,7 +177,7 @@
         "ogDescription": "Stel je vragen over AOW en krijg direct deskundig advies van onze AI-assistent."
       },
       "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
+      "assistantDescription": "AOW assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
@@ -185,27 +185,6 @@
         "vatReturn": "Hoeveel AOW krijg ik?",
         "box3": "Wat als ik in het buitenland heb gewoond?",
         "businessStructure": "Kan ik blijven werken met AOW?"
-      },
-      "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
-      "knownFrom": "Bekend van"
-    },
-    "tax": {
-      "assistantId": 9,
-      "metadata": {
-        "title": "Jan de Belastingman | Belasting Chat",
-        "description": "Krijg direct antwoord op al je belastingvragen met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
-        "ogTitle": "Jan de Belastingman - Belasting Chat",
-        "ogDescription": "Stel je belastingvragen en krijg direct deskundig advies van onze AI-assistent."
-      },
-      "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
-      "helpQuestion": "Hoe kan ik je helpen?",
-      "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Welke aftrekposten zijn er?",
-        "vatReturn": "Hoe werkt de BTW-aangifte?",
-        "box3": "Wat moet ik aangeven in box 3?",
-        "businessStructure": "Wat is het beste voor mijn situatie?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -397,27 +376,6 @@
         "vatReturn": "How much AOW will I receive?",
         "box3": "What if I lived abroad?",
         "businessStructure": "Can I continue working with AOW?"
-      },
-      "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
-      "knownFrom": "As featured in"
-    },
-    "tax": {
-      "assistantId": 9,
-      "metadata": {
-        "title": "Jan de Belastingman | Tax Chat",
-        "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
-        "ogTitle": "Jan de Belastingman - Tax Chat",
-        "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
-      },
-      "assistantName": "Jan de Belastingman",
-      "assistantDescription": "AI-gedreven belastingadviseur",
-      "helpQuestion": "How can I help you?",
-      "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "What deductions are available?",
-        "vatReturn": "How does VAT return work?",
-        "box3": "What should I declare in box 3?",
-        "businessStructure": "What's best for my situation?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
