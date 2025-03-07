@@ -118,17 +118,30 @@ export async function* sendMessage({
       Authorization: `Bearer ${API_KEY}`,
     },
     body: JSON.stringify({
+      alternate_assistant_id: assistantId, // TODO: is this needed?      
       chat_session_id: chatSessionId,
       parent_message_id: parentMessageId || null,
       message: message,
-      prompt_id: null,
+      prompt_id: null, //currentPromptId ?? null,
       search_doc_ids: null,
       file_descriptors: [],
+      // retrieval_options: {
+      //   run_search: "always",
+      //   filters: null,
+      // },
+      regenerate: false,
       retrieval_options: {
-        run_search: "always",
-        filters: null,
+        run_search: "auto",
+        real_time: true,
+        filters: {
+          source_type: null,
+          document_set: null,
+          time_cutoff: null,
+          tags: [],
+        },
       },
-      query_override: null,
+      prompt_override: null,
+      llm_override: null,
     }),
   });
 
