@@ -32,6 +32,7 @@ const nextConfig: NextConfig = {
       // M form
       { source: '/m-form', destination: '/onderwerpen/m-form', permanent: true },
       { source: '/en/m-form', destination: '/en/topics/m-form', permanent: true },
+      { source: '/m-formulier', destination: '/chat/belasting', permanent: true },
       
       // Tax credit
       { source: '/aftrekposten-en-kortingen', destination: '/onderwerpen/aftrekposten-en-kortingen', permanent: true },
