@@ -304,10 +304,10 @@ export function ChatInterface({
             value={currentEmployeeId}
             onValueChange={handleEmployeeChange}
           >
-            <SelectTrigger className="w-[200px] border-none shadow-none focus:ring-0 pl-0">
+            <SelectTrigger className="w-[200px] border-none shadow-none focus:ring-0 pl-0 cursor-pointer group">
               <SelectValue>
-                <div className="flex flex-col items-start">
-                  <span className="font-semibold text-[#1a1a1a]">
+                <div className="flex flex-col items-start group-hover:opacity-70 transition-all duration-200">
+                  <span className="font-semibold text-[#1a1a1a] group-hover:text-primary">
                     {currentEmployee.name}
                   </span>
                   <span className="text-xs text-gray-500">
@@ -316,12 +316,16 @@ export function ChatInterface({
                 </div>
               </SelectValue>
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="border border-gray-100 shadow-md">
               {employees.map((employee) => (
-                <SelectItem key={employee.id} value={employee.id}>
-                  <div className="flex flex-col items-start py-1">
-                    <span className="font-medium">
-                      {employee.name} - ({employee.id})
+                <SelectItem
+                  key={employee.id}
+                  value={employee.id}
+                  className="cursor-pointer focus:bg-primary/5 data-[state=checked]:bg-primary/5"
+                >
+                  <div className="flex flex-col items-start py-1 hover:opacity-70 transition-all duration-200">
+                    <span className="font-medium hover:text-primary">
+                      {employee.name}
                     </span>
                     <span className="text-xs text-gray-500">
                       {employee.description}
