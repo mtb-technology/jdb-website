@@ -1,3 +1,5 @@
+import { SupportedLocale } from "./types";
+
 interface TopicMapping {
   [key: string]: string;
 }
@@ -18,86 +20,122 @@ interface Routes {
 }
 
 export const routes: Routes = {
-  "home": {
-    nl: "",
-    en: ""
+  'home': {
+    nl: '',
+    en: ''
   },
-  "how-it-works": {
-    nl: "hoe-werkt-het",
-    en: "how-it-works"
+  'how-it-works': {
+    nl: 'hoe-werkt-het',
+    en: 'how-it-works'
   },
-  "blog": {
-    nl: "blog",
-    en: "blog"
+  'blog': {
+    nl: 'blog',
+    en: 'blog'
   },
-  "about-us": {
-    nl: "over-ons",
-    en: "about-us"
+  'about-us': {
+    nl: 'over-ons',
+    en: 'about-us'
   },
-  "find-advisor": {
-    nl: "vind-een-adviseur",
-    en: "find-advisor"
+  'find-advisor': {
+    nl: 'vind-een-adviseur',
+    en: 'find-advisor'
   },
-  "topics": {
-    nl: "onderwerpen",
-    en: "topics"
+  'topics': {
+    nl: 'onderwerpen',
+    en: 'topics'
   },
-  "tax-advisor": {
-    nl: "belastingaangifte-laten-doen",
-    en: "tax-advisor"
+  'topics/tax-advisor': {
+    nl: 'onderwerpen/belastingaangifte-laten-doen',
+    en: 'topics/tax-advisor'
   },
-  "income-tax-return": {
-    nl: "belastingaangifte",
-    en: "income-tax-return"
+  'topics/income-tax-return': {
+    nl: 'onderwerpen/belastingaangifte',
+    en: 'topics/income-tax-return'
   },
-  "m-form": {
-    nl: "m-formulier",
-    en: "m-form"
+  'topics/m-form': {
+    nl: 'onderwerpen/m-formulier',
+    en: 'topics/m-form'
   },
-  "tax-credit": {
-    nl: "aftrekposten-en-kortingen",
-    en: "tax-credit"
+  'topics/tax-credit': {
+    nl: 'onderwerpen/aftrekposten-en-kortingen',
+    en: 'topics/tax-credit'
   },
-  "inheritance-tax": {
-    nl: "erfbelasting",
-    en: "inheritance-tax"
+  'topics/inheritance-tax': {
+    nl: 'onderwerpen/erfbelasting',
+    en: 'topics/inheritance-tax'
   },
-  "private-company": {
-    nl: "besloten-vennootschap",
-    en: "private-limited-company"
+  'topics/private-company': {
+    nl: 'onderwerpen/besloten-vennootschap',
+    en: 'topics/private-limited-company'
   },
-  "entrepreneur": {
-    nl: "ondernemer",
-    en: "entrepreneur"
+  'topics/entrepreneur': {
+    nl: 'onderwerpen/ondernemer',
+    en: 'topics/entrepreneur'
   },
-  "healthcare-allowance": {
-    nl: "zorgtoeslag",
-    en: "healthcare-allowance"
+  'topics/healthcare-allowance': {
+    nl: 'onderwerpen/zorgtoeslag',
+    en: 'topics/healthcare-allowance'
   },
-  "housing-allowance": {
-    nl: "huurtoeslag",
-    en: "housing-allowance"
+  'topics/housing-allowance': {
+    nl: 'onderwerpen/huurtoeslag',
+    en: 'topics/housing-allowance'
   },
-  "childcare-allowance": {
-    nl: "kinderopvangtoeslag",
-    en: "childcare-allowance"
+  'topics/childcare-allowance': {
+    nl: 'onderwerpen/kinderopvangtoeslag',
+    en: 'topics/childcare-allowance'
   },
-  "child-benefit": {
-    nl: "kinderbijslag",
-    en: "child-benefit"
+  'topics/child-benefit': {
+    nl: 'onderwerpen/kinderbijslag',
+    en: 'topics/child-benefit'
   },
-  "general-old-age-act": {
-    nl: "aow",
-    en: "general-old-age-act"
+  'topics/general-old-age-act': {
+    nl: 'onderwerpen/aow',
+    en: 'topics/general-old-age-act'
   },
-  "income-general-old-age-act": {
-    nl: "inkomen-aow",
-    en: "income-general-old-age-act"
+  'topics/income-general-old-age-act': {
+    nl: 'onderwerpen/inkomen-aow',
+    en: 'topics/income-general-old-age-act'
   },
-  "chat": {
-    nl: "chat",
-    en: "chat"
+  'chat': {
+    nl: 'chat',
+    en: 'chat'
   },
+  'chat/income-tax-return': {
+    nl: 'chat/belastingaangifte',
+    en: 'chat/income-tax-return'
+  },
+  'chat/private-company': {
+    nl: 'chat/besloten-vennootschap',
+    en: 'chat/private-limited-company'
+  },
+  'chat/entrepreneur': {
+    nl: 'chat/ondernemer',
+    en: 'chat/entrepreneur'
+  },
+  'chat/m-form': {
+    nl: 'chat/m-formulier',
+    en: 'chat/m-form'
+  },
+  'chat/tax-return-checklist': {
+    nl: 'chat/belastingaangifte-checklist',
+    en: 'chat/tax-return-checklist'
+  },
+  'chat/child-benefit': {
+    nl: 'chat/kindertoeslag',
+    en: 'chat/child-benefit-assistent'
+  },
+  'chat/general-questions': {
+    nl: 'chat/algemene-vragen',
+    en: 'chat/general-questions'
+  },
+  'chat/general-old-age-act': {
+    nl: 'chat/algemene-ouderdomswet',
+    en: 'chat/general-old-age-act'
+  },
+  'chat/healthcare-allowance': {
+    nl: 'chat/zorgtoeslag',
+    en: 'chat/healthcare-allowance'
+  }
 };
 
 export const chatENToDictionaryKey: ChatMapping = {
@@ -178,7 +216,7 @@ export const routeENToDictionaryKey: RouteMapping = {
   'tax-chat': 'tax-chat'
 };
 
-export function getLocalizedPath(path: string, locale: "en" | "nl"): string {
+export function getLocalizedPath(path: string, locale: SupportedLocale): string {
   // Remove leading slash if present
   const cleanPath = path.startsWith("/") ? path.slice(1) : path;
 
@@ -195,45 +233,24 @@ export function getLocalizedPath(path: string, locale: "en" | "nl"): string {
     segments.shift();
   }
 
-  // Determine source and target mappings based on the path content, not the target locale
-  const currentLocale = segments.some(segment =>
-    Object.keys(routeENToDictionaryKey).includes(segment) ||
-    Object.keys(topicENToDictionaryKey).includes(segment) ||
-    Object.values(chatENToDictionaryKey).includes(segment)
-  ) ? "en" : "nl";
+  // Try to find the full path first in routes
+  const fullPath = segments.join("/");
+  const routeEntry = routes[fullPath];
+  if (routeEntry) {
+    const localizedPath = routeEntry[locale];
+    return locale === "en" ? `/en/${localizedPath}` : `/${localizedPath}`;
+  }
 
-  // Get the appropriate mappings based on translation direction
-  const routeMapping = currentLocale === "en" ? routeENToDictionaryKey : routeNLToDictionaryKey;
-  const topicMapping = currentLocale === "en" ? topicENToDictionaryKey : topicNLToDictionaryKey;
-  const chatMapping = currentLocale === "en" ? chatENToDictionaryKey : chatNLToDictionaryKey;
+  // If not found, try to translate each segment
+  const translatedSegments = segments.map((segment, index) => {
+    // Build the path up to this segment
+    const pathUpToHere = segments.slice(0, index + 1).join("/");
+    const routeEntry = routes[pathUpToHere];
 
-  // For reverse lookups in chat
-  const reverseChatMapping = locale === "en" ? chatNLToDictionaryKey : chatENToDictionaryKey;
-
-  // Translate each segment
-  const translatedSegments = segments.map(segment => {
-    // Get the dictionary key from current segment
-    const routeDictKey = routeMapping[segment];
-    const topicDictKey = topicMapping[segment];
-    const chatDictKey = chatMapping[segment];
-
-    // First try route and topic translations using routes
-    if (routeDictKey && routeDictKey in routes) {
-      return routes[routeDictKey as keyof typeof routes][locale];
-    }
-
-    if (topicDictKey && topicDictKey in routes) {
-      return routes[topicDictKey as keyof typeof routes][locale];
-    }
-
-    // For chat translations, we need to handle them differently
-    if (chatDictKey) {
-      // Find the key in the reverse mapping that matches our dictionary key
-      const translatedKey = Object.entries(reverseChatMapping)
-        .find(([_, value]) => value === chatDictKey)?.[0];
-      if (translatedKey) {
-        return translatedKey;
-      }
+    if (routeEntry) {
+      // Get the last part of the translated path
+      const translatedPath = routeEntry[locale];
+      return translatedPath.split("/").pop() || segment;
     }
 
     return segment;
@@ -241,7 +258,7 @@ export function getLocalizedPath(path: string, locale: "en" | "nl"): string {
 
   // Only include locale prefix for English
   return locale === "en"
-    ? `/${locale}/${translatedSegments.join("/")}`
+    ? `/en/${translatedSegments.join("/")}`
     : `/${translatedSegments.join("/")}`;
 }
 

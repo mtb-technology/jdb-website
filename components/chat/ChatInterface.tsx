@@ -1,4 +1,12 @@
+// Add type declaration for dataLayer
+declare global {
+  interface Window {
+    dataLayer: any[];
+  }
+}
+
 import { getChatEmployees } from "@/app/chat/dictionary";
+import { useTracking } from "@/app/components/providers/tracking-provider";
 import { Button } from "@/components/ui/button";
 import {
   Select,
@@ -24,7 +32,6 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 
-
 export interface ToolCallMetadata {
   tool_name: string;
   tool_args: Record<string, any>;
@@ -44,6 +51,7 @@ export function ChatInterface({
   assistantId,
   dict,
 }: ChatInterfaceProps) {
+  const { trackingData } = useTracking();
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [isTyping, setIsTyping] = useState(false);
@@ -63,19 +71,15 @@ export function ChatInterface({
   const isEnglish = pathname.startsWith("/en");
 
   // Get the current employee ID from the URL
-  const currentEmployeeId = pathname.split("/").pop() || "algemene-vragen";
+  const currentEmployeeId = pathname.split("/").pop() || "not-found";
 
   // Get the appropriate dictionary mapping based on language
   const dictionaryMapping = isEnglish
     ? chatENToDictionaryKey
     : chatNLToDictionaryKey;
 
-  console.log("dictionaryMapping", dictionaryMapping);
-
   // Create employees array from the dictionary mapping
-  console.log("isEnglish", isEnglish);
   const chatDicts = getChatEmployees(isEnglish ? "en" : "nl");
-  console.log("chatDicts", chatDicts);
   const employees = chatDicts;
   // Find current employee
   const currentEmployee =
@@ -185,33 +189,17 @@ export function ChatInterface({
                 return newMessages;
               });
             }
-          }
-          if ("chat_session_id" in chunk) {
-            setCurrentSession({
-              chatSessionId: chunk.chat_session_id,
-              parentMessageId: chunk.message_id,
-            });
-          } else if (Object.hasOwn(chunk, "tool_name")) {
-            // Will only ever be one tool call per message
-            let toolCall = {
-              tool_name: (chunk as ToolCallMetadata).tool_name,
-              tool_args: (chunk as ToolCallMetadata).tool_args,
-              tool_result: (chunk as ToolCallMetadata).tool_result,
-            };
-
-            console.log("toolCall", toolCall);
-            // if (!toolCall.tool_result || toolCall.tool_result == undefined) {
-            //     updateChatState("toolBuilding", frozenSessionId);
-            // } else {
-            //     updateChatState("streaming", frozenSessionId);
-            // }
-
-            // This will be consolidated in upcoming tool calls udpate,
-            // but for now, we need to set query as early as possible
-            // if (toolCall.tool_name == SEARCH_TOOL_NAME) {
-            // if (toolCall.tool_name == SEARCH_TOOL_NAME) {
-            //     query = toolCall.tool_args["query"];
-            // }
+          } else if (Object.hasOwn(chunk, "message_id")) {
+            if (Object.hasOwn(chunk, "tool_call") && chunk.tool_call) {
+              window.dataLayer = window.dataLayer || [];
+              window.dataLayer.push({
+                event: "toolCall",
+                ecommerce: chunk.tool_call.tool_result,
+                language: isEnglish ? "en" : "nl",
+                tracking_id: trackingData?.trackingId,
+                lead_source: trackingData?.leadSource,
+              });
+            }
           }
         }
       }
