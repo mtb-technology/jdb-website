@@ -1,6 +1,6 @@
 "use client"
 
-import { getCurrentLocale, getLocalizedPath } from "@/lib/routes";
+import { getCurrentLocale } from "@/lib/routes";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -29,17 +29,20 @@ export default function Footer({ dict }: { dict: FooterDictionary }) {
     },
   ];
 
-  return ( 
+  return (
     <footer className="py-6 px-6 border-t border-gray-100 mt-auto">
       <div className="flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="text-xs text-gray-500">
-          {dict.footer.copyright.replace("{year}", new Date().getFullYear().toString())}
+          {dict.footer.copyright.replace(
+            "{year}",
+            new Date().getFullYear().toString()
+          )}
         </div>
         <div className="flex gap-6 text-xs text-gray-500">
           {footerLinks.map((link) => (
             <Link
               key={link.href}
-              href={getLocalizedPath(link.href, locale)}
+              href={link.href}
               className="hover:text-primary transition-colors"
             >
               {link.label}

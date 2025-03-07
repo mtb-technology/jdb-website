@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { getCurrentLocale, getLocalizedPath } from "@/lib/routes"
+import { SupportedLocale } from "@/lib/types";
 import { usePathname, useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 
@@ -36,10 +37,10 @@ export function LanguageSwitcher() {
     setLanguage(getCurrentLocale(pathname))
   }, [pathname])
 
-  const handleLanguageChange = (newLocale: string) => {
-    const newPath = getLocalizedPath(pathname, newLocale)
-    router.push(newPath)
-  }
+  const handleLanguageChange = (newLocale: SupportedLocale) => {
+    const newPath = getLocalizedPath(pathname, newLocale);
+    router.push(newPath);
+  };
 
   return (
     <DropdownMenu>

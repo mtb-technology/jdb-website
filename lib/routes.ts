@@ -62,7 +62,7 @@ export const routes: Routes = {
     nl: "erfbelasting",
     en: "inheritance-tax"
   },
-  "private-limited-company": {
+  "private-company": {
     nl: "besloten-vennootschap",
     en: "private-limited-company"
   },
@@ -98,10 +98,6 @@ export const routes: Routes = {
     nl: "chat",
     en: "chat"
   },
-  "tax-chat": {
-    nl: "belastingchat",
-    en: "tax-chat"
-  }
 };
 
 export const chatENToDictionaryKey: ChatMapping = {
@@ -114,7 +110,6 @@ export const chatENToDictionaryKey: ChatMapping = {
   'general-questions': 'general-questions',
   'general-old-age-act': 'general-old-age-act',
   'healthcare-allowance': 'healthcare-allowance',
-  'tax': 'tax',
 };
 
 export const chatNLToDictionaryKey: ChatMapping = {
@@ -126,8 +121,7 @@ export const chatNLToDictionaryKey: ChatMapping = {
   'kindertoeslag': 'child-benefit',
   'algemene-vragen': 'general-questions',
   'algemene-ouderdomswet': 'general-old-age-act',
-  'zorgtoeslag': 'health-care-allowance',
-  'belasting': 'tax',
+  'zorgtoeslag': 'healthcare-allowance',
 };
 
 export const topicENToDictionaryKey: TopicMapping = {
@@ -136,7 +130,7 @@ export const topicENToDictionaryKey: TopicMapping = {
   'm-form': 'm-form',
   'tax-credit': 'tax-credit',
   'inheritance-tax': 'inheritance-tax',
-  'private-limited-company': 'private-limited-company',
+  'private-limited-company': 'private-company',
   'entrepreneur': 'entrepreneur',
   'healthcare-allowance': 'healthcare-allowance',
   'housing-allowance': 'housing-allowance',
@@ -152,7 +146,7 @@ export const topicNLToDictionaryKey: TopicMapping = {
   'm-formulier': 'm-form',
   'aftrekposten-en-kortingen': 'tax-credit',
   'erfbelasting': 'inheritance-tax',
-  'besloten-vennootschap': 'private-limited-company',
+  'besloten-vennootschap': 'private-company',
   'ondernemer': 'entrepreneur',
   'zorgtoeslag': 'healthcare-allowance',
   'huurtoeslag': 'housing-allowance',
@@ -184,7 +178,7 @@ export const routeENToDictionaryKey: RouteMapping = {
   'tax-chat': 'tax-chat'
 };
 
-export function getLocalizedPath(path: string, locale: string): string {
+export function getLocalizedPath(path: string, locale: "en" | "nl"): string {
   // Remove leading slash if present
   const cleanPath = path.startsWith("/") ? path.slice(1) : path;
 
@@ -201,26 +195,47 @@ export function getLocalizedPath(path: string, locale: string): string {
     segments.shift();
   }
 
-  // Get the appropriate mappings based on locale
-  const routeMapping = locale === "en" ? routeENToDictionaryKey : routeNLToDictionaryKey;
-  const topicMapping = locale === "en" ? topicENToDictionaryKey : topicNLToDictionaryKey;
+  // Determine source and target mappings based on the path content, not the target locale
+  const currentLocale = segments.some(segment =>
+    Object.keys(routeENToDictionaryKey).includes(segment) ||
+    Object.keys(topicENToDictionaryKey).includes(segment) ||
+    Object.values(chatENToDictionaryKey).includes(segment)
+  ) ? "en" : "nl";
+
+  // Get the appropriate mappings based on translation direction
+  const routeMapping = currentLocale === "en" ? routeENToDictionaryKey : routeNLToDictionaryKey;
+  const topicMapping = currentLocale === "en" ? topicENToDictionaryKey : topicNLToDictionaryKey;
+  const chatMapping = currentLocale === "en" ? chatENToDictionaryKey : chatNLToDictionaryKey;
+
+  // For reverse lookups in chat
+  const reverseChatMapping = locale === "en" ? chatNLToDictionaryKey : chatENToDictionaryKey;
 
   // Translate each segment
   const translatedSegments = segments.map(segment => {
-    // First check in routes, then in topics
-    const routeKey = Object.entries(routeMapping).find(([key]) => key === segment)?.[1];
-    const topicKey = Object.entries(topicMapping).find(([key]) => key === segment)?.[1];
+    // Get the dictionary key from current segment
+    const routeDictKey = routeMapping[segment];
+    const topicDictKey = topicMapping[segment];
+    const chatDictKey = chatMapping[segment];
 
-    const key = routeKey || topicKey;
+    // First try route and topic translations using routes
+    if (routeDictKey && routeDictKey in routes) {
+      return routes[routeDictKey as keyof typeof routes][locale];
+    }
 
-    if (key) {
-    // If found in either mapping, get the localized version
-      if (routeKey) {
-        return locale === "en" ? routeENToDictionaryKey[key] : routeNLToDictionaryKey[key];
-      } else {
-        return locale === "en" ? topicENToDictionaryKey[key] : topicNLToDictionaryKey[key];
+    if (topicDictKey && topicDictKey in routes) {
+      return routes[topicDictKey as keyof typeof routes][locale];
+    }
+
+    // For chat translations, we need to handle them differently
+    if (chatDictKey) {
+      // Find the key in the reverse mapping that matches our dictionary key
+      const translatedKey = Object.entries(reverseChatMapping)
+        .find(([_, value]) => value === chatDictKey)?.[0];
+      if (translatedKey) {
+        return translatedKey;
       }
     }
+
     return segment;
   });
 

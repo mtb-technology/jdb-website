@@ -1,5 +1,4 @@
-"use client";
-
+import { getChatEmployees } from "@/app/chat/dictionary";
 import { Button } from "@/components/ui/button";
 import {
   Select,
@@ -64,14 +63,12 @@ export function ChatInterface({
     ? chatENToDictionaryKey
     : chatNLToDictionaryKey;
 
-  // Create employees array from the dictionary mapping
-  const employees = Object.entries(dictionaryMapping).map(([key, value]) => ({
-    id: key,
-    name: dict[value]?.assistantName || "Jan de Belastingman",
-    description:
-      dict[value]?.assistantDescription || "AI-gedreven belastingadviseur",
-  }));
+  console.log("dictionaryMapping", dictionaryMapping);
 
+  // Create employees array from the dictionary mapping
+  const chatDicts = getChatEmployees(isEnglish ? "en" : "nl");
+  console.log("chatDicts", chatDicts);
+  const employees = chatDicts;
   // Find current employee
   const currentEmployee =
     employees.find((e) => e.id === currentEmployeeId) || employees[0];
@@ -313,6 +310,9 @@ export function ChatInterface({
                   <span className="text-xs text-gray-500">
                     {currentEmployee.description}
                   </span>
+                  <span className="text-xs text-gray-500">
+                    {currentEmployee.id}
+                  </span>
                 </div>
               </SelectValue>
             </SelectTrigger>
@@ -330,6 +330,7 @@ export function ChatInterface({
                     <span className="text-xs text-gray-500">
                       {employee.description}
                     </span>
+                    <span className="text-xs text-gray-500">{employee.id}</span>
                   </div>
                 </SelectItem>
               ))}

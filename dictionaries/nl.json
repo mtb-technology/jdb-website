@@ -10,12 +10,15 @@
   },
   "pages": {
     "home": {
+      "assistantId": 12,
       "metadata": {
         "title": "Jan de Belastingman | Your AI Tax Advisor",
         "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
         "ogTitle": "Jan de Belastingman - AI Tax Advisor",
         "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
       },
+      "assistantName": "Jan de Belastingman",
+      "assistantDescription": "Inkomstenbelasting assistent",
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {

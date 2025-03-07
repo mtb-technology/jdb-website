@@ -1,15 +1,15 @@
+import { getLocalizedPath } from "@/lib/routes";
 import { SupportedLocale } from "@/lib/types";
 import chatDictionaries from "./dictionaries.json";
 
 interface ChatSpecificDictionary {
+  assistantId: number;
+  assistantName: string;
+  assistantDescription: string;
   helpQuestion: string;
   inputPlaceholder: string;
   commonQuestions: {
-    deductions: string;
-    vatReturn: string;
-    box3: string;
-    businessStructure: string;
-    more: string;
+    [key: string]: string;
   };
 }
 
@@ -25,3 +25,19 @@ export function getChatDictionary(locale: SupportedLocale, chatType: ChatType): 
 
   return chatDict;
 } 
+
+interface ChatEmployee {
+  id: string;
+  name: string;
+  description: string;
+}
+
+export function getChatEmployees(locale: SupportedLocale): ChatEmployee[] {
+  return Object.entries(chatDictionaries[locale] as unknown as Record<string, ChatSpecificDictionary>).map(([chatKey, chatEmployee]) => {
+    return {
+      id: getLocalizedPath(chatKey, locale),
+      name: chatEmployee.assistantName,
+      description: chatEmployee.assistantDescription,
+    };
+  });
+}
