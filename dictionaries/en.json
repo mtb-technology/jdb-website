@@ -22,8 +22,7 @@
         "deductions": "What deductions can I apply?",
         "vatReturn": "How to file VAT returns as self-employed?",
         "box3": "Do I need to declare assets in box 3?",
-        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",
-        "more": "More ..."
+        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?"
       },
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
@@ -57,7 +56,7 @@
         "chat": {
           "text": "Ask your question in chat",
           "subtext": "Instant answer",
-          "link": "/en/chat/tax-advisor"
+          "link": "/en/chat/income-tax-return"
         },
         "advisor": {
           "text": "Find an advisor",
@@ -67,79 +66,79 @@
       }
     },
     "find-advisor": {
-      "title": "Vind een adviseur",
-      "subtitle": "Expertise op maat voor jouw fiscale uitdagingen",
+      "title": "Find an advisor",
+      "subtitle": "Expertise tailored to your tax challenges",
       "intro": {
-        "text": "Wij koppelen je aan de juiste specialist voor:",
+        "text": "We'll connect you with the right specialist for:",
         "benefits": [
-          "Complexe financiële situaties die specialistische kennis vereisen",
-          "Zorgeloze en professionele belastingaangiftes",
-          "Ondersteuning bij groeiende fiscale administraties"
+          "Complex financial situations requiring specialized knowledge",
+          "Worry-free and professional tax returns",
+          "Support with growing tax administrations"
         ],
-        "networkDescription": "Ons netwerk van betrouwbare, gecertificeerde partners staat klaar om jou passende begeleiding te bieden."
+        "networkDescription": "Our network of reliable, certified partners is ready to provide you with appropriate guidance."
       },
       "categories": [
         {
           "id": "income-tax",
-          "title": "Aangifte inkomstenbelasting",
-          "description": "Hulp nodig bij je belastingaangifte? Onze adviseurs helpen je met het correct invullen en optimaliseren van je aangifte."
+          "title": "Income tax return",
+          "description": "Need help with your tax return? Our advisors will help you correctly complete and optimize your return."
         },
         {
           "id": "m-form",
-          "title": "Hulp bij M-formulier",
-          "description": "Internationale verhuizing gehad of gepland? Onze experts helpen je met het M-formulier voor emigratie of immigratie."
+          "title": "Help with M-form",
+          "description": "International relocation planned or completed? Our experts will help you with the M-form for emigration or immigration."
         },
         {
           "id": "business-admin",
-          "title": "Administratie voor mijn bedrijf",
-          "description": "Laat je bedrijfsadministratie verzorgen door experts die je helpen alles op orde te houden en fiscaal te optimaliseren."
+          "title": "Business administration",
+          "description": "Let experts handle your business administration to keep everything organized and fiscally optimized."
         },
         {
           "id": "business-creation",
-          "title": "Ondernemers/ZZPers",
-          "description": "Hulp nodig bij BTW, vennootschapsbelasting, fiscale optimalisatie of boekhouding."
+          "title": "Entrepreneurs/Freelancers",
+          "description": "Need help with VAT, corporate tax, fiscal optimization, or bookkeeping."
         }
       ],
       "form": {
-        "title": "Waar heb je hulp bij nodig?",
-        "backButton": "Terug naar categorieën",
+        "title": "What do you need help with?",
+        "backButton": "Back to categories",
         "fields": {
-          "firstName": "Voornaam",
-          "lastName": "Achternaam",
-          "email": "E-mailadres",
-          "phone": "Telefoonnummer",
+          "firstName": "First name",
+          "lastName": "Last name",
+          "email": "Email address",
+          "phone": "Phone number",
           "message": {
-            "label": "Je vraag of situatie",
-            "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur..."
+            "label": "Your question or situation",
+            "placeholder": "Describe your situation so we can match you with the right advisor..."
           }
         },
-        "privacyConsent": "Ik ga akkoord met de <a href=\"/privacy\" class=\"text-primary hover:underline\">privacyvoorwaarden</a> en geef toestemming om contact met mij op te nemen.",
-        "submitButton": "Verstuur aanvraag"
+        "privacyConsent": "I agree to the <a href=\"/privacy\" class=\"text-primary hover:underline\">privacy terms</a> and consent to being contacted.",
+        "submitButton": "Submit request"
       },
       "success": {
-        "title": "Bedankt voor je aanvraag!",
-        "message": "We hebben je gegevens ontvangen en zullen binnen 24 uur contact met je opnemen om je te koppelen aan de juiste adviseur.",
-        "newRequestButton": "Nieuwe aanvraag"
+        "title": "Thank you for your request!",
+        "message": "We have received your information and will contact you within 24 hours to connect you with the right advisor.",
+        "newRequestButton": "New request"
       },
       "testimonials": {
-        "title": "Wat onze klanten zeggen",
+        "title": "What our clients say",
         "items": [
           {
-            "name": "Martijn de Vries",
-            "role": "Eigenaar, De Vries Consultancy",
-            "quote": "Dankzij Jan de Belastingman heb ik een uitstekende fiscalist gevonden die mijn BV-structuur heeft geoptimaliseerd. Dit heeft me duizenden euro's bespaard.",
+            "name": "Martin de Vries",
+            "role": "Owner, De Vries Consultancy",
+            "quote": "Thanks to Jan de Belastingman, I found an excellent tax specialist who optimized my BV structure. This has saved me thousands of euros.",
             "avatar": "/placeholder.svg?height=100&width=100"
           },
           {
             "name": "Sophie Jansen",
-            "role": "ZZP'er, Grafisch Ontwerper",
-            "quote": "De adviseur waar ik aan gekoppeld werd begreep mijn situatie als freelancer perfect. Eindelijk iemand die mijn administratie op orde heeft gebracht!",
+            "role": "Freelancer, Graphic Designer",
+            "quote": "The advisor I was matched with perfectly understood my situation as a freelancer. Finally someone who has organized my administration!",
             "avatar": "/placeholder.svg?height=100&width=100"
           },
           {
-            "name": "Thomas Bakker",
-            "role": "Directeur, Bakker Techniek BV",
-            "quote": "Het matchingsproces was snel en efficiënt. Binnen een dag had ik contact met een adviseur die precies wist hoe hij mijn internationale belastingvraagstuk moest aanpakken.",
+            "name": "Thomas Baker",
+            "role": "Director, Baker Technology BV",
+            "quote": "The matching process was quick and efficient. Within a day I was in contact with an advisor who knew exactly how to handle my international tax matter.",
             "avatar": "/placeholder.svg?height=100&width=100"
           }
         ]
@@ -148,29 +147,29 @@
         "title": "Frequently Asked Questions",
         "items": [
           {
-            "question": "Hoe werkt het matchingsproces?",
-            "answer": "Na het invullen van het formulier bekijken wij je vraag en situatie. Op basis daarvan selecteren we een adviseur uit ons netwerk die het beste past bij jouw behoeften. Binnen 24 uur nemen we contact met je op om je te koppelen aan deze adviseur."
+            "question": "How does the matching process work?",
+            "answer": "After completing the form, we review your question and situation. Based on this, we select an advisor from our network who best matches your needs. We'll contact you within 24 hours to connect you with this advisor."
           },
           {
-            "question": "Zijn er kosten verbonden aan de matching?",
-            "answer": "Nee, het matchingsproces is volledig gratis en vrijblijvend. Je betaalt alleen voor de diensten die je eventueel afneemt bij de adviseur waarmee we je in contact brengen."
+            "question": "Are there costs associated with the matching?",
+            "answer": "No, the matching process is completely free and without obligation. You only pay for the services you may choose to take from the advisor we connect you with."
           },
           {
-            "question": "Wat voor adviseurs zitten er in jullie netwerk?",
-            "answer": "Ons netwerk bestaat uit gecertificeerde belastingadviseurs, accountants, administratiekantoren en fiscaal juristen. Alle adviseurs zijn zorgvuldig geselecteerd op basis van hun expertise, ervaring en klanttevredenheid."
+            "question": "What kind of advisors are in your network?",
+            "answer": "Our network consists of certified tax advisors, accountants, administration offices, and tax lawyers. All advisors are carefully selected based on their expertise, experience, and client satisfaction."
           },
           {
-            "question": "Kan ik ook een adviseur vinden voor mijn particuliere belastingaangifte?",
-            "answer": "Zeker! We hebben adviseurs die gespecialiseerd zijn in zowel zakelijke als particuliere belastingzaken. Of je nu hulp nodig hebt bij je inkomstenbelasting, vermogensbelasting of andere fiscale zaken, we kunnen je koppelen aan de juiste expert."
+            "question": "Can I also find an advisor for my personal tax return?",
+            "answer": "Absolutely! We have advisors who specialize in both business and personal tax matters. Whether you need help with income tax, wealth tax, or other fiscal matters, we can connect you with the right expert."
           }
         ]
       },
       "promise": {
-        "title": "Onze belofte aan jou",
+        "title": "Our promise to you",
         "items": [
-          "Binnen 24 uur koppelen we je aan een geschikte adviseur",
-          "Alle adviseurs zijn gecertificeerd en gecontroleerd",
-          "Vrijblijvend en zonder verplichtingen"
+          "We'll connect you with a suitable advisor within 24 hours",
+          "All advisors are certified and verified",
+          "No obligation and free of charge"
         ]
       }
     },
