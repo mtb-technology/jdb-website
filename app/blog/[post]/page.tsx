@@ -2,7 +2,6 @@ import { BackButton } from "@/app/components/back-button";
 import { getDictionary } from "@/app/dictionaries";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { Button } from "@/components/ui/button";
 import { jdbApi } from "@/lib/api/JDBApi";
 import { Calendar, Share2, User } from "lucide-react";
 import Image from "next/image";
@@ -186,7 +185,7 @@ export default async function BlogPostPage({
           </div> */}
 
           {/* Newsletter Section */}
-          <section className="max-w-4xl mx-auto px-6 mt-24">
+          {/* <section className="max-w-4xl mx-auto px-6 mt-24">
             <div className="bg-gray-50 rounded-2xl p-8 md:p-12">
               <div className="text-center mb-8">
                 <h2 className="text-2xl font-bold mb-3">Blijf op de hoogte</h2>
@@ -208,7 +207,7 @@ export default async function BlogPostPage({
               </form>
             </div>
           </section>
-        </div>
+        </div> */}
       </div>
       <Footer dict={dict} />
     </main>

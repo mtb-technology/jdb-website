@@ -231,7 +231,7 @@ export function BlogContentClient({
         )}
 
         {/* Newsletter Section */}
-        <section className="max-w-4xl mx-auto px-6 mt-24">
+        {/* <section className="max-w-4xl mx-auto px-6 mt-24">
           <div className="bg-gray-50 rounded-2xl p-8 md:p-12">
             <div className="text-center mb-8">
               <h2 className="text-2xl font-bold mb-3">
@@ -253,7 +253,7 @@ export function BlogContentClient({
               </Button>
             </form>
           </div>
-        </section>
+        </section> */}
       </div>
     </div>
   );

@@ -1806,6 +1806,18 @@
       }
     }
   },
+  "ads": {
+    "tax-advisor": {
+      "title": "Tax Advisor",
+      "description": "The Tax Advisor is a digital advisor that can help you with your taxes. You can ask your question in chat and get an instant answer.",
+      "buttonText": "Ask your question in chat"
+    },
+    "income-advisor": {
+      "title": "Income Advisor",
+      "description": "The Income Advisor is a digital advisor that can help you with your income. You can ask your question in chat and get an instant answer.",
+      "buttonText": "Ask your question in chat"
+    }
+  },
   "footer": {
     "copyright": "© {year} Jan de Belastingman. All rights reserved.",
     "privacy": "Privacy Policy",

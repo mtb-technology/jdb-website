@@ -2,6 +2,7 @@ import { getDictionary } from "@/app/dictionaries";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import FAQAndBlogSection from "@/components/sections/FAQAndBlogSection";
+import FormSection from "@/components/sections/FormSection";
 import HeroSection from "@/components/sections/HeroSection";
 import PartnersSection from "@/components/sections/PartnersSection";
 import StepsSection from "@/components/sections/StepsSection";
@@ -62,7 +63,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
     notFound();
   }
 
-  const { hero, partners, support, stepsSection, faq } = topicContent;
+  const { hero, partners, support, stepsSection, faq, form } = topicContent;
 
   return (
     <main className="relative flex-1 flex flex-col pt-20">
@@ -96,6 +97,10 @@ export default async function TopicPage({ params }: TopicPageProps) {
               buttonText={faq.buttonText}
               buttonLink={faq.buttonLink}
             />
+          </div>
+
+          <div className="container">
+            <FormSection formName={"contect"} />
           </div>
         </div>
       </div>
