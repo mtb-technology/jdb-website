@@ -1,6 +1,8 @@
 "use client";
 
+import { useTracking } from "@/app/components/providers/tracking-provider";
 import { Button } from "@/components/ui/button";
+import { jdbApi } from "@/lib/api/JDBApi";
 import { AdvisorFinderDict } from "@/lib/types";
 import { Star } from "lucide-react";
 import Image from "next/image";
@@ -8,21 +10,47 @@ import { useState } from "react";
 
 interface AdvisorFinderProps {
   dict: AdvisorFinderDict;
+  locale: string;
 }
 
-export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
+export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [formSubmitted, setFormSubmitted] = useState(false);
+  const { trackingData } = useTracking();
 
   const handleCategorySelect = (categoryId: string) => {
     setSelectedCategory(categoryId);
     setFormSubmitted(false);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setFormSubmitted(true);
-    // In a real application, you would send the form data to your backend here
+
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      first_name: formData.get("firstName"),
+      last_name: formData.get("lastName"),
+      email: formData.get("email"),
+      phone: formData.get("phone"),
+      message: formData.get("message"),
+      category: selectedCategory,
+      lead_source: trackingData?.leadSource || "advisor_finder",
+      tracking_id: trackingData?.trackingId,
+      utm_params: trackingData?.utmParams,
+      app_locale: locale,
+    };
+
+    try {
+      const response = await jdbApi.submitForm("advisor-request", data);
+      if (response.success) {
+        setFormSubmitted(true);
+      } else {
+        // Handle error case
+        console.error("Form submission failed:", response.message);
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
   };
 
   const resetForm = () => {
@@ -85,7 +113,7 @@ export default function AdvisorFinder({ dict }: AdvisorFinderProps) {
           </div>
           <div className="relative h-[400px] rounded-xl overflow-hidden shadow-lg">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg"
+              src="/storage/media/business-professional.jpeg"
               alt="Belastingadviseur helpt klant"
               fill
               className="object-cover"

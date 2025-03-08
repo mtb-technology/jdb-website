@@ -82,8 +82,9 @@ export function ChatInterface({
   const chatDicts = getChatEmployees(isEnglish ? "en" : "nl");
   const employees = chatDicts;
   // Find current employee
-  const currentEmployee =
-    employees.find((e) => e.id === currentEmployeeId) || employees[0];
+
+
+  const currentEmployee = dict;
 
   const handleEmployeeChange = (value: string) => {
     const basePath = isEnglish ? "/en/" : "";
@@ -167,7 +168,6 @@ export function ChatInterface({
       for await (const chunks of messageGenerator) {
         for (const chunk of chunks) {
           if ("answer_piece" in chunk) {
-            console.log("chunk", chunk);
             if (!hasStartedReceiving) {
               hasStartedReceiving = true;
               const assistantMessage: Message = {
@@ -319,7 +319,7 @@ export function ChatInterface({
         {/* start employee dropdown */}
         <div className="flex items-center gap-3">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JDB%20Logo-0SbQBOHUCYE5RAXYrZm7ZjafR4lLfS.png"
+            src="/logo-small.png"
             alt="Jan de Belastingman"
             width={40}
             height={40}
@@ -333,10 +333,10 @@ export function ChatInterface({
               <SelectValue>
                 <div className="flex flex-col items-start group-hover:opacity-70 transition-all duration-200">
                   <span className="font-semibold text-[#1a1a1a] group-hover:text-primary">
-                    {currentEmployee.name}
+                    {currentEmployee.assistantName}
                   </span>
                   <span className="text-xs text-gray-500">
-                    {currentEmployee.description}
+                    {currentEmployee.assistantDescription}
                   </span>
                 </div>
               </SelectValue>
@@ -346,7 +346,7 @@ export function ChatInterface({
                 <SelectItem
                   key={employee.id}
                   value={employee.id}
-                  className="cursor-pointer focus:bg-primary/5 data-[state=checked]:bg-primary/5"
+                  className={`cursor-pointer focus:bg-primary/5 data-[state=checked]:bg-primary/5 ${employee.id == currentEmployeeId ? "bg-primary/5" : ""}`}
                 >
                   <div className="flex flex-col items-start py-1 hover:opacity-70 transition-all duration-200">
                     <span className="font-medium hover:text-primary">
@@ -383,7 +383,7 @@ export function ChatInterface({
             <div className="flex justify-center items-center h-full">
               <div className="text-center max-w-md">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JDB%20Logo-0SbQBOHUCYE5RAXYrZm7ZjafR4lLfS.png"
+                  src="/logo-small.png"
                   alt="Jan de Belastingman"
                   width={80}
                   height={80}

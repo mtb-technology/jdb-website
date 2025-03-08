@@ -23,7 +23,7 @@ export default async function VindEenAdviseurPage({
       <div className="flex-1 overflow-y-auto">
         <div className="max-w-5xl mx-auto px-6 py-12">
           {/* Find an Advisor Content */}
-          <AdvisorFinder dict={dict.pages["find-advisor"]} />
+          <AdvisorFinder dict={dict.pages["find-advisor"]} locale={locale} />
         </div>
       </div>
       <Footer dict={dict} />

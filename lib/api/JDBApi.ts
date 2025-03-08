@@ -85,6 +85,23 @@ interface BlogCategoryResponse {
   category: Category;
 }
 
+interface FormSubmissionRequest {
+  [key: string]: any;
+  tracking_id?: string;
+  lead_source?: string;
+  app_locale?: string;
+}
+
+interface FormSubmissionResponse {
+  success: boolean;
+  message?: string;
+}
+
+interface FormResponse {
+  success: boolean;
+  form: FormData;
+}
+
 export class JDBApi {
   private baseUrl: string;
 
@@ -162,6 +179,17 @@ export class JDBApi {
 
     return this.fetchApi<BlogCategoryResponse>(endpoint);
   }
+
+  async submitForm(handle: string, data: FormSubmissionRequest): Promise<FormSubmissionResponse> {
+    return this.fetchApi<FormSubmissionResponse>(`/forms/${handle}`, {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  }
+
+  async getForm(handle: string): Promise<FormResponse> {
+    return this.fetchApi<FormResponse>(`/forms/${handle}`);
+  }
 }
 
 // Create a singleton instance
@@ -170,5 +198,7 @@ export const jdbApi = new JDBApi();
 // Export types for use in components
 export type {
   Author, BlogCategoriesResponse,
-  BlogCategoryResponse, BlogPostsResponse, Category, PaginatedResponse, Post, Tag
+  BlogCategoryResponse, BlogPostsResponse, Category, FormResponse, FormSubmissionRequest,
+  FormSubmissionResponse, PaginatedResponse, Post, Tag
 };
+

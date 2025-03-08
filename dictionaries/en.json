@@ -16,21 +16,21 @@
         {
           "title": "1. Ask your question 24/7 and get instant answers",
           "description": "Do you have a question about your taxes? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about deductions, VAT or your tax return, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with AVG requirements.",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "image": "/storage/media/chat-interface.png",
           "alt": "Chat Interface",
           "icon": "message-circle"
         },
         {
           "title": "2. Need more help? We'll find you a suitable advisor",
           "description": "Sometimes a question is too specific for our chatbot, or you prefer to delegate (part of) your administration. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your situation and works out the rules for you personally. That way you always get specialist help that's just right for you, without the hassle.",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+          "image": "/storage/media/business-professional.jpeg",
           "alt": "Professional Advisor",
           "icon": "users"
         },
         {
           "title": "3. Create an account and manage your tax questions",
           "description": "With a free account with Jan de Belastingman, you'll keep everything organized. Sign up easily via social login (Google or Facebook) or your e-mail and save all your tax questions in one place. This way you can always look back at what you have asked - from allowances to deductions - and you don't have to keep starting over. Handy for now and later, for your next tax return, for example!",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+          "image": "/storage/media/account-dashboard.png",
           "alt": "Account Dashboard",
           "icon": "user-plus"
         }
@@ -188,31 +188,31 @@
             "name": "Bo",
             "role": "Product & Ops",
             "background": "A digital innovation leader, with a track record of guiding teams to executional excellence, creating people-focused solutions through smarter technology.",
-            "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
+            "imageSrc": "/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
           },
           {
             "name": "Tim",
             "role": "Sales & Marketing",
             "background": "A growth strategist with 14+ years of experience in building brands and scaling digital startups through impactful marketing.",
-            "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
+            "imageSrc": "/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
           },
           {
             "name": "Beaudinn",
             "role": "AI & Engineering",
             "background": "A full-stack engineer with a decade of experience in AI and data-driven development, building secure, scalable, and high-performing systems.",
-            "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
+            "imageSrc": "/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
           },
           {
             "name": "Mathijs",
             "role": "Founder",
             "background": "A serial entrepreneur with a fiscal background, leveraging AI to build forward-thinking businesses that transform industries.",
-            "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
+            "imageSrc": "/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
           },
           {
             "name": "Marcus",
             "role": "Founder",
             "background": "An AI and SaaS innovator, driving multiple ventures that push technology forward and redefine digital solutions.",
-            "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
+            "imageSrc": "/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
           }
         ]
       },
@@ -310,7 +310,7 @@
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/private-limited-company",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -321,25 +321,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -352,7 +352,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/private-limited-company",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Business Professional"
       },
       "stepsSection": {
@@ -363,19 +363,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -420,7 +420,7 @@
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/income-tax-return",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -431,25 +431,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -462,7 +462,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/income-tax-return",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor",
         "items": [
           {
@@ -487,19 +487,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -546,7 +546,7 @@
         "stats": "4.8 stars from reviews",
         "buttonLink": "/en/chat/income-tax-return",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -556,25 +556,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -587,7 +587,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/income-tax-return",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
@@ -598,19 +598,19 @@
           {
             "title": "1. Ask your question 24/7 and get an immediate answer",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about deductions, VAT or your tax return, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with AVG requirements.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We will find a suitable advisor",
             "description": "Sometimes a question is too specific for our chatbot, or you prefer to delegate (part of) your administration. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your situation and works out the rules for you personally. That way you always get specialist help that's just right for you, without the hassle.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account with Jan de Belastingman, you'll keep everything organized. Sign up easily via social login (Google or Facebook) or your e-mail and save all your tax questions in one place. This way you can always look back at what you have asked - from allowances to deductions - and you don't have to keep starting over. Handy for now and later, for your next tax return, for example!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -657,7 +657,7 @@
         "stats": "4.8 stars from reviews",
         "buttonLink": "/en/chat/m-form",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -667,25 +667,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -698,7 +698,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/m-form",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
@@ -709,19 +709,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -768,7 +768,7 @@
         "stats": "4.8 stars from reviews",
         "buttonLink": "/en/chat/income-tax-return",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -778,25 +778,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -809,7 +809,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/income-tax-return",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor",
         "items": [
           {
@@ -834,19 +834,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -893,7 +893,7 @@
         "stats": "4.8 stars from reviews",
         "buttonLink": "/en/chat/income-tax-return",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -903,25 +903,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -934,7 +934,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/income-tax-return",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor",
         "items": [
           {
@@ -959,19 +959,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -1018,7 +1018,7 @@
         "stats": "4.8 stars from reviews",
         "buttonLink": "/en/chat/entrepreneur",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -1028,25 +1028,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -1059,7 +1059,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/entrepreneur",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor",
         "items": [
           {
@@ -1084,19 +1084,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -1143,7 +1143,7 @@
         "stats": "4.8 stars from reviews",
         "buttonLink": "/en/chat/healthcare-allowance",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -1153,25 +1153,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -1184,7 +1184,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/healthcare-allowance",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor",
         "items": [
           {
@@ -1209,19 +1209,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -1268,7 +1268,7 @@
         "stats": "4.8 stars from reviews",
         "buttonLink": "/en/chat/general-questions",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -1278,25 +1278,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -1309,7 +1309,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/general-questions",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
@@ -1320,19 +1320,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -1379,7 +1379,7 @@
         "stats": "4.8 stars from reviews",
         "buttonLink": "/en/chat/child-benefit-assistent",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -1389,25 +1389,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -1420,7 +1420,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/child-benefit-assistent",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
@@ -1431,19 +1431,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -1490,7 +1490,7 @@
         "stats": "4.8 stars from reviews",
         "buttonLink": "/en/chat/child-benefit-assistent",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -1500,25 +1500,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -1531,7 +1531,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/child-benefit-assistent",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
@@ -1542,19 +1542,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -1601,7 +1601,7 @@
         "stats": "4.8 stars from reviews",
         "buttonLink": "/en/chat/general-old-age-act",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -1611,25 +1611,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -1642,7 +1642,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/general-old-age-act",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
@@ -1653,19 +1653,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -1712,7 +1712,7 @@
         "stats": "4.8 stars from reviews",
         "buttonLink": "/en/chat/income-general-old-age-act",
         "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "src": "/storage/media/chat-interface.png",
           "alt": "Chat Interface Preview",
           "width": 800,
           "height": 600
@@ -1722,25 +1722,25 @@
         "title": "As featured in",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "src": "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
             "alt": "De Jurist",
             "url": "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
             "width": 100
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "src": "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
             "alt": "Accountant",
             "url": "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
             "width": 120
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "src": "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
             "alt": "Quote",
             "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "src": "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
             "alt": "FD",
             "url": "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
             "width": 60
@@ -1753,7 +1753,7 @@
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/income-general-old-age-act",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageSrc": "/storage/media/business-professional.jpeg",
         "imageAlt": "Professional Tax Advisor"
       },
       "stepsSection": {
@@ -1764,19 +1764,19 @@
           {
             "title": "1. Ask your question 24/7 and get instant answers",
             "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "image": "/storage/media/chat-interface.png",
             "alt": "Chat Interface"
           },
           {
             "title": "2. Need more help? We'll find you a suitable advisor",
             "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "image": "/storage/media/business-professional.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
             "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "image": "/storage/media/account-dashboard.png",
             "alt": "Account Dashboard",
             "showButton": true
           }
@@ -1804,6 +1804,18 @@
         ],
         "blogCategory": "business-tax"
       }
+    }
+  },
+  "ads": {
+    "tax-return-filed": {
+      "title": "Tax Advisor",
+      "description": "The Tax Advisor is a digital advisor that can help you with your taxes. You can ask your question in chat and get an instant answer.",
+      "buttonText": "Ask your question in chat"
+    },
+    "income-advisor": {
+      "title": "Income Advisor",
+      "description": "The Income Advisor is a digital advisor that can help you with your income. You can ask your question in chat and get an instant answer.",
+      "buttonText": "Ask your question in chat"
     }
   },
   "footer": {
