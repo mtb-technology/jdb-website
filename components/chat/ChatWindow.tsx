@@ -113,7 +113,7 @@ export default function ChatWindow({ dict }: { dict: any }) {
               </Button> */}
             </div>
 
-            <p className="text-gray-500 mb-12 text-xs whitespace-pre-line">
+            <p className="text-gray-500 mb-12 text-xs whitespace-pre-line hidden md:block">
               {dict.disclaimer}
             </p>
 
