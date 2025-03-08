@@ -329,7 +329,7 @@ export function ChatInterface({
   return (
     <div className="flex flex-col h-[calc(100vh-85px)] md:h-[calc(100vh-165px)] max-w-4xl mx-auto w-full relative bg-white">
       {/* Fixed Header */}
-      <div className="absolute top-0 left-0 right-0 z-10 flex items-center justify-between p-4 border-b bg-white/30 backdrop-blur-lg">
+      <div className="hidden md:flex right-0 z-10 items-center justify-between p-4 border-b bg-white/30 backdrop-blur-lg">
         {/* start employee dropdown */}
         <div className="flex items-center gap-3">
           <Image
@@ -387,7 +387,8 @@ export function ChatInterface({
       </div>
 
       {/* Scrollable Messages Area */}
-      <div className="flex-1 overflow-hidden pt-[72px] pb-[100px]">
+      <div className="flex-1 overflow-hidden pt-0 pb-[75px] md:pb-[100px]">
+        <div className="absolute md:hidden top-0 left-0 right-0 h-12 z-10 flex  bg-gradient-to-t from-transparent to-white "></div>
         <div
           ref={chatContainerRef}
           className="h-full overflow-y-auto px-4 space-y-4 scroll-smooth py-12"
