@@ -13,26 +13,26 @@
     "how-it-works": {
       "title": "How does Jan de Belastingman work?",
       "items": [
-          {
-            "title": "1. Ask your question 24/7 and get instant answers",
-            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-            "alt": "Chat Interface",
-            "icon": "message-circle"
-          },
-          {
-            "title": "2. Need more help? We'll find you a suitable advisor",
-            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor",
-            "icon": "users"
-          },
-          {
-            "title": "3. Create an account and manage your tax questions",
-            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
-            "alt": "Account Dashboard",
-            "icon": "user-plus"
+        {
+          "title": "1. Ask your question 24/7 and get instant answers",
+          "description": "Do you have a question about your taxes? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about deductions, VAT or your tax return, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with AVG requirements.",
+          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "alt": "Chat Interface",
+          "icon": "message-circle"
+        },
+        {
+          "title": "2. Need more help? We'll find you a suitable advisor",
+          "description": "Sometimes a question is too specific for our chatbot, or you prefer to delegate (part of) your administration. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your situation and works out the rules for you personally. That way you always get specialist help that's just right for you, without the hassle.",
+          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+          "alt": "Professional Advisor",
+          "icon": "users"
+        },
+        {
+          "title": "3. Create an account and manage your tax questions",
+          "description": "With a free account with Jan de Belastingman, you'll keep everything organized. Sign up easily via social login (Google or Facebook) or your e-mail and save all your tax questions in one place. This way you can always look back at what you have asked - from allowances to deductions - and you don't have to keep starting over. Handy for now and later, for your next tax return, for example!",
+          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+          "alt": "Account Dashboard",
+          "icon": "user-plus"
         }
       ],
       "buttons": {
@@ -304,8 +304,8 @@
       },
       "hero": {
         "title": "Expert Support for Private Limited Companies (BVs)",
-        "description": "Managing a BV or facing challenges with business taxes or legal obligations? Jan de Belastingman helps you understand the complexities of running a Private Limited Company in the Netherlands, ensuring your business stays compliant and financially healthy.",
-        "callToAction": "Want to establish a BV? Discover with Jan de Belastingman how a Private Limited Company can transform your financial future – start your more profitable entrepreneurial journey now!",
+        "description": "Do you manage a private limited company and run into challenges managing corporate taxes or legal obligations? Jan de Belastingman will help you navigate the complexities of running a Limited Liability Company in the Netherlands so that your business remains compliant and financially sound.",
+        "callToAction": "Want to set up a BV? Discover with Jan de Belastingman how a BV can transform your financial future. Start your more profitable entrepreneurial journey now!",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/private-limited-company",
@@ -334,8 +334,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -414,8 +414,8 @@
       },
       "hero": {
         "title": "Stress-Free Income Tax Filing for Expats in the Netherlands (Belastingaangifte)",
-        "description": "Navigating Dutch taxes as an expat? We handle your entire tax return, from deductions to dual-tax systems, so you can relax.",
-        "callToAction": "Start the chat to receive reliable & understandable advice. Enter your contact details in the chat for an expert to help you with your tax return. You will be contacted within 24 hours with a tailored offer.",
+        "description": "Navigating Dutch taxes as an expat? We handle your entire tax return, from deductions to dual-tax systems, so you can relax. Start the chat to receive reliable & understandable advice.",
+        "callToAction": "Enter your contact details in the chat for an expert to help you with your tax return. You will be contacted within 24 hours with a tailored offer.",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "buttonLink": "/en/chat/income-tax-return",
@@ -444,8 +444,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -485,20 +485,20 @@
         "buttonSubtext": "Instant answer",
         "items": [
           {
-            "title": "1. Ask your question 24/7 and get an immediate answer",
-            "description": "Do you have a question about your taxes? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about deductions, VAT or your tax return, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with AVG requirements.",
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Need more help? We will find a suitable advisor",
-            "description": "Sometimes a question is too specific for our chatbot, or you prefer to delegate (part of) your administration. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your situation and works out the rules for you personally. That way you always get specialist help that's just right for you, without the hassle.",
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
-            "description": "With a free account with Jan de Belastingman, you'll keep everything organized. Sign up easily via social login (Google or Facebook) or your e-mail and save all your tax questions in one place. This way you can always look back at what you have asked - from allowances to deductions - and you don't have to keep starting over. Handy for now and later, for your next tax return, for example!",
+            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -569,8 +569,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -680,8 +680,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -707,20 +707,20 @@
         "buttonSubtext": "Instant answer",
         "items": [
           {
-            "title": "1. Ask your question 24/7 and get an immediate answer",
-            "description": "Do you have a question about your M form? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about migration-related deductions or your M form filing, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with AVG requirements.",
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Is it complex? We will find a suitable advisor",
-            "description": "Sometimes a question is too specific for our chatbot, or you might prefer which cannot yet apply all the rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your international tax situation and works out the rules for you personally. That way you always get the help that's just right for you, without the hassle.",
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
-            "description": "With a free account with Jan de Belastingman, you'll keep everything organized. Sign up easily via social login (Google or Facebook) or your e-mail and save all your tax questions in one place. This way you can always look back at what you have asked - from migration-related allowances to deductions - and you don't have to keep starting over. Handy for now and later, for your next M form filing!",
+            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -791,8 +791,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -832,20 +832,20 @@
         "buttonSubtext": "Instant answer",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your tax credit question",
-            "description": "Start your conversation with Jan de Belastingman, the digital tax advisor who is always available and ask all your questions about the complex tax system for free. You will be able to fill in your income in your tax return, but what about the other deductions such as healthcare costs, donations, study costs, etc.? Are there specific posts to which you are entitled? Jan de Belastingman will find out and help you with all.",
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
             "alt": "Professional Advisor"
           },
           {
-            "title": "3. Get free tax credit advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable tax credit and deductibles advice on your tax question. You can take this tax advice with you and consult it when completing your tax credit and deductibles form. Should Jan de Belastingman not have the answer immediately available, because it is a bit more complex? Jan de Belastingman will then contact you within 24 hours.",
+            "title": "3. Create an account and manage your tax questions",
+            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -884,9 +884,9 @@
         "ogImageAlt": "Inheritance Tax Guidance from Jan de Belastingman"
       },
       "hero": {
-      "title": "Expert assistance for Inheritance Tax (Erfbelasting) filing",
-      "description": "Have you received a gift from a Dutch resident and don't know how to proceed next and if any exceptions apply to you? Jan de Belastingman can help you figure it out and take the work off your hands.",
-      "callToAction": "Need Inheritance Tax Assistance? Chat With Us!",
+        "title": "Expert assistance for Inheritance Tax (Erfbelasting) filing",
+        "description": "Have you received a gift from a Dutch resident and don't know how to proceed next and if any exceptions apply to you? Jan de Belastingman can help you figure it out and take the work off your hands.",
+        "callToAction": "Need Inheritance Tax Assistance? Chat With Us!",
         "buttonText": "Ask your question in chat",
         "buttonSubtext": "Instant answer",
         "imageAlt": "Chat Interface Preview",
@@ -916,8 +916,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -957,20 +957,20 @@
         "buttonSubtext": "Instant answer",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your inheritance question",
-            "description": "Start your conversation with Jan de Belastingman, the digital tax advisor who is always available and ask all your questions about the complex tax system for free. You will be able to fill in your income in your tax return, but what about the other deductions such as healthcare costs, donations, study costs, etc.? Are there specific benefits to which you are entitled? Jan de Belastingman will find out and help you with all.",
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
             "alt": "Professional Advisor"
           },
           {
-            "title": "3. Get free inheritance tax advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable inheritance tax advice on your question. You can take this advice with you and consult it when completing your inheritance tax form. Should Jan de Belastingman not have the answer immediately available, because it is a bit more complex? Jan de Belastingman will then contact you within 24 hours.",
+            "title": "3. Create an account and manage your tax questions",
+            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1041,8 +1041,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -1082,20 +1082,20 @@
         "buttonSubtext": "Instant answer",
         "items": [
           {
-            "title": "1. Ask your question 24/7 and get an immediate answer",
-            "description": "Do you have a question about your taxes? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about deductions, VAT or your tax return, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with AVG requirements.",
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Is it complex? We will find a suitable advisor",
-            "description": "Sometimes a question is too specific for our chatbot, or you might prefer which cannot yet apply all the rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your situation and works out the rules for you personally. That way you always get the help that's just right for you, without the hassle.",
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
             "alt": "Professional Advisor"
           },
           {
             "title": "3. Create an account and manage your tax questions",
-            "description": "With a free account with Jan de Belastingman, you'll keep everything organized. Sign up easily via social login (Google or Facebook) or your e-mail and save all your tax questions in one place. This way you can always look back at what you have asked - from allowances to deductions - and you don't have to keep starting over. Handy for now and later, for your next tax return, for example!",
+            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1166,8 +1166,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -1202,30 +1202,30 @@
         ]
       },
       "stepsSection": {
-      "buttonText": "Ask your question in chat",
-      "buttonLink": "/en/chat/healthcare-allowance",
-      "buttonSubtext": "Instant answer",
-      "items": [
-        {
-          "title": "1. Create your account",
-          "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface"
-        },
-        {
-          "title": "2. Ask your healthcare question",
-          "description": "Start your conversation with Jan de Belastingman, the digital tax advisor who is always available and ask all your questions about the complex tax system for free. You will be able to fill in your income in your tax return, but what about the other deductions such as healthcare costs, donations, study costs, etc.? Are there specific benefits to which you are entitled? Jan de Belastingman will find out and help you with all.",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-          "alt": "Professional Advisor"
-        },
-        {
-          "title": "3. Get free healthcare allowance advice",
-          "description": "Jan de Belastingman immediately provides you with independent and reliable healthcare allowance advice on your question. You can take this advice with you and consult it when completing your healthcare allowance form. Should Jan de Belastingman not have the answer immediately available, because it is a bit more complex? Jan de Belastingman will then contact you within 24 hours.",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
-          "alt": "Account Dashboard",
-          "showButton": true
-        }
-      ]
+        "buttonText": "Ask your question in chat",
+        "buttonLink": "/en/chat/healthcare-allowance",
+        "buttonSubtext": "Instant answer",
+        "items": [
+          {
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "alt": "Chat Interface"
+          },
+          {
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "alt": "Professional Advisor"
+          },
+          {
+            "title": "3. Create an account and manage your tax questions",
+            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "alt": "Account Dashboard",
+            "showButton": true
+          }
+        ]
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
@@ -1291,8 +1291,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -1318,20 +1318,20 @@
         "buttonSubtext": "Instant answer",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your housing question",
-            "description": "Start your conversation with Jan de Belastingman, the digital tax advisor who is always available and ask all your questions about the complex tax system for free. You will be able to fill in your income in your tax return, but what about the other deductions such as healthcare costs, donations, study costs, etc.? Are there specific benefits to which you are entitled? Jan de Belastingman will find out and help you with all.",
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
             "alt": "Professional Advisor"
           },
           {
-            "title": "3. Get free housing allowance advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable housing allowance advice on your question. You can take this advice with you and consult it when completing your housing allowance form. Should Jan de Belastingman not have the answer immediately available, because it is a bit more complex? Jan de Belastingman will then contact you within 24 hours.",
+            "title": "3. Create an account and manage your tax questions",
+            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1402,8 +1402,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -1429,20 +1429,20 @@
         "buttonSubtext": "Instant answer",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your childcare allowance question",
-            "description": "Start your conversation with Jan de Belastingman, our digital advisor who is always available to answer your questions about childcare allowance. Whether you're wondering about eligibility, required documents, or how to maximize your benefits, we're here to help you navigate the system effectively.",
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
             "alt": "Professional Advisor"
           },
           {
-            "title": "3. Get free childcare allowance advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable advice about your childcare allowance questions. You can take this advice with you and consult it when completing your application. For more complex situations, we'll connect you with an expert advisor within 24 hours.",
+            "title": "3. Create an account and manage your tax questions",
+            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1513,8 +1513,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -1540,20 +1540,20 @@
         "buttonSubtext": "Instant answer",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your child benefit question",
-            "description": "Start your conversation with Jan de Belastingman, our digital advisor who is always available to answer your questions about child benefit. Whether you're wondering about eligibility, required documents, or payment schedules, we're here to help you navigate the system effectively.",
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
             "alt": "Professional Advisor"
           },
           {
-            "title": "3. Get free child benefit advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable advice about your child benefit questions. You can take this advice with you and consult it when completing your application. For more complex situations, we'll connect you with an expert advisor within 24 hours.",
+            "title": "3. Create an account and manage your tax questions",
+            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1624,8 +1624,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -1651,20 +1651,20 @@
         "buttonSubtext": "Instant answer",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your AOW pension question",
-            "description": "Start your conversation with Jan de Belastingman, our digital advisor who is always available to answer your questions about AOW pension. Whether you're wondering about eligibility, payment amounts, or tax implications, we're here to help you understand your state pension rights.",
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
             "alt": "Professional Advisor"
           },
           {
-            "title": "3. Get free AOW pension advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable advice about your AOW pension questions. You can take this advice with you and consult it when needed. For more complex situations, we'll connect you with an expert advisor within 24 hours.",
+            "title": "3. Create an account and manage your tax questions",
+            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1735,8 +1735,8 @@
           },
           {
             "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "alt": "Quote",
+            "url": "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
             "width": 90
           },
           {
@@ -1762,20 +1762,20 @@
         "buttonSubtext": "Instant answer",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Ask your question 24/7 and get instant answers",
+            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your income during AOW question",
-            "description": "Start your conversation with Jan de Belastingman, our digital advisor who is always available to answer your questions about earning income while receiving AOW pension. Whether you're wondering about tax brackets, deductions, or how additional income affects your benefits, we're here to help.",
+            "title": "2. Need more help? We'll find you a suitable advisor",
+            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
             "alt": "Professional Advisor"
           },
           {
-            "title": "3. Get free income during AOW advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable advice about your income during AOW questions. You can take this advice with you and consult it when needed. For more complex situations, we'll connect you with an expert advisor within 24 hours.",
+            "title": "3. Create an account and manage your tax questions",
+            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
