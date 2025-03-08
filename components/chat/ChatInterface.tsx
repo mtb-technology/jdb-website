@@ -83,7 +83,7 @@ export function ChatInterface({
   const employees = chatDicts;
   // Find current employee
 
-  console.log("dictdictdictdict", chatDicts, employees);
+
   const currentEmployee = dict;
 
   const handleEmployeeChange = (value: string) => {
@@ -319,7 +319,7 @@ export function ChatInterface({
         {/* start employee dropdown */}
         <div className="flex items-center gap-3">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JDB%20Logo-0SbQBOHUCYE5RAXYrZm7ZjafR4lLfS.png"
+            src="/logo-small.png"
             alt="Jan de Belastingman"
             width={40}
             height={40}
@@ -383,7 +383,7 @@ export function ChatInterface({
             <div className="flex justify-center items-center h-full">
               <div className="text-center max-w-md">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/JDB%20Logo-0SbQBOHUCYE5RAXYrZm7ZjafR4lLfS.png"
+                  src="/logo-small.png"
                   alt="Jan de Belastingman"
                   width={80}
                   height={80}

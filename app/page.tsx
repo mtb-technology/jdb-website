@@ -38,7 +38,7 @@ export default async function Home({ params }: PageProps) {
       <div className="flex-1 flex items-center justify-center">
         <ChatWindow dict={chatDict} />
       </div>
-      <Footer dict={dict} />
+      <Footer hideOnMobile={true} dict={dict} />
     </main>
   );
 }

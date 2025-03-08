@@ -31,12 +31,10 @@ export default function Footer({
     { href: locale === "nl" ? "terms" : "en/terms", label: dict.footer.terms },
   ];
 
-  if (hideOnMobile) {
-    return <></>;
-  }
-
   return (
-    <footer className="py-6 px-6 border-t border-gray-100 mt-auto">
+    <footer
+      className={`py-6 px-6 border-t border-gray-100 mt-auto ${hideOnMobile ? "hidden md:block" : ""}`}
+    >
       <div className="flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="text-xs text-gray-500">
           {dict.footer.copyright.replace(
