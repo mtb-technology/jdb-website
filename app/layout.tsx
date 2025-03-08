@@ -27,13 +27,8 @@ const avenirNext = localFont({
 export const metadata: Metadata = {
   title: "Jan de Belastingman",
   description: "Belasting advies via AI",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
-  },
 };
+
 
 export default function RootLayout({
   children,

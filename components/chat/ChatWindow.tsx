@@ -26,7 +26,7 @@ export default function ChatWindow({ dict }: { dict: any }) {
   };
 
   return (
-    <div className="w-full h-full px-4 pt-[100px]">
+    <div className="w-full h-full md:px-4 pt-[85px]">
       <div className="flex flex-col h-full max-w-4xl mx-auto w-full justify-center">
         {chatStarted ? (
           <div className="w-full h-full">
