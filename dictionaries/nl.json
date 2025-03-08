@@ -32,24 +32,24 @@
       "items": [
         {
           "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
-          "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je je vraag online en krijg je direct een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastinggegevens, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd snel een betrouwbare oplossing - zonder wachten!",
+          "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
           "alt": "Chat Interface",
           "icon": "message-circle"
         },
         {
-          "title": "2. Meer hulp nodig? We vinden een geschikte adviseur",
-          "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een expert-adviseur die je situatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd specialistische hulp die precies bij je past, zonder gedoe.",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor",
-            "icon": "users"
-          },
-          {
-            "title": "3. Maak een account aan en beheer je belastingvragen",
-            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk op één plek. Meld je eenvoudig aan via social login (Google of Facebook) of e-mail en bewaar al je belastingvragen en antwoorden op één locatie. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet elke keer opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende belastingaangifte!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
-            "alt": "Account Dashboard",
-            "icon": "user-plus"
+          "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+          "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
+          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+          "alt": "Professional Advisor",
+          "icon": "users"
+        },
+        {
+          "title": "3. Maak een account aan en beheer je belastingvragen",
+          "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
+          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+          "alt": "Account Dashboard",
+          "icon": "user-plus"
         }
       ],
       "buttons": {
@@ -374,19 +374,19 @@
         "items": [
           {
             "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
-            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je je vraag online en krijg je direct een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastinggegevens, dus of het nu gaat om aftrekposten, toeslagen of je aangifte, je krijgt altijd snel een betrouwbare oplossing – zonder wachten!",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Meer hulp nodig? We vinden een geschikte adviseur",
-            "description": "Soms is een vraag te specifiek of persoonlijk voor onze chatbot, die nog niet alle regels kan toepassen op jouw unieke situatie. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een expert-adviseur die je situatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd de hulp die bij je past, zonder gedoe.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
             "title": "3. Maak een account aan en beheer je belastingvragen",
-            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk op één plek. Meld je eenvoudig aan via social login (Google of Facebook) of e-mail en bewaar al je belastingvragen en antwoorden op één locatie. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet elke keer opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende belastingaangifte!",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -439,23 +439,20 @@
             "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
             "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-            "alt": "Chat Interface",
-            "icon": "message-circle"
+            "alt": "Chat Interface"
           },
           {
-            "title": "2. Kom je er niet uit? Wij vinden een passende adviseur",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
             "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor",
-            "icon": "users"
+            "alt": "Professional Advisor"
           },
           {
             "title": "3. Maak een account aan en beheer je belastingvragen",
             "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
-            "showButton": true,
-            "icon": "user-plus"
+            "showButton": true
           }
         ]
       },
@@ -537,19 +534,19 @@
         "items": [
           {
             "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
-            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je je vraag online en krijg je direct een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastinggegevens, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd snel een betrouwbare oplossing - zonder wachten! We behandelen je gegevens veilig en volgens de AVG-eisen.",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Meer hulp nodig? We vinden een geschikte adviseur",
-            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een expert-adviseur die je situatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd specialistische hulp die precies bij je past, zonder gedoe.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
             "title": "3. Maak een account aan en beheer je belastingvragen",
-            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk op één plek. Meld je eenvoudig aan via social login (Google of Facebook) of e-mail en bewaar al je belastingvragen en antwoorden op één locatie. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet elke keer opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende belastingaangifte!",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -644,19 +641,19 @@
         "items": [
           {
             "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
-            "description": "Heb je een vraag over je M-formulier? Bij Jan de Belastingman stel je je vraag online en krijg je direct een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastinggegevens, dus of het nu gaat om migratie-gerelateerde aftrekposten of je M-formulier aangifte, je krijgt altijd snel een betrouwbare oplossing - zonder wachten! We behandelen je gegevens veilig en volgens de AVG-eisen.",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Is het complex? We vinden een geschikte adviseur",
-            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je liever persoonlijke begeleiding die nog niet alle regels op jouw unieke situatie kan toepassen. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een expert-adviseur die je internationale belastingsituatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd specialistische hulp die precies bij je past, zonder gedoe.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
             "title": "3. Maak een account aan en beheer je belastingvragen",
-            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk op één plek. Meld je eenvoudig aan via social login (Google of Facebook) of e-mail en bewaar al je belastingvragen en antwoorden op één locatie. Zo kun je altijd terugkijken wat je hebt gevraagd - van migratie-gerelateerde toeslagen tot aftrekposten - en hoef je niet elke keer opnieuw te beginnen. Handig voor nu én later, voor je volgende M-formulier aangifte!",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -764,20 +761,20 @@
         "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Maak je account aan",
-            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom verwerkt en beveiligd volgens AVG-normen.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Stel je vraag over belastingkortingen",
-            "description": "Start je gesprek met Jan de Belastingman, de digitale belastingadviseur die altijd beschikbaar is en stel gratis al je vragen over het complexe belastingstelsel. Je kunt je inkomen invullen in je aangifte, maar hoe zit het met de andere aftrekposten zoals zorgkosten, giften, studiekosten, etc.? Zijn er specifieke posten waar je recht op hebt? Jan de Belastingman zoekt het uit en helpt je met alles.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
-            "title": "3. Krijg gratis advies over belastingkortingen",
-            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar advies over belastingkortingen en aftrekposten bij je belastingvraag. Dit belastingadvies kun je meenemen en raadplegen bij het invullen van je formulier voor belastingkortingen en aftrekposten. Mocht Jan de Belastingman niet direct het antwoord beschikbaar hebben, omdat het wat complexer is? Dan neemt Jan de Belastingman binnen 24 uur contact met je op.",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -885,20 +882,20 @@
         "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Maak je account aan",
-            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom verwerkt en beveiligd volgens AVG-normen.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Stel je erfbelastingvraag",
-            "description": "Start je gesprek met Jan de Belastingman, de digitale belastingadviseur die altijd beschikbaar is en stel gratis al je vragen over het complexe belastingstelsel. Je kunt je inkomen invullen in je aangifte, maar hoe zit het met de andere aftrekposten zoals zorgkosten, giften, studiekosten, etc.? Zijn er specifieke voordelen waar je recht op hebt? Jan de Belastingman zoekt het uit en helpt je met alles.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
-            "title": "3. Krijg gratis erfbelastingadvies",
-            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar erfbelastingadvies op je vraag. Dit advies kun je meenemen en raadplegen bij het invullen van je erfbelastingformulier. Mocht Jan de Belastingman niet direct het antwoord beschikbaar hebben, omdat het wat complexer is? Dan neemt Jan de Belastingman binnen 24 uur contact met je op.",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1007,19 +1004,19 @@
         "items": [
           {
             "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
-            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je je vraag online en krijg je direct een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastinggegevens, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd snel een betrouwbare oplossing - zonder wachten! We behandelen je gegevens veilig en volgens de AVG-eisen.",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Is het complex? We vinden een geschikte adviseur",
-            "description": "Soms is een vraag te specifiek voor onze chatbot, of geef je de voorkeur aan persoonlijk advies. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een expert-adviseur die je situatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd de hulp die precies bij je past, zonder gedoe.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
             "title": "3. Maak een account aan en beheer je belastingvragen",
-            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk op één plek. Meld je eenvoudig aan via social login (Google of Facebook) of e-mail en bewaar al je belastingvragen en antwoorden op één locatie. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet elke keer opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende belastingaangifte!",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1127,20 +1124,20 @@
         "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Maak je account aan",
-            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Stel je zorgvraag",
-            "description": "Start je gesprek met Jan de Belastingman, de digitale belastingadviseur die altijd beschikbaar is en stel gratis al je vragen over het complexe belastingstelsel. Je kunt je inkomen invullen in je belastingaangifte, maar hoe zit het met de andere aftrekposten zoals zorgkosten, giften, studiekosten, etc.? Zijn er specifieke toeslagen waar je recht op hebt? Jan de Belastingman zoekt het uit en helpt je met alles.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
-            "title": "3. Krijg gratis zorgtoeslag advies",
-            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar zorgtoeslag advies op je vraag. Dit advies kun je meenemen en raadplegen bij het invullen van je zorgtoeslag formulier. Mocht Jan de Belastingman niet direct het antwoord paraat hebben, omdat het wat complexer is? Dan neemt Jan de Belastingman binnen 24 uur contact met je op.",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1234,20 +1231,20 @@
         "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Maak je account aan",
-            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Stel je huurtoeslagvraag",
-            "description": "Start je gesprek met Jan de Belastingman, de digitale belastingadviseur die altijd beschikbaar is en stel gratis al je vragen over het complexe belastingstelsel. Je kunt je inkomen invullen in je belastingaangifte, maar hoe zit het met de andere aftrekposten zoals zorgkosten, giften, studiekosten, etc.? Zijn er specifieke toeslagen waar je recht op hebt? Jan de Belastingman zoekt het uit en helpt je met alles.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
-            "title": "3. Krijg gratis huurtoeslag advies",
-            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar huurtoeslag advies op je vraag. Dit advies kun je meenemen en raadplegen bij het invullen van je huurtoeslag formulier. Mocht Jan de Belastingman niet direct het antwoord paraat hebben, omdat het wat complexer is? Dan neemt Jan de Belastingman binnen 24 uur contact met je op.",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1341,20 +1338,20 @@
         "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Maak je account aan",
-            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Stel je kinderopvangtoeslagvraag",
-            "description": "Start je gesprek met Jan de Belastingman, onze digitale adviseur die altijd beschikbaar is om je vragen over kinderopvangtoeslag te beantwoorden. Of je nu vragen hebt over je rechten, benodigde documenten of hoe je je voordelen kunt maximaliseren, wij helpen je effectief door het systeem te navigeren.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
-            "title": "3. Krijg gratis kinderopvangtoeslag advies",
-            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar advies over je kinderopvangtoeslag vragen. Dit advies kun je meenemen en raadplegen bij het invullen van je aanvraag. Voor complexere situaties brengen we je binnen 24 uur in contact met een expert-adviseur.",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1448,20 +1445,20 @@
         "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Maak je account aan",
-            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Stel je kinderbijslagvraag",
-            "description": "Start je gesprek met Jan de Belastingman, onze digitale adviseur die altijd beschikbaar is om je vragen over kinderbijslag te beantwoorden. Of je nu vragen hebt over je rechten, benodigde documenten of betalingsschema's, wij helpen je effectief door het systeem te navigeren.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
-            "title": "3. Krijg gratis kinderbijslag advies",
-            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar advies over je kinderbijslagvragen. Dit advies kun je meenemen en raadplegen bij het invullen van je aanvraag. Voor complexere situaties brengen we je binnen 24 uur in contact met een expert-adviseur.",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1555,20 +1552,20 @@
         "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Maak je account aan",
-            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Stel je AOW pensioenvraag",
-            "description": "Start je gesprek met Jan de Belastingman, onze digitale adviseur die altijd beschikbaar is om je vragen over AOW pensioen te beantwoorden. Of je nu vragen hebt over je rechten, uitkeringsbedragen of belastingimplicaties, wij helpen je om je pensioenrechten te begrijpen.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
-            "title": "3. Krijg gratis AOW pensioenadvies",
-            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar advies over je AOW pensioenvragen. Dit advies kun je meenemen en raadplegen wanneer nodig. Voor complexere situaties brengen we je binnen 24 uur in contact met een expert-adviseur.",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1662,20 +1659,20 @@
         "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Maak je account aan",
-            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Stel je vraag over inkomen tijdens AOW",
-            "description": "Start je gesprek met Jan de Belastingman, onze digitale adviseur die altijd beschikbaar is om je vragen te beantwoorden over het verdienen van inkomen tijdens je AOW. Of je nu vragen hebt over belastingschijven, aftrekposten of hoe extra inkomen je uitkeringen beïnvloedt, wij zijn er om je te helpen.",
+            "title": "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professionele Adviseur"
+            "alt": "Professional Advisor"
           },
           {
-            "title": "3. Krijg gratis advies over inkomen tijdens AOW",
-            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar advies over je vragen over inkomen tijdens AOW. Dit advies kun je meenemen en raadplegen wanneer nodig. Voor complexere situaties brengen we je binnen 24 uur in contact met een expert-adviseur.",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
