@@ -24,7 +24,7 @@ export default function SupportSection({
   return (
     <div className="mb-20">
       <div className="bg-[#EEF2FF] rounded-2xl shadow-lg overflow-hidden">
-        <div className="grid md:grid-cols-2 gap-12 items-center p-12">
+        <div className="grid md:grid-cols-2 gap-12 items-center p-6 md:p-12">
           <div>
             <h2 className="text-3xl font-bold mb-6 text-primary">{title}</h2>
             <p className="text-gray-700 mb-6">{description}</p>

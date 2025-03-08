@@ -294,7 +294,7 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
     });
 
     return () => subscription.unsubscribe();
-  }, [form, formData]);
+  }, [form, formData, generateZodSchema, getConditionFields]);
 
   // Initialize form when formData is loaded
   useEffect(() => {

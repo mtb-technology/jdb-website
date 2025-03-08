@@ -327,7 +327,7 @@ export function ChatInterface({
   }, [input]);
 
   return (
-    <div className="flex flex-col h-[calc(100vh-165px)] max-w-4xl mx-auto w-full relative bg-white">
+    <div className="flex flex-col h-[calc(100vh-85px)] md:h-[calc(100vh-165px)] max-w-4xl mx-auto w-full relative bg-white">
       {/* Fixed Header */}
       <div className="absolute top-0 left-0 right-0 z-10 flex items-center justify-between p-4 border-b bg-white/30 backdrop-blur-lg">
         {/* start employee dropdown */}
@@ -602,7 +602,7 @@ export function ChatInterface({
               <Send className="h-4 w-4 text-white" />
             </Button>
           </div>
-          <p className="text-xs text-gray-500 mt-2 text-center">
+          <p className="text-xs text-gray-500 mt-2 text-center hidden md:block">
             Deze dienst is een digitale assistent, geen gecertificeerde
             belastingadviseur.
           </p>

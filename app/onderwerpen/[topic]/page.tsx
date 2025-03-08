@@ -68,7 +68,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
   return (
     <main className="relative flex-1 flex flex-col pt-20">
       <Header dict={dict} />
-      <div className="pt-22 overflow-y-auto h-[calc(100vh)]">
+      <div className="overflow-y-auto h-[calc(100vh)]">
         <div className="max-w-5xl mx-auto px-6 py-12">
           <HeroSection {...hero} />
           <PartnersSection title={partners.title} partners={partners.items} />

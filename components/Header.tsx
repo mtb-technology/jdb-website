@@ -38,7 +38,7 @@ export default function Header({ dict }: HeaderProps) {
             strokeWidth={0}
             fill="url(#half)"
           />
-          <span className="ml-2 text-gray-600">
+          <span className="ml-2 text-gray-600 hidden md:block">
             {locale === "nl"
               ? "4.8/5, 101 geverifieerde reviews"
               : "4.8/5, 101 verified reviews"}
