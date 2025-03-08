@@ -81,8 +81,8 @@ export async function* sendMessage({
   assistantId,
 }: {
   message: string;
-  chatSessionId?: number;
-  parentMessageId?: number;
+    chatSessionId?: string;
+    parentMessageId?: string;
     assistantId: number;
 }) {
   if (!chatSessionId || !parentMessageId) {
@@ -159,6 +159,6 @@ export type Message = {
   role: "user" | "assistant";
   content: string;
   timestamp: Date;
-  chatSessionId?: number;
-  parentMessageId?: number;
+  chatSessionId?: string;
+  parentMessageId?: string;
 }; 
