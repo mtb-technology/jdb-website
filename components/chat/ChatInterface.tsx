@@ -58,8 +58,8 @@ export function ChatInterface({
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const [showScrollButton, setShowScrollButton] = useState(false);
   const [currentSession, setCurrentSession] = useState<{
-    chatSessionId?: number;
-    parentMessageId?: number;
+    chatSessionId?: string;
+    parentMessageId?: string;
   }>({});
   const initialMessageProcessedRef = useRef(false);
   const [isCopied, setIsCopied] = useState(false);
@@ -82,7 +82,6 @@ export function ChatInterface({
   const chatDicts = getChatEmployees(isEnglish ? "en" : "nl");
   const employees = chatDicts;
   // Find current employee
-
 
   const currentEmployee = dict;
 
@@ -164,6 +163,7 @@ export function ChatInterface({
 
       let fullResponse = "";
       let hasStartedReceiving = false;
+      let newMessageId: string | undefined;
 
       for await (const chunks of messageGenerator) {
         for (const chunk of chunks) {
@@ -180,7 +180,6 @@ export function ChatInterface({
               setIsTyping(false);
             } else {
               setMessages((prev) => {
-                // Only update if the last chunk hasn't been added yet
                 const lastMessage = prev[prev.length - 1];
                 if (
                   lastMessage?.role === "assistant" &&
@@ -197,18 +196,33 @@ export function ChatInterface({
               });
             }
           } else if (Object.hasOwn(chunk, "message_id")) {
-            if (Object.hasOwn(chunk, "tool_call") && chunk.tool_call) {
-              window.dataLayer = window.dataLayer || [];
-              window.dataLayer.push({
-                event: "toolCall",
-                ecommerce: chunk.tool_call.tool_result,
-                language: isEnglish ? "en" : "nl",
-                tracking_id: trackingData?.trackingId,
-                lead_source: trackingData?.leadSource,
+            newMessageId = chunk.message_id;
+            // Update session state when we receive chat session info
+            if (chunk.chat_session_id) {
+              setCurrentSession({
+                chatSessionId: chunk.chat_session_id,
+                parentMessageId: chunk.message_id,
               });
             }
+          } else if (Object.hasOwn(chunk, "tool_call") && chunk.tool_call) {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+              event: "toolCall",
+              ecommerce: chunk.tool_call.tool_result,
+              language: isEnglish ? "en" : "nl",
+              tracking_id: trackingData?.trackingId,
+              lead_source: trackingData?.leadSource,
+            });
           }
         }
+      }
+
+      // Update parent message ID for next message
+      if (newMessageId) {
+        setCurrentSession((prev) => ({
+          ...prev,
+          parentMessageId: newMessageId,
+        }));
       }
     } catch (error) {
       console.error("Error sending message:", error);
