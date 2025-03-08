@@ -11,6 +11,7 @@ interface ChatSpecificDictionary {
   assistantId?: number;
   assistantName?: string;
   assistantDescription?: string;
+  selectable: boolean;
 }
 
 export type ChatType = keyof typeof chatDictionaries.nl;
@@ -27,6 +28,7 @@ export function getChatDictionary(locale: SupportedLocale, chatType: ChatType): 
 } 
 
 interface ChatEmployee {
+  selectable: boolean;
   id: string;
   name: string;
   description: string;
@@ -42,7 +44,8 @@ export function getChatEmployees(locale: SupportedLocale): ChatEmployee[] {
         id: getLocalizedPath('chat/' + chatKey, locale),
         name: chatEmployee.assistantName,
         description: chatEmployee.assistantDescription,
+        selectable: chatEmployee.selectable,
       };
     })
-    .filter((employee): employee is ChatEmployee => employee !== null);
+    .filter((employee): employee is ChatEmployee => employee !== null && employee.selectable);
 }

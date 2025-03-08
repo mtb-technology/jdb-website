@@ -8,6 +8,8 @@
         "ogTitle": "Jan de Belastingman - Belastingaangifte assistentie",
         "ogDescription": "Stel je vragen over belastingaangifte en krijg direct deskundig advies van onze AI-assistent."
       },
+      "assistantName": "Jan de HOME",
+      "assistantDescription": "Inkomstenbelasting assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
@@ -21,6 +23,7 @@
     },
     "income-tax-return": {
       "assistantId": 12,
+      "selectable": true,
       "metadata": {
         "title": "Jan de Belastingman | Direct Belastingadvies",
         "description": "Krijg direct antwoord op al je vragen over belastingaangifte met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -43,6 +46,7 @@
     },
     "private-company": {
       "assistantId": 7,
+      "selectable": true,
       "metadata": {
         "title": "Jan de Belastingman | BV Adviseur",
         "description": "Krijg direct antwoord op al je vragen over BV's met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -242,6 +246,7 @@
     },
     "income-tax-return": {
       "assistantId": 12,
+      "selectable": true,
       "metadata": {
         "title": "Jan de Belastingman | Instant Tax Advice",
         "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
@@ -264,6 +269,7 @@
     },
     "private-company": {
       "assistantId": 7,
+      "selectable": true,
       "metadata": {
         "title": "Jan de Belastingman | Private Limited Company Advisor",
         "description": "Get instant answers to all your private limited company questions with our AI assistant. Professional, reliable, and available 24/7.",

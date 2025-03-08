@@ -13,7 +13,13 @@ interface FooterDictionary {
   };
 }
 
-export default function Footer({ dict }: { dict: FooterDictionary }) {
+export default function Footer({
+  dict,
+  hideOnMobile,
+}: {
+  dict: FooterDictionary;
+  hideOnMobile?: boolean;
+}) {
   const pathname = usePathname();
   const locale = getCurrentLocale(pathname);
 
@@ -23,11 +29,11 @@ export default function Footer({ dict }: { dict: FooterDictionary }) {
       label: dict.footer.privacy,
     },
     { href: locale === "nl" ? "terms" : "en/terms", label: dict.footer.terms },
-    {
-      href: locale === "nl" ? "contact" : "en/contact",
-      label: dict.footer.contact,
-    },
   ];
+
+  if (hideOnMobile) {
+    return <></>;
+  }
 
   return (
     <footer className="py-6 px-6 border-t border-gray-100 mt-auto">
