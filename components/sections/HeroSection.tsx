@@ -33,7 +33,7 @@ export default function HeroSection({
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-4xl font-bold mb-4">{title}</h1>
-          <p className="text-gray-600 mb-6">{description}</p>
+          <div className="text-gray-600 mb-6" dangerouslySetInnerHTML={{ __html: description }} />
           <p className="text-gray-600 mb-6">{callToAction}</p>
           <Link href={buttonLink}>
             <Button className="bg-primary text-white hover:bg-[#2341C7] mb-2">
