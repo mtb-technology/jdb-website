@@ -2,7 +2,14 @@
 
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { ChevronDown, Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -170,7 +177,11 @@ export default function SidebarLayout({
     });
   };
 
-  const renderNavLink = (link: NavLink, isMobile: boolean = false, level: number = 0) => {
+  const renderNavLink = (
+    link: NavLink,
+    isMobile: boolean = false,
+    level: number = 0
+  ) => {
     const isActive = activeMenus.includes(link.label);
     const paddingLeft = level * 16;
 
@@ -180,7 +191,7 @@ export default function SidebarLayout({
           <button
             onClick={() => toggleSubmenu(link.label)}
             className={`flex items-center justify-between w-full hover:opacity-80 transition-opacity ${
-              level > 0 ? 'text-white/90' : ''
+              level > 0 ? "text-white/90" : ""
             }`}
             style={{ paddingLeft: `${paddingLeft}px` }}
           >
@@ -192,25 +203,34 @@ export default function SidebarLayout({
             />
           </button>
           {isActive && (
-            <div className={`space-y-3 ${isMobile ? 'text-base' : 'text-sm'}`}>
-              {link.children.map((child) => renderNavLink(child, isMobile, level + 1))}
+            <div className={`space-y-3 ${isMobile ? "text-base" : "text-sm"}`}>
+              {link.children.map((child) =>
+                renderNavLink(child, isMobile, level + 1)
+              )}
             </div>
           )}
         </div>
       );
     }
 
-    return (
+    const LinkComponent = (
       <Link
-        key={`${link.href}-${link.label}`}
         href={link.href}
         className={`block hover:opacity-80 transition-opacity ${
-          level > 0 ? 'text-white/80' : ''
+          level > 0 ? "text-white/80" : ""
         }`}
         style={{ paddingLeft: `${paddingLeft}px` }}
       >
         {link.label}
       </Link>
+    );
+
+    return isMobile ? (
+      <SheetClose key={`${link.href}-${link.label}`} asChild>
+        {LinkComponent}
+      </SheetClose>
+    ) : (
+      <div key={`${link.href}-${link.label}`}>{LinkComponent}</div>
     );
   };
 
@@ -295,18 +315,20 @@ export default function SidebarLayout({
               {currentNavLinks.map((link) => renderNavLink(link, true))}
             </nav>
 
-            <Button
-              asChild
-              className="w-full bg-white text-primary hover:bg-gray-100 transition-colors text-sm"
-            >
-              <Link
-                href={
-                  locale === "nl" ? "/vind-een-adviseur" : "/en/find-advisor"
-                }
+            <SheetClose asChild>
+              <Button
+                asChild
+                className="w-full bg-white text-primary hover:bg-gray-100 transition-colors text-sm"
               >
-                {locale === "nl" ? "Vind een adviseur" : "Find an advisor"}
-              </Link>
-            </Button>
+                <Link
+                  href={
+                    locale === "nl" ? "/vind-een-adviseur" : "/en/find-advisor"
+                  }
+                >
+                  {locale === "nl" ? "Vind een adviseur" : "Find an advisor"}
+                </Link>
+              </Button>
+            </SheetClose>
           </div>
         </SheetContent>
       </Sheet>

@@ -122,25 +122,25 @@ export default function ChatWindow({ dict }: { dict: any }) {
               <div className="flex justify-center items-center gap-4 md:gap-8 grayscale opacity-60 flex-wrap">
                 {[
                   {
-                    src: "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+                    src: "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
                     alt: "De Jurist",
                     url: "https://dejurist.com/nieuws/50008411/kortgedingrechter-jan-de-belastingman-maakt-geen-inbreuk-op-handelsnaam-jan",
                     width: 100,
                   },
                   {
-                    src: "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+                    src: "/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
                     alt: "Accountant",
                     url: "https://www.accountant.nl/nieuws/2020/8/jan-moet-jan-de-belastingman-dulden",
                     width: 120,
                   },
                   {
-                    src: "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+                    src: "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
                     url: "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
                     alt: "Quote",
                     width: 90,
                   },
                   {
-                    src: "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+                    src: "/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
                     alt: "FD",
                     url: "https://www.fd.nl/nieuws/2020/10/jan-de-belastingman-krijgt-kortgeding-van-student-die-zijn-naam-gebruikt-heeft~b4441f2b/?referrer=https%3A%2F%2Fjandebelastingman.test%2F&referrer=https%3A%2F%2Fjandebelastingman.nl%2F",
                     width: 60,
