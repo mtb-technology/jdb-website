@@ -3,25 +3,25 @@
     "income-tax-return": {
       "assistantId": 12,
       "metadata": {
-        "title": "Jan de Belastingman | Your AI Tax Advisor",
-        "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
-        "ogTitle": "Jan de Belastingman - AI Tax Advisor",
-        "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
+        "title": "Jan de Belastingman | Direct Belastingadvies",
+        "description": "Krijg direct antwoord op al je vragen over belastingaangifte met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
+        "ogTitle": "Jan de Belastingman - Belastingaangifte assistentie",
+        "ogDescription": "Stel je vragen over belastingaangifte en krijg direct deskundig advies van onze AI-assistent."
       },
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Inkomstenbelasting assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
-        "deductions": "What deductions can I apply?",
-        "vatReturn": "How to file VAT returns as self-employed?",
-        "box3": "Do I need to declare assets in box 3?",
-        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?"
+        "deductions": "Mijn belastingaangifte is complex. Hoe pak ik dit aan?",
+        "vatReturn": "Hoe kan ik voorkomen dat ik te veel belasting betaal?",
+        "box3": "Hoe wordt vermogen in box 3 belast?",
+        "businessStructure": "Waar moet ik op letten bij mijn belastingaangifte?",
+        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
-
     "private-company": {
       "assistantId": 7,
       "metadata": {
@@ -35,10 +35,11 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
-        "deductions": "Wat zijn de voordelen van een BV?",
-        "vatReturn": "Hoe zit het met de belasting in een BV?",
-        "box3": "Wanneer is een BV interessant?",
-        "businessStructure": "Wat zijn de kosten van een BV?"
+        "deductions": "Hoe zet ik mijn eenmanszaak om naar een BV?",
+        "vatReturn": "Hoe kan ik de belastingdruk voor mijn BV verlagen?",
+        "box3": "Is dividend uitkeren slimmer dan salaris verhogen?",
+        "businessStructure": "Mijn administratie kost te veel tijd. Kan iemand dit voor mij regelen?",
+        "more": "Ik wil internationaal zakendoen. Hoe voorkom ik fiscale valkuilen?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -56,10 +57,11 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
-        "deductions": "Welke aftrekposten zijn er voor ZZP'ers?",
-        "vatReturn": "Hoe werkt de BTW-aangifte?",
-        "box3": "Wat moet ik weten over de KOR?",
-        "businessStructure": "Hoe bereken ik mijn winst?"
+        "deductions": "Mijn administratie kost me te veel tijd. Wat zijn mijn opties?",
+        "vatReturn": "Hoe zorg ik dat ik als ZZP’er geen belastingvoordelen misloop?",
+        "box3": "Hoe pak ik mijn BTW-aangifte aan?",
+        "businessStructure": "Ik twijfel of een BV voordeliger is dan ZZP. Hoe weet ik dat zeker?",
+        "more": "Wat zijn mijn fiscale verplichtingen als ik internationaal werk?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -77,10 +79,11 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
-        "deductions": "Wanneer moet ik een M-formulier invullen?",
+        "deductions": "Wat is een M-formulier en wanneer moet ik het invullen?",
         "vatReturn": "Wat moet ik invullen bij buitenlands inkomen?",
         "box3": "Hoe werkt de 30%-regeling?",
-        "businessStructure": "Wat zijn de deadlines?"
+        "businessStructure": "Hoe kan ik hulp krijgen bij het invullen van mijn M-formulier?",
+        "more": "Kan ik in contact komen met een belastingadviseur?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -101,7 +104,8 @@
         "deductions": "Kom ik in aanmerking voor zorgtoeslag?",
         "vatReturn": "Hoeveel zorgtoeslag kan ik krijgen?",
         "box3": "Wanneer moet ik wijzigingen doorgeven?",
-        "businessStructure": "Wat gebeurt er als mijn inkomen verandert?"
+        "businessStructure": "Wat gebeurt er als mijn inkomen verandert?",
+        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -119,10 +123,11 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
-        "deductions": "Welke documenten heb ik nodig?",
+        "deductions": "Ik wil door de belastingaangifte checklist lopen.",
         "vatReturn": "Wat moet ik voorbereiden?",
         "box3": "Hoe lang moet ik documenten bewaren?",
-        "businessStructure": "Wat zijn belangrijke deadlines?"
+        "businessStructure": "Wat zijn belangrijke deadlines?",
+        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -143,7 +148,8 @@
         "deductions": "Wanneer heb ik recht op kinderbijslag?",
         "vatReturn": "Hoeveel kinderbijslag krijg ik?",
         "box3": "Wat als mijn kind 18 wordt?",
-        "businessStructure": "Hoe vraag ik kinderbijslag aan?"
+        "businessStructure": "Hoe vraag ik kinderbijslag aan?",
+        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -161,10 +167,11 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
-        "deductions": "Wat zijn de belangrijkste aftrekposten?",
-        "vatReturn": "Hoe werkt de BTW?",
-        "box3": "Wat is box 1, 2 en 3?",
-        "businessStructure": "Wanneer moet ik aangifte doen?"
+        "deductions": "Welke aftrekposten kan ik toepassen?",
+        "vatReturn": "Hoe werkt de BTW aangifte?",
+        "box3": "Wat is het verschil tussen box 1, 2 en 3?",
+        "businessStructure": "Wanneer moet ik belastingaangifte doen?",
+        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -185,7 +192,8 @@
         "deductions": "Wanneer krijg ik AOW?",
         "vatReturn": "Hoeveel AOW krijg ik?",
         "box3": "Wat als ik in het buitenland heb gewoond?",
-        "businessStructure": "Kan ik blijven werken met AOW?"
+        "businessStructure": "Kan ik blijven werken met AOW?",
+        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -195,9 +203,9 @@
     "income-tax-return": {
       "assistantId": 12,
       "metadata": {
-        "title": "Jan de Belastingman | Your AI Tax Advisor",
+        "title": "Jan de Belastingman | Instant Tax Advice",
         "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
-        "ogTitle": "Jan de Belastingman - AI Tax Advisor",
+        "ogTitle": "Jan de Belastingman - Tax Return Assistance",
         "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
       },
       "assistantName": "Jan de Belastingman",
@@ -205,10 +213,11 @@
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
-        "deductions": "What deductions can I apply?",
-        "vatReturn": "How to file VAT returns as self-employed?",
-        "box3": "Do I need to declare assets in box 3?",
-        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?"
+        "deductions": "My tax return is complex. How do I approach this?",
+        "vatReturn": "How can I avoid overpaying taxes?",
+        "box3": "What assets are included in Box 3 and how are they taxed?",
+        "businessStructure": "What should I pay attention to when filing my tax return?",
+        "more": "I don’t want to make mistakes or miss out on deductions. Can someone check my return?"
       },
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
@@ -227,10 +236,11 @@
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
-        "deductions": "What are the benefits of a private limited company?",
-        "vatReturn": "How does taxation work in a private limited company?",
-        "box3": "When is a private limited company beneficial?",
-        "businessStructure": "What are the costs of a private limited company?"
+        "deductions": "How do I convert my sole proprietorship into a BV?",
+        "vatReturn": "How can I reduce my company’s tax burden?",
+        "box3": "Is paying out dividends smarter than increasing my salary?",
+        "businessStructure": "My bookkeeping takes too much time. Can I outsource it?",
+        "more": "I want to expand internationally. How do I avoid tax pitfalls?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
@@ -248,10 +258,11 @@
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
-        "deductions": "What deductions are available for self-employed?",
-        "vatReturn": "How does VAT return work?",
-        "box3": "What should I know about the small business scheme?",
-        "businessStructure": "How do I calculate my profit?"
+        "deductions": "My bookkeeping takes too much time. What are my options?",
+        "vatReturn": "How do I make sure I’m not missing out on tax benefits?",
+        "box3": "How do I handle my VAT return?",
+        "businessStructure": "How do I know if a BV is better than being self-employed?",
+        "more": "What are my tax obligations if I work abroad?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
@@ -269,10 +280,11 @@
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
-        "deductions": "When do I need to file an M Form?",
+        "deductions": "What is an M-form and when should I fill it out?",
         "vatReturn": "How do I declare foreign income?",
         "box3": "How does the 30% ruling work?",
-        "businessStructure": "What are the deadlines?"
+        "businessStructure": "What are the deadlines?",
+        "more": "The m-form is complex. Can an expert take care of it for me?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
@@ -293,7 +305,8 @@
         "deductions": "Am I eligible for healthcare allowance?",
         "vatReturn": "How much healthcare allowance can I receive?",
         "box3": "When do I need to report changes?",
-        "businessStructure": "What happens if my income changes?"
+        "businessStructure": "What happens if my income changes?",
+        "more": "I don't want to make mistakes or lose money. Can an expert look over my shoulder?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
@@ -311,10 +324,11 @@
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
-        "deductions": "What documents do I need?",
+        "deductions": "I want to go through the tax return checklist.",
         "vatReturn": "What should I prepare?",
         "box3": "How long should I keep documents?",
-        "businessStructure": "What are important deadlines?"
+        "businessStructure": "What are important deadlines?",
+        "more": "I don't want to make mistakes or lose money. Can an expert look over my shoulder?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
@@ -335,7 +349,8 @@
         "deductions": "When am I eligible for child benefit?",
         "vatReturn": "How much child benefit will I receive?",
         "box3": "What happens when my child turns 18?",
-        "businessStructure": "How do I apply for child benefit?"
+        "businessStructure": "How do I apply for child benefit?",
+        "more": "I don't want to make mistakes or lose money. Can an expert look over my shoulder?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
@@ -353,10 +368,11 @@
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
-        "deductions": "What are the main deductions?",
-        "vatReturn": "How does VAT work?",
-        "box3": "What is box 1, 2, and 3?",
-        "businessStructure": "When do I need to file taxes?"
+        "deductions": "What deductions can I apply?",
+        "vatReturn": "How does the VAT return work?",
+        "box3": "What is the difference between box 1, 2, and 3?",
+        "businessStructure": "When do I need to file my tax return?",
+        "more": "I don't want to make mistakes or lose money. Can an expert look over my shoulder?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
@@ -377,7 +393,8 @@
         "deductions": "When will I receive AOW?",
         "vatReturn": "How much AOW will I receive?",
         "box3": "What if I lived abroad?",
-        "businessStructure": "Can I continue working with AOW?"
+        "businessStructure": "Can I continue working with AOW?",
+        "more": "I don't want to make mistakes or lose money. Can an expert look over my shoulder?"
       },
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"

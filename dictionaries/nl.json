@@ -1,52 +1,52 @@
 {
   "metadata": {
-    "title": "Jan de Belastingman | Your AI Tax Advisor",
-    "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
-    "ogTitle": "Jan de Belastingman - AI Tax Advisor",
-    "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant.",
-    "ogImageAlt": "Jan de Belastingman AI Assistant",
-    "twitterTitle": "Jan de Belastingman - AI Tax Advisor",
-    "twitterDescription": "Instant answers to all your tax questions with our AI assistant."
+    "title": "Jan de Belastingman | Jouw AI Belastingadviseur",
+    "description": "Krijg direct antwoord op al je belastingvragen met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
+    "ogTitle": "Jan de Belastingman - AI Belastingadviseur",
+    "ogDescription": "Stel je belastingvragen en krijg direct deskundig advies van onze AI-assistent.",
+    "ogImageAlt": "Jan de Belastingman AI Assistent",
+    "twitterTitle": "Jan de Belastingman - AI Belastingadviseur",
+    "twitterDescription": "Direct antwoord op al je belastingvragen met onze AI-assistent."
   },
   "pages": {
     "home": {
       "metadata": {
-        "title": "Jan de Belastingman | Your AI Tax Advisor",
-        "description": "Get instant answers to all your tax questions with our AI assistant. Professional, reliable, and available 24/7.",
-        "ogTitle": "Jan de Belastingman - AI Tax Advisor",
-        "ogDescription": "Ask your tax questions and get expert advice instantly from our AI assistant."
+        "title": "Jan de Belastingman | Jouw AI Belastingadviseur",
+        "description": "Krijg direct antwoord op al je belastingvragen met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
+        "ogTitle": "Jan de Belastingman - AI Belastingadviseur",
+        "ogDescription": "Stel je belastingvragen en krijg direct deskundig advies van onze AI-assistent."
       },
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
-        "deductions": "What deductions can I apply?",
-        "vatReturn": "How to file VAT returns as self-employed?",
-        "box3": "Do I need to declare assets in box 3?",
-        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?"
+        "deductions": "Welke aftrekposten kan ik toepassen?",
+        "vatReturn": "Hoe dien ik BTW-aangifte in als ZZP'er?",
+        "box3": "Moet ik vermogen aangeven in box 3?",
+        "businessStructure": "Wat is de impact van overstappen van eenmanszaak naar BV?"
       },
-      "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
-      "knownFrom": "As featured in"
+      "disclaimer": "Deze service is een digitale assistent, geen gecertificeerd belastingadviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
+      "knownFrom": "Bekend van"
     },
     "how-it-works": {
-      "title": "How does Jan de Belastingman work?",
+      "title": "Hoe werkt Jan de Belastingman?",
       "items": [
-          {
-            "title": "1. Ask your question 24/7 and get instant answers",
-            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
-            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-            "alt": "Chat Interface",
-            "icon": "message-circle"
-          },
-          {
-            "title": "2. Need more help? We'll find you a suitable advisor",
-            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
+        {
+          "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+          "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je je vraag online en krijg je direct een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastinggegevens, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd snel een betrouwbare oplossing - zonder wachten!",
+          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "alt": "Chat Interface",
+          "icon": "message-circle"
+        },
+        {
+          "title": "2. Meer hulp nodig? We vinden een geschikte adviseur",
+          "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een expert-adviseur die je situatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd specialistische hulp die precies bij je past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
             "alt": "Professional Advisor",
             "icon": "users"
           },
           {
-            "title": "3. Create an account and manage your tax questions",
-            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk op één plek. Meld je eenvoudig aan via social login (Google of Facebook) of e-mail en bewaar al je belastingvragen en antwoorden op één locatie. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet elke keer opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende belastingaangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "icon": "user-plus"
@@ -54,14 +54,14 @@
       ],
       "buttons": {
         "chat": {
-          "text": "Ask your question in chat",
-          "subtext": "Instant answer",
+          "text": "Stel je vraag in de chat",
+          "subtext": "Direct antwoord",
           "link": "/chat/belastingaangifte"
         },
         "advisor": {
-          "text": "Find an advisor",
-          "subtext": "An expert who understands your situation",
-          "link": "/find-advisor"
+          "text": "Vind een adviseur",
+          "subtext": "Een expert die jouw situatie begrijpt",
+          "link": "/vind-een-adviseur"
         }
       }
     },
@@ -174,12 +174,12 @@
       }
     },
     "blog": {
-      "title": "Blog",
-      "description": "Discover the latest insights and tips about taxes",
-      "loading": "Loading...",
-      "loadMore": "Load more articles",
-      "noPosts": "No articles found in this category",
-      "allCategories": "All",
+      "title": "Nieuwsberichten",
+      "description": "Ontdek de laatste inzichten en tips over belastingen",
+      "loading": "Laden...",
+      "loadMore": "Meer artikelen laden",
+      "noPosts": "Geen artikelen gevonden in deze categorie",
+      "allCategories": "Alle categorieën",
       "newsletter": {
         "title": "Blijf op de hoogte",
         "description": "Ontvang de nieuwste belastingtips en updates direct in je inbox.",
@@ -188,124 +188,123 @@
       }
     },
     "about-us": {
-      "title": "About Us",
+      "title": "Over ons",
       "story": {
-        "title": "Our Story",
+        "title": "Ons verhaal",
         "paragraphs": [
-          "Jan de Belastingman was founded with a clear mission: to democratize tax advice and make expert guidance accessible to everyone in the Netherlands.",
-          "The idea came from firsthand experience working at a foundation that provided low-cost tax assistance. It became clear that a huge gap existed between tax expertise and the people who needed it, especially when tax situations became more complex. Many struggled with unclear rules, expensive advisors, and a lack of digital solutions.",
-          "With this in mind, a team of experts in AI, finance, and digital innovation set out to create a smarter, more accessible way to get tax help. The vision was set and the team built and scaled Jan de Belastingman to what it is today."
+          "Jan de Belastingman is opgericht met een duidelijke missie: belastingadvies democratiseren en deskundige begeleiding toegankelijk maken voor iedereen in Nederland.",
+          "Het idee kwam voort uit directe ervaring bij een stichting die goedkope belastinghulp aanbood. Het werd duidelijk dat er een enorme kloof bestond tussen belastingexpertise en de mensen die het nodig hadden, vooral wanneer belastingsituaties complexer werden. Velen worstelden met onduidelijke regels, dure adviseurs en een gebrek aan digitale oplossingen.",
+          "Met dit in gedachten ging een team van experts in AI, financiën en digitale innovatie aan de slag om een slimmere, toegankelijkere manier te creëren om belastinghulp te krijgen. De visie werd bepaald en het team bouwde en schaalde Jan de Belastingman tot wat het nu is."
         ]
       },
       "team": {
-        "title": "Our Team",
-        "description": "At Jan de Belastingman, our team combines deep expertise in tax, technology, and business with the goal to make tax advice simple and accessible. With backgrounds in AI, finance, and innovation, we're dedicated to helping you navigate your tax matters with confidence.",
+        "title": "Ons team",
+        "description": "Bij Jan de Belastingman combineert ons team diepgaande expertise in belastingen, technologie en bedrijfskunde met het doel om belastingadvies eenvoudig en toegankelijk te maken. Met achtergronden in AI, financiën en innovatie zijn we toegewijd om jou te helpen met vertrouwen door je belastingzaken te navigeren.",
         "members": [
           {
             "name": "Bo",
-            "role": "Product & Ops",
-            "background": "A digital innovation leader, with a track record of guiding teams to executional excellence, creating people-focused solutions through smarter technology.",
+            "role": "Product & Operations",
+            "background": "Een digitale innovatieleider, met een track record in het begeleiden van teams naar uitvoerende excellentie, die mensgerichte oplossingen creëert door slimmere technologie.",
             "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
           },
           {
             "name": "Tim",
             "role": "Sales & Marketing",
-            "background": "A growth strategist with 14+ years of experience in building brands and scaling digital startups through impactful marketing.",
+            "background": "Een groeistrategie-expert met 14+ jaar ervaring in het opbouwen van merken en het schalen van digitale startups door effectieve marketing.",
             "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
           },
           {
             "name": "Beaudinn",
             "role": "AI & Engineering",
-            "background": "A full-stack engineer with a decade of experience in AI and data-driven development, building secure, scalable, and high-performing systems.",
+            "background": "Een full-stack engineer met tien jaar ervaring in AI en datagedreven ontwikkeling, die veilige, schaalbare en hoogwaardige systemen bouwt.",
             "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
           },
           {
             "name": "Mathijs",
-            "role": "Founder",
-            "background": "A serial entrepreneur with a fiscal background, leveraging AI to build forward-thinking businesses that transform industries.",
+            "role": "Oprichter",
+            "background": "Een serial entrepreneur met een fiscale achtergrond, die AI inzet om toekomstgerichte bedrijven te bouwen die industrieën transformeren.",
             "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
           },
           {
             "name": "Marcus",
-            "role": "Founder",
-            "background": "An AI and SaaS innovator, driving multiple ventures that push technology forward and redefine digital solutions.",
+            "role": "Oprichter",
+            "background": "Een AI- en SaaS-innovator, die meerdere ondernemingen aanstuurt die technologie vooruit stuwen en digitale oplossingen herdefiniëren.",
             "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
           }
         ]
       },
       "journey": {
-        "title": "Our Journey",
+        "title": "Onze reis",
         "milestones": [
           {
             "year": "2020",
-            "subtitle": "Founded with a mission",
-            "description": "We established Jan de Belastingman to democratize tax advice, making expert guidance affordable and accessible for everyone."
+            "subtitle": "Opgericht met een missie",
+            "description": "We hebben Jan de Belastingman opgericht om belastingadvies te democratiseren en deskundige begeleiding betaalbaar en toegankelijk te maken voor iedereen."
           },
           {
             "year": "",
             "subtitle": "",
-            "description": "We launched the first AI-powered chat assistant, helping our first X customers navigate their taxes with ease."
+            "description": "We lanceerden de eerste AI-gestuurde chatassistent, die onze eerste X klanten hielp om eenvoudig door hun belastingen te navigeren."
           },
           {
             "year": "|",
             "subtitle": "",
-            "description": "We integrated the latest AI advancements to create an intelligent assistant capable of handling complex situations."
+            "description": "We integreerden de nieuwste AI-ontwikkelingen om een intelligente assistent te creëren die complexe situaties kan behandelen."
           },
           {
             "year": "",
             "subtitle": "",
-            "description": "We expanded our team and introduced advanced features tailored for businesses and freelancers."
+            "description": "We breidden ons team uit en introduceerden geavanceerde functies op maat voor bedrijven en freelancers."
           },
           {
             "year": "2025",
-            "subtitle": "Becoming Go-To Tax Assistant",
-            "description": "We continue to innovate and strive to become the go-to tax assistant for all of the Netherlands."
+            "subtitle": "De go-to belastingassistent worden",
+            "description": "We blijven innoveren en streven ernaar om de go-to belastingassistent te worden voor heel Nederland."
           }
         ]
       },
       "partners": {
-        "title": "Our Trusted Partners",
-        "description": "To strengthen our services, we work closely with a network of reliable, certified partners. These experts bring deep knowledge and experience in specific tax domains, allowing us to offer an even broader range of specialized tax advice.",
+        "title": "Onze vertrouwde partners",
         "types": [
           {
-            "title": "Tax Specialists",
-            "description": "Experts in complex tax legislation and planning for businesses and individuals."
+            "title": "Belastingspecialisten",
+            "description": "Experts in complexe belastingwetgeving en planning voor bedrijven en particulieren."
           },
           {
             "title": "Accountants",
-            "description": "Certified professionals for financial reporting and compliance."
+            "description": "Gecertificeerde professionals voor financiële rapportage en compliance."
           },
           {
-            "title": "Legal Advisors",
-            "description": "Specialized in tax law and business structuring."
+            "title": "Juridisch adviseurs",
+            "description": "Gespecialiseerd in belastingrecht en bedrijfsstructurering."
           }
         ]
       },
       "mission": {
-        "title": "Our Mission",
-        "description": "Jan de Belastingman strives to make quality tax advice accessible to everyone. We want to save people time and money by providing reliable, understandable guidance on their tax matters.",
+        "title": "Onze Missie",
+        "description": "Jan de Belastingman streeft ernaar om kwalitatief belastingadvies toegankelijk te maken voor iedereen. We willen mensen tijd en geld besparen door betrouwbare, begrijpelijke begeleiding te bieden bij hun belastingzaken.",
         "points": [
-          "Democratizing tax expertise",
-          "Simplifying complex tax issues",
-          "Providing 24/7 support to everyone"
+          "Democratisering van belastingexpertise",
+          "Vereenvoudigen van complexe belastingkwesties",
+          "24/7 ondersteuning voor iedereen"
         ]
       },
       "vision": {
-        "title": "Our Vision",
-        "description": "We envision a future where everyone in the Netherlands can handle their tax matters with confidence, supported by advanced AI technology and human expertise.",
+        "title": "Onze Visie",
+        "description": "We zien een toekomst voor ons waarin iedereen in Nederland met vertrouwen zijn belastingzaken kan regelen, ondersteund door geavanceerde AI-technologie en menselijke expertise.",
         "points": [
-          "AI-driven personal advice for everyone",
-          "Seamless integration with financial systems",
-          "Continuously learning and evolving service",
-          "Collaboration with experts for specialized advice"
+          "AI-gedreven persoonlijk advies voor iedereen",
+          "Naadloze integratie met financiële systemen",
+          "Continue lerende en ontwikkelende dienstverlening",
+          "Samenwerking met experts voor specialistisch advies"
         ]
       },
       "cta": {
-        "title": "Ready to simplify your tax matters?",
-        "description": "Join thousands of Dutch citizens already benefiting from our personal, AI-driven tax advice. Let Jan de Belastingman help you navigate through the complex world of taxes.",
+        "title": "Klaar om je belastingzaken te vereenvoudigen?",
+        "description": "Sluit je aan bij duizenden Nederlanders die al profiteren van ons persoonlijke, AI-gedreven belastingadvies. Laat Jan de Belastingman je helpen navigeren door de complexe wereld van belastingen.",
         "buttons": {
-          "chat": "Ask your question in chat",
-          "howItWorks": "How it works"
+          "chat": "Stel je vraag in de chat",
+          "howItWorks": "Hoe het werkt"
         }
       }
     }
@@ -313,29 +312,29 @@
   "topics": {
     "private-company": {
       "metadata": {
-        "title": "Private Limited Company (BV) | Jan de Belastingman",
-        "description": "Expert advice on establishing and managing a BV in the Netherlands.",
-        "ogTitle": "BV Advice - Jan de Belastingman",
-        "ogDescription": "Get expert advice on establishing and managing a BV in the Netherlands. Instant answers to all your BV-related questions.",
-        "ogImageAlt": "BV Advice from Jan de Belastingman"
+        "title": "Besloten Vennootschap (BV) | Jan de Belastingman",
+        "description": "Expert advies over het oprichten en beheren van een BV in Nederland.",
+        "ogTitle": "BV Advies - Jan de Belastingman",
+        "ogDescription": "Krijg deskundig advies over het oprichten en beheren van een BV in Nederland. Direct antwoord op al je BV-gerelateerde vragen.",
+        "ogImageAlt": "BV Advies van Jan de Belastingman"
       },
       "hero": {
-        "title": "Expert Support for Private Limited Companies (BVs)",
-        "description": "Managing a BV or facing challenges with business taxes or legal obligations? Jan de Belastingman helps you understand the complexities of running a Private Limited Company in the Netherlands, ensuring your business stays compliant and financially healthy.",
-        "callToAction": "Want to establish a BV? Discover with Jan de Belastingman how a Private Limited Company can transform your financial future – start your more profitable entrepreneurial journey now!",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "Expert Ondersteuning voor Besloten Vennootschappen (BV's)",
+        "description": "Beheer je een BV of loop je tegen uitdagingen aan met zakelijke belastingen of wettelijke verplichtingen? Jan de Belastingman helpt je de complexiteit van het runnen van een BV in Nederland te begrijpen, zodat je bedrijf compliant en financieel gezond blijft.",
+        "callToAction": "Wil je een BV oprichten? Ontdek met Jan de Belastingman hoe een Besloten Vennootschap je financiële toekomst kan transformeren – begin nu aan je meer winstgevende ondernemersreis!",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/besloten-vennootschap",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
+          "alt": "Chat Interface Voorbeeld",
           "width": 800,
           "height": 600
         },
-        "stats": "4,545 BV questions answered"
+        "stats": "4.545 BV vragen beantwoord"
       },
       "partners": {
-        "title": "As featured in",
+        "title": "Bekend van",
         "items": [
           {
             "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -360,34 +359,34 @@
         ]
       },
       "support": {
-        "title": "Private Limited Company Support in the Netherlands",
-        "description": "Running a Private Limited Company (BV) in the Netherlands requires compliance with specific financial rules and tax obligations. Jan de Belastingman provides tailored guidance for BVs to help you effectively manage your business obligations, from tax planning to compliance with Dutch business legislation.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "Ondersteuning voor Besloten Vennootschappen in Nederland",
+        "description": "Het runnen van een Besloten Vennootschap (BV) in Nederland vereist naleving van specifieke financiële regels en belastingverplichtingen. Jan de Belastingman biedt op maat gemaakte begeleiding voor BV's om je te helpen bij het effectief beheren van je bedrijfsverplichtingen, van belastingplanning tot naleving van Nederlandse bedrijfswetgeving.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/besloten-vennootschap",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Business Professional"
+        "imageAlt": "Zakelijke Professional"
       },
       "stepsSection": {
-        "buttonText": "Ask your question in chat",
+        "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/besloten-vennootschap",
-        "buttonSubtext": "Instant answer",
+        "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Ask your question 24/7 and get instant answers",
-            "description": "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je je vraag online en krijg je direct een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastinggegevens, dus of het nu gaat om aftrekposten, toeslagen of je aangifte, je krijgt altijd snel een betrouwbare oplossing – zonder wachten!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Need more help? We'll find you a suitable advisor",
-            "description": "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
+            "title": "2. Meer hulp nodig? We vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek of persoonlijk voor onze chatbot, die nog niet alle regels kan toepassen op jouw unieke situatie. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een expert-adviseur die je situatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd de hulp die bij je past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professionele Adviseur"
           },
           {
-            "title": "3. Create an account and manage your tax questions",
-            "description": "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk op één plek. Meld je eenvoudig aan via social login (Google of Facebook) of e-mail en bewaar al je belastingvragen en antwoorden op één locatie. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet elke keer opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende belastingaangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -395,23 +394,23 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles about BV's",
-        "buttonText": "View all articles",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "Veelgestelde vragen",
+        "blogTitle": "Laatste artikelen over BV's",
+        "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
         "faqItems": [
           {
-            "question": "What is a BV and why should I establish one?",
-            "answer": "A BV (Private Limited Company) is a legal entity where the company is a separate legal person, distinct from its owners. Establishing a BV can offer advantages in terms of liability, taxes, and attracting investors. It's particularly suitable for entrepreneurs who want to separate their personal assets from company assets and who expect their business to grow."
+            "question": "Wat is een BV en waarom zou ik er een oprichten?",
+            "answer": "Een BV (Besloten Vennootschap) is een rechtsvorm waarbij het bedrijf een aparte rechtspersoon is, los van de eigenaren. Het oprichten van een BV kan voordelen bieden op het gebied van aansprakelijkheid, belastingen en het aantrekken van investeerders. Het is vooral geschikt voor ondernemers die hun privévermogen willen scheiden van het bedrijfsvermogen en die verwachten dat hun bedrijf zal groeien."
           },
           {
-            "question": "What tax benefits does a BV offer?",
-            "answer": "A BV can offer various tax benefits, including a lower corporate tax rate for profits up to €395,000 (15% in 2023), the ability to retain profits within the BV for reinvestment at a lower rate, and the option to pay yourself a salary and receive dividends. Additionally, there are tax optimization opportunities that aren't available for sole proprietorships or general partnerships."
+            "question": "Welke belastingvoordelen biedt een BV?",
+            "answer": "Een BV kan verschillende belastingvoordelen bieden, waaronder een lager vennootschapsbelastingtarief voor winsten tot €395.000 (15% in 2023), de mogelijkheid om winst binnen de BV te houden voor herinvestering tegen een lager tarief, en de optie om jezelf een salaris te betalen en dividend te ontvangen. Daarnaast zijn er fiscale optimalisatiemogelijkheden die niet beschikbaar zijn voor eenmanszaken of VOF's."
           },
           {
-            "question": "How can Jan de Belastingman help me manage my BV?",
-            "answer": "Jan de Belastingman provides expert advice and support in various areas of BV management, including tax planning, compliance with laws and regulations, financial reporting, and strategic advice. Our AI-powered chatbot can provide immediate answers to common questions, while our network of experienced advisors is available for more complex matters. We help you keep your BV financially healthy and make optimal use of available tax benefits."
+            "question": "Hoe kan Jan de Belastingman me helpen bij het beheren van mijn BV?",
+            "answer": "Jan de Belastingman biedt deskundig advies en ondersteuning op verschillende gebieden van BV-beheer, waaronder belastingplanning, naleving van wet- en regelgeving, financiële rapportage en strategisch advies. Onze AI-chatbot kan direct antwoord geven op veelvoorkomende vragen, terwijl ons netwerk van ervaren adviseurs beschikbaar is voor complexere zaken. We helpen je om je BV financieel gezond te houden en optimaal gebruik te maken van beschikbare belastingvoordelen."
           }
         ],
         "blogCategory": "business-tax"
@@ -419,147 +418,83 @@
     },
     "tax-advisor": {
       "metadata": {
-        "title": "Stress-Free Income Tax Filing for Expats | Jan de Belastingman",
-        "description": "Expert tax assistance for expats in the Netherlands. Get help with your tax return, M form, and maximize deductions.",
-        "ogTitle": "Expert Tax Assistance for Expats - Jan de Belastingman",
-        "ogDescription": "Professional tax filing service for expats in the Netherlands. Get reliable advice and maximize your returns.",
-        "ogImageAlt": "Tax Advisory Services from Jan de Belastingman"
+        "title": "Zorgeloos belastingaangifte doen | Jan de Belastingman",
+        "description": "Deskundige belastinghulp voor particulieren en ondernemers in Nederland. Krijg hulp bij je aangifte en maximaliseer je aftrekposten.",
+        "ogTitle": "Deskundige Belastinghulp - Jan de Belastingman",
+        "ogDescription": "Professionele belastingaangifte service in Nederland. Krijg betrouwbaar advies en maximaliseer je teruggave.",
+        "ogImageAlt": "Belastingadvies van Jan de Belastingman"
       },
       "hero": {
-        "title": "Stress-Free Income Tax Filing for Expats in the Netherlands (Belastingaangifte)",
-        "description": "Navigating Dutch taxes as an expat? We handle your entire tax return, from deductions to dual-tax systems, so you can relax.",
-        "callToAction": "Start the chat to receive reliable & understandable advice. Enter your contact details in the chat for an expert to help you with your tax return. You will be contacted within 24 hours with a tailored offer.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "Zorgeloos belastingaangifte doen in Nederland",
+        "description": "Loop je vast met je belastingaangifte? Wij regelen je hele aangifte, van aftrekposten tot toeslagen, zodat jij je nergens zorgen over hoeft te maken.",
+        "callToAction": "Start de chat voor betrouwbaar en begrijpelijk advies. Vul je contactgegevens in de chat in voor een expert die je helpt met je aangifte. Je wordt binnen 24 uur gecontacteerd met een passend aanbod.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/belastingaangifte",
-        "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
-          "width": 800,
-          "height": 600
-        },
-        "stats": "4,800+ satisfied clients"
-      },
-      "partners": {
-        "title": "As featured in",
-        "items": [
-          {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
-            "alt": "De Jurist",
-            "width": 100
-          },
-          {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
-            "alt": "Accountant",
-            "width": 120
-          },
-          {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "alt": "Quote",
-            "width": 90
-          },
-          {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
-            "alt": "FD",
-            "width": 60
-          }
-        ]
-      },
-      "support": {
-        "title": "Done-for-You Expat Tax Filing",
-        "description": "Navigating Dutch taxes as an expat can be confusing, especially with foreign income, deductions, and complex forms like the M Form. Mistakes can lead to overpaying or missing out on benefits like the 30% ruling. Instead of spending hours figuring it all out, let our specialists handle everything for you—accurately, stress-free, and fully optimized for expat tax laws. Whether you've just moved, have dual-tax obligations, or want to maximize deductions, we ensure your tax return is filed correctly and on time.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "buttonLink": "/chat/belastingaangifte",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor",
-        "items": [
-          {
-            "title": "Expert Knowledge",
-            "description": "Access to certified tax professionals with years of experience"
-          },
-          {
-            "title": "Personalized Service",
-            "description": "Tailored advice for your specific tax situation"
-          },
-          {
-            "title": "Optimal Results",
-            "description": "Maximize your tax benefits while ensuring compliance"
-          }
-        ]
+        "stats": "4.800+ tevreden klanten"
       },
       "stepsSection": {
-        "buttonText": "Ask your question in chat",
-        "buttonLink": "/chat/belastingaangifte",
-        "buttonSubtext": "Instant answer",
         "items": [
           {
-            "title": "1. Ask your question 24/7 and get an immediate answer",
-            "description": "Do you have a question about your taxes? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about deductions, VAT or your tax return, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with AVG requirements.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-            "alt": "Chat Interface"
+            "alt": "Chat Interface",
+            "icon": "message-circle"
           },
           {
-            "title": "2. Need more help? We will find a suitable advisor",
-            "description": "Sometimes a question is too specific for our chatbot, or you prefer to delegate (part of) your administration. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your situation and works out the rules for you personally. That way you always get specialist help that's just right for you, without the hassle.",
+            "title": "2. Kom je er niet uit? Wij vinden een passende adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professional Advisor",
+            "icon": "users"
           },
           {
-            "title": "3. Create an account and manage your tax questions",
-            "description": "With a free account with Jan de Belastingman, you'll keep everything organized. Sign up easily via social login (Google or Facebook) or your e-mail and save all your tax questions in one place. This way you can always look back at what you have asked - from allowances to deductions - and you don't have to keep starting over. Handy for now and later, for your next tax return, for example!",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
-            "showButton": true
+            "showButton": true,
+            "icon": "user-plus"
           }
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles about BV's",
-        "blogCategory": "business-tax",
-        "buttonText": "View all articles",
-        "buttonLink": "/blog",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "Veelgestelde vragen",
+        "blogTitle": "Laatste artikelen over belastingaangifte",
+        "buttonText": "Bekijk alle artikelen",
         "faqItems": [
           {
-            "question": "What is the 30% ruling and am I eligible?",
-            "answer": "The 30% ruling is a tax advantage for highly skilled migrants working in the Netherlands. You may be eligible if you were recruited from abroad, earn above the minimum salary threshold, and have specific expertise scarce in the Dutch labor market. Our tax advisors can help determine your eligibility and guide you through the application process."
+            "question": "Wanneer moet ik belastingaangifte doen?",
+            "answer": "Je moet jaarlijks voor 1 mei aangifte doen over het voorgaande jaar. Voor ondernemers gelden soms andere deadlines. Als je uitstel aanvraagt, krijg je tot 1 september de tijd. Onze adviseurs helpen je om op tijd en correct aangifte te doen."
           },
           {
-            "question": "Do I need to file taxes in the Netherlands as an expat?",
-            "answer": "Yes, if you live or work in the Netherlands, you generally need to file a tax return. This applies even if your income is from foreign sources. The specific form you need (P-form or M-form) depends on your residency status and when you arrived in or left the Netherlands during the tax year."
+            "question": "Welke aftrekposten kan ik gebruiken?",
+            "answer": "Er zijn verschillende aftrekposten mogelijk, zoals hypotheekrente, zorgkosten, studiekosten en giften. De exacte aftrekposten hangen af van je persoonlijke situatie. Onze chatbot kan je direct vertellen welke aftrekposten voor jou relevant zijn."
           },
           {
-            "question": "How can Jan de Belastingman help with my expat taxes?",
-            "answer": "Jan de Belastingman provides comprehensive tax support for expats, including assistance with tax returns, M-forms, applying for the 30% ruling, and handling international tax situations. Our AI chatbot can answer immediate questions, while our network of experienced advisors is available for complex cases. We ensure you comply with Dutch tax regulations while maximizing available benefits and deductions."
+            "question": "Hoe kan Jan de Belastingman mij helpen?",
+            "answer": "Jan de Belastingman biedt verschillende vormen van ondersteuning: van directe antwoorden via onze AI-chatbot tot complete begeleiding door een persoonlijke adviseur. We helpen je bij het optimaliseren van je aangifte, het vinden van alle mogelijke aftrekposten en het correct invullen van alle formulieren."
           }
         ]
       }
     },
     "income-tax-return": {
       "metadata": {
-        "title": "Income Tax Return | Jan de Belastingman",
-        "description": "Learn everything about filing your tax return. Get help with your income tax declaration.",
-        "ogTitle": "Income Tax Return - Jan de Belastingman",
-        "ogDescription": "Expert help with your income tax return. Discover tips and advice from our AI assistant.",
-        "ogImageAlt": "Income Tax Return from Jan de Belastingman"
+        "title": "Belastingaangifte | Jan de Belastingman",
+        "description": "Leer alles over het doen van je belastingaangifte. Krijg hulp bij je aangifte inkomstenbelasting.",
+        "ogTitle": "Belastingaangifte - Jan de Belastingman",
+        "ogDescription": "Deskundige hulp bij je belastingaangifte. Ontdek tips en advies van onze AI-assistent.",
+        "ogImageAlt": "Belastingaangifte via Jan de Belastingman"
       },
       "hero": {
-        "title": "Instant Dutch Tax Advice for Expats (Belastingaangifte)",
-        "description": "Get immediate guidance on Dutch taxes. From understanding the tax system to expert assistance with your income tax return. Experience a stress-free, accurate, and time-efficient process.",
-        "callToAction": "No matter the case, Jan de Belastingman makes sure you can fill out your tax return with peace of mind, not miss out on any details, and file your tax return in time for the Dutch deadlines.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4.8 stars from reviews",
-        "buttonLink": "/chat/belastingaangifte",
-        "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
-          "width": 800,
-          "height": 600
-        }
+        "title": "Direct belastingadvies voor particulieren",
+        "description": "Krijg direct hulp bij je belastingaangifte. Van het begrijpen van het belastingstelsel tot deskundige hulp bij je aangifte. Ervaar een zorgeloos, nauwkeurig en efficiënt proces.",
+        "callToAction": "Of je situatie nu eenvoudig of complex is, Jan de Belastingman zorgt ervoor dat je je aangifte met een gerust hart kunt doen, geen details mist en op tijd indient volgens de Nederlandse deadlines.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "stats": "4,8 sterren uit beoordelingen"
       },
       "partners": {
         "title": "As featured in",
@@ -587,34 +522,34 @@
         ]
       },
       "support": {
-        "title": "Understanding Dutch Taxes Made Simple",
-        "description": "Navigating the Dutch tax system as an expat can be challenging. Questions about applicable deductions, the impact of tax treaties with your home country, and ensuring compliance are common. Our instant tax advice chat provides clear, personalized answers in seconds, eliminating jargon and long waits. Whether you seek guidance or prefer a professional to handle your return, we're here to assist.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "Nederlands belastingstelsel eenvoudig uitgelegd",
+        "description": "Het navigeren door het Nederlandse belastingsysteem als expat kan uitdagend zijn. Vragen over toepasbare aftrekposten, de impact van belastingverdragen met je thuisland en het waarborgen van naleving komen vaak voor. Onze directe belastingadvies chat geeft binnen enkele seconden duidelijke, persoonlijke antwoorden, zonder jargon en lange wachttijden. Of je nu advies zoekt of liever een professional je aangifte laat verzorgen, wij staan voor je klaar.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/belastingaangifte",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor"
+        "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "buttonText": "Ask your question in chat",
+        "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/belastingaangifte",
-        "buttonSubtext": "Instant answer",
+        "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Ask your question 24/7 and get an immediate answer",
-            "description": "Do you have a question about your taxes? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about deductions, VAT or your tax return, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with AVG requirements.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je je vraag online en krijg je direct een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastinggegevens, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd snel een betrouwbare oplossing - zonder wachten! We behandelen je gegevens veilig en volgens de AVG-eisen.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Need more help? We will find a suitable advisor",
-            "description": "Sometimes a question is too specific for our chatbot, or you prefer to delegate (part of) your administration. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your situation and works out the rules for you personally. That way you always get specialist help that's just right for you, without the hassle.",
+            "title": "2. Meer hulp nodig? We vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een expert-adviseur die je situatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd specialistische hulp die precies bij je past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professionele Adviseur"
           },
           {
-            "title": "3. Create an account and manage your tax questions",
-            "description": "With a free account with Jan de Belastingman, you'll keep everything organized. Sign up easily via social login (Google or Facebook) or your e-mail and save all your tax questions in one place. This way you can always look back at what you have asked - from allowances to deductions - and you don't have to keep starting over. Handy for now and later, for your next tax return, for example!",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk op één plek. Meld je eenvoudig aan via social login (Google of Facebook) of e-mail en bewaar al je belastingvragen en antwoorden op één locatie. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet elke keer opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende belastingaangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -622,23 +557,23 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
-        "buttonText": "View all articles",
+        "title": "Veelgestelde Vragen en Laatste Artikelen",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Artikelen",
+        "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
         "faqItems": [
           {
-            "question": "Is the advice free?",
-            "answer": "Tax guidance given in the chat is complimentary. For personalized assistance or filing services, we'll provide a transparent quote."
+            "question": "Is het advies gratis?",
+            "answer": "Belastingadvies in de chat is kosteloos. Voor persoonlijke begeleiding of aangifteservice geven we een transparante offerte."
           },
           {
-            "question": "How accurate is the tax advice?",
-            "answer": "Our chat combines AI with directly linked Belastingdienst (tax) data, and insights from real tax professionals, ensuring accurate and up-to-date information."
+            "question": "Hoe accuraat is het belastingadvies?",
+            "answer": "Onze chat combineert AI met direct gekoppelde Belastingdienst-data en inzichten van echte belastingprofessionals, wat zorgt voor accurate en actuele informatie."
           },
           {
-            "question": "How do you ensure my data is secure?",
-            "answer": "We employ advanced security measures to protect your personal information, adhering to strict GDPR protocols."
+            "question": "Hoe zorgen jullie voor de veiligheid van mijn gegevens?",
+            "answer": "We gebruiken geavanceerde beveiligingsmaatregelen om je persoonlijke informatie te beschermen, in overeenstemming met strikte AVG-protocollen."
           }
         ],
         "blogCategory": "business-tax"
@@ -646,30 +581,30 @@
     },
     "m-form": {
       "metadata": {
-        "title": "M-Form | Jan de Belastingman",
-        "description": "Learn everything about the M-Form. Get help with your M-Form declaration.",
-        "ogTitle": "M-Form - Jan de Belastingman",
-        "ogDescription": "Expert help with your M-Form declaration. Discover tips and advice from our AI assistant.",
-        "ogImageAlt": "M-Form from Jan de Belastingman"
+        "title": "M-Formulier | Jan de Belastingman",
+        "description": "Leer alles over het M-Formulier. Krijg hulp bij je M-Formulier aangifte.",
+        "ogTitle": "M-Formulier - Jan de Belastingman",
+        "ogDescription": "Deskundige hulp bij je M-Formulier aangifte. Ontdek tips en advies van onze AI-assistent.",
+        "ogImageAlt": "M-Formulier van Jan de Belastingman"
       },
       "hero": {
-        "title": "Expert assistance for stress-free M form (M-Formulier) filing",
-        "description": "Struggling with your M-form tax return after relocating from or departing the Netherlands? Don't fret. Jan de Belastingman is here to make the process seamless for you.",
-        "callToAction": "Could you use some help with your tax return during years of migration? Jan de Belastingman takes care of everything for you and is happy to help you submit a complete and correct M form.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4.8 stars from reviews",
+        "title": "Deskundige hulp voor zorgeloos M-formulier invullen",
+        "description": "Worstel je met je M-formulier belastingaangifte na verhuizing van of naar Nederland? Geen zorgen. Jan de Belastingman maakt het proces eenvoudig voor je.",
+        "callToAction": "Kun je hulp gebruiken bij je belastingaangifte tijdens jaren van migratie? Jan de Belastingman regelt alles voor je en helpt je graag bij het indienen van een volledig en correct M-formulier.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "imageAlt": "Chat Interface Voorbeeld",
+        "stats": "4,8 sterren uit beoordelingen",
         "buttonLink": "/chat/m-formulier",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
+          "alt": "Chat Interface Voorbeeld",
           "width": 800,
           "height": 600
         }
       },
       "partners": {
-        "title": "As featured in",
+        "title": "Bekend van",
         "items": [
           {
             "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -694,34 +629,34 @@
         ]
       },
       "support": {
-        "title": "Help with completing your M form",
-        "description": "The M form is required when you've moved to or from the Netherlands during a tax year. Our experts understand the complexities of international taxation and ensure you claim all eligible deductions and benefits. Whether you're dealing with foreign income, the 30% ruling, or other migration-related tax matters, we'll help you file accurately and on time.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "Hulp bij het invullen van je M-formulier",
+        "description": "Het M-formulier is vereist wanneer je tijdens een belastingjaar naar of vanuit Nederland bent verhuisd. Onze experts begrijpen de complexiteit van internationale belastingen en zorgen ervoor dat je alle mogelijke aftrekposten en voordelen claimt. Of je nu te maken hebt met buitenlands inkomen, de 30%-regeling of andere migratie-gerelateerde belastingzaken, wij helpen je nauwkeurig en op tijd aan te geven.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/m-formulier",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor"
+        "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "buttonText": "Ask your question in chat",
+        "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/m-formulier",
-        "buttonSubtext": "Instant answer",
+        "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Ask your question 24/7 and get an immediate answer",
-            "description": "Do you have a question about your M form? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about migration-related deductions or your M form filing, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with AVG requirements.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je M-formulier? Bij Jan de Belastingman stel je je vraag online en krijg je direct een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastinggegevens, dus of het nu gaat om migratie-gerelateerde aftrekposten of je M-formulier aangifte, je krijgt altijd snel een betrouwbare oplossing - zonder wachten! We behandelen je gegevens veilig en volgens de AVG-eisen.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Is it complex? We will find a suitable advisor",
-            "description": "Sometimes a question is too specific for our chatbot, or you might prefer which cannot yet apply all the rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your international tax situation and works out the rules for you personally. That way you always get the help that's just right for you, without the hassle.",
+            "title": "2. Is het complex? We vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of wil je liever persoonlijke begeleiding die nog niet alle regels op jouw unieke situatie kan toepassen. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een expert-adviseur die je internationale belastingsituatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd specialistische hulp die precies bij je past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professionele Adviseur"
           },
           {
-            "title": "3. Create an account and manage your tax questions",
-            "description": "With a free account with Jan de Belastingman, you'll keep everything organized. Sign up easily via social login (Google or Facebook) or your e-mail and save all your tax questions in one place. This way you can always look back at what you have asked - from migration-related allowances to deductions - and you don't have to keep starting over. Handy for now and later, for your next M form filing!",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk op één plek. Meld je eenvoudig aan via social login (Google of Facebook) of e-mail en bewaar al je belastingvragen en antwoorden op één locatie. Zo kun je altijd terugkijken wat je hebt gevraagd - van migratie-gerelateerde toeslagen tot aftrekposten - en hoef je niet elke keer opnieuw te beginnen. Handig voor nu én later, voor je volgende M-formulier aangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -729,54 +664,54 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
+        "title": "Veelgestelde Vragen en Laatste Artikelen",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Artikelen",
         "blogCategory": "business-tax",
-        "buttonText": "View all articles",
+        "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
         "faqItems": [
           {
-            "question": "When do I need to file an M form?",
-            "answer": "You need to file an M form if you immigrated to or emigrated from the Netherlands during the tax year. This special tax form is designed for people who were not residents of the Netherlands for the entire year."
+            "question": "Wanneer moet ik een M-formulier indienen?",
+            "answer": "Je moet een M-formulier indienen als je in of uit Nederland bent geëmigreerd tijdens het belastingjaar. Dit speciale belastingformulier is bedoeld voor mensen die niet het hele jaar inwoner van Nederland waren."
           },
           {
-            "question": "What information do I need for the M form?",
-            "answer": "You'll need details about your worldwide income (both Dutch and foreign), your migration date, tax residency information, and documentation about any assets or properties. For immigrants, you'll also need information about the 30% ruling if applicable."
+            "question": "Welke informatie heb ik nodig voor het M-formulier?",
+            "answer": "Je hebt gegevens nodig over je wereldwijde inkomen (zowel Nederlands als buitenlands), je migratiedatum, belastingresidentie-informatie en documentatie over eventuele bezittingen of eigendommen. Voor immigranten is ook informatie over de 30%-regeling nodig, indien van toepassing."
           },
           {
-            "question": "How can Jan de Belastingman help with my M form?",
-            "answer": "We provide comprehensive support for M form filing, from answering specific questions through our AI chatbot to connecting you with expert advisors for complex situations. We ensure all relevant deductions and benefits are claimed while maintaining compliance with Dutch tax regulations."
+            "question": "Hoe kan Jan de Belastingman helpen met mijn M-formulier?",
+            "answer": "We bieden uitgebreide ondersteuning bij het invullen van M-formulieren, van het beantwoorden van specifieke vragen via onze AI-chatbot tot het verbinden met expert-adviseurs voor complexe situaties. We zorgen ervoor dat alle relevante aftrekposten en voordelen worden geclaimd met behoud van naleving van de Nederlandse belastingregels."
           }
         ]
       }
     },
     "tax-credit": {
       "metadata": {
-        "title": "Tax Credits and Deductions | Jan de Belastingman",
-        "description": "Learn about tax credits and deductions in the Netherlands. Get expert help to maximize your tax benefits.",
-        "ogTitle": "Tax Credits & Deductions - Jan de Belastingman",
-        "ogDescription": "Expert guidance on Dutch tax credits and deductions. Discover what you're entitled to and get reliable advice.",
-        "ogImageAlt": "Tax Credits and Deductions from Jan de Belastingman"
+        "title": "Belastingkortingen en Aftrekposten | Jan de Belastingman",
+        "description": "Leer meer over belastingkortingen en aftrekposten in Nederland. Krijg deskundige hulp om je belastingvoordelen te maximaliseren.",
+        "ogTitle": "Belastingkortingen & Aftrekposten - Jan de Belastingman",
+        "ogDescription": "Deskundige begeleiding bij Nederlandse belastingkortingen en aftrekposten. Ontdek waar je recht op hebt en krijg betrouwbaar advies.",
+        "ogImageAlt": "Belastingkortingen en Aftrekposten van Jan de Belastingman"
       },
       "hero": {
-        "title": "Expert assistance for Tax Credit and Deductions (Aftrekposten en Kortingen) filing",
-        "description": "Were you aware that you are entitled to tax credits and deductibles if you are a taxpayer in the Netherlands? Many people don't know how this works and miss out on getting their money back.",
-        "callToAction": "Not to worry, Jan de Belastingman will be able to sort all your questions and get back your tax credit.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4.8 stars from reviews",
+        "title": "Deskundige hulp bij het aanvragen van Belastingkortingen en Aftrekposten",
+        "description": "Wist je dat je als belastingbetaler in Nederland recht hebt op belastingkortingen en aftrekposten? Veel mensen weten niet hoe dit werkt en lopen geld mis.",
+        "callToAction": "Geen zorgen, Jan de Belastingman kan al je vragen beantwoorden en je belastingteruggave regelen.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "imageAlt": "Chat Interface Voorbeeld",
+        "stats": "4,8 sterren uit beoordelingen",
         "buttonLink": "/chat/algemene-vragen",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
+          "alt": "Chat Interface Voorbeeld",
           "width": 800,
           "height": 600
         }
       },
       "partners": {
-        "title": "As featured in",
+        "title": "Zoals vermeld in",
         "items": [
           {
             "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -801,48 +736,48 @@
         ]
       },
       "support": {
-        "title": "Tax credit and Deductions For 2024",
-        "description": "When you submit your income tax return, it automatically calculates your entitlements. If you and your tax partner both earn income from the Netherlands, you have the option to file a joint tax return.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "Belastingkortingen en Aftrekposten Voor 2024",
+        "description": "Bij het indienen van je aangifte inkomstenbelasting worden je rechten automatisch berekend. Als jij en je fiscale partner beiden inkomen uit Nederland ontvangen, heb je de mogelijkheid om gezamenlijk aangifte te doen.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/algemene-vragen",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor",
+        "imageAlt": "Professionele Belastingadviseur",
         "items": [
           {
-            "title": "Comprehensive Overview",
-            "description": "Learn about all eligible deductions and credits"
+            "title": "Uitgebreid Overzicht",
+            "description": "Leer over alle mogelijke aftrekposten en kortingen"
           },
           {
-            "title": "Expert Guidance",
-            "description": "Personal advice on maximizing your benefits"
+            "title": "Deskundige Begeleiding",
+            "description": "Persoonlijk advies om je voordelen te maximaliseren"
           },
           {
-            "title": "Up-to-date Information",
-            "description": "Latest tax regulations and changes"
+            "title": "Actuele Informatie",
+            "description": "Laatste belastingregels en wijzigingen"
           }
         ]
       },
       "stepsSection": {
-        "buttonText": "Ask your question in chat",
+        "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/algemene-vragen",
-        "buttonSubtext": "Instant answer",
+        "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Maak je account aan",
+            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom verwerkt en beveiligd volgens AVG-normen.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your tax credit question",
-            "description": "Start your conversation with Jan de Belastingman, the digital tax advisor who is always available and ask all your questions about the complex tax system for free. You will be able to fill in your income in your tax return, but what about the other deductions such as healthcare costs, donations, study costs, etc.? Are there specific posts to which you are entitled? Jan de Belastingman will find out and help you with all.",
+            "title": "2. Stel je vraag over belastingkortingen",
+            "description": "Start je gesprek met Jan de Belastingman, de digitale belastingadviseur die altijd beschikbaar is en stel gratis al je vragen over het complexe belastingstelsel. Je kunt je inkomen invullen in je aangifte, maar hoe zit het met de andere aftrekposten zoals zorgkosten, giften, studiekosten, etc.? Zijn er specifieke posten waar je recht op hebt? Jan de Belastingman zoekt het uit en helpt je met alles.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professionele Adviseur"
           },
           {
-            "title": "3. Get free tax credit advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable tax credit and deductibles advice on your tax question. You can take this tax advice with you and consult it when completing your tax credit and deductibles form. Should Jan de Belastingman not have the answer immediately available, because it is a bit more complex? Jan de Belastingman will then contact you within 24 hours.",
+            "title": "3. Krijg gratis advies over belastingkortingen",
+            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar advies over belastingkortingen en aftrekposten bij je belastingvraag. Dit belastingadvies kun je meenemen en raadplegen bij het invullen van je formulier voor belastingkortingen en aftrekposten. Mocht Jan de Belastingman niet direct het antwoord beschikbaar hebben, omdat het wat complexer is? Dan neemt Jan de Belastingman binnen 24 uur contact met je op.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -850,54 +785,54 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
+        "title": "Veelgestelde Vragen en Laatste Artikelen",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Artikelen",
         "blogCategory": "business-tax",
-        "buttonText": "View all articles",
+        "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
         "faqItems": [
           {
-            "question": "What tax credits am I entitled to?",
-            "answer": "As a taxpayer in the Netherlands, you may be entitled to various tax credits depending on your situation, including healthcare costs, business expenses, and home-related costs. Our system can help identify which credits apply to your specific case."
+            "question": "Op welke belastingkortingen heb ik recht?",
+            "answer": "Als belastingbetaler in Nederland kun je recht hebben op verschillende belastingkortingen, afhankelijk van je situatie, waaronder zorgkosten, zakelijke uitgaven en woning-gerelateerde kosten. Ons systeem kan helpen bepalen welke kortingen van toepassing zijn op jouw specifieke geval."
           },
           {
-            "question": "How do I claim tax deductions?",
-            "answer": "Tax deductions can be claimed when filing your income tax return. Common deductible items include healthcare costs, donations, study costs, and certain business expenses. Jan de Belastingman can help you identify and properly claim all eligible deductions."
+            "question": "Hoe claim ik belastingaftrek?",
+            "answer": "Belastingaftrek kan worden geclaimd bij het indienen van je aangifte inkomstenbelasting. Veelvoorkomende aftrekposten zijn zorgkosten, giften, studiekosten en bepaalde zakelijke uitgaven. Jan de Belastingman kan je helpen bij het identificeren en correct claimen van alle mogelijke aftrekposten."
           },
           {
-            "question": "Can I file a joint tax return with my partner?",
-            "answer": "Yes, if you and your tax partner both earn income in the Netherlands, you have the option to file a joint tax return. This can be advantageous depending on your specific situation and income levels."
+            "question": "Kan ik samen met mijn partner aangifte doen?",
+            "answer": "Ja, als jij en je fiscale partner beiden inkomen hebben in Nederland, hebben jullie de mogelijkheid om gezamenlijk aangifte te doen. Dit kan voordelig zijn, afhankelijk van jullie specifieke situatie en inkomensniveaus."
           }
         ]
       }
     },
     "inheritance-tax": {
       "metadata": {
-        "title": "Inheritance & Gift Tax in the Netherlands | Jan de Belastingman",
-        "description": "Expert guidance on Dutch inheritance and gift tax. Get help understanding tax rates, exemptions, and filing requirements.",
-        "ogTitle": "Dutch Inheritance & Gift Tax - Jan de Belastingman",
-        "ogDescription": "Professional assistance with inheritance and gift tax matters in the Netherlands. Get reliable advice from our tax experts.",
-        "ogImageAlt": "Inheritance Tax Guidance from Jan de Belastingman"
+        "title": "Erfbelasting & Schenkbelasting in Nederland | Jan de Belastingman",
+        "description": "Deskundige begeleiding bij Nederlandse erf- en schenkbelasting. Krijg hulp bij het begrijpen van tarieven, vrijstellingen en aangiftevereisten.",
+        "ogTitle": "Nederlandse Erf- & Schenkbelasting - Jan de Belastingman",
+        "ogDescription": "Professionele hulp bij erf- en schenkbelastingzaken in Nederland. Krijg betrouwbaar advies van onze belastingexperts.",
+        "ogImageAlt": "Erfbelasting Begeleiding van Jan de Belastingman"
       },
       "hero": {
-      "title": "Expert assistance for Inheritance Tax (Erfbelasting) filing",
-      "description": "Have you received a gift from a Dutch resident and don't know how to proceed next and if any exceptions apply to you? Jan de Belastingman can help you figure it out and take the work off your hands.",
-      "callToAction": "Need Inheritance Tax Assistance? Chat With Us!",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4.8 stars from reviews",
+        "title": "Deskundige hulp bij Erfbelasting aangifte",
+        "description": "Heb je een schenking ontvangen van een Nederlandse inwoner en weet je niet hoe je verder moet en of er uitzonderingen op jou van toepassing zijn? Jan de Belastingman kan je helpen dit uit te zoeken en neemt het werk uit handen.",
+        "callToAction": "Hulp nodig bij Erfbelasting? Chat met ons!",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "imageAlt": "Chat Interface Voorbeeld",
+        "stats": "4,8 sterren uit beoordelingen",
         "buttonLink": "/chat/belastingaangifte",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
+          "alt": "Chat Interface Voorbeeld",
           "width": 800,
           "height": 600
         }
       },
       "partners": {
-        "title": "As featured in",
+        "title": "Zoals vermeld in",
         "items": [
           {
             "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -922,48 +857,48 @@
         ]
       },
       "support": {
-        "title": "Inheritance tax In the Netherlands",
-        "description": "Gift tax in the Netherlands applies to gifts from Dutch residents to others, regardless of the recipient's location. Similarly, inheritance tax is levied when a Dutch resident dies, affecting beneficiaries both in and outside the Netherlands. These taxes may also apply to individuals who have moved away from the Netherlands: Dutch citizens for up to 10 years after emigration for gifts or inheritance, and individuals of other nationalities for gifts made within one year of leaving.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "Erfbelasting in Nederland",
+        "description": "Schenkbelasting in Nederland is van toepassing op schenkingen van Nederlandse inwoners aan anderen, ongeacht de locatie van de ontvanger. Ook erfbelasting wordt geheven wanneer een Nederlandse inwoner overlijdt, wat gevolgen heeft voor begunstigden zowel binnen als buiten Nederland. Deze belastingen kunnen ook van toepassing zijn op personen die uit Nederland zijn vertrokken: Nederlandse burgers tot 10 jaar na emigratie voor schenkingen of erfenissen, en personen met andere nationaliteiten voor schenkingen gedaan binnen één jaar na vertrek.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/belastingaangifte",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor",
+        "imageAlt": "Professionele Belastingadviseur",
         "items": [
           {
-            "title": "Expert Knowledge",
-            "description": "Understanding of complex inheritance laws"
+            "title": "Deskundige Kennis",
+            "description": "Begrip van complexe erfrechtwetgeving"
           },
           {
-            "title": "Clear Guidance",
-            "description": "Simple explanations of tax obligations"
+            "title": "Duidelijke Begeleiding",
+            "description": "Eenvoudige uitleg van belastingverplichtingen"
           },
           {
-            "title": "Optimal Planning",
-            "description": "Strategic advice for tax efficiency"
+            "title": "Optimale Planning",
+            "description": "Strategisch advies voor belastingefficiëntie"
           }
         ]
       },
       "stepsSection": {
-        "buttonText": "Ask your question in chat",
+        "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/belastingaangifte",
-        "buttonSubtext": "Instant answer",
+        "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Maak je account aan",
+            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom verwerkt en beveiligd volgens AVG-normen.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your inheritance question",
-            "description": "Start your conversation with Jan de Belastingman, the digital tax advisor who is always available and ask all your questions about the complex tax system for free. You will be able to fill in your income in your tax return, but what about the other deductions such as healthcare costs, donations, study costs, etc.? Are there specific benefits to which you are entitled? Jan de Belastingman will find out and help you with all.",
+            "title": "2. Stel je erfbelastingvraag",
+            "description": "Start je gesprek met Jan de Belastingman, de digitale belastingadviseur die altijd beschikbaar is en stel gratis al je vragen over het complexe belastingstelsel. Je kunt je inkomen invullen in je aangifte, maar hoe zit het met de andere aftrekposten zoals zorgkosten, giften, studiekosten, etc.? Zijn er specifieke voordelen waar je recht op hebt? Jan de Belastingman zoekt het uit en helpt je met alles.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professionele Adviseur"
           },
           {
-            "title": "3. Get free inheritance tax advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable inheritance tax advice on your question. You can take this advice with you and consult it when completing your inheritance tax form. Should Jan de Belastingman not have the answer immediately available, because it is a bit more complex? Jan de Belastingman will then contact you within 24 hours.",
+            "title": "3. Krijg gratis erfbelastingadvies",
+            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar erfbelastingadvies op je vraag. Dit advies kun je meenemen en raadplegen bij het invullen van je erfbelastingformulier. Mocht Jan de Belastingman niet direct het antwoord beschikbaar hebben, omdat het wat complexer is? Dan neemt Jan de Belastingman binnen 24 uur contact met je op.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -971,54 +906,54 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
+        "title": "Veelgestelde Vragen en Laatste Artikelen",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Artikelen",
         "blogCategory": "business-tax",
-        "buttonText": "View all articles",
+        "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
         "faqItems": [
           {
-            "question": "What are the inheritance tax rates in the Netherlands?",
-            "answer": "The rates vary depending on your relationship to the deceased: Children and partners pay 10% up to €128,750 and 20% on the surplus. Grandchildren pay 18% up to €128,750 and 36% on the surplus. Any other person pays 30% up to €128,751 and 40% on the surplus."
+            "question": "Wat zijn de erfbelastingtarieven in Nederland?",
+            "answer": "De tarieven variëren afhankelijk van je relatie tot de overledene: Kinderen en partners betalen 10% tot €128.750 en 20% over het meerdere. Kleinkinderen betalen 18% tot €128.750 en 36% over het meerdere. Alle andere personen betalen 30% tot €128.751 en 40% over het meerdere."
           },
           {
-            "question": "When does Dutch inheritance tax apply?",
-            "answer": "Dutch inheritance tax applies when a Dutch resident dies, regardless of where the beneficiaries live. It may also apply to Dutch citizens who have emigrated (for up to 10 years after leaving) and to certain assets located in the Netherlands."
+            "question": "Wanneer is Nederlandse erfbelasting van toepassing?",
+            "answer": "Nederlandse erfbelasting is van toepassing wanneer een Nederlandse inwoner overlijdt, ongeacht waar de begunstigden wonen. Het kan ook van toepassing zijn op Nederlandse burgers die zijn geëmigreerd (tot 10 jaar na vertrek) en op bepaalde bezittingen in Nederland."
           },
           {
-            "question": "How does gift tax work in the Netherlands?",
-            "answer": "Gift tax applies to gifts from Dutch residents, regardless of the recipient's location. For Dutch citizens who have emigrated, it applies for up to 10 years after leaving. For non-Dutch nationals, it applies to gifts made within one year of leaving the Netherlands."
+            "question": "Hoe werkt schenkbelasting in Nederland?",
+            "answer": "Schenkbelasting is van toepassing op schenkingen van Nederlandse inwoners, ongeacht de locatie van de ontvanger. Voor Nederlandse burgers die zijn geëmigreerd, geldt dit tot 10 jaar na vertrek. Voor niet-Nederlandse staatsburgers geldt het voor schenkingen gedaan binnen één jaar na vertrek uit Nederland."
           }
         ]
       }
     },
     "entrepreneur": {
       "metadata": {
-        "title": "Expert Support for Entrepreneurs & Self-Employed Professionals (ZZP) | Jan de Belastingman",
-        "description": "Get expert guidance on tax matters for entrepreneurs & self-employed professionals in the Netherlands. From deductions to VAT returns, we help you optimize your taxes.",
-        "ogTitle": "Entrepreneur & ZZP Tax Support - Jan de Belastingman",
-        "ogDescription": "Professional tax assistance for ZZP'ers in the Netherlands. Get reliable advice and maximize your deductions.",
-        "ogImageAlt": "Entrepreneur & ZZP Tax Support from Jan de Belastingman"
+        "title": "Deskundige ondersteuning voor ondernemers & ZZP'ers | Jan de Belastingman",
+        "description": "Krijg deskundige begeleiding bij belastingzaken voor ondernemers & ZZP'ers in Nederland. Van aftrekposten tot BTW-aangiftes, wij helpen je je belastingen te optimaliseren.",
+        "ogTitle": "Ondernemer & ZZP Belastingondersteuning - Jan de Belastingman",
+        "ogDescription": "Professionele belastingassistentie voor ZZP'ers in Nederland. Krijg betrouwbaar advies en maximaliseer je aftrekposten.",
+        "ogImageAlt": "Ondernemer & ZZP Belastingondersteuning van Jan de Belastingman"
       },
       "hero": {
-        "title": "Expert Support for Entrepreneurs & Self-Employed Professionals (ZZP)",
-        "description": "Do you, as a entrepeneur, want to earn more and spend less time on your taxes? Jan de Belastingman helps you save smart with deductions, VAT returns and tax optimization.",
-        "callToAction": "Are you self-employed and struggling with managing your business finances or navigating tax regulations? With the right advice, you can streamline your administrative tasks and focus on what you do best.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4.8 stars from reviews",
+        "title": "Deskundige ondersteuning voor ondernemers & ZZP'ers",
+        "description": "Wil je als ondernemer meer verdienen en minder tijd kwijt zijn aan je belastingen? Jan de Belastingman helpt je slim te besparen met aftrekposten, BTW-aangiftes en belastingoptimalisatie.",
+        "callToAction": "Ben je zelfstandig ondernemer en worstel je met het beheren van je bedrijfsfinanciën of het navigeren door belastingregels? Met het juiste advies kun je je administratieve taken stroomlijnen en je focussen op waar je goed in bent.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "imageAlt": "Chat Interface Voorbeeld",
+        "stats": "4,8 sterren uit beoordelingen",
         "buttonLink": "/chat/ondernemer",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
+          "alt": "Chat Interface Voorbeeld",
           "width": 800,
           "height": 600
         }
       },
       "partners": {
-        "title": "As featured in",
+        "title": "Bekend van",
         "items": [
           {
             "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -1043,48 +978,48 @@
         ]
       },
       "support": {
-        "title": "Entrepreneur/ZZP Support In the Netherlands",
-        "description": "Running your own business in the Netherlands comes with unique challenges, especially when it comes to financial management and tax obligations. Jan de Belastingman offers tailored guidance to help self-employed workers navigate these hurdles, from tax deductions to financial planning, ensuring your business thrives in a competitive environment.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "Ondernemer/ZZP Ondersteuning in Nederland",
+        "description": "Een eigen bedrijf runnen in Nederland brengt unieke uitdagingen met zich mee, vooral als het gaat om financieel beheer en belastingverplichtingen. Jan de Belastingman biedt op maat gemaakte begeleiding om zelfstandigen te helpen bij deze obstakels, van belastingaftrek tot financiële planning, zodat je bedrijf kan floreren in een competitieve omgeving.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/ondernemer",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor",
+        "imageAlt": "Professionele Belastingadviseur",
         "items": [
           {
-            "title": "Business Expertise",
-            "description": "Specialized knowledge of self-employed taxation"
+            "title": "Bedrijfsexpertise",
+            "description": "Gespecialiseerde kennis van ZZP-belastingen"
           },
           {
-            "title": "Maximized Benefits",
-            "description": "Optimal use of available deductions"
+            "title": "Maximale Voordelen",
+            "description": "Optimaal gebruik van beschikbare aftrekposten"
           },
           {
-            "title": "Compliance Assurance",
-            "description": "Stay compliant with tax regulations"
+            "title": "Naleving Verzekerd",
+            "description": "Blijf voldoen aan belastingregels"
           }
         ]
       },
       "stepsSection": {
-        "buttonText": "Ask your question in chat",
+        "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/ondernemer",
-        "buttonSubtext": "Instant answer",
+        "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Ask your question 24/7 and get an immediate answer",
-            "description": "Do you have a question about your taxes? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about deductions, VAT or your tax return, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with AVG requirements.",
+            "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
+            "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je je vraag online en krijg je direct een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastinggegevens, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd snel een betrouwbare oplossing - zonder wachten! We behandelen je gegevens veilig en volgens de AVG-eisen.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Is it complex? We will find a suitable advisor",
-            "description": "Sometimes a question is too specific for our chatbot, or you might prefer which cannot yet apply all the rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your situation and works out the rules for you personally. That way you always get the help that's just right for you, without the hassle.",
+            "title": "2. Is het complex? We vinden een geschikte adviseur",
+            "description": "Soms is een vraag te specifiek voor onze chatbot, of geef je de voorkeur aan persoonlijk advies. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een expert-adviseur die je situatie volledig begrijpt en de regels persoonlijk voor je uitwerkt. Zo krijg je altijd de hulp die precies bij je past, zonder gedoe.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professionele Adviseur"
           },
           {
-            "title": "3. Create an account and manage your tax questions",
-            "description": "With a free account with Jan de Belastingman, you'll keep everything organized. Sign up easily via social login (Google or Facebook) or your e-mail and save all your tax questions in one place. This way you can always look back at what you have asked - from allowances to deductions - and you don't have to keep starting over. Handy for now and later, for your next tax return, for example!",
+            "title": "3. Maak een account aan en beheer je belastingvragen",
+            "description": "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk op één plek. Meld je eenvoudig aan via social login (Google of Facebook) of e-mail en bewaar al je belastingvragen en antwoorden op één locatie. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet elke keer opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende belastingaangifte!",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1092,54 +1027,54 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
+        "title": "Veelgestelde Vragen en Laatste Artikelen",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Artikelen",
         "blogCategory": "business-tax",
-        "buttonText": "View all articles",
+        "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
         "faqItems": [
           {
-            "question": "What are the requirements for entrepreneurs/ZZP?",
-            "answer": "You must be registered with the KVK (Chamber of Commerce), maintain accurate financial records, and comply with Dutch tax regulations including VAT and income tax obligations to stay compliant as a self-employed professional."
+            "question": "Wat zijn de vereisten voor ondernemers/ZZP'ers?",
+            "answer": "Je moet ingeschreven staan bij de KVK (Kamer van Koophandel), een nauwkeurige financiële administratie bijhouden en voldoen aan Nederlandse belastingregels, waaronder BTW- en inkomstenbelastingverplichtingen om compliant te blijven als zelfstandig professional."
           },
           {
-            "question": "How can Jan de Belastingman help entrepreneurs/ZZP?",
-            "answer": "We provide comprehensive support for ZZP'ers, from answering specific questions about deductions and VAT returns through our AI chatbot to connecting you with expert advisors for complex situations. We help you optimize your taxes while maintaining compliance."
+            "question": "Hoe kan Jan de Belastingman ondernemers/ZZP'ers helpen?",
+            "answer": "We bieden uitgebreide ondersteuning voor ZZP'ers, van het beantwoorden van specifieke vragen over aftrekposten en BTW-aangiftes via onze AI-chatbot tot het verbinden met expertadviseurs voor complexe situaties. We helpen je je belastingen te optimaliseren terwijl je compliant blijft."
           },
           {
-            "question": "What tax deductions are available for entrepreneurs/ZZP?",
-            "answer": "Self-employed professionals can claim various deductions including business expenses, home office costs, travel expenses, and professional development costs. Our system helps identify which deductions apply to your specific situation."
+            "question": "Welke belastingaftrekposten zijn er voor ondernemers/ZZP'ers?",
+            "answer": "Zelfstandig professionals kunnen verschillende aftrekposten claimen, waaronder zakelijke uitgaven, thuiskantoorkosten, reiskosten en kosten voor professionele ontwikkeling. Ons systeem helpt te identificeren welke aftrekposten van toepassing zijn op jouw specifieke situatie."
           }
         ]
       }
     },
     "healthcare-allowance": {
       "metadata": {
-        "title": "Healthcare Allowance (Zorgtoeslag) | Jan de Belastingman",
-        "description": "Expert guidance on Dutch healthcare allowance. Learn about eligibility and get help with your application.",
-        "ogTitle": "Healthcare Allowance Support - Jan de Belastingman",
-        "ogDescription": "Professional assistance with healthcare allowance in the Netherlands. Get reliable advice on zorgtoeslag.",
-        "ogImageAlt": "Healthcare Allowance Support from Jan de Belastingman"
+        "title": "Zorgtoeslag | Jan de Belastingman",
+        "description": "Deskundige begeleiding bij zorgtoeslag. Leer over voorwaarden en krijg hulp bij je aanvraag.",
+        "ogTitle": "Zorgtoeslag Ondersteuning - Jan de Belastingman",
+        "ogDescription": "Professionele hulp bij zorgtoeslag in Nederland. Krijg betrouwbaar advies over zorgtoeslag.",
+        "ogImageAlt": "Zorgtoeslag Ondersteuning van Jan de Belastingman"
       },
       "hero": {
-        "title": "Professional guidance for your Healthcare Allowance (Zorgtoeslag)",
-        "description": "Did you know that depending on your income level your healthcare can be subsidised in the Netherlands? All the information and requirements can often be very overwhelming. But dont worry! Jan de Belastingman is here to make sure you get covered.",
-        "callToAction": "Need Healthcare Allowance Assistance? Chat with us!",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4.8 stars from reviews",
+        "title": "Professionele begeleiding voor je Zorgtoeslag",
+        "description": "Wist je dat afhankelijk van je inkomen je zorgverzekering gesubsidieerd kan worden in Nederland? Alle informatie en vereisten kunnen vaak overweldigend zijn. Maar maak je geen zorgen! Jan de Belastingman zorgt ervoor dat je gedekt bent.",
+        "callToAction": "Hulp nodig bij Zorgtoeslag? Chat met ons!",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "imageAlt": "Chat Interface Voorbeeld",
+        "stats": "4,8 sterren uit beoordelingen",
         "buttonLink": "/chat/zorgtoeslag",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
+          "alt": "Chat Interface Voorbeeld",
           "width": 800,
           "height": 600
         }
       },
       "partners": {
-        "title": "As featured in",
+        "title": "Bekend van",
         "items": [
           {
             "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -1164,155 +1099,48 @@
         ]
       },
       "support": {
-        "title": "Healthcare allowance In the Netherlands",
-        "description": "The Dutch government provides the healthcare allowance (zorgtoeslag) to assist individuals with lower incomes, offering them a periodic contribution to aid in paying the monthly premiums for Dutch health insurance (zorgverzekering).",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "Zorgtoeslag in Nederland",
+        "description": "De Nederlandse overheid biedt zorgtoeslag om mensen met een lager inkomen te helpen, door een periodieke bijdrage te geven voor het betalen van de maandelijkse premies voor de Nederlandse zorgverzekering.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/zorgtoeslag",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor",
+        "imageAlt": "Professionele Belastingadviseur",
         "items": [
           {
-            "title": "Eligibility Check",
-            "description": "Quick assessment of your qualification"
+            "title": "Check je recht",
+            "description": "Snelle beoordeling van je kwalificatie"
           },
           {
-            "title": "Maximum Benefits",
-            "description": "Ensure you receive your full entitlement"
+            "title": "Maximale voordelen",
+            "description": "Zorg dat je krijgt waar je recht op hebt"
           },
           {
-            "title": "Application Help",
-            "description": "Assistance with the entire process"
+            "title": "Aanvraag hulp",
+            "description": "Ondersteuning bij het hele proces"
           }
         ]
       },
       "stepsSection": {
-      "buttonText": "Ask your question in chat",
-      "buttonLink": "/chat/zorgtoeslag",
-      "buttonSubtext": "Instant answer",
-      "items": [
-        {
-          "title": "1. Create your account",
-          "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface"
-        },
-        {
-          "title": "2. Ask your healthcare question",
-          "description": "Start your conversation with Jan de Belastingman, the digital tax advisor who is always available and ask all your questions about the complex tax system for free. You will be able to fill in your income in your tax return, but what about the other deductions such as healthcare costs, donations, study costs, etc.? Are there specific benefits to which you are entitled? Jan de Belastingman will find out and help you with all.",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-          "alt": "Professional Advisor"
-        },
-        {
-          "title": "3. Get free healthcare allowance advice",
-          "description": "Jan de Belastingman immediately provides you with independent and reliable healthcare allowance advice on your question. You can take this advice with you and consult it when completing your healthcare allowance form. Should Jan de Belastingman not have the answer immediately available, because it is a bit more complex? Jan de Belastingman will then contact you within 24 hours.",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
-          "alt": "Account Dashboard",
-          "showButton": true
-        }
-      ]
-      },
-      "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
-        "blogCategory": "business-tax",
-        "buttonText": "View all articles",
-        "buttonLink": "/blog",
-        "faqItems": [
-          {
-            "question": "What are the requirements for healthcare allowance?",
-            "answer": "You must be at least 18 years old, have Dutch health insurance, have an EU nationality or valid residence permit, and earn below €37,496 per year (2025). Additionally, your assets should be below €140,213."
-          },
-          {
-            "question": "How is healthcare allowance calculated?",
-            "answer": "The amount depends on your income and assets. The lower your income, the higher the allowance. The system automatically calculates your entitlement based on the information you provide."
-          },
-          {
-            "question": "When should I apply for healthcare allowance?",
-            "answer": "You can apply as soon as you meet the requirements. It's best to apply as early as possible since the allowance can be granted retroactively for up to 3 months from the application date."
-          }
-        ]
-      }
-    },
-    "housing-allowance": {
-      "metadata": {
-        "title": "Housing Allowance (Huurtoeslag) | Jan de Belastingman",
-        "description": "Expert guidance on Dutch housing allowance. Learn about eligibility and get help with your application.",
-        "ogTitle": "Housing Allowance Support - Jan de Belastingman",
-        "ogDescription": "Professional assistance with housing allowance in the Netherlands. Get reliable advice on huurtoeslag.",
-        "ogImageAlt": "Housing Allowance Support from Jan de Belastingman"
-      },
-      "hero": {
-        "title": "Professional guidance for your Housing Allowance (Huurtoeslag)",
-        "description": "Are you frustrated with the high rent prices? Depending on your age, who you live with, the rental price and the combined incomes of the household, you might be eligible for housing allowance. Jan de Belastingman can check everything for you and help you save some costs!",
-        "callToAction": "Need Housing Allowance Assistance? Chat With Us!",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4.8 stars from reviews",
-        "buttonLink": "/chat/algemene-vragen",
-        "image": {
-          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
-          "width": 800,
-          "height": 600
-        }
-      },
-      "partners": {
-        "title": "As featured in",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonLink": "/chat/zorgtoeslag",
+        "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
-            "alt": "De Jurist",
-            "width": 100
-          },
-          {
-            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
-            "alt": "Accountant",
-            "width": 120
-          },
-          {
-            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-            "alt": "Quote",
-            "width": 90
-          },
-          {
-            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
-            "alt": "FD",
-            "width": 60
-          }
-        ]
-      },
-      "support": {
-        "title": "Housing allowance In the Netherlands",
-        "description": "The rent benefit (huurtoeslag) is a subsidy provided by the government to help with your rent expenses. Originally aimed at households with moderate incomes, it predominantly benefits those on the lower income spectrum.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "buttonLink": "/chat/algemene-vragen",
-        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor"
-      },
-      "stepsSection": {
-        "buttonText": "Ask your question in chat",
-        "buttonLink": "/chat/algemene-vragen",
-        "buttonSubtext": "Instant answer",
-        "items": [
-          {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Maak je account aan",
+            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your housing question",
-            "description": "Start your conversation with Jan de Belastingman, the digital tax advisor who is always available and ask all your questions about the complex tax system for free. You will be able to fill in your income in your tax return, but what about the other deductions such as healthcare costs, donations, study costs, etc.? Are there specific benefits to which you are entitled? Jan de Belastingman will find out and help you with all.",
+            "title": "2. Stel je zorgvraag",
+            "description": "Start je gesprek met Jan de Belastingman, de digitale belastingadviseur die altijd beschikbaar is en stel gratis al je vragen over het complexe belastingstelsel. Je kunt je inkomen invullen in je belastingaangifte, maar hoe zit het met de andere aftrekposten zoals zorgkosten, giften, studiekosten, etc.? Zijn er specifieke toeslagen waar je recht op hebt? Jan de Belastingman zoekt het uit en helpt je met alles.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professionele Adviseur"
           },
           {
-            "title": "3. Get free housing allowance advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable housing allowance advice on your question. You can take this advice with you and consult it when completing your housing allowance form. Should Jan de Belastingman not have the answer immediately available, because it is a bit more complex? Jan de Belastingman will then contact you within 24 hours.",
+            "title": "3. Krijg gratis zorgtoeslag advies",
+            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar zorgtoeslag advies op je vraag. Dit advies kun je meenemen en raadplegen bij het invullen van je zorgtoeslag formulier. Mocht Jan de Belastingman niet direct het antwoord paraat hebben, omdat het wat complexer is? Dan neemt Jan de Belastingman binnen 24 uur contact met je op.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1320,23 +1148,130 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
-        "buttonText": "View all articles",
+        "title": "Veelgestelde Vragen en Laatste Artikelen",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Artikelen",
+        "blogCategory": "business-tax",
+        "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
         "faqItems": [
           {
-            "question": "What are the requirements for housing allowance?",
-            "answer": "You must have a signed rental agreement, be registered at the address, be at least 18 years old, have a valid residence permit, and live in a self-sufficient home. Your income and assets must also be below certain thresholds."
+            "question": "Wat zijn de voorwaarden voor zorgtoeslag?",
+            "answer": "Je moet minimaal 18 jaar oud zijn, een Nederlandse zorgverzekering hebben, een EU-nationaliteit of geldige verblijfsvergunning hebben en minder dan €37.496 per jaar verdienen (2025). Daarnaast mag je vermogen niet hoger zijn dan €140.213."
           },
           {
-            "question": "How is housing allowance calculated?",
-            "answer": "The amount depends on your rent, income, household composition, and assets. The calculation takes into account the total household income and the number of people living at the address."
+            "question": "Hoe wordt zorgtoeslag berekend?",
+            "answer": "Het bedrag is afhankelijk van je inkomen en vermogen. Hoe lager je inkomen, hoe hoger de toeslag. Het systeem berekent automatisch waar je recht op hebt op basis van de informatie die je verstrekt."
           },
           {
-            "question": "Can I get housing allowance if I share a house?",
-            "answer": "Yes, but specific rules apply for shared housing. All residents must be registered at the address, and the total household income is considered in the calculation."
+            "question": "Wanneer moet ik zorgtoeslag aanvragen?",
+            "answer": "Je kunt aanvragen zodra je aan de voorwaarden voldoet. Het is het beste om zo vroeg mogelijk aan te vragen, aangezien de toeslag met terugwerkende kracht kan worden toegekend tot 3 maanden vanaf de aanvraagdatum."
+          }
+        ]
+      }
+    },
+    "housing-allowance": {
+      "metadata": {
+        "title": "Huurtoeslag | Jan de Belastingman",
+        "description": "Deskundige begeleiding bij huurtoeslag. Leer over voorwaarden en krijg hulp bij je aanvraag.",
+        "ogTitle": "Huurtoeslag Ondersteuning - Jan de Belastingman",
+        "ogDescription": "Professionele hulp bij huurtoeslag in Nederland. Krijg betrouwbaar advies.",
+        "ogImageAlt": "Huurtoeslag Ondersteuning van Jan de Belastingman"
+      },
+      "hero": {
+        "title": "Professionele begeleiding voor je Huurtoeslag",
+        "description": "Ben je gefrustreerd door de hoge huurprijzen? Afhankelijk van je leeftijd, met wie je samenwoont, de huurprijs en de gezamenlijke inkomens van het huishouden, kom je mogelijk in aanmerking voor huurtoeslag. Jan de Belastingman kan alles voor je controleren en je helpen kosten te besparen!",
+        "callToAction": "Hulp nodig bij Huurtoeslag? Chat met ons!",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "imageAlt": "Chat Interface Voorbeeld",
+        "stats": "4,8 sterren uit beoordelingen",
+        "buttonLink": "/chat/algemene-vragen",
+        "image": {
+          "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+          "alt": "Chat Interface Voorbeeld",
+          "width": 800,
+          "height": 600
+        }
+      },
+      "partners": {
+        "title": "Bekend van",
+        "items": [
+          {
+            "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
+            "alt": "De Jurist",
+            "width": 100
+          },
+          {
+            "src": "https://jandebelastingman.nl/storage/media/9ca66407-c491-4096-8a53-a97625154fd4.svg",
+            "alt": "Accountant",
+            "width": 120
+          },
+          {
+            "src": "https://jandebelastingman.nl/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
+            "alt": "Quote",
+            "width": 90
+          },
+          {
+            "src": "https://jandebelastingman.nl/storage/media/1284cf24-5e7b-43aa-87cb-2ceb73ba7323.svg",
+            "alt": "FD",
+            "width": 60
+          }
+        ]
+      },
+      "support": {
+        "title": "Huurtoeslag in Nederland",
+        "description": "De huurtoeslag is een subsidie van de overheid om te helpen met je huurkosten. Oorspronkelijk bedoeld voor huishoudens met een modaal inkomen, komt het vooral ten goede aan mensen met een lager inkomen.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "buttonLink": "/chat/algemene-vragen",
+        "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+        "imageAlt": "Professionele Belastingadviseur"
+      },
+      "stepsSection": {
+        "buttonText": "Stel je vraag in de chat",
+        "buttonLink": "/chat/algemene-vragen",
+        "buttonSubtext": "Direct antwoord",
+        "items": [
+          {
+            "title": "1. Maak je account aan",
+            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
+            "alt": "Chat Interface"
+          },
+          {
+            "title": "2. Stel je huurtoeslagvraag",
+            "description": "Start je gesprek met Jan de Belastingman, de digitale belastingadviseur die altijd beschikbaar is en stel gratis al je vragen over het complexe belastingstelsel. Je kunt je inkomen invullen in je belastingaangifte, maar hoe zit het met de andere aftrekposten zoals zorgkosten, giften, studiekosten, etc.? Zijn er specifieke toeslagen waar je recht op hebt? Jan de Belastingman zoekt het uit en helpt je met alles.",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
+            "alt": "Professionele Adviseur"
+          },
+          {
+            "title": "3. Krijg gratis huurtoeslag advies",
+            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar huurtoeslag advies op je vraag. Dit advies kun je meenemen en raadplegen bij het invullen van je huurtoeslag formulier. Mocht Jan de Belastingman niet direct het antwoord paraat hebben, omdat het wat complexer is? Dan neemt Jan de Belastingman binnen 24 uur contact met je op.",
+            "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
+            "alt": "Account Dashboard",
+            "showButton": true
+          }
+        ]
+      },
+      "faq": {
+        "title": "Veelgestelde Vragen en Laatste Artikelen",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Artikelen",
+        "buttonText": "Bekijk alle artikelen",
+        "buttonLink": "/blog",
+        "faqItems": [
+          {
+            "question": "Wat zijn de voorwaarden voor huurtoeslag?",
+            "answer": "Je moet een getekend huurcontract hebben, ingeschreven staan op het adres, minimaal 18 jaar oud zijn, een geldige verblijfsvergunning hebben en in een zelfstandige woning wonen. Je inkomen en vermogen moeten ook onder bepaalde grenzen blijven."
+          },
+          {
+            "question": "Hoe wordt huurtoeslag berekend?",
+            "answer": "Het bedrag is afhankelijk van je huur, inkomen, huishoudsamenstelling en vermogen. Bij de berekening wordt rekening gehouden met het totale huishoudinkomen en het aantal mensen dat op het adres woont."
+          },
+          {
+            "question": "Kan ik huurtoeslag krijgen als ik een huis deel?",
+            "answer": "Ja, maar er gelden specifieke regels voor gedeelde huisvesting. Alle bewoners moeten ingeschreven staan op het adres en het totale huishoudinkomen wordt meegenomen in de berekening."
           }
         ],
         "blogCategory": "business-tax"
@@ -1344,30 +1279,30 @@
     },
     "childcare-allowance": {
       "metadata": {
-        "title": "Childcare Allowance (Kinderopvangtoeslag) | Jan de Belastingman",
-        "description": "Expert guidance on Dutch childcare allowance. Learn about eligibility and get help with your application.",
-        "ogTitle": "Childcare Allowance Support - Jan de Belastingman",
-        "ogDescription": "Professional assistance with childcare allowance in the Netherlands. Get reliable advice on kinderopvangtoeslag.",
-        "ogImageAlt": "Childcare Allowance Support from Jan de Belastingman"
+        "title": "Kinderopvangtoeslag | Jan de Belastingman",
+        "description": "Deskundige begeleiding bij kinderopvangtoeslag. Leer over voorwaarden en krijg hulp bij je aanvraag.",
+        "ogTitle": "Kinderopvangtoeslag Ondersteuning - Jan de Belastingman",
+        "ogDescription": "Professionele hulp bij kinderopvangtoeslag in Nederland. Krijg betrouwbaar advies over kinderopvangtoeslag.",
+        "ogImageAlt": "Kinderopvangtoeslag Ondersteuning van Jan de Belastingman"
       },
       "hero": {
-        "title": "Expert assistance for Childcare Allowance (Kinderopvangtoeslag)",
-        "description": "Are you paying for childcare in the Netherlands? You might be eligible for childcare allowance to help cover the costs. Let Jan de Belastingman guide you through the process.",
-        "callToAction": "Need help with your childcare allowance? Get expert guidance to ensure you receive the support you're entitled to.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4.8 stars from reviews",
+        "title": "Deskundige hulp bij Kinderopvangtoeslag",
+        "description": "Betaal je voor kinderopvang in Nederland? Dan kom je mogelijk in aanmerking voor kinderopvangtoeslag om de kosten te dekken. Laat Jan de Belastingman je door het proces begeleiden.",
+        "callToAction": "Hulp nodig bij je kinderopvangtoeslag? Krijg deskundige begeleiding om zeker te zijn dat je de steun krijgt waar je recht op hebt.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "imageAlt": "Chat Interface Voorbeeld",
+        "stats": "4,8 sterren uit beoordelingen",
         "buttonLink": "/chat/kindertoeslag",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
+          "alt": "Chat Interface Voorbeeld",
           "width": 800,
           "height": 600
         }
       },
       "partners": {
-        "title": "As featured in",
+        "title": "Bekend van",
         "items": [
           {
             "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -1392,34 +1327,34 @@
         ]
       },
       "support": {
-        "title": "Childcare Allowance Support",
-        "description": "Childcare allowance (kinderopvangtoeslag) helps parents with the costs of childcare while they work or study. The amount depends on your income, the number of children, and the type of childcare used. Our experts can help you understand your entitlements and guide you through the application process.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "Kinderopvangtoeslag Ondersteuning",
+        "description": "Kinderopvangtoeslag helpt ouders met de kosten van kinderopvang tijdens werk of studie. Het bedrag is afhankelijk van je inkomen, het aantal kinderen en het type kinderopvang. Onze experts kunnen je helpen om je rechten te begrijpen en je door het aanvraagproces te begeleiden.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/kindertoeslag",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor"
+        "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "buttonText": "Ask your question in chat",
+        "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/kindertoeslag",
-        "buttonSubtext": "Instant answer",
+        "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Maak je account aan",
+            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your childcare allowance question",
-            "description": "Start your conversation with Jan de Belastingman, our digital advisor who is always available to answer your questions about childcare allowance. Whether you're wondering about eligibility, required documents, or how to maximize your benefits, we're here to help you navigate the system effectively.",
+            "title": "2. Stel je kinderopvangtoeslagvraag",
+            "description": "Start je gesprek met Jan de Belastingman, onze digitale adviseur die altijd beschikbaar is om je vragen over kinderopvangtoeslag te beantwoorden. Of je nu vragen hebt over je rechten, benodigde documenten of hoe je je voordelen kunt maximaliseren, wij helpen je effectief door het systeem te navigeren.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professionele Adviseur"
           },
           {
-            "title": "3. Get free childcare allowance advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable advice about your childcare allowance questions. You can take this advice with you and consult it when completing your application. For more complex situations, we'll connect you with an expert advisor within 24 hours.",
+            "title": "3. Krijg gratis kinderopvangtoeslag advies",
+            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar advies over je kinderopvangtoeslag vragen. Dit advies kun je meenemen en raadplegen bij het invullen van je aanvraag. Voor complexere situaties brengen we je binnen 24 uur in contact met een expert-adviseur.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1427,23 +1362,23 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
-        "buttonText": "View all articles",
+        "title": "Veelgestelde Vragen en Laatste Artikelen",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Artikelen",
+        "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
         "faqItems": [
           {
-            "question": "Who is eligible for childcare allowance?",
-            "answer": "You may be eligible if you and your partner work, study, or follow an integration course, have children under 12, use registered childcare, and pay the costs yourself. The exact amount depends on your income and the childcare hours needed."
+            "question": "Wie komt in aanmerking voor kinderopvangtoeslag?",
+            "answer": "Je komt mogelijk in aanmerking als jij en je partner werken, studeren of een inburgeringscursus volgen, kinderen onder de 12 jaar hebben, gebruik maken van geregistreerde kinderopvang en zelf de kosten betalen. Het exacte bedrag hangt af van je inkomen en de benodigde opvanguren."
           },
           {
-            "question": "What types of childcare are covered?",
-            "answer": "The allowance covers registered daycare (kinderdagverblijf), out-of-school care (buitenschoolse opvang), and registered childminders (gastouderopvang). The childcare provider must be registered in the National Childcare Register (LRK)."
+            "question": "Welke soorten kinderopvang worden vergoed?",
+            "answer": "De toeslag dekt geregistreerde dagopvang (kinderdagverblijf), buitenschoolse opvang (BSO) en geregistreerde gastouderopvang. De kinderopvangorganisatie moet geregistreerd zijn in het Landelijk Register Kinderopvang (LRK)."
           },
           {
-            "question": "How is the allowance calculated?",
-            "answer": "The amount is based on your household income, the number of children in childcare, the type of childcare, and the hourly rate (up to a maximum). The lower your income, the higher the percentage of costs that will be reimbursed."
+            "question": "Hoe wordt de toeslag berekend?",
+            "answer": "Het bedrag is gebaseerd op je gezinsinkomen, het aantal kinderen in de opvang, het type opvang en het uurtarief (tot een maximum). Hoe lager je inkomen, hoe hoger het percentage van de kosten dat wordt vergoed."
           }
         ],
         "blogCategory": "business-tax"
@@ -1451,30 +1386,30 @@
     },
     "child-benefit": {
       "metadata": {
-        "title": "Child Benefit (Kinderbijslag) | Jan de Belastingman",
-        "description": "Expert guidance on Dutch child benefit. Learn about eligibility and get help with your application.",
-        "ogTitle": "Child Benefit Support - Jan de Belastingman",
-        "ogDescription": "Professional assistance with child benefit in the Netherlands. Get reliable advice on kinderbijslag.",
-        "ogImageAlt": "Child Benefit Support from Jan de Belastingman"
+        "title": "Kinderbijslag | Jan de Belastingman",
+        "description": "Deskundige begeleiding bij kinderbijslag. Leer over voorwaarden en krijg hulp bij je aanvraag.",
+        "ogTitle": "Kinderbijslag Ondersteuning - Jan de Belastingman",
+        "ogDescription": "Professionele hulp bij kinderbijslag in Nederland. Krijg betrouwbaar advies over kinderbijslag.",
+        "ogImageAlt": "Kinderbijslag Ondersteuning van Jan de Belastingman"
       },
       "hero": {
-        "title": "Expert assistance for Child Benefit (Kinderbijslag)",
-        "description": "Do you have children and live in the Netherlands? You might be eligible for child benefit. Let Jan de Belastingman help you understand your entitlements and guide you through the process.",
-        "callToAction": "Need help with your child benefit application? Get expert guidance to ensure you receive the support you're entitled to.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4.8 stars from reviews",
+        "title": "Deskundige hulp bij Kinderbijslag",
+        "description": "Heb je kinderen en woon je in Nederland? Dan kom je mogelijk in aanmerking voor kinderbijslag. Laat Jan de Belastingman je helpen om je rechten te begrijpen en je door het proces te begeleiden.",
+        "callToAction": "Hulp nodig bij je kinderbijslag aanvraag? Krijg deskundige begeleiding om zeker te zijn dat je de steun krijgt waar je recht op hebt.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "imageAlt": "Chat Interface Voorbeeld",
+        "stats": "4,8 sterren uit beoordelingen",
         "buttonLink": "/chat/kindertoeslag",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
+          "alt": "Chat Interface Voorbeeld",
           "width": 800,
           "height": 600
         }
       },
       "partners": {
-        "title": "As featured in",
+        "title": "Bekend van",
         "items": [
           {
             "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -1499,34 +1434,34 @@
         ]
       },
       "support": {
-        "title": "Child Benefit Support",
-        "description": "Child benefit (kinderbijslag) is a quarterly payment from the government to help with the costs of raising children under 18. The amount depends on your child's age and living situation. Our experts can help you understand your entitlements and guide you through the application process.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "Kinderbijslag Ondersteuning",
+        "description": "Kinderbijslag is een driemaandelijkse uitkering van de overheid om te helpen met de kosten van het opvoeden van kinderen onder de 18 jaar. Het bedrag is afhankelijk van de leeftijd en woonsituatie van je kind. Onze experts kunnen je helpen om je rechten te begrijpen en je door het aanvraagproces te begeleiden.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/kindertoeslag",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor"
+        "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "buttonText": "Ask your question in chat",
+        "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/kindertoeslag",
-        "buttonSubtext": "Instant answer",
+        "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Maak je account aan",
+            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your child benefit question",
-            "description": "Start your conversation with Jan de Belastingman, our digital advisor who is always available to answer your questions about child benefit. Whether you're wondering about eligibility, required documents, or payment schedules, we're here to help you navigate the system effectively.",
+            "title": "2. Stel je kinderbijslagvraag",
+            "description": "Start je gesprek met Jan de Belastingman, onze digitale adviseur die altijd beschikbaar is om je vragen over kinderbijslag te beantwoorden. Of je nu vragen hebt over je rechten, benodigde documenten of betalingsschema's, wij helpen je effectief door het systeem te navigeren.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professionele Adviseur"
           },
           {
-            "title": "3. Get free child benefit advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable advice about your child benefit questions. You can take this advice with you and consult it when completing your application. For more complex situations, we'll connect you with an expert advisor within 24 hours.",
+            "title": "3. Krijg gratis kinderbijslag advies",
+            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar advies over je kinderbijslagvragen. Dit advies kun je meenemen en raadplegen bij het invullen van je aanvraag. Voor complexere situaties brengen we je binnen 24 uur in contact met een expert-adviseur.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1534,23 +1469,23 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
-        "buttonText": "View all articles",
+        "title": "Veelgestelde Vragen en Laatste Artikelen",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Artikelen",
+        "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
         "faqItems": [
           {
-            "question": "Who is eligible for child benefit?",
-            "answer": "You're eligible if you live or work in the Netherlands and have children under 18. The child must be your own, adopted, or stepchild, and you must be taking care of them. Special rules apply for children studying or living abroad."
+            "question": "Wie komt in aanmerking voor kinderbijslag?",
+            "answer": "Je komt in aanmerking als je in Nederland woont of werkt en kinderen onder de 18 jaar hebt. Het kind moet je eigen kind, adoptiekind of stiefkind zijn en je moet voor hen zorgen. Er gelden speciale regels voor kinderen die studeren of in het buitenland wonen."
           },
           {
-            "question": "How much child benefit will I receive?",
-            "answer": "The amount depends on your child's age: 0-5 years, 6-11 years, or 12-17 years. Each age group receives a different quarterly payment. The exact amounts are adjusted twice a year based on price developments."
+            "question": "Hoeveel kinderbijslag ontvang ik?",
+            "answer": "Het bedrag is afhankelijk van de leeftijd van je kind: 0-5 jaar, 6-11 jaar of 12-17 jaar. Elke leeftijdsgroep ontvangt een ander kwartaalbedrag. De exacte bedragen worden twee keer per jaar aangepast op basis van prijsontwikkelingen."
           },
           {
-            "question": "When and how is child benefit paid?",
-            "answer": "Child benefit is paid quarterly by the SVB (Social Insurance Bank). The payment dates are in January, April, July, and October. The money is transferred directly to your bank account."
+            "question": "Wanneer en hoe wordt kinderbijslag uitbetaald?",
+            "answer": "Kinderbijslag wordt elk kwartaal uitbetaald door de SVB (Sociale Verzekeringsbank). De betaaldata zijn in januari, april, juli en oktober. Het geld wordt direct op je bankrekening gestort."
           }
         ],
         "blogCategory": "business-tax"
@@ -1558,30 +1493,30 @@
     },
     "general-old-age-act": {
       "metadata": {
-        "title": "AOW State Pension | Jan de Belastingman",
-        "description": "Expert guidance on Dutch state pension (AOW). Learn about eligibility, payments, and tax implications.",
-        "ogTitle": "AOW State Pension Support - Jan de Belastingman",
-        "ogDescription": "Professional assistance with AOW pension matters in the Netherlands. Get reliable advice on your state pension.",
-        "ogImageAlt": "AOW Pension Support from Jan de Belastingman"
+        "title": "AOW Pensioen | Jan de Belastingman",
+        "description": "Deskundige begeleiding bij AOW pensioen. Leer over voorwaarden, betalingen en belastingimplicaties.",
+        "ogTitle": "AOW Pensioen Ondersteuning - Jan de Belastingman",
+        "ogDescription": "Professionele hulp bij AOW pensioenzaken in Nederland. Krijg betrouwbaar advies over je AOW.",
+        "ogImageAlt": "AOW Pensioen Ondersteuning van Jan de Belastingman"
       },
       "hero": {
-        "title": "Expert assistance for AOW State Pension",
-        "description": "Approaching retirement age or already receiving AOW? Understanding your state pension rights and tax obligations is crucial. Let Jan de Belastingman help you navigate the Dutch pension system.",
-        "callToAction": "Need help understanding your AOW pension? Get expert guidance to ensure you're well-informed about your entitlements.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4.8 stars from reviews",
+        "title": "Deskundige hulp bij AOW Pensioen",
+        "description": "Nadert je pensioenleeftijd of ontvang je al AOW? Het is cruciaal om je pensioenrechten en belastingverplichtingen te begrijpen. Laat Jan de Belastingman je helpen bij het navigeren door het Nederlandse pensioenstelsel.",
+        "callToAction": "Hulp nodig bij het begrijpen van je AOW? Krijg deskundige begeleiding om goed geïnformeerd te zijn over je rechten.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "imageAlt": "Chat Interface Voorbeeld",
+        "stats": "4,8 sterren uit beoordelingen",
         "buttonLink": "/chat/algemene-ouderdomswet",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
+          "alt": "Chat Interface Voorbeeld",
           "width": 800,
           "height": 600
         }
       },
       "partners": {
-        "title": "As featured in",
+        "title": "Bekend van",
         "items": [
           {
             "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -1606,34 +1541,34 @@
         ]
       },
       "support": {
-        "title": "AOW Pension Support",
-        "description": "The AOW (Algemene Ouderdomswet) is the Dutch state pension, providing basic income security for everyone who has lived or worked in the Netherlands. Understanding your rights, the tax implications, and how to maximize your benefits is essential for a comfortable retirement.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
+        "title": "AOW Pensioen Ondersteuning",
+        "description": "De AOW (Algemene Ouderdomswet) is het Nederlandse staatspensioen dat basisinkomenszekerheid biedt voor iedereen die in Nederland heeft gewoond of gewerkt. Het is essentieel om je rechten, de belastingimplicaties en hoe je je voordelen kunt maximaliseren te begrijpen voor een comfortabel pensioen.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/algemene-ouderdomswet",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor"
+        "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "buttonText": "Ask your question in chat",
+        "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/algemene-ouderdomswet",
-        "buttonSubtext": "Instant answer",
+        "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Maak je account aan",
+            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your AOW pension question",
-            "description": "Start your conversation with Jan de Belastingman, our digital advisor who is always available to answer your questions about AOW pension. Whether you're wondering about eligibility, payment amounts, or tax implications, we're here to help you understand your state pension rights.",
+            "title": "2. Stel je AOW pensioenvraag",
+            "description": "Start je gesprek met Jan de Belastingman, onze digitale adviseur die altijd beschikbaar is om je vragen over AOW pensioen te beantwoorden. Of je nu vragen hebt over je rechten, uitkeringsbedragen of belastingimplicaties, wij helpen je om je pensioenrechten te begrijpen.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professionele Adviseur"
           },
           {
-            "title": "3. Get free AOW pension advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable advice about your AOW pension questions. You can take this advice with you and consult it when needed. For more complex situations, we'll connect you with an expert advisor within 24 hours.",
+            "title": "3. Krijg gratis AOW pensioenadvies",
+            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar advies over je AOW pensioenvragen. Dit advies kun je meenemen en raadplegen wanneer nodig. Voor complexere situaties brengen we je binnen 24 uur in contact met een expert-adviseur.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1641,23 +1576,23 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
-        "buttonText": "View all articles",
+        "title": "Veelgestelde Vragen en Laatste Artikelen",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Artikelen",
+        "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
         "faqItems": [
           {
-            "question": "When do I receive AOW pension?",
-            "answer": "The AOW pension age is gradually increasing. In 2024, it's 67 years. You automatically receive a letter from the SVB a few months before you reach AOW age, with information about your pension payments."
+            "question": "Wanneer ontvang ik AOW pensioen?",
+            "answer": "De AOW-leeftijd stijgt geleidelijk. In 2024 is deze 67 jaar. Je ontvangt automatisch een brief van de SVB enkele maanden voordat je de AOW-leeftijd bereikt, met informatie over je pensioenuitkeringen."
           },
           {
-            "question": "How is AOW pension calculated?",
-            "answer": "The amount depends on your living situation and how long you've lived in the Netherlands between ages 15 and AOW age. Each year contributes 2% to your full pension rights. Living or working abroad may affect your pension amount."
+            "question": "Hoe wordt AOW pensioen berekend?",
+            "answer": "Het bedrag is afhankelijk van je woonsituatie en hoe lang je in Nederland hebt gewoond tussen je 15e en je AOW-leeftijd. Elk jaar draagt 2% bij aan je volledige pensioenrechten. Wonen of werken in het buitenland kan invloed hebben op je pensioenbedrag."
           },
           {
-            "question": "What are the tax implications of AOW pension?",
-            "answer": "AOW pension is taxable income in the Netherlands. The tax rate depends on your total income, including any additional pensions or other income sources. We can help you understand your tax obligations and potential deductions."
+            "question": "Wat zijn de belastingimplicaties van AOW pensioen?",
+            "answer": "AOW pensioen is belastbaar inkomen in Nederland. Het belastingtarief hangt af van je totale inkomen, inclusief eventuele aanvullende pensioenen of andere inkomstenbronnen. We kunnen je helpen om je belastingverplichtingen en mogelijke aftrekposten te begrijpen."
           }
         ],
         "blogCategory": "business-tax"
@@ -1665,30 +1600,30 @@
     },
     "income-general-old-age-act": {
       "metadata": {
-        "title": "Income During AOW Pension | Jan de Belastingman",
-        "description": "Expert guidance on earning income while receiving AOW pension. Learn about tax implications and regulations.",
-        "ogTitle": "Income During AOW Pension - Jan de Belastingman",
-        "ogDescription": "Professional assistance with managing income alongside AOW pension. Get reliable advice on tax obligations.",
-        "ogImageAlt": "Income During AOW Pension Support from Jan de Belastingman"
+        "title": "Inkomen Tijdens AOW | Jan de Belastingman",
+        "description": "Deskundige begeleiding bij het verdienen van inkomen tijdens AOW. Leer over belastingimplicaties en regelgeving.",
+        "ogTitle": "Inkomen Tijdens AOW - Jan de Belastingman",
+        "ogDescription": "Professionele hulp bij het beheren van inkomen naast AOW. Krijg betrouwbaar advies over belastingverplichtingen.",
+        "ogImageAlt": "Inkomen Tijdens AOW Ondersteuning van Jan de Belastingman"
       },
       "hero": {
-        "title": "Expert guidance on Income During AOW Pension",
-        "description": "Are you receiving AOW pension and still working or earning additional income? Understanding how this affects your taxes is crucial. Let Jan de Belastingman help you navigate the regulations.",
-        "callToAction": "Need help understanding how your additional income affects your AOW pension? Get expert guidance to optimize your tax situation.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-        "imageAlt": "Chat Interface Preview",
-        "stats": "4.8 stars from reviews",
+        "title": "Deskundige begeleiding bij Inkomen Tijdens AOW",
+        "description": "Ontvang je AOW en werk je nog steeds of verdien je extra inkomen? Het is cruciaal om te begrijpen hoe dit je belasting beïnvloedt. Laat Jan de Belastingman je helpen met de regelgeving.",
+        "callToAction": "Hulp nodig bij het begrijpen hoe je extra inkomen je AOW beïnvloedt? Krijg deskundige begeleiding om je belastingsituatie te optimaliseren.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "imageAlt": "Chat Interface Voorbeeld",
+        "stats": "4,8 sterren uit beoordelingen",
         "buttonLink": "/chat/algemene-ouderdomswet",
         "image": {
           "src": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
-          "alt": "Chat Interface Preview",
+          "alt": "Chat Interface Voorbeeld",
           "width": 800,
           "height": 600
         }
       },
       "partners": {
-        "title": "As featured in",
+        "title": "Bekend van",
         "items": [
           {
             "src": "https://jandebelastingman.nl/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -1713,34 +1648,34 @@
         ]
       },
       "support": {
-        "title": "Income During AOW Support",
-        "description": "Many people continue working or earn additional income while receiving AOW pension. This can affect your tax situation and potentially your benefits. Understanding these implications is essential for making informed financial decisions.",
-        "buttonText": "Ask your question in chat",
-        "buttonSubtext": "Instant answer",
-      "buttonLink": "/chat/algemene-ouderdomswet",
+        "title": "Ondersteuning bij Inkomen Tijdens AOW",
+        "description": "Veel mensen blijven werken of verdienen extra inkomen tijdens hun AOW. Dit kan invloed hebben op je belastingsituatie en mogelijk je uitkeringen. Het begrijpen van deze implicaties is essentieel voor het maken van weloverwogen financiële beslissingen.",
+        "buttonText": "Stel je vraag in de chat",
+        "buttonSubtext": "Direct antwoord",
+        "buttonLink": "/chat/algemene-ouderdomswet",
         "imageSrc": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-        "imageAlt": "Professional Tax Advisor"
+        "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "buttonText": "Ask your question in chat",
+        "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/algemene-ouderdomswet",
-        "buttonSubtext": "Instant answer",
+        "buttonSubtext": "Direct antwoord",
         "items": [
           {
-            "title": "1. Create your account",
-            "description": "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+            "title": "1. Maak je account aan",
+            "description": "Om gebruik te maken van Jan de Belastingman moet je een account aanmaken. Een account aanmaken is eenvoudig door de belastingchat te starten en je te registreren via Social login (Facebook of Google) of met je e-mailadres. Je hebt dan direct je persoonlijke account. Jan de Belastingman hecht veel waarde aan het zorgvuldig omgaan met je persoonsgegevens. Persoonsgegevens worden daarom volgens AVG-normen verwerkt en beveiligd.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.23.59-oYubQJhKr5eN7kW099wpXbYm9rVhOR.png",
             "alt": "Chat Interface"
           },
           {
-            "title": "2. Ask your income during AOW question",
-            "description": "Start your conversation with Jan de Belastingman, our digital advisor who is always available to answer your questions about earning income while receiving AOW pension. Whether you're wondering about tax brackets, deductions, or how additional income affects your benefits, we're here to help.",
+            "title": "2. Stel je vraag over inkomen tijdens AOW",
+            "description": "Start je gesprek met Jan de Belastingman, onze digitale adviseur die altijd beschikbaar is om je vragen te beantwoorden over het verdienen van inkomen tijdens je AOW. Of je nu vragen hebt over belastingschijven, aftrekposten of hoe extra inkomen je uitkeringen beïnvloedt, wij zijn er om je te helpen.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21211.jpg-jR9QkRMwu3UbhbAi0HuVs8tbdjwpga.jpeg",
-            "alt": "Professional Advisor"
+            "alt": "Professionele Adviseur"
           },
           {
-            "title": "3. Get free income during AOW advice",
-            "description": "Jan de Belastingman immediately provides you with independent and reliable advice about your income during AOW questions. You can take this advice with you and consult it when needed. For more complex situations, we'll connect you with an expert advisor within 24 hours.",
+            "title": "3. Krijg gratis advies over inkomen tijdens AOW",
+            "description": "Jan de Belastingman geeft je direct onafhankelijk en betrouwbaar advies over je vragen over inkomen tijdens AOW. Dit advies kun je meenemen en raadplegen wanneer nodig. Voor complexere situaties brengen we je binnen 24 uur in contact met een expert-adviseur.",
             "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Scherm%C2%ADafbeelding%202025-02-26%20om%2016.37.40-BaU3osKIKf3A0BMtu6F6BrSORHRosT.png",
             "alt": "Account Dashboard",
             "showButton": true
@@ -1748,23 +1683,23 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest ArticlesW",
-        "buttonText": "View all articles",
+        "title": "Veelgestelde Vragen en Laatste Artikelen",
+        "faqTitle": "Veelgestelde Vragen",
+        "blogTitle": "Laatste Artikelen",
+        "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
         "faqItems": [
           {
-            "question": "How does additional income affect my AOW pension?",
-            "answer": "Your AOW pension amount itself isn't affected by additional income, but your total income may affect your tax bracket and potential benefits or allowances you receive. We can help you understand the implications and optimize your tax situation."
+            "question": "Hoe beïnvloedt extra inkomen mijn AOW?",
+            "answer": "Het bedrag van je AOW-uitkering zelf wordt niet beïnvloed door extra inkomen, maar je totale inkomen kan wel invloed hebben op je belastingschijf en mogelijke toeslagen die je ontvangt. We kunnen je helpen de implicaties te begrijpen en je belastingsituatie te optimaliseren."
           },
           {
-            "question": "What are the tax implications of working during AOW?",
-            "answer": "When you work while receiving AOW, both your pension and work income are taxed. However, you may be eligible for specific tax credits and deductions. The total tax rate depends on your combined income from all sources."
+            "question": "Wat zijn de belastingimplicaties van werken tijdens AOW?",
+            "answer": "Wanneer je werkt tijdens je AOW worden zowel je pensioen als werkinkomen belast. Je komt mogelijk wel in aanmerking voor specifieke belastingkortingen en aftrekposten. Het totale belastingtarief hangt af van je gecombineerde inkomen uit alle bronnen."
           },
           {
-            "question": "Are there limits to how much I can earn alongside AOW?",
-            "answer": "There's no limit to how much you can earn while receiving AOW pension. However, higher income may affect other benefits or allowances you receive, such as healthcare allowance or rent subsidy."
+            "question": "Zijn er grenzen aan hoeveel ik kan bijverdienen naast AOW?",
+            "answer": "Er is geen limiet aan hoeveel je kunt verdienen naast je AOW-pensioen. Echter kan een hoger inkomen wel invloed hebben op andere toeslagen die je ontvangt, zoals zorgtoeslag of huurtoeslag."
           }
         ],
         "blogCategory": "business-tax"
@@ -1772,9 +1707,9 @@
     }
   },
   "footer": {
-    "copyright": "© {year} Jan de Belastingman. All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Use",
+    "copyright": "© {year} Jan de Belastingman. Alle rechten voorbehouden.",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
     "contact": "Contact"
   }
 }
