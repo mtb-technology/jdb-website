@@ -139,75 +139,7 @@ export default async function BlogPostPage({
               </button>
             </div>
           </div>
-
-          {/* Related Posts */}
-          {/* <div className="max-w-4xl mx-auto px-6">
-            <h2 className="text-2xl font-bold mb-6">Gerelateerde artikelen</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {relatedPosts.length > 0 ? (
-                relatedPosts.map((post) => (
-                  <div
-                    key={post.id}
-                    className="cursor-pointer"
-                    onClick={() => openPostDetail(post)}
-                  >
-                    <article className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow h-full flex flex-col">
-                      <div className="relative h-40 overflow-hidden">
-                        <Image
-                          src={post.image || "/placeholder.svg"}
-                          alt={post.title}
-                          fill
-                          className="object-cover hover:scale-105 transition-transform duration-300"
-                        />
-                        <div className="absolute top-4 left-4">
-                          <span className="bg-primary text-white text-xs font-medium px-3 py-1 rounded-full">
-                            {post.category}
-                          </span>
-                        </div>
-                      </div>
-                      <div className="p-4 flex-1 flex flex-col">
-                        <h3 className="text-lg font-bold mb-2 hover:text-primary transition-colors">
-                          {post.title}
-                        </h3>
-                        <time className="text-sm text-gray-500 mt-auto">
-                          {post.date}
-                        </time>
-                      </div>
-                    </article>
-                  </div>
-                ))
-              ) : (
-                <p className="col-span-3 text-gray-600">
-                  Geen gerelateerde artikelen gevonden.
-                </p>
-              )}
-            </div>
-          </div> */}
-
-          {/* Newsletter Section */}
-          {/* <section className="max-w-4xl mx-auto px-6 mt-24">
-            <div className="bg-gray-50 rounded-2xl p-8 md:p-12">
-              <div className="text-center mb-8">
-                <h2 className="text-2xl font-bold mb-3">Blijf op de hoogte</h2>
-                <p className="text-gray-600">
-                  Ontvang de nieuwste belastingtips en updates direct in je
-                  inbox.
-                </p>
-              </div>
-              <form className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
-                <input
-                  type="email"
-                  placeholder="Je e-mailadres"
-                  className="flex-1 px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
-                  required
-                />
-                <Button className="bg-primary text-white hover:bg-[#2341C7] whitespace-nowrap">
-                  Aanmelden
-                </Button>
-              </form>
-            </div>
-          </section>
-        </div> */}
+        </div>
       </div>
       <Footer dict={dict} />
     </main>

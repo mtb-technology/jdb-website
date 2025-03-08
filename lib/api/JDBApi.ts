@@ -181,14 +181,14 @@ export class JDBApi {
   }
 
   async submitForm(handle: string, data: FormSubmissionRequest): Promise<FormSubmissionResponse> {
-    return this.fetchApi<FormSubmissionResponse>(`/api/forms/${handle}`, {
+    return this.fetchApi<FormSubmissionResponse>(`/forms/${handle}`, {
       method: 'POST',
       body: JSON.stringify(data),
     });
   }
 
   async getForm(handle: string): Promise<FormResponse> {
-    return this.fetchApi<FormResponse>(`/api/forms/${handle}`);
+    return this.fetchApi<FormResponse>(`/forms/${handle}`);
   }
 }
 

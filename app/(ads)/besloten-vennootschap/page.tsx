@@ -127,6 +127,6 @@ const dictionary = {
   },
 };
 
-export default async function BelastingaangifteLatenDoen() {
+export default async function BeslotenVennootschapPage() {
   return <AdsPage contentDict={dictionary} locale="nl" />;
 }

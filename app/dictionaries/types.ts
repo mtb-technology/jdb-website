@@ -118,6 +118,9 @@ export interface Dictionary {
   topics: {
     [key: string]: PageContent;
   };
+  ads: {
+    [key: string]: PageContent;
+  };
 }
 
 interface Partner {
@@ -154,7 +157,7 @@ interface FAQ {
   buttonLink: string;
 }
 
-interface PageContent {
+export interface PageContent {
   metadata: {
     title: string;
     description: string;
@@ -200,7 +203,10 @@ interface PageContent {
     buttonSubtext: string;
     items: Step[];
   };
-  faq: FAQ;
+  faq?: FAQ;
+  form?: {
+    name: string;
+  };
 }
 
 interface AboutUsPage {

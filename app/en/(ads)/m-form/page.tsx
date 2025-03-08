@@ -127,6 +127,6 @@ const dictionary = {
   },
 };
 
-export default async function BelastingaangifteLatenDoen() {
-  return <AdsPage contentDict={dictionary} locale="nl" />;
+export default async function MFormPage() {
+  return <AdsPage contentDict={dictionary} locale="en" />;
 }

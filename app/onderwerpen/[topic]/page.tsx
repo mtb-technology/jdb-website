@@ -87,21 +87,25 @@ export default async function TopicPage({ params }: TopicPageProps) {
             buttonLink={stepsSection.buttonLink}
             buttonSubtext={stepsSection.buttonSubtext}
           />
-          <div className="container">
-            <FAQAndBlogSection
-              title={faq.title}
-              faqTitle={faq.faqTitle}
-              blogTitle={faq.blogTitle}
-              faqItems={faq.faqItems}
-              blogCategory={faq.blogCategory || ""}
-              buttonText={faq.buttonText}
-              buttonLink={faq.buttonLink}
-            />
-          </div>
+          {faq && (
+            <div className="container">
+              <FAQAndBlogSection
+                title={faq.title}
+                faqTitle={faq.faqTitle}
+                blogTitle={faq.blogTitle}
+                faqItems={faq.faqItems}
+                blogCategory={faq.blogCategory || ""}
+                buttonText={faq.buttonText}
+                buttonLink={faq.buttonLink}
+              />
+            </div>
+          )}
 
-          <div className="container">
-            <FormSection formName={"contect"} />
-          </div>
+          {form && form.name && (
+            <div className="container">
+              <FormSection formName={form.name} />
+            </div>
+          )}
         </div>
       </div>
       <Footer dict={dict} />

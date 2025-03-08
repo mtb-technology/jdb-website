@@ -12,18 +12,18 @@ const nextConfig: NextConfig = {
       // // Home redirects
       // { source: '/home', destination: '/', permanent: true },
       // { source: '/en/home', destination: '/en', permanent: true },
-      
+
       // // How it works
       // { source: '/hoe-werkt-het', destination: '/hoe-werkt-het', permanent: true },
       // { source: '/en/how-it-works', destination: '/en/how-it-works', permanent: true },
-      
+
       // // Topics
       // { source: '/onderwerpen', destination: '/onderwerpen', permanent: true },
       // { source: '/en/topics', destination: '/en/topics', permanent: true },
-      
+
       // Tax advisor
-      { source: '/belastingaangifte-laten-doen', destination: '/onderwerpen/belastingaangifte-laten-doen', permanent: true },
-      { source: '/en/tax-advisor', destination: '/en/topics/tax-advisor', permanent: true },
+      // { source: '/belastingaangifte-laten-doen', destination: '/onderwerpen/belastingaangifte-laten-doen', permanent: true },  ads page
+      //{ source: '/en/tax-advisor', destination: '/en/topics/tax-advisor', permanent: true }, ads page
       
       // Income tax return
       { source: '/belastingaangifte', destination: '/onderwerpen/belastingaangifte', permanent: true },
@@ -31,7 +31,7 @@ const nextConfig: NextConfig = {
       
       // M form
       { source: '/m-form', destination: '/onderwerpen/m-form', permanent: true },
-      { source: '/en/m-form', destination: '/en/topics/m-form', permanent: true },
+      // { source: '/en/m-form', destination: '/en/topics/m-form', permanent: true }, ads page
       { source: '/m-formulier', destination: '/onderwerpen/m-formulier', permanent: true },
       
       // Tax credit
