@@ -319,7 +319,7 @@ export function ChatInterface({
         {/* start employee dropdown */}
         <div className="flex items-center gap-3">
           <Image
-            src="/logo-small.png"
+            src="/logo-small.svg"
             alt="Jan de Belastingman"
             width={40}
             height={40}
@@ -383,7 +383,7 @@ export function ChatInterface({
             <div className="flex justify-center items-center h-full">
               <div className="text-center max-w-md">
                 <Image
-                  src="/logo-small.png"
+                  src="/logo-small.svg"
                   alt="Jan de Belastingman"
                   width={80}
                   height={80}
