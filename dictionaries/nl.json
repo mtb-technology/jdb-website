@@ -9,24 +9,7 @@
     "twitterDescription": "Direct antwoord op al je belastingvragen met onze AI-assistent."
   },
   "pages": {
-    "home": {
-      "metadata": {
-        "title": "Jan de Belastingman | Jouw AI Belastingadviseur",
-        "description": "Krijg direct antwoord op al je belastingvragen met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
-        "ogTitle": "Jan de Belastingman - AI Belastingadviseur",
-        "ogDescription": "Stel je belastingvragen en krijg direct deskundig advies van onze AI-assistent."
-      },
-      "helpQuestion": "Hoe kan ik je helpen?",
-      "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Welke aftrekposten kan ik toepassen?",
-        "vatReturn": "Hoe dien ik BTW-aangifte in als ZZP'er?",
-        "box3": "Moet ik vermogen aangeven in box 3?",
-        "businessStructure": "Wat is de impact van overstappen van eenmanszaak naar BV?"
-      },
-      "disclaimer": "Deze service is een digitale assistent, geen gecertificeerd belastingadviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
-      "knownFrom": "Bekend van"
-    },
+    "home": {},
     "how-it-works": {
       "title": "Hoe werkt Jan de Belastingman?",
       "items": [
