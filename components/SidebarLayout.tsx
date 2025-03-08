@@ -290,13 +290,17 @@ export default function SidebarLayout({
           <div className="bg-primary text-white h-full p-6">
             <SheetHeader className="mb-8">
               <SheetTitle className="text-white">
-                <Image
-                  src="https://jandebelastingman.nl/images/brand/logo.svg"
-                  alt="Jan de Belastingman Logo"
-                  width={140}
-                  height={40}
-                  className="w-auto"
-                />
+                <SheetClose key={`menu-logo`} asChild>
+                  <Link href="/">
+                    <Image
+                      src="https://jandebelastingman.nl/images/brand/logo.svg"
+                      alt="Jan de Belastingman Logo"
+                      width={140}
+                      height={40}
+                      className="w-auto"
+                    />
+                  </Link>
+                </SheetClose>
               </SheetTitle>
             </SheetHeader>
 
