@@ -16,8 +16,8 @@ const dictionary = {
     buttonSubtext: "Direct antwoord",
     buttonLink: "/chat/m-formulier",
     image: {
-      src: "/storage/media/chat-interface.png",
-      alt: "Chat Interface Voorbeeld",
+      src: "/storage/media/advisor.jpg",
+      alt: "Belastingadvies",
       width: 800,
       height: 600,
     },
@@ -58,8 +58,8 @@ const dictionary = {
     buttonText: "Stel je vraag in de chat",
     buttonSubtext: "Direct antwoord",
     buttonLink: "/chat/m-formulier",
-    imageSrc: "/storage/media/business-professional.jpeg",
-    imageAlt: "Professionele Belastingadviseur",
+    imageSrc: "/storage/media/woman2.jpg",
+    imageAlt: "Belastingadviseur",
   },
   stepsSection: {
     sectionTitle: "ZO KUNNEN WE JE HELPEN",

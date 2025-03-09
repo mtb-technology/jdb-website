@@ -58,8 +58,8 @@ const dictionary = {
     buttonText: "Ask your question in chat",
     buttonSubtext: "Instant answer",
     buttonLink: "/en/chat/income-tax-return",
-    imageSrc: "/storage/media/business-professional.jpeg",
-    imageAlt: "Professional Tax Advisor",
+    imageSrc: "/storage/media/woman2.jpg",
+    imageAlt: "Tax advisor",
   },
   stepsSection: {
     sectionTitle: "THIS IS HOW CAN WE HELP YOU",
