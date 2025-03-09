@@ -593,6 +593,7 @@ export function ChatInterface({
             <Button
               onClick={() => handleSendMessage()}
               disabled={!input.trim() || isTyping}
+              aria-label="Send message"
               className={`absolute right-1 top-1/2 -translate-y-1/2 h-9 w-9 rounded-full flex items-center justify-center transition-colors duration-200
                 ${
                   isTyping
