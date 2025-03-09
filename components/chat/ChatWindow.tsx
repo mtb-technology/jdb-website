@@ -68,6 +68,7 @@ export default function ChatWindow({ dict }: { dict: any }) {
               <button
                 className="absolute right-4 top-1/2 -translate-y-1/2 text-primary hover:text-primary/80 transition-colors"
                 onClick={() => handleStartChat()}
+                aria-label="Send message"
               >
                 <Send className="w-5 h-5" />
               </button>
