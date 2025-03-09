@@ -1,7 +1,7 @@
 import { chatENToDictionaryKey, routes, topicENToDictionaryKey } from '@/lib/routes';
 import { MetadataRoute } from 'next';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://jandebelastingman.nl';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://app.jandebelastingman.nl';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date();
