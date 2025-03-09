@@ -16,8 +16,8 @@ const dictionary = {
     buttonSubtext: "Direct antwoord",
     buttonLink: "/chat/besloten-vennootschap",
     image: {
-      src: "/storage/media/chat-interface.png",
-      alt: "Chat Interface Voorbeeld",
+      src: "/storage/media/chat-interface-bv.png",
+      alt: "Chat Interface Voorbeeld BV",
       width: 800,
       height: 600,
     },
@@ -58,8 +58,8 @@ const dictionary = {
     buttonText: "Stel je vraag in de chat",
     buttonSubtext: "Direct antwoord",
     buttonLink: "/chat/besloten-vennootschap",
-    imageSrc: "/storage/media/business-professional.jpeg",
-    imageAlt: "Zakelijke Professional",
+    imageSrc: "/storage/media/administration2.jpg",
+    imageAlt: "Administratie",
   },
   stepsSection: {
     sectionTitle: "ZO KUNNEN WE JE HELPEN",

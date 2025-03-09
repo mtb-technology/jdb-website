@@ -310,8 +310,8 @@
         "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/besloten-vennootschap",
         "image": {
-          "src": "/storage/media/chat-interface.png",
-          "alt": "Chat Interface Voorbeeld",
+          "src": "/storage/media/chat-interface-bv.png",
+          "alt": "Chat Interface Voorbeeld BV",
           "width": 800,
           "height": 600
         },
@@ -352,8 +352,8 @@
         "buttonText": "Stel je vraag in de chat",
         "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/besloten-vennootschap",
-        "imageSrc": "/storage/media/business-professional.jpeg",
-        "imageAlt": "Zakelijke Professional"
+        "imageSrc": "/storage/media/administration2.jpg",
+        "imageAlt": "Administratie"
       },
       "stepsSection": {
         "sectionTitle": "ZO KUNNEN WE JE HELPEN",
@@ -364,7 +364,7 @@
           {
             "title": "1. Stel je vraag 24/7 en krijg direct antwoord",
             "description": "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
-            "image": "/storage/media/chat-interface.png",
+            "image": "/storage/media/chat-interface-bv.png",
             "alt": "Chat Interface"
           },
           {
@@ -421,8 +421,8 @@
         "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/belastingaangifte",
         "image": {
-          "src": "/storage/media/chat-interface.png",
-          "alt": "Chat Interface Preview",
+          "src": "/storage/media/advisor.jpg",
+          "alt": "Tax Advisor",
           "width": 800,
           "height": 600
         },
@@ -463,8 +463,8 @@
         "buttonText": "Stel je vraag in de chat",
         "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/belastingaangifte",
-        "imageSrc": "/storage/media/business-professional.jpeg",
-        "imageAlt": "Professionele Belastingadviseur",
+        "imageSrc": "/storage/media/spaargeld.png",
+        "imageAlt": "Spaargeld",
         "items": [
           {
             "title": "Expertkennis",
@@ -549,7 +549,7 @@
         "stats": "4,8 sterren uit beoordelingen",
         "image": {
           "src": "/storage/media/chat-interface.png",
-          "alt": "Chat Interface Preview",
+          "alt": "Chat Interface Voorbeeld",
           "width": 800,
           "height": 600
         }
@@ -589,8 +589,8 @@
         "buttonText": "Stel je vraag in de chat",
         "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/belastingaangifte",
-        "imageSrc": "/storage/media/business-professional.jpeg",
-        "imageAlt": "Professionele Belastingadviseur"
+        "imageSrc": "/storage/media/woman2.jpg",
+        "imageAlt": "Belastingadviseur"
       },
       "stepsSection": {
         "sectionTitle": "ZO KUNNEN WE JE HELPEN",
@@ -660,8 +660,8 @@
         "stats": "4,8 sterren uit beoordelingen",
         "buttonLink": "/chat/m-formulier",
         "image": {
-          "src": "/storage/media/chat-interface.png",
-          "alt": "Chat Interface Voorbeeld",
+          "src": "/storage/media/advisor.jpg",
+          "alt": "Tax Advisor",
           "width": 800,
           "height": 600
         }
@@ -701,8 +701,8 @@
         "buttonText": "Stel je vraag in de chat",
         "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/m-formulier",
-        "imageSrc": "/storage/media/business-professional.jpeg",
-        "imageAlt": "Professionele Belastingadviseur"
+        "imageSrc": "/storage/media/woman2.jpg",
+        "imageAlt": "Belastingadviseur"
       },
       "stepsSection": {
         "sectionTitle": "ZO KUNNEN WE JE HELPEN",
@@ -939,8 +939,8 @@
         "buttonText": "Stel je vraag in de chat",
         "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/belastingaangifte",
-        "imageSrc": "/storage/media/business-professional.jpeg",
-        "imageAlt": "Professionele Belastingadviseur",
+        "imageSrc": "/storage/media/administration2.jpg",
+        "imageAlt": "Administratie",
         "items": [
           {
             "title": "Deskundige Kennis",
@@ -1024,8 +1024,8 @@
         "stats": "4,8 sterren uit beoordelingen",
         "buttonLink": "/chat/ondernemer",
         "image": {
-          "src": "/storage/media/chat-interface.png",
-          "alt": "Chat Interface Voorbeeld",
+          "src": "/storage/media/chat-interface-bv.png",
+          "alt": "Chat Interface Voorbeeld BV",
           "width": 800,
           "height": 600
         }
@@ -1065,8 +1065,8 @@
         "buttonText": "Stel je vraag in de chat",
         "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/ondernemer",
-        "imageSrc": "/storage/media/business-professional.jpeg",
-        "imageAlt": "Professionele Belastingadviseur",
+        "imageSrc": "/storage/media/administration2.jpg",
+        "imageAlt": "Administratie",
         "items": [
           {
             "title": "Bedrijfsexpertise",

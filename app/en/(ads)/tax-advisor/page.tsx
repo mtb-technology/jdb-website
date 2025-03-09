@@ -16,8 +16,8 @@ const dictionary = {
     buttonSubtext: "Instant answer",
     buttonLink: "/en/chat/income-tax-return",
     image: {
-      src: "/storage/media/chat-interface.png",
-      alt: "Chat Interface Preview",
+      src: "/storage/media/advisor.jpg",
+      alt: "Tax Advisor",
       width: 800,
       height: 600,
     },
@@ -58,8 +58,8 @@ const dictionary = {
     buttonText: "Ask your question in chat",
     buttonSubtext: "Instant answer",
     buttonLink: "/en/chat/income-tax-return",
-    imageSrc: "/storage/media/business-professional.jpeg",
-    imageAlt: "Professional Tax Advisor",
+    imageSrc: "/storage/media/spaargeld.png",
+    imageAlt: "Savings",
     items: [
       {
         title: "Expert Knowledge",

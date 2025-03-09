@@ -18,8 +18,8 @@ const dictionary = {
     buttonSubtext: "Direct antwoord",
     buttonLink: "/chat/belastingaangifte",
     image: {
-      src: "/storage/media/chat-interface.png",
-      alt: "Chat Interface Preview",
+      src: "/storage/media/advisor.jpg",
+      alt: "Tax Advisor",
       width: 800,
       height: 600,
     },
@@ -60,8 +60,8 @@ const dictionary = {
     buttonText: "Stel je vraag in de chat",
     buttonSubtext: "Direct antwoord",
     buttonLink: "/chat/belastingaangifte",
-    imageSrc: "/storage/media/business-professional.jpeg",
-    imageAlt: "Professionele Belastingadviseur",
+    imageSrc: "/storage/media/spaargeld.png",
+    imageAlt: "Savings",
     items: [
       {
         title: "Expertkennis",
