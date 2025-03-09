@@ -2,34 +2,29 @@ import { AdsPage } from "@/components/AdsPage";
 
 const dictionary = {
   metadata: {
-    title: "AOW State Pension | Jan de Belastingman",
-    description:
-      "Expert guidance on Dutch state pension (AOW). Learn about eligibility, payments, and tax implications.",
-    ogTitle: "AOW State Pension Support - Jan de Belastingman",
-    ogDescription:
-      "Professional assistance with AOW pension matters in the Netherlands. Get reliable advice on your state pension.",
-    ogImageAlt: "AOW Pension Support from Jan de Belastingman",
+    title: "Besloten Vennootschap (BV) | Jan de Belastingman",
+    description: "Expert advies over het oprichten en beheren van een BV in Nederland.",
+    ogTitle: "BV Advies - Jan de Belastingman",
+    ogDescription: "Krijg deskundig advies over het oprichten en beheren van een BV in Nederland. Direct antwoord op al je BV-gerelateerde vragen.",
+    ogImageAlt: "BV Advies van Jan de Belastingman",
   },
   hero: {
-    title: "Expert assistance for AOW State Pension",
-    description:
-      "Approaching retirement age or already receiving AOW? Understanding your state pension rights and tax obligations is crucial. Let Jan de Belastingman help you navigate the Dutch pension system.",
-    callToAction:
-      "Need help understanding your AOW pension? Get expert guidance to ensure you're well-informed about your entitlements.",
-    buttonText: "Ask your question in chat",
-    buttonSubtext: "Instant answer",
-    imageAlt: "Chat Interface Preview",
-    stats: "4.8 stars from reviews",
-    buttonLink: "/en/chat/general-old-age-act",
+    title: "Expert Ondersteuning voor Besloten Vennootschappen (BV's)",
+    description: "Beheer je een BV of loop je tegen uitdagingen aan met zakelijke belastingen of wettelijke verplichtingen? Jan de Belastingman helpt je de complexiteit van het runnen van een BV in Nederland te begrijpen, zodat je bedrijf compliant en financieel gezond blijft.",
+    callToAction: "Wil je een BV oprichten? Ontdek met Jan de Belastingman hoe een Besloten Vennootschap je financiële toekomst kan transformeren – begin nu aan je meer winstgevende ondernemersreis!",
+    buttonText: "Stel je vraag in de chat",
+    buttonSubtext: "Direct antwoord",
+    buttonLink: "/chat/besloten-vennootschap",
     image: {
       src: "/storage/media/chat-interface.png",
-      alt: "Chat Interface Preview",
+      alt: "Chat Interface Voorbeeld",
       width: 800,
       height: 600,
     },
+    stats: "4.545 BV vragen beantwoord",
   },
   partners: {
-    title: "As featured in",
+    title: "Bekend van",
     items: [
       {
         src: "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -58,69 +53,40 @@ const dictionary = {
     ],
   },
   support: {
-    title: "AOW Pension Support",
-    description:
-      "The AOW (Algemene Ouderdomswet) is the Dutch state pension, providing basic income security for everyone who has lived or worked in the Netherlands. Understanding your rights, the tax implications, and how to maximize your benefits is essential for a comfortable retirement.",
-    buttonText: "Ask your question in chat",
-    buttonSubtext: "Instant answer",
-    buttonLink: "/en/chat/general-old-age-act",
+    title: "Ondersteuning voor Besloten Vennootschappen in Nederland",
+    description: "Het runnen van een Besloten Vennootschap (BV) in Nederland vereist naleving van specifieke financiële regels en belastingverplichtingen. Jan de Belastingman biedt op maat gemaakte begeleiding voor BV's om je te helpen bij het effectief beheren van je bedrijfsverplichtingen, van belastingplanning tot naleving van Nederlandse bedrijfswetgeving.",
+    buttonText: "Stel je vraag in de chat",
+    buttonSubtext: "Direct antwoord",
+    buttonLink: "/chat/besloten-vennootschap",
     imageSrc: "/storage/media/business-professional.jpeg",
-    imageAlt: "Professional Tax Advisor",
+    imageAlt: "Zakelijke Professional",
   },
   stepsSection: {
-    buttonText: "Ask your question in chat",
-    buttonLink: "/en/chat/general-old-age-act",
-    buttonSubtext: "Instant answer",
+    buttonText: "Stel je vraag in de chat",
+    buttonLink: "/chat/besloten-vennootschap",
+    buttonSubtext: "Direct antwoord",
     items: [
       {
-        title: "1. Create your account",
-        description:
-          "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+        title: "1. Stel je vraag 24/7 en krijg direct antwoord",
+        description: "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
         image: "/storage/media/chat-interface.png",
-        alt: "Chat Interface",
+        alt: "Chat Interface"
       },
       {
-        title: "2. Ask your AOW pension question",
-        description:
-          "Start your conversation with Jan de Belastingman, our digital advisor who is always available to answer your questions about AOW pension. Whether you're wondering about eligibility, payment amounts, or tax implications, we're here to help you understand your state pension rights.",
+        title: "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+        description: "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
         image: "/storage/media/business-professional.jpeg",
-        alt: "Professional Advisor",
+        alt: "Professional Advisor"
       },
       {
-        title: "3. Get free AOW pension advice",
-        description:
-          "Jan de Belastingman immediately provides you with independent and reliable advice about your AOW pension questions. You can take this advice with you and consult it when needed. For more complex situations, we'll connect you with an expert advisor within 24 hours.",
+        title: "3. Maak een account aan en beheer je belastingvragen",
+        description: "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
         image: "/storage/media/account-dashboard.png",
         alt: "Account Dashboard",
-        showButton: true,
-      },
-    ],
-  },
-  faq: {
-    title: "Frequently Asked Questions and Latest Articles",
-    faqTitle: "Frequently Asked Questions",
-    blogTitle: "Latest Articles",
-    buttonText: "View all articles",
-    buttonLink: "/en/blog",
-    faqItems: [
-      {
-        question: "When do I receive AOW pension?",
-        answer:
-          "The AOW pension age is gradually increasing. In 2024, it's 67 years. You automatically receive a letter from the SVB a few months before you reach AOW age, with information about your pension payments.",
-      },
-      {
-        question: "How is AOW pension calculated?",
-        answer:
-          "The amount depends on your living situation and how long you've lived in the Netherlands between ages 15 and AOW age. Each year contributes 2% to your full pension rights. Living or working abroad may affect your pension amount.",
-      },
-      {
-        question: "What are the tax implications of AOW pension?",
-        answer:
-          "AOW pension is taxable income in the Netherlands. The tax rate depends on your total income, including any additional pensions or other income sources. We can help you understand your tax obligations and potential deductions.",
-      },
-    ],
-    blogCategory: "business-tax",
-  },
+        showButton: true
+      }
+    ]
+  }
 };
 
 export default async function BeslotenVennootschapPage() {
