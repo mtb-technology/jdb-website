@@ -32,7 +32,7 @@ const nextConfig: NextConfig = {
       // M form
       { source: '/m-form', destination: '/onderwerpen/m-form', permanent: true },
       // { source: '/en/m-form', destination: '/en/topics/m-form', permanent: true }, ads page
-      { source: '/m-formulier', destination: '/onderwerpen/m-formulier', permanent: true },
+      // { source: '/m-formulier', destination: '/onderwerpen/m-formulier', permanent: true }, ads page
       
       // Tax credit
       { source: '/aftrekposten-en-kortingen', destination: '/onderwerpen/aftrekposten-en-kortingen', permanent: true },
@@ -43,12 +43,12 @@ const nextConfig: NextConfig = {
       { source: '/en/inheritance-tax', destination: '/en/topics/inheritance-tax', permanent: true },
       
       // Private limited company
-      { source: '/besloten-vennootschap', destination: '/onderwerpen/besloten-vennootschap', permanent: true },
+      // { source: '/besloten-vennootschap', destination: '/onderwerpen/besloten-vennootschap', permanent: true }, ads page
       { source: '/en/private-limited-company', destination: '/en/topics/private-limited-company', permanent: true },
       { source: '/en/private-limited-companies', destination: '/en/topics/private-limited-company', permanent: true },
       
       // Self employed professional
-      { source: '/zelfstandigen-zonder-personeel', destination: '/onderwerpen/zelfstandigen-zonder-personeel', permanent: true },
+      //{ source: '/zelfstandigen-zonder-personeel', destination: '/onderwerpen/zelfstandigen-zonder-personeel', permanent: true }, #ads page
       { source: '/en/self-employed-professional', destination: '/en/topics/self-employed-professional', permanent: true },
       { source: '/en/self-employed-professionals', destination: '/en/topics/self-employed-professional', permanent: true },
 
