@@ -29,7 +29,7 @@ const features = {
   nl: [
     "Belastingvraag direct beantwoord via chat",
     "Toegang tot netwerk van betrouwbare experts",
-    "AI-gedreven met actuele belastingdata",
+    "AI-gedreven gebaseerd op actuele belastingdata",
     // "Gratis en onafhankelijk advies via chat",
     // "Gebouwd op de nieuwste generatie AI",
     // "Direct gekoppeld aan actuele belastingdata",
