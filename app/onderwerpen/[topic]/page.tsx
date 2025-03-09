@@ -82,7 +82,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
             imageAlt={support.imageAlt}
           />
           <StepsSection
-            sectionTitle={stepsSection.sectionTitle}
+            title={stepsSection.sectionTitle}
             steps={stepsSection.items}
             buttonText={stepsSection.buttonText}
             buttonLink={stepsSection.buttonLink}
