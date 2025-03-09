@@ -241,7 +241,7 @@ export default function SidebarLayout({
         <div className="mb-16 text-base">
           <Link href="/">
             <Image
-              src="https://jandebelastingman.nl/images/brand/logo.svg"
+              src="/logo.svg"
               alt="Jan de Belastingman Logo"
               width={200}
               height={56}
@@ -293,7 +293,7 @@ export default function SidebarLayout({
                 <SheetClose key={`menu-logo`} asChild>
                   <Link href="/">
                     <Image
-                      src="https://jandebelastingman.nl/images/brand/logo.svg"
+                      src="/logo.svg"
                       alt="Jan de Belastingman Logo"
                       width={140}
                       height={40}
