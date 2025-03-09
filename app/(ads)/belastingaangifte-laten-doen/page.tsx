@@ -78,6 +78,7 @@ const dictionary = {
     ]
   },
   stepsSection: {
+    sectionTitle: "ZO KUNNEN WE JE HELPEN",
     buttonText: "Stel je vraag in de chat",
     buttonSubtext: "Direct antwoord",
     buttonLink: "/chat/belastingaangifte",

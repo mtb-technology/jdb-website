@@ -2,29 +2,29 @@ import { AdsPage } from "@/components/AdsPage";
 
 const dictionary = {
   metadata: {
-    title: "M-Form | Jan de Belastingman",
-    description: "Learn everything about the M-Form. Get help with your M-Form declaration.",
-    ogTitle: "M-Form - Jan de Belastingman",
-    ogDescription: "Expert help with your M-Form declaration. Discover tips and advice from our AI assistant.",
-    ogImageAlt: "M-Form from Jan de Belastingman",
+    title: "M-Formulier | Jan de Belastingman",
+    description: "Leer alles over het M-Formulier. Krijg hulp bij je M-Formulier aangifte.",
+    ogTitle: "M-Formulier - Jan de Belastingman",
+    ogDescription: "Deskundige hulp bij je M-Formulier aangifte. Ontdek tips en advies van onze AI-assistent.",
+    ogImageAlt: "M-Formulier van Jan de Belastingman",
   },
   hero: {
-    title: "Expert assistance for stress-free M form (M-Formulier) filing",
-    description: "Struggling with your M-form tax return after relocating from or departing the Netherlands? Don't fret. Jan de Belastingman is here to make the process seamless for you.",
-    callToAction: "Could you use some help with your tax return during years of migration? Jan de Belastingman takes care of everything for you and is happy to help you submit a complete and correct M form.",
-    buttonText: "Ask your question in chat",
-    buttonSubtext: "Instant answer",
-    buttonLink: "/en/chat/m-form",
+    title: "Deskundige hulp voor zorgeloos M-formulier invullen",
+    description: "Worstel je met je M-formulier belastingaangifte na verhuizing van of naar Nederland? Geen zorgen. Jan de Belastingman maakt het proces eenvoudig voor je.",
+    callToAction: "Kun je hulp gebruiken bij je belastingaangifte tijdens jaren van migratie? Jan de Belastingman regelt alles voor je en helpt je graag bij het indienen van een volledig en correct M-formulier.",
+    buttonText: "Stel je vraag in de chat",
+    buttonSubtext: "Direct antwoord",
+    buttonLink: "/chat/m-formulier",
     image: {
       src: "/storage/media/chat-interface.png",
-      alt: "Chat Interface Preview",
+      alt: "Chat Interface Voorbeeld",
       width: 800,
       height: 600,
     },
-    stats: "4.8 stars from reviews",
+    stats: "4,8 sterren uit beoordelingen",
   },
   partners: {
-    title: "As featured in",
+    title: "Bekend van",
     items: [
       {
         src: "/storage/media/b96c2cde-845a-4d93-93e9-4992fa9635f7.svg",
@@ -53,34 +53,35 @@ const dictionary = {
     ],
   },
   support: {
-    title: "Help with completing your M form",
-    description: "The M form is required when you've moved to or from the Netherlands during a tax year. Our experts understand the complexities of international taxation and ensure you claim all eligible deductions and benefits. Whether you're dealing with foreign income, the 30% ruling, or other migration-related tax matters, we'll help you file accurately and on time.",
-    buttonText: "Ask your question in chat",
-    buttonSubtext: "Instant answer",
-    buttonLink: "/en/chat/m-form",
+    title: "Hulp bij het invullen van je M-formulier",
+    description: "Het M-formulier is vereist wanneer je tijdens een belastingjaar naar of vanuit Nederland bent verhuisd. Onze experts begrijpen de complexiteit van internationale belastingen en zorgen ervoor dat je alle mogelijke aftrekposten en voordelen claimt. Of je nu te maken hebt met buitenlands inkomen, de 30%-regeling of andere migratie-gerelateerde belastingzaken, wij helpen je nauwkeurig en op tijd aan te geven.",
+    buttonText: "Stel je vraag in de chat",
+    buttonSubtext: "Direct antwoord",
+    buttonLink: "/chat/m-formulier",
     imageSrc: "/storage/media/business-professional.jpeg",
-    imageAlt: "Professional Tax Advisor",
+    imageAlt: "Professionele Belastingadviseur",
   },
   stepsSection: {
-    buttonText: "Ask your question in chat",
-    buttonLink: "/en/chat/m-form",
-    buttonSubtext: "Instant answer",
+    sectionTitle: "ZO KUNNEN WE JE HELPEN",
+    buttonText: "Stel je vraag in de chat",
+    buttonLink: "/chat/m-formulier",
+    buttonSubtext: "Direct antwoord",
     items: [
       {
-        title: "1. Ask your question 24/7 and get instant answers",
-        description: "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
+        title: "1. Stel je vraag 24/7 en krijg direct antwoord",
+        description: "Heb je een vraag over je belastingen? Bij Jan de Belastingman stel je jouw vraag online en krijg je meteen een duidelijk antwoord van onze slimme AI-chatbot. Deze is direct verbonden met de meest actuele belastingdata, dus of het nu gaat om aftrekposten, BTW of je aangifte, je krijgt altijd een snelle en betrouwbare oplossing – zonder wachten! We behandelen je gegevens veilig en in overeenstemming met de AVG-vereisten.",
         image: "/storage/media/chat-interface.png",
         alt: "Chat Interface"
       },
       {
-        title: "2. Need more help? We'll find you a suitable advisor",
-        description: "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
+        title: "2. Kom je er niet uit? Wij vinden een geschikte adviseur",
+        description: "Soms is een vraag te specifiek voor onze chatbot, of wil je (een deel van) je administratie liever uitbesteden. Geen probleem! Binnen 24 uur koppelt Jan de Belastingman je aan een deskundige adviseur die jouw situatie volledig begrijpt en de regels persoonlijk voor je toepast. Zo krijg je altijd de hulp van een specialist die precies bij jou past, zonder gedoe.",
         image: "/storage/media/business-professional.jpeg",
         alt: "Professional Advisor"
       },
       {
-        title: "3. Create an account and manage your tax questions",
-        description: "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
+        title: "3. Maak een account aan en beheer je belastingvragen",
+        description: "Met een gratis account bij Jan de Belastingman houd je alles overzichtelijk bij elkaar. Meld je gemakkelijk aan via social login (Google of Facebook) of je e-mail en sla al je belastingvragen op één plek op. Zo kun je altijd terugkijken wat je hebt gevraagd - van toeslagen tot aftrekposten - en hoef je niet steeds opnieuw te beginnen. Handig voor nu én later, bijvoorbeeld bij je volgende aangifte!",
         image: "/storage/media/account-dashboard.png",
         alt: "Account Dashboard",
         showButton: true

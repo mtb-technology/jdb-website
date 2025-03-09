@@ -188,31 +188,31 @@
             "name": "Bo",
             "role": "Product & Ops",
             "background": "Een digitale innovatieleider, met een track record in het begeleiden van teams naar uitvoerende excellentie, die mensgerichte oplossingen creëert door slimmere technologie.",
-            "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
+            "imageSrc": "/storage/media/bo.jpeg"
           },
           {
             "name": "Tim",
             "role": "Sales & Marketing",
             "background": "Een groeistrategie-expert met 14+ jaar ervaring in het opbouwen van merken en het schalen van digitale startups door effectieve marketing.",
-            "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
+            "imageSrc": "/storage/media/tim.jpeg"
           },
           {
             "name": "Beaudinn",
             "role": "AI & Engineering",
             "background": "Een full-stack engineer met tien jaar ervaring in AI en datagedreven ontwikkeling, die veilige, schaalbare en hoogwaardige systemen bouwt.",
-            "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
+            "imageSrc": "/storage/media/beaudinn.jpeg"
           },
           {
             "name": "Mathijs",
             "role": "Oprichter",
             "background": "Een serial entrepreneur met een fiscale achtergrond, die AI inzet om toekomstgerichte bedrijven te bouwen die industrieën transformeren.",
-            "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
+            "imageSrc": "/storage/media/mathijs.jpeg"
           },
           {
             "name": "Marcus",
             "role": "Oprichter",
             "background": "Een AI- en SaaS-innovator, die meerdere ondernemingen aanstuurt die technologie vooruit stuwen en digitale oplossingen herdefiniëren.",
-            "imageSrc": "https://jandebelastingman.nl/storage/media/985510a5-12a0-4ff4-bbed-a3dd9b4c9228-1694962173.png"
+            "imageSrc": "/storage/media/marcus.jpeg"
           }
         ]
       },
@@ -356,7 +356,7 @@
         "imageAlt": "Zakelijke Professional"
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/besloten-vennootschap",
         "buttonSubtext": "Direct antwoord",
@@ -481,7 +481,7 @@
         ]
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonSubtext": "Direct antwoord",
         "buttonLink": "/chat/belastingaangifte",
@@ -593,7 +593,7 @@
         "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/belastingaangifte",
         "buttonSubtext": "Direct antwoord",
@@ -705,7 +705,7 @@
         "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/m-formulier",
         "buttonSubtext": "Direct antwoord",
@@ -831,7 +831,7 @@
         ]
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/algemene-vragen",
         "buttonSubtext": "Direct antwoord",
@@ -957,7 +957,7 @@
         ]
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/belastingaangifte",
         "buttonSubtext": "Direct antwoord",
@@ -1083,7 +1083,7 @@
         ]
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/ondernemer",
         "buttonSubtext": "Direct antwoord",
@@ -1209,7 +1209,7 @@
         ]
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/zorgtoeslag",
         "buttonSubtext": "Direct antwoord",
@@ -1321,7 +1321,7 @@
         "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/algemene-vragen",
         "buttonSubtext": "Direct antwoord",
@@ -1433,7 +1433,7 @@
         "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/kindertoeslag",
         "buttonSubtext": "Direct antwoord",
@@ -1545,7 +1545,7 @@
         "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/kindertoeslag",
         "buttonSubtext": "Direct antwoord",
@@ -1657,7 +1657,7 @@
         "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/algemene-ouderdomswet",
         "buttonSubtext": "Direct antwoord",
@@ -1769,7 +1769,7 @@
         "imageAlt": "Professionele Belastingadviseur"
       },
       "stepsSection": {
-        "SectionTitle": "ZO KUNNEN WE JE HELPEN",
+        "sectionTitle": "ZO KUNNEN WE JE HELPEN",
         "buttonText": "Stel je vraag in de chat",
         "buttonLink": "/chat/algemene-ouderdomswet",
         "buttonSubtext": "Direct antwoord",

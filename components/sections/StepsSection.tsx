@@ -18,7 +18,7 @@ interface StepsSectionProps {
 }
 
 export default function StepsSection({
-  SectionTitle,
+  sectionTitle,
   steps,
   buttonText,
   buttonLink,

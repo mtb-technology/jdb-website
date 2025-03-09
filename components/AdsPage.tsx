@@ -37,6 +37,7 @@ export async function AdsPage({
             imageAlt={support.imageAlt}
           />
           <StepsSection
+            sectionTitle={stepsSection.sectionTitle}
             steps={stepsSection.items}
             buttonText={stepsSection.buttonText}
             buttonLink={stepsSection.buttonLink}
