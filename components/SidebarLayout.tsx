@@ -35,9 +35,9 @@ const features = {
     // "Direct gekoppeld aan actuele belastingdata",
   ],
   en: [
-    "Tax question answered directly via chat",
-    "Access to network of trusted experts",
-    "AI-driven with current tax data",
+    "Tax question answered instantly via chat",
+    "Access to network of trusted tax specialists",
+    "AI-driven directly linked with current tax data",
     // "Free and independent advice via chat",
     // "Built on the latest generation AI",
     // "Directly linked to current tax data",
