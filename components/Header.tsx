@@ -21,7 +21,7 @@ export default function Header({ dict }: HeaderProps) {
     <header className="absolute top-0 left-0 right-0 z-40 flex justify-between items-center p-6 text-sm bg-white/80 backdrop-blur-lg border-b">
       <div className="flex md:hidden ml-12">
         <Image
-          src="https://jandebelastingman.nl/images/brand/logo.svg"
+          src="/logo.svg"
           alt="Jan de Belastingman Logo"
           width={140}
           height={40}
