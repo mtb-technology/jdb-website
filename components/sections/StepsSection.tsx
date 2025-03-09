@@ -10,6 +10,7 @@ interface Step {
 }
 
 interface StepsSectionProps {
+  SectionTitle: string;
   steps: Step[];
   buttonText: string;
   buttonLink: string;
@@ -17,6 +18,7 @@ interface StepsSectionProps {
 }
 
 export default function StepsSection({
+  SectionTitle,
   steps,
   buttonText,
   buttonLink,
@@ -25,7 +27,7 @@ export default function StepsSection({
   return (
     <div>
       <h2 className="text-2xl font-bold text-center mb-12">
-        ZO KUNNEN WE JE HELPEN MET JE BV
+        {SectionTitle}
       </h2>
       <div className="space-y-16">
         {steps.map((step, index) => (
