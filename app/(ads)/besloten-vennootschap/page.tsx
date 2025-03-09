@@ -62,6 +62,7 @@ const dictionary = {
     imageAlt: "Zakelijke Professional",
   },
   stepsSection: {
+    sectionTitle: "ZO KUNNEN WE JE HELPEN",
     buttonText: "Stel je vraag in de chat",
     buttonLink: "/chat/besloten-vennootschap",
     buttonSubtext: "Direct antwoord",

@@ -76,6 +76,7 @@ const dictionary = {
     ]
   },
   stepsSection: {
+    sectionTitle: "ZO KUNNEN WE JE HELPEN",
     buttonText: "Stel je vraag in de chat",
     buttonLink: "/chat/ondernemer",
     buttonSubtext: "Direct antwoord",

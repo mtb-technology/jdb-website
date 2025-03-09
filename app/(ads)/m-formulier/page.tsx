@@ -62,7 +62,7 @@ const dictionary = {
     imageAlt: "Professionele Belastingadviseur",
   },
   stepsSection: {
-    SectionTitle: "ZO KUNNEN WE JE HELPEN",
+    sectionTitle: "ZO KUNNEN WE JE HELPEN",
     buttonText: "Stel je vraag in de chat",
     buttonLink: "/chat/m-formulier",
     buttonSubtext: "Direct antwoord",

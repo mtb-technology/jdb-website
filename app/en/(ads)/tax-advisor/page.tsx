@@ -68,6 +68,7 @@ const dictionary = {
     imageAlt: "Professional Tax Advisor",
   },
   stepsSection: {
+    sectionTitle: "THIS IS HOW CAN WE HELP YOU",
     buttonText: "Ask your question in chat",
     buttonLink: "/en/chat/general-old-age-act",
     buttonSubtext: "Instant answer",

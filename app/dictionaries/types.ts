@@ -37,6 +37,7 @@ export interface Dictionary {
     'how-it-works': {
       title: string;
       stepsSection: {
+        sectionTitle: string;
         buttonText: string;
         buttonLink: string;
         buttonSubtext: string;
@@ -198,6 +199,7 @@ export interface PageContent {
     }>;
   };
   stepsSection: {
+    sectionTitle: string;
     buttonText: string;
     buttonLink: string;
     buttonSubtext: string;
