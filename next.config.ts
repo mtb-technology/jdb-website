@@ -176,6 +176,28 @@ const nextConfig: NextConfig = {
         destination: '/en/how-it-works',
         permanent: true,
       },
+      {
+        source: "/admin",
+        destination: "https://app.jandebelastingman.nl/admin",
+        permanent: false,
+      },
+      {
+        source: "/saas/:path*", // Matches anything after /saas/
+        destination: "https://app.jandebelastingman.nl/saas/:path*", // Preserves the path
+        permanent: false,
+      },
+
+      {
+        source: "/login",
+        destination: "https://app.jandebelastingman.nl/login",
+        permanent: false,
+      },
+
+      {
+        source: "/register",
+        destination: "https://app.jandebelastingman.nl/register",
+        permanent: false,
+      },
 
       // // Chat domain redirects
       // {
