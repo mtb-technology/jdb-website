@@ -2,31 +2,26 @@ import { AdsPage } from "@/components/AdsPage";
 
 const dictionary = {
   metadata: {
-    title: "AOW State Pension | Jan de Belastingman",
-    description:
-      "Expert guidance on Dutch state pension (AOW). Learn about eligibility, payments, and tax implications.",
-    ogTitle: "AOW State Pension Support - Jan de Belastingman",
-    ogDescription:
-      "Professional assistance with AOW pension matters in the Netherlands. Get reliable advice on your state pension.",
-    ogImageAlt: "AOW Pension Support from Jan de Belastingman",
+    title: "M-Form | Jan de Belastingman",
+    description: "Learn everything about the M-Form. Get help with your M-Form declaration.",
+    ogTitle: "M-Form - Jan de Belastingman",
+    ogDescription: "Expert help with your M-Form declaration. Discover tips and advice from our AI assistant.",
+    ogImageAlt: "M-Form from Jan de Belastingman",
   },
   hero: {
-    title: "Expert assistance for AOW State Pension",
-    description:
-      "Approaching retirement age or already receiving AOW? Understanding your state pension rights and tax obligations is crucial. Let Jan de Belastingman help you navigate the Dutch pension system.",
-    callToAction:
-      "Need help understanding your AOW pension? Get expert guidance to ensure you're well-informed about your entitlements.",
+    title: "Expert assistance for stress-free M form (M-Formulier) filing",
+    description: "Struggling with your M-form tax return after relocating from or departing the Netherlands? Don't fret. Jan de Belastingman is here to make the process seamless for you.",
+    callToAction: "Could you use some help with your tax return during years of migration? Jan de Belastingman takes care of everything for you and is happy to help you submit a complete and correct M form.",
     buttonText: "Ask your question in chat",
     buttonSubtext: "Instant answer",
-    imageAlt: "Chat Interface Preview",
-    stats: "4.8 stars from reviews",
-    buttonLink: "/en/chat/general-old-age-act",
+    buttonLink: "/en/chat/m-form",
     image: {
       src: "/storage/media/chat-interface.png",
       alt: "Chat Interface Preview",
       width: 800,
       height: 600,
     },
+    stats: "4.8 stars from reviews",
   },
   partners: {
     title: "As featured in",
@@ -45,8 +40,8 @@ const dictionary = {
       },
       {
         src: "/storage/media/59b82e88-c24d-41c0-8380-6ae3d3420e48.svg",
-        url: "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
         alt: "Quote",
+        url: "https://www.quotenet.nl/nieuws/a33495849/sneu-accountantskantoor-jan-eist-duizenden-euros-student",
         width: 90,
       },
       {
@@ -58,69 +53,43 @@ const dictionary = {
     ],
   },
   support: {
-    title: "AOW Pension Support",
-    description:
-      "The AOW (Algemene Ouderdomswet) is the Dutch state pension, providing basic income security for everyone who has lived or worked in the Netherlands. Understanding your rights, the tax implications, and how to maximize your benefits is essential for a comfortable retirement.",
+    title: "Help with completing your M form",
+    description: "The M form is required when you've moved to or from the Netherlands during a tax year. Our experts understand the complexities of international taxation and ensure you claim all eligible deductions and benefits. Whether you're dealing with foreign income, the 30% ruling, or other migration-related tax matters, we'll help you file accurately and on time.",
     buttonText: "Ask your question in chat",
     buttonSubtext: "Instant answer",
-    buttonLink: "/en/chat/general-old-age-act",
+    buttonLink: "/en/chat/m-form",
     imageSrc: "/storage/media/business-professional.jpeg",
     imageAlt: "Professional Tax Advisor",
   },
   stepsSection: {
     sectionTitle: "THIS IS HOW CAN WE HELP YOU",
     buttonText: "Ask your question in chat",
-    buttonLink: "/en/chat/general-old-age-act",
+    buttonLink: "/en/chat/m-form",
     buttonSubtext: "Instant answer",
     items: [
       {
-        title: "1. Create your account",
-        description:
-          "To use Jan de Belastingman you must create an account. Creating an account is easy by starting the tax chat and registering via Social login (Facebook or Google) or with your email address. You will then immediately have your personal account. Jan de Belastingman attaches great importance to carefully handling your personal data. Personal data is therefore processed and secured using GDPR standards.",
+        title: "1. Ask your question 24/7 and get instant answers",
+        description: "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
         image: "/storage/media/chat-interface.png",
-        alt: "Chat Interface",
+        alt: "Chat Interface"
       },
       {
-        title: "2. Ask your AOW pension question",
-        description:
-          "Start your conversation with Jan de Belastingman, our digital advisor who is always available to answer your questions about AOW pension. Whether you're wondering about eligibility, payment amounts, or tax implications, we're here to help you understand your state pension rights.",
+        title: "2. Need more help? We'll find you a suitable advisor",
+        description: "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
         image: "/storage/media/business-professional.jpeg",
-        alt: "Professional Advisor",
+        alt: "Professional Advisor"
       },
       {
-        title: "3. Get free AOW pension advice",
-        description:
-          "Jan de Belastingman immediately provides you with independent and reliable advice about your AOW pension questions. You can take this advice with you and consult it when needed. For more complex situations, we'll connect you with an expert advisor within 24 hours.",
+        title: "3. Create an account and manage your tax questions",
+        description: "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
         image: "/storage/media/account-dashboard.png",
         alt: "Account Dashboard",
-        showButton: true,
-      },
-    ],
+        showButton: true
+      }
+    ]
   },
-  faq: {
-    title: "Frequently Asked Questions and Latest Articles",
-    faqTitle: "Frequently Asked Questions",
-    blogTitle: "Latest Articles",
-    buttonText: "View all articles",
-    buttonLink: "/en/blog",
-    faqItems: [
-      {
-        question: "When do I receive AOW pension?",
-        answer:
-          "The AOW pension age is gradually increasing. In 2024, it's 67 years. You automatically receive a letter from the SVB a few months before you reach AOW age, with information about your pension payments.",
-      },
-      {
-        question: "How is AOW pension calculated?",
-        answer:
-          "The amount depends on your living situation and how long you've lived in the Netherlands between ages 15 and AOW age. Each year contributes 2% to your full pension rights. Living or working abroad may affect your pension amount.",
-      },
-      {
-        question: "What are the tax implications of AOW pension?",
-        answer:
-          "AOW pension is taxable income in the Netherlands. The tax rate depends on your total income, including any additional pensions or other income sources. We can help you understand your tax obligations and potential deductions.",
-      },
-    ],
-    blogCategory: "business-tax",
+  form: {
+    name: "tax-return",
   },
 };
 
