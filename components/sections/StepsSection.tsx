@@ -10,7 +10,7 @@ interface Step {
 }
 
 interface StepsSectionProps {
-  sectionTitle: string;
+  SectionTitle?: string;
   steps: Step[];
   buttonText: string;
   buttonLink: string;
@@ -26,9 +26,9 @@ export default function StepsSection({
 }: StepsSectionProps) {
   return (
     <div>
-      <h2 className="text-2xl font-bold text-center mb-12">
-        {sectionTitle}
-      </h2>
+      {SectionTitle && (
+        <h2 className="text-2xl font-bold text-center mb-12">{SectionTitle}</h2>
+      )}
       <div className="space-y-16">
         {steps.map((step, index) => (
           <div key={index} className="grid md:grid-cols-2 gap-12 items-center">
