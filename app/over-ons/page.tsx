@@ -129,8 +129,8 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
           </div>
           <div className="md:w-1/2 relative h-64 rounded-xl overflow-hidden shadow-lg">
             <Image
-              src="/placeholder.svg?height=400&width=600"
-              alt="Oprichters Mathijs en Marcus"
+              src="/storage/media/administration.jpg"
+              alt="Oprichting Jan de Belastingman"
               layout="fill"
               objectFit="cover"
               className="rounded-xl"
