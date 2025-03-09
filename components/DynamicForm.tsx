@@ -2,6 +2,7 @@
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { AnimatePresence, motion } from "framer-motion";
+import { UploadCloud } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
@@ -59,6 +60,7 @@ interface FormField {
   condition_field?: string;
   condition_operator?: string;
   condition_value?: any;
+  accept?: string;
 }
 
 interface FormSection {
@@ -206,6 +208,18 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
           case "date":
             fieldSchema = z.date();
             break;
+          case "file": {
+            const fileSchema = z.custom<FileList>(
+              (val) => val instanceof FileList,
+              {
+                message: "Please select a file",
+              }
+            );
+            fieldSchema = field.is_required
+              ? fileSchema
+              : fileSchema.optional();
+            break;
+          }
           default: {
             const stringSchema = z.string();
             fieldSchema = field.is_required
@@ -238,6 +252,9 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
             break;
           case "date":
             defaultValues[field.field_key] = null;
+            break;
+          case "file":
+            defaultValues[field.field_key] = undefined;
             break;
           default:
             defaultValues[field.field_key] = "";
@@ -469,6 +486,41 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
                             />
                           );
 
+                        case "checkboxes":
+                          return (
+                            <div className="flex flex-col gap-2">
+                              {field.options?.map((option) => (
+                                <label
+                                  key={option.value}
+                                  className="flex items-center gap-2 cursor-pointer"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    className="h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary"
+                                    value={option.value}
+                                    checked={(
+                                      formField.value as string[]
+                                    )?.includes(option.value)}
+                                    onChange={(e) => {
+                                      const value = option.value;
+                                      const currentValues =
+                                        (formField.value as string[]) || [];
+                                      const newValues = e.target.checked
+                                        ? [...currentValues, value]
+                                        : currentValues.filter(
+                                            (v) => v !== value
+                                          );
+                                      formField.onChange(newValues);
+                                    }}
+                                  />
+                                  <span className="text-sm">
+                                    {option.label}
+                                  </span>
+                                </label>
+                              ))}
+                            </div>
+                          );
+
                         case "radio":
                           return (
                             <RadioGroup
@@ -519,6 +571,72 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
                                 />
                               </PopoverContent>
                             </Popover>
+                          );
+
+                        case "file":
+                          return (
+                            <div className="flex flex-col gap-2">
+                              <label className="flex flex-col items-center justify-center w-full h-32 border-2 border-dashed border-gray-300 rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100 transition-colors">
+                                <input
+                                  type="file"
+                                  className="hidden"
+                                  multiple={true}
+                                  accept={field.accept || "*/*"}
+                                  onChange={(e) => {
+                                    const files = e.target.files;
+                                    if (files && files.length > 0) {
+                                      formField.onChange(files);
+                                    }
+                                  }}
+                                />
+                                <div className="flex flex-col items-center justify-center pt-5 pb-6">
+                                  <UploadCloud className="w-8 h-8 mb-3 text-gray-400" />
+                                  <p className="mb-2 text-sm text-gray-500">
+                                    <span className="font-semibold">
+                                      Click to upload
+                                    </span>{" "}
+                                    or drag and drop
+                                  </p>
+                                  <p className="text-xs text-gray-500">
+                                    {field.helper_text ||
+                                      "Any file type allowed"}
+                                  </p>
+                                </div>
+                              </label>
+                              {formField.value && (
+                                <div className="flex flex-col gap-2">
+                                  {Array.from(formField.value as FileList).map(
+                                    (file, index) => (
+                                      <div
+                                        key={index}
+                                        className="flex items-center justify-between p-2 bg-gray-50 rounded-lg"
+                                      >
+                                        <span className="text-sm truncate">
+                                          {file.name}
+                                        </span>
+                                        <button
+                                          type="button"
+                                          className="text-red-500 hover:text-red-700"
+                                          onClick={() => {
+                                            const dt = new DataTransfer();
+                                            const files = Array.from(
+                                              formField.value as FileList
+                                            )
+                                              .filter((_, i) => i !== index)
+                                              .forEach((file) =>
+                                                dt.items.add(file)
+                                              );
+                                            formField.onChange(dt.files);
+                                          }}
+                                        >
+                                          Remove
+                                        </button>
+                                      </div>
+                                    )
+                                  )}
+                                </div>
+                              )}
+                            </div>
                           );
 
                         default:
