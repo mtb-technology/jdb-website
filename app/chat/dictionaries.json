@@ -8,7 +8,7 @@
         "ogTitle": "Jan de Belastingman - Belastingaangifte assistentie",
         "ogDescription": "Stel je vragen over belastingaangifte en krijg direct deskundig advies van onze AI-assistent."
       },
-      "assistantName": "Jan de HOME",
+      "assistantName": "Jan de Belastingman",
       "assistantDescription": "Inkomstenbelasting assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
@@ -69,6 +69,7 @@
     },
     "entrepreneur": {
       "assistantId": 8,
+      "selectable": true,
       "metadata": {
         "title": "Jan de Belastingman | ZZP Adviseur",
         "description": "Krijg direct antwoord op al je vragen over ZZP met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -91,6 +92,7 @@
     },
     "m-form": {
       "assistantId": 5,
+      "selectable": true,
       "metadata": {
         "title": "Jan de Belastingman | M-formulier Adviseur",
         "description": "Krijg direct antwoord op al je vragen over het M-formulier met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -179,6 +181,7 @@
     },
     "general-questions": {
       "assistantId": 9,
+      "selectable": true,
       "metadata": {
         "title": "Jan de Belastingman | Algemene Vragen",
         "description": "Krijg direct antwoord op al je algemene belastingvragen met onze AI-assistent. Professioneel, betrouwbaar en 24/7 beschikbaar.",
@@ -292,6 +295,7 @@
     },
     "entrepreneur": {
       "assistantId": 8,
+      "selectable": true,
       "metadata": {
         "title": "Jan de Belastingman | Self-Employed Professional Advisor",
         "description": "Get instant answers to all your self-employed questions with our AI assistant. Professional, reliable, and available 24/7.",
@@ -314,6 +318,7 @@
     },
     "m-form": {
       "assistantId": 5,
+      "selectable": true,
       "metadata": {
         "title": "Jan de Belastingman | M Form Advisor",
         "description": "Get instant answers to all your M Form questions with our AI assistant. Professional, reliable, and available 24/7.",
@@ -402,6 +407,7 @@
     },
     "general-questions": {
       "assistantId": 9,
+      "selectable": true,
       "metadata": {
         "title": "Jan de Belastingman | General Questions",
         "description": "Get instant answers to all your general tax questions with our AI assistant. Professional, reliable, and available 24/7.",
