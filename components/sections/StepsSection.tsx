@@ -10,7 +10,7 @@ interface Step {
 }
 
 interface StepsSectionProps {
-  SectionTitle?: string;
+  title?: string;
   steps: Step[];
   buttonText: string;
   buttonLink: string;
@@ -18,7 +18,7 @@ interface StepsSectionProps {
 }
 
 export default function StepsSection({
-  sectionTitle,
+  title,
   steps,
   buttonText,
   buttonLink,
@@ -26,8 +26,8 @@ export default function StepsSection({
 }: StepsSectionProps) {
   return (
     <div>
-      {SectionTitle && (
-        <h2 className="text-2xl font-bold text-center mb-12">{SectionTitle}</h2>
+      {title && (
+        <h2 className="text-2xl font-bold text-center mb-12">{title}</h2>
       )}
       <div className="space-y-16">
         {steps.map((step, index) => (
