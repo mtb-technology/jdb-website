@@ -69,19 +69,19 @@ const dictionary = {
     items: [
       {
         title: "1. Ask your question 24/7 and get instant answers",
-        description: "Do you have a question about your taxes? At Jan de Belastingman, you can ask your question online and get an immediate clear answer from our smart AI chatbot. It's directly connected to the most up-to-date tax data, so whether it's about deductions, allowances, or your tax return, you'll always get a quick and reliable solution – without waiting!",
+        description: "Do you have a question about your taxes? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about deductions, VAT or your tax return, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with GDPR requirements.",
         image: "/storage/media/chat-interface.png",
         alt: "Chat Interface"
       },
       {
         title: "2. Need more help? We'll find you a suitable advisor",
-        description: "Sometimes a question is too specific or personal for our chatbot, which can't yet apply all rules to your unique situation. No problem! Within 24 hours, Jan de Belastingman will connect you with an expert advisor who fully understands your situation and will personally work out the rules for you. This way, you'll always get the help that fits your needs, hassle-free.",
+        description: "Sometimes a question is too specific for our chatbot, or you prefer to delegate (part of) your administration. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your situation and works out the rules for you personally. That way you always get specialist help that's just right for you, without the hassle.",
         image: "/storage/media/business-professional.jpeg",
         alt: "Professional Advisor"
       },
       {
         title: "3. Create an account and manage your tax questions",
-        description: "With a free account at Jan de Belastingman, you can keep everything organized in one place. Easily sign up via social login (Google or Facebook) or email and save all your tax questions and answers in one location. This way, you can always review what you've asked - from allowances to deductions - and don't have to start over each time. Convenient for now and later, for example during your next tax return!",
+        description: "With a free account with Jan de Belastingman, you'll keep everything organized. Sign up easily via social login (Google or Facebook) or your e-mail and save all your tax questions in one place. This way you can always look back at what you have asked - from allowances to deductions - and you don't have to keep starting over. Handy for now and later, for your next tax return, for example!",
         image: "/storage/media/account-dashboard.png",
         alt: "Account Dashboard",
         showButton: true

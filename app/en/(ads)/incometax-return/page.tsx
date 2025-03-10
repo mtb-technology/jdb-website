@@ -68,13 +68,13 @@ const dictionary = {
     buttonSubtext: "Instant answer",
     items: [
       {
-        title: "1. Ask your question 24/7 and get an immediate answer",
-        description: "Do you have a question about your taxes? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about deductions, VAT or your tax return, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with AVG requirements.",
+        title: "1. Ask your question 24/7 and get instant answers",
+        description: "Do you have a question about your taxes? At Jan de Belastingman, ask your question online and get a clear answer right away from our smart AI chatbot. It is directly connected to the most up-to-date tax data, so whether it's about deductions, VAT or your tax return, you will always get a quick and reliable solution, without waiting! We handle your data securely and in compliance with GDPR requirements.",
         image: "/storage/media/chat-interface.png",
         alt: "Chat Interface"
       },
       {
-        title: "2. Need more help? We will find a suitable advisor",
+        title: "2. Need more help? We'll find you a suitable advisor",
         description: "Sometimes a question is too specific for our chatbot, or you prefer to delegate (part of) your administration. No problem! Within 24 hours, Jan de Belastingman pairs you with an expert advisor who fully understands your situation and works out the rules for you personally. That way you always get specialist help that's just right for you, without the hassle.",
         image: "/storage/media/business-professional.jpeg",
         alt: "Professional Advisor"
