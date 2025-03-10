@@ -49,8 +49,8 @@ const nextConfig: NextConfig = {
       
       // Self employed professional
       //{ source: '/zelfstandigen-zonder-personeel', destination: '/onderwerpen/zelfstandigen-zonder-personeel', permanent: true }, #ads page
-      { source: '/en/self-employed-professional', destination: '/en/topics/self-employed-professional', permanent: true },
-      { source: '/en/self-employed-professionals', destination: '/en/topics/self-employed-professional', permanent: true },
+      { source: '/en/self-employed-professional', destination: '/en/topics/entrepreneur', permanent: true },
+      { source: '/en/self-employed-professionals', destination: '/en/topics/entrepreneur', permanent: true },
 
       // Healthcare allowance
       { source: '/zorgtoeslag', destination: '/onderwerpen/zorgtoeslag', permanent: true },
@@ -58,7 +58,7 @@ const nextConfig: NextConfig = {
       
       // Housing allowance
       { source: '/huurtoeslag', destination: '/onderwerpen/huurtoeslag', permanent: true },
-      { source: '/en/housing-allowance', destination: '/en/housing-allowance', permanent: true },
+      { source: '/en/housing-allowance', destination: '/en/topics/housing-allowance', permanent: true },
       
       // Childcare allowance
       { source: '/kinderopvangtoeslag', destination: '/onderwerpen/kinderopvangtoeslag', permanent: true },
@@ -69,13 +69,13 @@ const nextConfig: NextConfig = {
       { source: '/en/child-benefit', destination: '/en/topics/child-benefit', permanent: true },
       
       // AOW pension
-      { source: '/aow-pensioen', destination: '/onderwerpen/aow-pensioen', permanent: true },
-      { source: '/en/aow-pension', destination: '/en/topics/aow-pension', permanent: true }, 
-      { source: '/en/aow-pension-en', destination: '/en/topics/aow-pension', permanent: true },
+      { source: '/aow-pensioen', destination: '/onderwerpen/aow', permanent: true },
+      { source: '/en/aow-pension', destination: '/en/topics/general-old-age-act', permanent: true }, 
+      { source: '/en/aow-pension-en', destination: '/en/topics/general-old-age-act', permanent: true },
       
       // Income AOW pension
-      { source: '/inkomen-aow-pensioen', destination: '/onderwerpen/inkomen-aow-pensioen', permanent: true },
-      { source: '/en/income-aow-pension', destination: '/en/topics/income-aow-pension', permanent: true },
+      { source: '/inkomen-aow-pensioen', destination: '/onderwerpen/inkomen-aow', permanent: true },
+      { source: '/en/income-aow-pension', destination: '/en/topics/income-general-old-age-act', permanent: true },
       
       // // Blog
       // { source: '/blog', destination: '/blog', permanent: true },

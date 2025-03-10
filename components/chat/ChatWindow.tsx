@@ -57,7 +57,7 @@ export default function ChatWindow({ dict }: { dict: any }) {
               <Input
                 ref={inputRef}
                 type="text"
-                placeholder="Stel je vraag"
+                placeholder={dict.inputPlaceholder}
                 className="w-full pl-4 pr-12 py-6 rounded-xl shadow-lg text-base"
                 onKeyDown={(e) => {
                   if (e.key === "Enter" && inputRef.current?.value) {

@@ -288,7 +288,9 @@
         "description": "Sluit je aan bij duizenden Nederlanders die al profiteren van ons persoonlijke, AI-gedreven belastingadvies. Laat Jan de Belastingman je helpen navigeren door de complexe wereld van belastingen.",
         "buttons": {
           "chat": "Stel je vraag in de chat",
-          "howItWorks": "Hoe het werkt"
+          "chatHref": "/",
+          "howItWorks": "Hoe het werkt",
+          "howItWorksHref": "/hoe-werkt-het"
         }
       }
     }
@@ -384,10 +386,11 @@
       },
       "faq": {
         "title": "Veelgestelde vragen en laatste artikelen",
-        "faqTitle": "Veelgestelde vragen",
-        "blogTitle": "Laatste artikelen over BV's",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Wat is een BV en waarom zou ik er een oprichten?",
@@ -401,8 +404,7 @@
             "question": "Hoe kan Jan de Belastingman me helpen bij het beheren van mijn BV?",
             "answer": "Jan de Belastingman biedt deskundig advies en ondersteuning op verschillende gebieden van BV-beheer, waaronder belastingplanning, naleving van wet- en regelgeving, financiële rapportage en strategisch advies. Onze AI-chatbot kan direct antwoord geven op veelvoorkomende vragen, terwijl ons netwerk van ervaren adviseurs beschikbaar is voor complexere zaken. We helpen je om je BV financieel gezond te houden en optimaal gebruik te maken van beschikbare belastingvoordelen."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "tax-advisor": {
@@ -509,11 +511,11 @@
       },
       "faq": {
         "title": "Veelgestelde vragen en laatste artikelen",
-        "faqTitle": "Veelgestelde vragen",
-        "blogTitle": "Laatste artikelen over belastingaangifte",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
-        "blogCategory": "belastingaangifte",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Wanneer moet ik belastingaangifte doen?",
@@ -620,11 +622,12 @@
         ]
       },
       "faq": {
-        "title": "Veelgestelde Vragen en Laatste Artikelen",
-        "faqTitle": "Veelgestelde Vragen",
-        "blogTitle": "Laatste Artikelen",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Is het advies gratis?",
@@ -638,8 +641,7 @@
             "question": "Hoe zorgen jullie voor de veiligheid van mijn gegevens?",
             "answer": "We gebruiken geavanceerde beveiligingsmaatregelen om je persoonlijke informatie te beschermen, in overeenstemming met strikte AVG-protocollen."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "m-form": {
@@ -732,12 +734,12 @@
         ]
       },
       "faq": {
-        "title": "Veelgestelde Vragen en Laatste Artikelen",
-        "faqTitle": "Veelgestelde Vragen",
-        "blogTitle": "Laatste Artikelen",
-        "blogCategory": "business-tax",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Wanneer moet ik een M-formulier indienen?",
@@ -858,12 +860,12 @@
         ]
       },
       "faq": {
-        "title": "Veelgestelde Vragen en Laatste Artikelen",
-        "faqTitle": "Veelgestelde Vragen",
-        "blogTitle": "Laatste Artikelen",
-        "blogCategory": "business-tax",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Op welke belastingkortingen heb ik recht?",
@@ -984,12 +986,12 @@
         ]
       },
       "faq": {
-        "title": "Veelgestelde Vragen en Laatste Artikelen",
-        "faqTitle": "Veelgestelde Vragen",
-        "blogTitle": "Laatste Artikelen",
-        "blogCategory": "business-tax",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Wat zijn de erfbelastingtarieven in Nederland?",
@@ -1110,12 +1112,12 @@
         ]
       },
       "faq": {
-        "title": "Veelgestelde Vragen en Laatste Artikelen",
-        "faqTitle": "Veelgestelde Vragen",
-        "blogTitle": "Laatste Artikelen",
-        "blogCategory": "business-tax",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Wat zijn de vereisten voor ondernemers/ZZP'ers?",
@@ -1236,12 +1238,12 @@
         ]
       },
       "faq": {
-        "title": "Veelgestelde Vragen en Laatste Artikelen",
-        "faqTitle": "Veelgestelde Vragen",
-        "blogTitle": "Laatste Artikelen",
-        "blogCategory": "business-tax",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Wat zijn de voorwaarden voor zorgtoeslag?",
@@ -1348,11 +1350,12 @@
         ]
       },
       "faq": {
-        "title": "Veelgestelde Vragen en Laatste Artikelen",
-        "faqTitle": "Veelgestelde Vragen",
-        "blogTitle": "Laatste Artikelen",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Wat zijn de voorwaarden voor huurtoeslag?",
@@ -1366,8 +1369,7 @@
             "question": "Kan ik huurtoeslag krijgen als ik een huis deel?",
             "answer": "Ja, maar er gelden specifieke regels voor gedeelde huisvesting. Alle bewoners moeten ingeschreven staan op het adres en het totale huishoudinkomen wordt meegenomen in de berekening."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "childcare-allowance": {
@@ -1460,11 +1462,12 @@
         ]
       },
       "faq": {
-        "title": "Veelgestelde Vragen en Laatste Artikelen",
-        "faqTitle": "Veelgestelde Vragen",
-        "blogTitle": "Laatste Artikelen",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Wie komt in aanmerking voor kinderopvangtoeslag?",
@@ -1478,8 +1481,7 @@
             "question": "Hoe wordt de toeslag berekend?",
             "answer": "Het bedrag is gebaseerd op je gezinsinkomen, het aantal kinderen in de opvang, het type opvang en het uurtarief (tot een maximum). Hoe lager je inkomen, hoe hoger het percentage van de kosten dat wordt vergoed."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "child-benefit": {
@@ -1572,11 +1574,12 @@
         ]
       },
       "faq": {
-        "title": "Veelgestelde Vragen en Laatste Artikelen",
-        "faqTitle": "Veelgestelde Vragen",
-        "blogTitle": "Laatste Artikelen",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Wie komt in aanmerking voor kinderbijslag?",
@@ -1590,8 +1593,7 @@
             "question": "Wanneer en hoe wordt kinderbijslag uitbetaald?",
             "answer": "Kinderbijslag wordt elk kwartaal uitbetaald door de SVB (Sociale Verzekeringsbank). De betaaldata zijn in januari, april, juli en oktober. Het geld wordt direct op je bankrekening gestort."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "general-old-age-act": {
@@ -1684,11 +1686,12 @@
         ]
       },
       "faq": {
-        "title": "Veelgestelde Vragen en Laatste Artikelen",
-        "faqTitle": "Veelgestelde Vragen",
-        "blogTitle": "Laatste Artikelen",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Wanneer ontvang ik AOW pensioen?",
@@ -1702,8 +1705,7 @@
             "question": "Wat zijn de belastingimplicaties van AOW pensioen?",
             "answer": "AOW pensioen is belastbaar inkomen in Nederland. Het belastingtarief hangt af van je totale inkomen, inclusief eventuele aanvullende pensioenen of andere inkomstenbronnen. We kunnen je helpen om je belastingverplichtingen en mogelijke aftrekposten te begrijpen."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "income-general-old-age-act": {
@@ -1796,11 +1798,12 @@
         ]
       },
       "faq": {
-        "title": "Veelgestelde Vragen en Laatste Artikelen",
-        "faqTitle": "Veelgestelde Vragen",
-        "blogTitle": "Laatste Artikelen",
+        "title": "Veelgestelde vragen en laatste artikelen",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "Bekijk alle artikelen",
         "buttonLink": "/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Hoe beïnvloedt extra inkomen mijn AOW?",
@@ -1814,8 +1817,7 @@
             "question": "Zijn er grenzen aan hoeveel ik kan bijverdienen naast AOW?",
             "answer": "Er is geen limiet aan hoeveel je kunt verdienen naast je AOW-pensioen. Echter kan een hoger inkomen wel invloed hebben op andere toeslagen die je ontvangt, zoals zorgtoeslag of huurtoeslag."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     }
   },
