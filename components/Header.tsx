@@ -40,8 +40,8 @@ export default function Header({ dict }: HeaderProps) {
           />
           <span className="ml-2 text-gray-600 hidden lg:block">
             {locale === "nl"
-              ? "4.8/5, 101 geverifieerde reviews"
-              : "4.8/5, 101 verified reviews"}
+              ? "4.8/5 uit reviews"
+              : "4.8 stars from reviews"}
           </span>
         </div>
         <LanguageSwitcher />

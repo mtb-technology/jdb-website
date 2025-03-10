@@ -21,7 +21,7 @@ const dictionary = {
       width: 800,
       height: 600,
     },
-    stats: "4,800+ satisfied clients",
+    stats: "1,800+ satisfied clients",
   },
   partners: {
     title: "As featured in",
