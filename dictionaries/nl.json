@@ -288,7 +288,9 @@
         "description": "Sluit je aan bij duizenden Nederlanders die al profiteren van ons persoonlijke, AI-gedreven belastingadvies. Laat Jan de Belastingman je helpen navigeren door de complexe wereld van belastingen.",
         "buttons": {
           "chat": "Stel je vraag in de chat",
-          "howItWorks": "Hoe het werkt"
+          "chatHref": "/",
+          "howItWorks": "Hoe het werkt",
+          "howItWorksHref": "/hoe-werkt-het"
         }
       }
     }

@@ -284,11 +284,13 @@
         ]
       },
       "cta": {
-        "title": "Ready to simplify your tax matters?",
-        "description": "Join thousands of Dutch citizens already benefiting from our personal, AI-driven tax advice. Let Jan de Belastingman help you navigate through the complex world of taxes.",
+        "title": "Ready to simplify your taxes?",
+        "description": "Join thousands of people already benefiting from our personalized, AI-driven tax advice. Let Jan de Belastingman help you navigate the complex world of taxes.",
         "buttons": {
           "chat": "Ask your question in chat",
-          "howItWorks": "How it works"
+          "chatHref": "/en",
+          "howItWorks": "How it works",
+          "howItWorksHref": "/en/how-it-works"
         }
       }
     }

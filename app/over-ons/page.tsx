@@ -65,6 +65,8 @@ interface AboutUsDict {
     buttons: {
       chat: string;
       howItWorks: string;
+      chatHref: string;
+      howItWorksHref: string;
     };
   };
 }
@@ -248,16 +250,15 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
           {dict.cta.description}
         </p>
         <div className="flex justify-center gap-4">
-          <Link href="/en/">
+          <Link href={dict.cta.buttons.chatHref}>
             <Button className="bg-primary text-white hover:bg-[#2341C7] transition-colors duration-300">
               {dict.cta.buttons.chat}
             </Button>
           </Link>
-          <Link href="/en/how-it-works">
+          <Link href={dict.cta.buttons.howItWorksHref}>
             <Button
               variant="outline"
-              className="border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300"
-            >
+              className="border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300">
               {dict.cta.buttons.howItWorks}
             </Button>
           </Link>
