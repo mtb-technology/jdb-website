@@ -199,7 +199,7 @@
           {
             "name": "Beaudinn",
             "role": "AI & Engineering",
-            "background": "Een full-stack engineer met tien jaar ervaring in AI en datagedreven ontwikkeling, die veilige, schaalbare en hoogwaardige systemen bouwt.",
+            "background": "Een full-stack engineer met tien jaar ervaring in AI en datagedreven ontwikkeling, in het bouwen van veilige, schaalbare en hoogwaardige systemen.",
             "imageSrc": "/storage/media/beaudinn.jpeg"
           },
           {
@@ -211,7 +211,7 @@
           {
             "name": "Marcus",
             "role": "Oprichter",
-            "background": "Een AI- en SaaS-innovator, die meerdere ondernemingen aanstuurt die technologie vooruit stuwen en digitale oplossingen herdefiniëren.",
+            "background": "Een AI-innovator die meerdere bedrijven heeft opgericht om de grenzen van technologie te verleggen en digitale oplossingen te herdefiniëren.",
             "imageSrc": "/storage/media/marcus.jpeg"
           }
         ]
