@@ -386,10 +386,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles about BV's",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "What is a BV and why should I establish one?",
@@ -403,8 +404,7 @@
             "question": "How can Jan de Belastingman help me manage my BV?",
             "answer": "Jan de Belastingman provides expert advice and support in various areas of BV management, including tax planning, compliance with laws and regulations, financial reporting, and strategic advice. Our AI-powered chatbot can provide immediate answers to common questions, while our network of experienced advisors is available for more complex matters. We help you keep your BV financially healthy and make optimal use of available tax benefits."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "tax-advisor": {
@@ -511,11 +511,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles about BV's",
-        "blogCategory": "business-tax",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "What is the 30% ruling and am I eligible?",
@@ -623,10 +623,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Is the advice free?",
@@ -640,8 +641,7 @@
             "question": "How do you ensure my data is secure?",
             "answer": "We employ advanced security measures to protect your personal information, adhering to strict GDPR protocols."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "m-form": {
@@ -734,12 +734,12 @@
         ]
       },
       "faq": {
-        "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
-        "blogCategory": "business-tax",
-        "buttonText": "View all articles",
-        "buttonLink": "/en/blog",
+      "title": "Frequently Asked Questions and Latest Articles",
+      "faqTitle": "FAQ",
+      "blogTitle": "Blog",
+      "buttonText": "View all articles",
+      "buttonLink": "/en/blog",
+      "blogCategory": "",
         "faqItems": [
           {
             "question": "When do I need to file an M form?",
@@ -861,11 +861,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
-        "blogCategory": "business-tax",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "What tax credits am I entitled to?",
@@ -987,11 +987,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
-        "blogCategory": "business-tax",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "What are the inheritance tax rates in the Netherlands?",
@@ -1113,11 +1113,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
-        "blogCategory": "business-tax",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "What are the requirements for entrepreneurs/ZZP?",
@@ -1239,11 +1239,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
-        "blogCategory": "business-tax",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "What are the requirements for healthcare allowance?",
@@ -1351,10 +1351,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "What are the requirements for housing allowance?",
@@ -1368,8 +1369,7 @@
             "question": "Can I get housing allowance if I share a house?",
             "answer": "Yes, but specific rules apply for shared housing. All residents must be registered at the address, and the total household income is considered in the calculation."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "childcare-allowance": {
@@ -1463,10 +1463,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Who is eligible for childcare allowance?",
@@ -1480,8 +1481,7 @@
             "question": "How is the allowance calculated?",
             "answer": "The amount is based on your household income, the number of children in childcare, the type of childcare, and the hourly rate (up to a maximum). The lower your income, the higher the percentage of costs that will be reimbursed."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "child-benefit": {
@@ -1575,10 +1575,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "Who is eligible for child benefit?",
@@ -1592,8 +1593,7 @@
             "question": "When and how is child benefit paid?",
             "answer": "Child benefit is paid quarterly by the SVB (Social Insurance Bank). The payment dates are in January, April, July, and October. The money is transferred directly to your bank account."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "general-old-age-act": {
@@ -1687,10 +1687,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest Articles",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "When do I receive AOW pension?",
@@ -1704,8 +1705,7 @@
             "question": "What are the tax implications of AOW pension?",
             "answer": "AOW pension is taxable income in the Netherlands. The tax rate depends on your total income, including any additional pensions or other income sources. We can help you understand your tax obligations and potential deductions."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
     },
     "income-general-old-age-act": {
@@ -1799,10 +1799,11 @@
       },
       "faq": {
         "title": "Frequently Asked Questions and Latest Articles",
-        "faqTitle": "Frequently Asked Questions",
-        "blogTitle": "Latest ArticlesW",
+        "faqTitle": "FAQ",
+        "blogTitle": "Blog",
         "buttonText": "View all articles",
         "buttonLink": "/en/blog",
+        "blogCategory": "",
         "faqItems": [
           {
             "question": "How does additional income affect my AOW pension?",
@@ -1816,11 +1817,10 @@
             "question": "Are there limits to how much I can earn alongside AOW?",
             "answer": "There's no limit to how much you can earn while receiving AOW pension. However, higher income may affect other benefits or allowances you receive, such as healthcare allowance or rent subsidy."
           }
-        ],
-        "blogCategory": "business-tax"
+        ]
       }
-    }
-  },
+  }
+},
   "ads": {
     "tax-return-filed": {
       "title": "Tax Advisor",
