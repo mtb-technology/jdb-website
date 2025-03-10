@@ -101,10 +101,7 @@ const dictionary = {
         showButton: true
       }
     ]
-  },
-  form: {
-    name: "tax-return",
-  },
+  }
 };
 
 export default async function TaxAdvisorPage() {
