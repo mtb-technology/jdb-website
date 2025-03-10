@@ -10,6 +10,7 @@ interface Step {
 }
 
 interface StepsSectionProps {
+  sectionTitle?: string;
   title?: string;
   steps: Step[];
   buttonText: string;
@@ -18,6 +19,7 @@ interface StepsSectionProps {
 }
 
 export default function StepsSection({
+  sectionTitle,
   title,
   steps,
   buttonText,
