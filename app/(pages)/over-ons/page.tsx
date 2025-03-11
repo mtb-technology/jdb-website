@@ -119,7 +119,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
       {/* Our Story Section */}
       <section className="bg-gray-50 rounded-2xl p-10">
         <div className="flex flex-col md:flex-row gap-10 items-center">
-          <div className="md:w-1/2">
+          <div className="lg:w-1/2">
             <h2 className="text-3xl font-bold mb-4 text-primary">
               {dict.story.title}
             </h2>
@@ -129,7 +129,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
               </p>
             ))}
           </div>
-          <div className="md:w-1/2 relative h-64 rounded-xl overflow-hidden shadow-lg">
+          <div className="lg:w-1/2 relative h-64 rounded-xl overflow-hidden shadow-lg">
             <Image
               src="/storage/media/administration.jpg"
               alt="Oprichting Jan de Belastingman"
@@ -149,7 +149,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
         <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
           {dict.team.description}
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-5  xl:grid-cols-5  gap-6">
           {teamMembers.map((member: any, index: number) => (
             <div
               key={index}
@@ -203,7 +203,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
         <p className="text-center text-gray-600 max-w-3xl mx-auto mb-8">
           {dict.partners.description}
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {dict.partners.types.map((type: any, index: number) => (
             <div key={index} className="bg-white p-6 rounded-xl shadow-md">
               <h3 className="text-xl font-bold mb-2 text-primary">
@@ -217,7 +217,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
 
       {/* Mission and Vision Section */}
       <section>
-        <div className="grid md:grid-cols-2 gap-10">
+        <div className="grid lg:grid-cols-2 gap-10">
           <div className="bg-gray-50 p-8 rounded-xl">
             <h2 className="text-3xl font-bold mb-4 text-primary">
               {dict.mission.title}
@@ -258,7 +258,8 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
           <Link href={dict.cta.buttons.howItWorksHref}>
             <Button
               variant="outline"
-              className="border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300">
+              className="border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300"
+            >
               {dict.cta.buttons.howItWorks}
             </Button>
           </Link>
