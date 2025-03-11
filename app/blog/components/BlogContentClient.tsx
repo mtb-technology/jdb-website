@@ -10,6 +10,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
+import NewsletterSubscription from "./NewsletterSubscription";
 
 interface BlogContentClientProps {
   initialPosts: BlogPostsResponse;
@@ -231,29 +232,7 @@ export function BlogContentClient({
         )}
 
         {/* Newsletter Section */}
-        {/* <section className="max-w-4xl mx-auto px-6 mt-24">
-          <div className="bg-gray-50 rounded-2xl p-8 md:p-12">
-            <div className="text-center mb-8">
-              <h2 className="text-2xl font-bold mb-3">
-                {dict.pages.blog.newsletter.title}
-              </h2>
-              <p className="text-gray-600">
-                {dict.pages.blog.newsletter.description}
-              </p>
-            </div>
-            <form className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
-              <input
-                type="email"
-                placeholder={dict.pages.blog.newsletter.emailPlaceholder}
-                className="flex-1 px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
-                required
-              />
-              <Button className="bg-primary text-white hover:bg-[#2341C7] whitespace-nowrap">
-                {dict.pages.blog.newsletter.subscribeButton}
-              </Button>
-            </form>
-          </div>
-        </section> */}
+        <NewsletterSubscription dict={dict} />
       </div>
     </div>
   );
