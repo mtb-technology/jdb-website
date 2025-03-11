@@ -46,7 +46,7 @@ export async function AdsPage({
 
           {form && form.name && (
             <div className="container">
-              <FormSection formName={form.name} />
+              <FormSection formName={form.name} locale={locale} />
             </div>
           )}
         </div>

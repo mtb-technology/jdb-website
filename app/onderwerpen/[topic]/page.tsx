@@ -104,7 +104,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
           {form && form.name && (
             <div className="container">
-              <FormSection formName={form.name} />
+              <FormSection formName={form.name} locale={locale} />
             </div>
           )}
         </div>

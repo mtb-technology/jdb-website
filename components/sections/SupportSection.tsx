@@ -23,17 +23,17 @@ export default function SupportSection({
 }: SupportSectionProps) {
   return (
     <div className="mb-20">
-      <div className="bg-[#EEF2FF] rounded-2xl shadow-lg overflow-hidden">
+      <div className="bg-gradient-to-r from-[#214bc6] to-[#021857] rounded-2xl shadow-lg overflow-hidden"> {/*bg-[#EEF2FF] */}
         <div className="grid md:grid-cols-2 gap-12 items-center p-6 md:p-12">
           <div>
-            <h2 className="text-3xl font-bold mb-6 text-primary">{title}</h2>
-            <p className="text-gray-700 mb-6">{description}</p>
+            <h2 className="text-3xl font-bold mb-6 text-white text-primary">{title}</h2>
+            <p className="text-white/90 mb-6" dangerouslySetInnerHTML={{ __html: description }} />
             <Link href={buttonLink}>
-              <Button className="bg-[#1E3BB3] text-white hover:bg-[#152C8F] transition-colors mb-2">
+              <Button className="bg-white text-primary hover:bg-grey-800 transition-colors mb-2">
                 {buttonText}
               </Button>
             </Link>
-            <p className="text-sm text-gray-600 mt-2">{buttonSubtext}</p>
+            <p className="text-sm text-white/90 mt-2">{buttonSubtext}</p>
           </div>
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-lg"></div>
