@@ -2,7 +2,7 @@ import { DynamicForm } from "@/components/DynamicForm";
 
 export default function FormSection({ formName }: { formName: string }) {
   return (
-    <div className="container mx-auto py-8">
+    <div className="">
       <DynamicForm handle={formName} />
     </div>
   );

@@ -6,7 +6,7 @@ import { SupportedLocale } from "@/lib/types";
 import { MessageCircle, UserPlus, Users } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { getDictionary } from "../dictionaries";
+import { getDictionary } from "../../dictionaries";
 
 interface HowItWorksDict {
   title: string;

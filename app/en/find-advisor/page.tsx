@@ -1,4 +1,4 @@
-import VindEenAdviseurPage from "@/app/vind-een-adviseur/page";
+import VindEenAdviseurPage from "@/app/(pages)/vind-een-adviseur/page";
 import { generatePageMetadata } from "@/lib/metadata";
 import { SupportedLocale } from "@/lib/types";
 import { Metadata } from "next";

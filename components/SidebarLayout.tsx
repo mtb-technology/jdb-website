@@ -235,7 +235,7 @@ export default function SidebarLayout({
   };
 
   return (
-    <div className="flex h-screen bg-white font-sans text-base">
+    <div className="flex h-screen overflow-hidden bg-white font-sans text-base">
       {/* Sidebar */}
       <aside className="hidden md:flex flex-col w-72 bg-primary text-white p-8 h-screen ">
         <div className="mb-16 text-base">

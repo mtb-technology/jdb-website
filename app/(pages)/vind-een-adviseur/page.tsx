@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { SupportedLocale } from "@/lib/types";
-import { getDictionary } from "../dictionaries";
+import { getDictionary } from "../../dictionaries";
 import AdvisorFinder from "./AdvisorFinder";
 
 interface VindEenAdviseurPageProps {
