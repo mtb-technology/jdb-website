@@ -27,7 +27,7 @@ export default function SupportSection({
         <div className="grid md:grid-cols-2 gap-12 items-center p-6 md:p-12">
           <div>
             <h2 className="text-3xl font-bold mb-6 text-white text-primary">{title}</h2>
-            <p className="text-white/90 mb-6">{description}</p>
+            <p className="text-white/90 mb-6" dangerouslySetInnerHTML={{ __html: description }} />
             <Link href={buttonLink}>
               <Button className="bg-white text-primary hover:bg-grey-800 transition-colors mb-2">
                 {buttonText}
