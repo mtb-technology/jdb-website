@@ -190,7 +190,7 @@ export default function SidebarLayout({
         <div key={link.label} className="space-y-2">
           <button
             onClick={() => toggleSubmenu(link.label)}
-            className={`flex items-center justify-between w-full hover:opacity-80 transition-opacity ${
+            className={`flex items-center justify-between w-full hover:opacity-80 transition-opacity cursor-pointer ${
               level > 0 ? "text-white/90" : ""
             }`}
             style={{ paddingLeft: `${paddingLeft}px` }}

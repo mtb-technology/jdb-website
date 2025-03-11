@@ -77,6 +77,7 @@ interface DynamicFormData {
 export function DynamicForm({ handle, className }: DynamicFormProps) {
   const [formData, setFormData] = useState<DynamicFormData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [formSubmitted, setFormSubmitted] = useState(false);
   const [, setForceUpdate] = useState({});
   const { trackingData } = useTracking();
   const pathname = usePathname();
@@ -389,6 +390,7 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
         throw new Error(response.message || "Form submission failed");
       }
 
+      setFormSubmitted(true);
       toast.success("Form submitted successfully");
       form.reset();
     } catch (error) {
@@ -397,12 +399,56 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
     }
   };
 
+  const resetForm = () => {
+    setFormSubmitted(false);
+    form.reset();
+  };
+
   if (isLoading) {
     return <div>Loading...</div>;
   }
 
   if (!formData) {
     return <div>Form not found</div>;
+  }
+
+  if (formSubmitted) {
+    return (
+      <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center max-w-2xl mx-auto">
+        <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-8 w-8 text-green-600"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M5 13l4 4L19 7"
+            />
+          </svg>
+        </div>
+        <h2 className="text-2xl font-bold mb-4">
+          {isEnglish
+            ? "Thank you for your submission!"
+            : "Bedankt voor je bericht!"}
+        </h2>
+        <p className="text-lg mb-6">
+          {isEnglish
+            ? "We have received your form submission and will get back to you soon."
+            : "We hebben je formulier ontvangen en nemen zo spoedig mogelijk contact met je op."}
+        </p>
+        <Button
+          onClick={resetForm}
+          className="bg-primary text-white hover:bg-[#2341C7]"
+        >
+          {isEnglish ? "Submit another form" : "Nieuw formulier"}
+        </Button>
+      </div>
+    );
   }
 
   const renderField = (field: FormField) => {
@@ -695,7 +741,12 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
         ))}
 
         <div className="flex justify-end">
-          <Button type="submit">Submit</Button>
+          <Button
+            type="submit"
+            className="w-full py-6 text-lg bg-primary text-white hover:bg-[#2341C7]"
+          >
+            Submit
+          </Button>
         </div>
       </form>
     </Form>
