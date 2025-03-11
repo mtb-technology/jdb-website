@@ -175,14 +175,14 @@
       "story": {
         "title": "Ons verhaal",
         "paragraphs": [
-          "Jan de Belastingman is opgericht met een duidelijke missie: belastingadvies democratiseren en deskundige begeleiding toegankelijk maken voor iedereen in Nederland.",
-          "Het idee kwam voort uit directe ervaring bij een stichting die goedkope belastinghulp aanbood. Het werd duidelijk dat er een enorme kloof bestond tussen belastingexpertise en de mensen die het nodig hadden, vooral wanneer belastingsituaties complexer werden. Velen worstelden met onduidelijke regels, dure adviseurs en een gebrek aan digitale oplossingen.",
-          "Met dit in gedachten ging een team van experts in AI, financiën en digitale innovatie aan de slag om een slimmere, toegankelijkere manier te creëren om belastinghulp te krijgen. De visie werd bepaald en het team bouwde en schaalde Jan de Belastingman tot wat het nu is."
+          "Bij Jan de Belastingman vinden we dat belastingadvies makkelijk en toegankelijk moet zijn voor iedereen.",
+          "Het idee ontstond tijdens werk bij een stichting die mensen helpt met betaalbaar belastingadvies. We zagen hoe lastig het is voor met name particulieren en startende ondernemers om goede hulp te krijgen, vooral als het ingewikkeld wordt.",
+          "Daarom zijn we met een team van experts in AI, financiën en technologie gestart om belastinghulp slimmer en makkelijker te maken. Samen zijn we uitgegroeid tot wat we nu zijn."
         ]
       },
       "team": {
         "title": "Ons team",
-        "description": "Bij Jan de Belastingman combineert ons team diepgaande expertise in belastingen, technologie en bedrijfskunde met het doel om belastingadvies eenvoudig en toegankelijk te maken. Met achtergronden in AI, financiën en innovatie zijn we toegewijd om jou te helpen met vertrouwen door je belastingzaken te navigeren.",
+        "description": "Ons team van specialisten in technologie, AI en financiën werkt elke dag aan slimme en toegankelijke oplossingen voor belastingadvies.",
         "members": [
           {
             "name": "Bo",
@@ -222,27 +222,27 @@
           {
             "year": "2020",
             "subtitle": "Opgericht met een missie",
-            "description": "We hebben Jan de Belastingman opgericht om belastingadvies te democratiseren en deskundige begeleiding betaalbaar en toegankelijk te maken voor iedereen."
+            "description": "We begonnen Jan de Belastingman om belastingadvies voor iedereen begrijpelijk en betaalbaar te maken."
           },
           {
             "year": "",
             "subtitle": "",
-            "description": "We lanceerden de eerste AI-gestuurde chatassistent, die onze eerste X klanten hielp om eenvoudig door hun belastingen te navigeren."
+            "description": "We lanceerden een chatassistent die onze eerste klanten hielp met hun belastingvragen."
           },
           {
             "year": "|",
             "subtitle": "",
-            "description": "We integreerden de nieuwste AI-ontwikkelingen om een intelligente assistent te creëren die complexe situaties kan behandelen."
+            "description": "Later maakten we de assistent slimmer, zodat hij ook kan adviseren over moeilijkere situaties."
           },
           {
             "year": "",
             "subtitle": "",
-            "description": "We breidden ons team uit en introduceerden geavanceerde functies op maat voor bedrijven en freelancers."
+            "description": "Ons team groeide, en we voegden nieuwe diensten toe voor ondernemers en freelancers."
           },
           {
             "year": "2025",
             "subtitle": "De go-to belastingassistent worden",
-            "description": "We blijven innoveren en streven ernaar om de go-to belastingassistent te worden voor heel Nederland."
+            "description": "We blijven innoveren en verbeteren, zodat we dé belastingassistent van Nederland worden."
           }
         ]
       },
@@ -265,7 +265,7 @@
         ]
       },
       "mission": {
-        "title": "Onze Missie",
+        "title": "Onze missie",
         "description": "Jan de Belastingman streeft ernaar om kwalitatief belastingadvies toegankelijk te maken voor iedereen. We willen mensen tijd en geld besparen door betrouwbare, begrijpelijke begeleiding te bieden bij hun belastingzaken.",
         "points": [
           "Democratisering van belastingexpertise",
@@ -274,7 +274,7 @@
         ]
       },
       "vision": {
-        "title": "Onze Visie",
+        "title": "Onze visie",
         "description": "We zien een toekomst voor ons waarin iedereen in Nederland met vertrouwen zijn belastingzaken kan regelen, ondersteund door geavanceerde AI-technologie en menselijke expertise.",
         "points": [
           "AI-gedreven persoonlijk advies voor iedereen",
@@ -530,6 +530,9 @@
             "answer": "Jan de Belastingman biedt verschillende vormen van ondersteuning: van directe antwoorden via onze AI-chatbot tot complete begeleiding door een persoonlijke adviseur. We helpen je bij het optimaliseren van je aangifte, het vinden van alle mogelijke aftrekposten en het correct invullen van alle formulieren."
           }
         ]
+      },
+      "form": {
+        "name": "tax-return"
       }
     },
     "income-tax-return": {
@@ -642,6 +645,9 @@
             "answer": "We gebruiken geavanceerde beveiligingsmaatregelen om je persoonlijke informatie te beschermen, in overeenstemming met strikte AVG-protocollen."
           }
         ]
+      },
+      "form": {
+        "name": "tax-return"
       }
     },
     "m-form": {
@@ -754,6 +760,9 @@
             "answer": "We bieden uitgebreide ondersteuning bij het invullen van M-formulieren, van het beantwoorden van specifieke vragen via onze AI-chatbot tot het verbinden met expert-adviseurs voor complexe situaties. We zorgen ervoor dat alle relevante aftrekposten en voordelen worden geclaimd met behoud van naleving van de Nederlandse belastingregels."
           }
         ]
+      },
+      "form": {
+        "name": "tax-return"
       }
     },
     "tax-credit": {

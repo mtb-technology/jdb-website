@@ -175,14 +175,14 @@
       "story": {
         "title": "Our Story",
         "paragraphs": [
-          "Jan de Belastingman was founded with a clear mission: to democratize tax advice and make expert guidance accessible to everyone in the Netherlands.",
-          "The idea came from firsthand experience working at a foundation that provided low-cost tax assistance. It became clear that a huge gap existed between tax expertise and the people who needed it, especially when tax situations became more complex. Many struggled with unclear rules, expensive advisors, and a lack of digital solutions.",
-          "With this in mind, a team of experts in AI, finance, and digital innovation set out to create a smarter, more accessible way to get tax help. The vision was set and the team built and scaled Jan de Belastingman to what it is today."
+          "At Jan de Belastingman, we believe tax advice should be easy and accessible for everyone.",
+          "The idea started while working at a foundation that helps people with affordable tax support. We saw how hard it is for many, especially individuals and starting entrepreneurs, to get the right advice when things get complicated.",
+          "That's why our team — with backgrounds in AI, finance, and tech — set out to build a smarter way to get tax help. Together, we’ve grown into what we are today."
         ]
       },
       "team": {
         "title": "Our Team",
-        "description": "At Jan de Belastingman, our team combines deep expertise in tax, technology, and business with the goal to make tax advice simple and accessible. With backgrounds in AI, finance, and innovation, we're dedicated to helping you navigate your tax matters with confidence.",
+        "description": "Our team of experts in technology, AI, and finance works every day on smart and accessible solutions for tax advice.",
         "members": [
           {
             "name": "Bo",
@@ -222,27 +222,27 @@
           {
             "year": "2020",
             "subtitle": "Founded with a mission",
-            "description": "We established Jan de Belastingman to democratize tax advice, making expert guidance affordable and accessible for everyone."
+            "description": "We started Jan de Belastingman to make tax advice simple and affordable for everyone."
           },
           {
             "year": "",
             "subtitle": "",
-            "description": "We launched the first AI-powered chat assistant, helping our first X customers navigate their taxes with ease."
+            "description": "We launched a chat assistant that helped our first customers with their tax questions."
           },
           {
             "year": "|",
             "subtitle": "",
-            "description": "We integrated the latest AI advancements to create an intelligent assistant capable of handling complex situations."
+            "description": "Later, we made the assistant smarter to handle more complex situations."
           },
           {
             "year": "",
             "subtitle": "",
-            "description": "We expanded our team and introduced advanced features tailored for businesses and freelancers."
+            "description": "Our team grew, and we added new features for businesses and freelancers."
           },
           {
             "year": "2025",
             "subtitle": "Becoming Go-To Tax Assistant",
-            "description": "We continue to innovate and strive to become the go-to tax assistant for all of the Netherlands."
+            "description": "We keep innovating and improving to become the go-to tax assistant in the Netherlands."
           }
         ]
       },
