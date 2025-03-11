@@ -29,7 +29,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 
 export interface ToolCallMetadata {
@@ -94,12 +94,122 @@ export function ChatInterface({
   const [shouldAutoScroll, setShouldAutoScroll] = useState(true);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
+  const handleSendMessage = useCallback(
+    async (messageText: string = input) => {
+      if (!messageText.trim() || isTyping) return;
+
+      const userMessage: Message = {
+        id: Date.now().toString(),
+        role: "user",
+        content: messageText,
+        timestamp: new Date(),
+        chatSessionId: currentSession.chatSessionId,
+        parentMessageId: currentSession.parentMessageId,
+      };
+
+      setMessages((prev) => [...prev, userMessage]);
+      setInput("");
+      setIsTyping(true);
+
+      try {
+        const messageGenerator = sendMessage({
+          message: messageText,
+          chatSessionId: currentSession.chatSessionId,
+          parentMessageId: currentSession.parentMessageId,
+          assistantId: assistantId,
+        });
+
+        let fullResponse = "";
+        let hasStartedReceiving = false;
+        let newMessageId: string | undefined;
+
+        for await (const chunks of messageGenerator) {
+          for (const chunk of chunks) {
+            if ("answer_piece" in chunk) {
+              if (!hasStartedReceiving) {
+                hasStartedReceiving = true;
+                const assistantMessage: Message = {
+                  id: (Date.now() + 1).toString(),
+                  role: "assistant",
+                  content: chunk.answer_piece,
+                  timestamp: new Date(),
+                };
+                setMessages((prev) => [...prev, assistantMessage]);
+                setIsTyping(false);
+              } else {
+                setMessages((prev) => {
+                  const lastMessage = prev[prev.length - 1];
+                  if (
+                    lastMessage?.role === "assistant" &&
+                    !lastMessage.content.endsWith(chunk.answer_piece)
+                  ) {
+                    const newMessages = [...prev];
+                    newMessages[newMessages.length - 1] = {
+                      ...lastMessage,
+                      content: lastMessage.content + chunk.answer_piece,
+                    };
+                    return newMessages;
+                  }
+                  return prev;
+                });
+              }
+            } else if (Object.hasOwn(chunk, "message_id")) {
+              newMessageId = chunk.message_id;
+              // Update session state when we receive chat session info
+              if (chunk.chat_session_id) {
+                setCurrentSession({
+                  chatSessionId: chunk.chat_session_id,
+                  parentMessageId: chunk.message_id,
+                });
+              }
+            } else if (Object.hasOwn(chunk, "tool_call") && chunk.tool_call) {
+              window.dataLayer = window.dataLayer || [];
+              window.dataLayer.push({
+                event: "toolCall",
+                ecommerce: chunk.tool_call.tool_result,
+                language: isEnglish ? "en" : "nl",
+                tracking_id: trackingData?.trackingId,
+                lead_source: trackingData?.leadSource,
+              });
+            }
+          }
+        }
+
+        // Update parent message ID for next message
+        if (newMessageId) {
+          setCurrentSession((prev) => ({
+            ...prev,
+            parentMessageId: newMessageId,
+          }));
+        }
+      } catch (error) {
+        console.error("Error sending message:", error);
+        setMessages((prev) => [
+          ...prev,
+          {
+            id: (Date.now() + 1).toString(),
+            role: "assistant",
+            content: "An error occurred. Please try again.",
+            timestamp: new Date(),
+          },
+        ]);
+      } finally {
+        setIsTyping(false);
+        // Focus the textarea after the stream completes
+        if (textareaRef.current) {
+          textareaRef.current.focus();
+        }
+      }
+    },
+    [input, isTyping, currentSession, assistantId, trackingData]
+  );
+
   useEffect(() => {
     if (initialMessage && !initialMessageProcessedRef.current) {
       initialMessageProcessedRef.current = true;
       handleSendMessage(initialMessage);
     }
-  }, [initialMessage]);
+  }, [initialMessage, handleSendMessage]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -136,113 +246,6 @@ export function ChatInterface({
       scrollToBottom(false); // Use instant scroll for new messages
     }
   }, [messages, shouldAutoScroll]);
-
-  const handleSendMessage = async (messageText: string = input) => {
-    if (!messageText.trim() || isTyping) return;
-
-    const userMessage: Message = {
-      id: Date.now().toString(),
-      role: "user",
-      content: messageText,
-      timestamp: new Date(),
-      chatSessionId: currentSession.chatSessionId,
-      parentMessageId: currentSession.parentMessageId,
-    };
-
-    setMessages((prev) => [...prev, userMessage]);
-    setInput("");
-    setIsTyping(true);
-
-    try {
-      const messageGenerator = sendMessage({
-        message: messageText,
-        chatSessionId: currentSession.chatSessionId,
-        parentMessageId: currentSession.parentMessageId,
-        assistantId: assistantId,
-      });
-
-      let fullResponse = "";
-      let hasStartedReceiving = false;
-      let newMessageId: string | undefined;
-
-      for await (const chunks of messageGenerator) {
-        for (const chunk of chunks) {
-          if ("answer_piece" in chunk) {
-            if (!hasStartedReceiving) {
-              hasStartedReceiving = true;
-              const assistantMessage: Message = {
-                id: (Date.now() + 1).toString(),
-                role: "assistant",
-                content: chunk.answer_piece,
-                timestamp: new Date(),
-              };
-              setMessages((prev) => [...prev, assistantMessage]);
-              setIsTyping(false);
-            } else {
-              setMessages((prev) => {
-                const lastMessage = prev[prev.length - 1];
-                if (
-                  lastMessage?.role === "assistant" &&
-                  !lastMessage.content.endsWith(chunk.answer_piece)
-                ) {
-                  const newMessages = [...prev];
-                  newMessages[newMessages.length - 1] = {
-                    ...lastMessage,
-                    content: lastMessage.content + chunk.answer_piece,
-                  };
-                  return newMessages;
-                }
-                return prev;
-              });
-            }
-          } else if (Object.hasOwn(chunk, "message_id")) {
-            newMessageId = chunk.message_id;
-            // Update session state when we receive chat session info
-            if (chunk.chat_session_id) {
-              setCurrentSession({
-                chatSessionId: chunk.chat_session_id,
-                parentMessageId: chunk.message_id,
-              });
-            }
-          } else if (Object.hasOwn(chunk, "tool_call") && chunk.tool_call) {
-            window.dataLayer = window.dataLayer || [];
-            window.dataLayer.push({
-              event: "toolCall",
-              ecommerce: chunk.tool_call.tool_result,
-              language: isEnglish ? "en" : "nl",
-              tracking_id: trackingData?.trackingId,
-              lead_source: trackingData?.leadSource,
-            });
-          }
-        }
-      }
-
-      // Update parent message ID for next message
-      if (newMessageId) {
-        setCurrentSession((prev) => ({
-          ...prev,
-          parentMessageId: newMessageId,
-        }));
-      }
-    } catch (error) {
-      console.error("Error sending message:", error);
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: (Date.now() + 1).toString(),
-          role: "assistant",
-          content: "An error occurred. Please try again.",
-          timestamp: new Date(),
-        },
-      ]);
-    } finally {
-      setIsTyping(false);
-      // Focus the textarea after the stream completes
-      if (textareaRef.current) {
-        textareaRef.current.focus();
-      }
-    }
-  };
 
   const formatTime = (date: Date) => {
     return date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });

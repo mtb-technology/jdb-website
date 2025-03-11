@@ -1,12 +1,13 @@
 import * as chatStream from "@/lib/chat-stream";
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+import Image from "next/image";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { ChatInterface } from "../ChatInterface";
 
 // Mock next/image
 vi.mock("next/image", () => ({
   default: ({ src, alt }: { src: string; alt: string }) => (
-    <img src={src} alt={alt} />
+    <Image src={src} alt={alt} width={100} height={100} />
   ),
 }));
 

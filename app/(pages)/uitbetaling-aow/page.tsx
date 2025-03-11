@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import { generatePageMetadata } from "@/lib/metadata";
 import { SupportedLocale } from "@/lib/types";
 import { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
 import { getDictionary } from "../../dictionaries";
 
 type PageParams = Promise<{
@@ -70,26 +72,23 @@ export default async function UitbetalingAowPage({
               </div>
               <div className="mt-5 sm:mt-8 lg:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                  <a
+                  <Link
                     href="/chat/algemene-ouderdomswet"
-                    target="_self"
                     className="w-full flex items-center justify-center px-8 py-3 border-2 border-blue-base text-base font-medium rounded-md text-blue-base bg-transparent hover:bg-indigo-700 hover:text-white md:py-4 md:text-lg md:px-10"
                   >
                     Hulp nodig bij het AOW-pensioen? Chat met ons!
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="hidden lg:flex lg:col-start-8 lg:col-span-4 mt-12">
-              <img
-                src={
-                  "https://app.jandebelastingman.nl/curator/media/2079a9de-8175-40c0-8782-fb320276384b-1694968446.jpg?s=2685c04779f0bc707ec4b5631a3300f2"
-                }
-                alt=""
-                width={8688}
-                height={4887}
-                loading="lazy"
+              <Image
+                src="https://app.jandebelastingman.nl/curator/media/2079a9de-8175-40c0-8782-fb320276384b-1694968446.jpg?s=2685c04779f0bc707ec4b5631a3300f2"
+                alt="AOW uitbetaling illustratie"
+                width={800}
+                height={450}
                 className="object-cover w-auto"
+                priority={false}
               />
             </div>
           </div>

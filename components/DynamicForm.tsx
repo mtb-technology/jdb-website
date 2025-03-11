@@ -3,7 +3,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { AnimatePresence, motion } from "framer-motion";
 import { UploadCloud } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import * as z from "zod";
@@ -84,160 +84,172 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
   const locale = isEnglish ? "en" : "nl";
 
   // Helper function to normalize condition values for comparison
-  const normalizeValue = (value: any): boolean | string | number => {
-    if (value === "1" || value === 1 || value === "true" || value === true) {
-      return true;
-    }
-    if (value === "0" || value === 0 || value === "false" || value === false) {
-      return false;
-    }
-    return value;
-  };
+  const normalizeValue = useCallback(
+    (value: any): boolean | string | number => {
+      if (value === "1" || value === 1 || value === "true" || value === true) {
+        return true;
+      }
+      if (
+        value === "0" ||
+        value === 0 ||
+        value === "false" ||
+        value === false
+      ) {
+        return false;
+      }
+      return value;
+    },
+    []
+  );
 
   // Helper function to check if a field should be visible based on its conditions
-  const isFieldVisible = (
-    field: FormField,
-    formValues: Record<string, any>
-  ): boolean => {
-    // Only check conditions if the field has conditions
-    if (!field.has_conditions) {
-      return true;
-    }
+  const isFieldVisible = useCallback(
+    (field: FormField, formValues: Record<string, any>): boolean => {
+      // Only check conditions if the field has conditions
+      if (!field.has_conditions) {
+        return true;
+      }
 
-    // If has_conditions is true but no condition_field, hide the field
-    if (!field.condition_field) {
-      return false;
-    }
+      // If has_conditions is true but no condition_field, hide the field
+      if (!field.condition_field) {
+        return false;
+      }
 
-    const conditionFieldValue = formValues[field.condition_field];
-    const normalizedFieldValue = normalizeValue(conditionFieldValue);
-    const normalizedConditionValue = normalizeValue(field.condition_value);
+      const conditionFieldValue = formValues[field.condition_field];
+      const normalizedFieldValue = normalizeValue(conditionFieldValue);
+      const normalizedConditionValue = normalizeValue(field.condition_value);
 
-    console.log(`Checking visibility for field: ${field.field_key}`);
-    console.log(`Condition field: ${field.condition_field}`);
-    console.log(`Condition operator: ${field.condition_operator}`);
-    console.log(`Raw condition value:`, field.condition_value);
-    console.log(`Raw field value:`, conditionFieldValue);
-    console.log(`Normalized condition value:`, normalizedConditionValue);
-    console.log(`Normalized field value:`, normalizedFieldValue);
+      console.log(`Checking visibility for field: ${field.field_key}`);
+      console.log(`Condition field: ${field.condition_field}`);
+      console.log(`Condition operator: ${field.condition_operator}`);
+      console.log(`Raw condition value:`, field.condition_value);
+      console.log(`Raw field value:`, conditionFieldValue);
+      console.log(`Normalized condition value:`, normalizedConditionValue);
+      console.log(`Normalized field value:`, normalizedFieldValue);
 
-    // If the condition field doesn't exist in form values, hide the field
-    if (normalizedFieldValue === undefined) {
-      console.log("Field value is undefined, hiding field");
-      return false;
-    }
+      // If the condition field doesn't exist in form values, hide the field
+      if (normalizedFieldValue === undefined) {
+        console.log("Field value is undefined, hiding field");
+        return false;
+      }
 
-    // Check the condition based on the operator
-    switch (field.condition_operator) {
-      case "equals":
-        const isEqual = normalizedFieldValue === normalizedConditionValue;
-        console.log(`Equals comparison result: ${isEqual}`);
-        return isEqual;
-      case "not_equals":
-        return normalizedFieldValue !== normalizedConditionValue;
-      case "contains":
-        return Array.isArray(normalizedFieldValue)
-          ? normalizedFieldValue.includes(normalizedConditionValue)
-          : String(normalizedFieldValue).includes(
-              String(normalizedConditionValue)
-            );
-      case "not_contains":
-        return Array.isArray(normalizedFieldValue)
-          ? !normalizedFieldValue.includes(normalizedConditionValue)
-          : !String(normalizedFieldValue).includes(
-              String(normalizedConditionValue)
-            );
-      case "greater_than":
-        return Number(normalizedFieldValue) > Number(normalizedConditionValue);
-      case "less_than":
-        return Number(normalizedFieldValue) < Number(normalizedConditionValue);
-      case "is_empty":
-        return (
-          !normalizedFieldValue ||
-          (Array.isArray(normalizedFieldValue) &&
-            normalizedFieldValue.length === 0) ||
-          normalizedFieldValue === ""
-        );
-      case "is_not_empty":
-        return (
-          Boolean(normalizedFieldValue) &&
-          (!Array.isArray(normalizedFieldValue) ||
-            normalizedFieldValue.length > 0) &&
-          normalizedFieldValue !== ""
-        );
-      case "is_true":
-        return normalizedFieldValue === true;
-      case "is_false":
-        return normalizedFieldValue === false;
-      default:
-        return false; // If no valid operator is provided, hide the field
-    }
-  };
+      // Check the condition based on the operator
+      switch (field.condition_operator) {
+        case "equals":
+          const isEqual = normalizedFieldValue === normalizedConditionValue;
+          console.log(`Equals comparison result: ${isEqual}`);
+          return isEqual;
+        case "not_equals":
+          return normalizedFieldValue !== normalizedConditionValue;
+        case "contains":
+          return Array.isArray(normalizedFieldValue)
+            ? normalizedFieldValue.includes(normalizedConditionValue)
+            : String(normalizedFieldValue).includes(
+                String(normalizedConditionValue)
+              );
+        case "not_contains":
+          return Array.isArray(normalizedFieldValue)
+            ? !normalizedFieldValue.includes(normalizedConditionValue)
+            : !String(normalizedFieldValue).includes(
+                String(normalizedConditionValue)
+              );
+        case "greater_than":
+          return (
+            Number(normalizedFieldValue) > Number(normalizedConditionValue)
+          );
+        case "less_than":
+          return (
+            Number(normalizedFieldValue) < Number(normalizedConditionValue)
+          );
+        case "is_empty":
+          return (
+            !normalizedFieldValue ||
+            (Array.isArray(normalizedFieldValue) &&
+              normalizedFieldValue.length === 0) ||
+            normalizedFieldValue === ""
+          );
+        case "is_not_empty":
+          return (
+            Boolean(normalizedFieldValue) &&
+            (!Array.isArray(normalizedFieldValue) ||
+              normalizedFieldValue.length > 0) &&
+            normalizedFieldValue !== ""
+          );
+        case "is_true":
+          return normalizedFieldValue === true;
+        case "is_false":
+          return normalizedFieldValue === false;
+        default:
+          return false; // If no valid operator is provided, hide the field
+      }
+    },
+    [normalizeValue]
+  );
 
   // Generate Zod schema dynamically based on form fields
-  const generateZodSchema = (
-    formSections: FormSection[],
-    formValues: Record<string, any> = {}
-  ) => {
-    const schemaObject: Record<string, z.ZodTypeAny> = {};
+  const generateZodSchema = useCallback(
+    (formSections: FormSection[], formValues: Record<string, any> = {}) => {
+      const schemaObject: Record<string, z.ZodTypeAny> = {};
 
-    formSections.forEach((section) => {
-      section.fields.forEach((field) => {
-        // Skip validation for hidden fields
-        if (!isFieldVisible(field, formValues)) {
-          schemaObject[field.field_key] = z.any().optional();
-          return;
-        }
-
-        let fieldSchema: z.ZodTypeAny;
-
-        switch (field.field_type) {
-          case "email":
-            fieldSchema = z.string().email();
-            break;
-          case "checkbox":
-            fieldSchema = z.boolean();
-            break;
-          case "checkboxes": {
-            const arraySchema = z.array(z.string());
-            fieldSchema = field.is_required
-              ? arraySchema.min(1, "This field is required")
-              : arraySchema;
-            break;
+      formSections.forEach((section) => {
+        section.fields.forEach((field) => {
+          // Skip validation for hidden fields
+          if (!isFieldVisible(field, formValues)) {
+            schemaObject[field.field_key] = z.any().optional();
+            return;
           }
-          case "date":
-            fieldSchema = z.date();
-            break;
-          case "file": {
-            const fileSchema = z.custom<FileList>(
-              (val) => val instanceof FileList,
-              {
-                message: "Please select a file",
-              }
-            );
-            fieldSchema = field.is_required
-              ? fileSchema
-              : fileSchema.optional();
-            break;
-          }
-          default: {
-            const stringSchema = z.string();
-            fieldSchema = field.is_required
-              ? stringSchema.min(1, "This field is required")
-              : stringSchema;
-          }
-        }
 
-        if (!field.is_required) {
-          fieldSchema = fieldSchema.optional();
-        }
+          let fieldSchema: z.ZodTypeAny;
 
-        schemaObject[field.field_key] = fieldSchema;
+          switch (field.field_type) {
+            case "email":
+              fieldSchema = z.string().email();
+              break;
+            case "checkbox":
+              fieldSchema = z.boolean();
+              break;
+            case "checkboxes": {
+              const arraySchema = z.array(z.string());
+              fieldSchema = field.is_required
+                ? arraySchema.min(1, "This field is required")
+                : arraySchema;
+              break;
+            }
+            case "date":
+              fieldSchema = z.date();
+              break;
+            case "file": {
+              const fileSchema = z.custom<FileList>(
+                (val) => val instanceof FileList,
+                {
+                  message: "Please select a file",
+                }
+              );
+              fieldSchema = field.is_required
+                ? fileSchema
+                : fileSchema.optional();
+              break;
+            }
+            default: {
+              const stringSchema = z.string();
+              fieldSchema = field.is_required
+                ? stringSchema.min(1, "This field is required")
+                : stringSchema;
+            }
+          }
+
+          if (!field.is_required) {
+            fieldSchema = fieldSchema.optional();
+          }
+
+          schemaObject[field.field_key] = fieldSchema;
+        });
       });
-    });
 
-    return z.object(schemaObject);
-  };
+      return z.object(schemaObject);
+    },
+    [isFieldVisible]
+  );
 
   const generateDefaultValues = (formSections: FormSection[]) => {
     const defaultValues: Record<string, any> = {};
@@ -276,7 +288,7 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
   });
 
   // Get all condition fields from the form data
-  const getConditionFields = () => {
+  const getConditionFields = useCallback(() => {
     if (!formData) return new Set<string>();
 
     const conditionFields = new Set<string>();
@@ -288,7 +300,7 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
       });
     });
     return conditionFields;
-  };
+  }, [formData]);
 
   // Subscribe to form value changes to handle conditional visibility
   useEffect(() => {
