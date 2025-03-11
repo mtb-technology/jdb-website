@@ -182,7 +182,7 @@
       },
       "team": {
         "title": "Our Team",
-        "description": "At Jan de Belastingman, our team combines deep expertise in tax, technology, and business with the goal to make tax advice simple and accessible. With backgrounds in AI, finance, and innovation, we're dedicated to helping you navigate your tax matters with confidence.",
+        "description": "Our team of experts in technology, AI, and finance works every day on smart and accessible solutions for tax advice.",
         "members": [
           {
             "name": "Bo",
@@ -222,27 +222,27 @@
           {
             "year": "2020",
             "subtitle": "Founded with a mission",
-            "description": "We established Jan de Belastingman to democratize tax advice, making expert guidance affordable and accessible for everyone."
+            "description": "We started Jan de Belastingman to make tax advice simple and affordable for everyone."
           },
           {
             "year": "",
             "subtitle": "",
-            "description": "We launched the first AI-powered chat assistant, helping our first X customers navigate their taxes with ease."
+            "description": "We launched a chat assistant that helped our first customers with their tax questions."
           },
           {
             "year": "|",
             "subtitle": "",
-            "description": "We integrated the latest AI advancements to create an intelligent assistant capable of handling complex situations."
+            "description": "Later, we made the assistant smarter to handle more complex situations."
           },
           {
             "year": "",
             "subtitle": "",
-            "description": "We expanded our team and introduced advanced features tailored for businesses and freelancers."
+            "description": "Our team grew, and we added new features for businesses and freelancers."
           },
           {
             "year": "2025",
             "subtitle": "Becoming Go-To Tax Assistant",
-            "description": "We continue to innovate and strive to become the go-to tax assistant for all of the Netherlands."
+            "description": "We keep innovating and improving to become the go-to tax assistant in the Netherlands."
           }
         ]
       },

@@ -182,7 +182,7 @@
       },
       "team": {
         "title": "Ons team",
-        "description": "Bij Jan de Belastingman combineert ons team diepgaande expertise in belastingen, technologie en bedrijfskunde met het doel om belastingadvies eenvoudig en toegankelijk te maken. Met achtergronden in AI, financiën en innovatie zijn we toegewijd om jou te helpen met vertrouwen door je belastingzaken te navigeren.",
+        "description": "Ons team van specialisten in technologie, AI en financiën werkt elke dag aan slimme en toegankelijke oplossingen voor belastingadvies.",
         "members": [
           {
             "name": "Bo",
@@ -222,27 +222,27 @@
           {
             "year": "2020",
             "subtitle": "Opgericht met een missie",
-            "description": "We hebben Jan de Belastingman opgericht om belastingadvies te democratiseren en deskundige begeleiding betaalbaar en toegankelijk te maken voor iedereen."
+            "description": "We begonnen Jan de Belastingman om belastingadvies voor iedereen begrijpelijk en betaalbaar te maken."
           },
           {
             "year": "",
             "subtitle": "",
-            "description": "We lanceerden de eerste AI-gestuurde chatassistent, die onze eerste X klanten hielp om eenvoudig door hun belastingen te navigeren."
+            "description": "We lanceerden een chatassistent die onze eerste klanten hielp met hun belastingvragen."
           },
           {
             "year": "|",
             "subtitle": "",
-            "description": "We integreerden de nieuwste AI-ontwikkelingen om een intelligente assistent te creëren die complexe situaties kan behandelen."
+            "description": "Later maakten we de assistent slimmer, zodat hij ook kan adviseren over moeilijkere situaties."
           },
           {
             "year": "",
             "subtitle": "",
-            "description": "We breidden ons team uit en introduceerden geavanceerde functies op maat voor bedrijven en freelancers."
+            "description": "Ons team groeide, en we voegden nieuwe diensten toe voor ondernemers en freelancers."
           },
           {
             "year": "2025",
             "subtitle": "De go-to belastingassistent worden",
-            "description": "We blijven innoveren en streven ernaar om de go-to belastingassistent te worden voor heel Nederland."
+            "description": "We blijven innoveren en verbeteren, zodat we dé belastingassistent van Nederland worden."
           }
         ]
       },
@@ -265,7 +265,7 @@
         ]
       },
       "mission": {
-        "title": "Onze Missie",
+        "title": "Onze missie",
         "description": "Jan de Belastingman streeft ernaar om kwalitatief belastingadvies toegankelijk te maken voor iedereen. We willen mensen tijd en geld besparen door betrouwbare, begrijpelijke begeleiding te bieden bij hun belastingzaken.",
         "points": [
           "Democratisering van belastingexpertise",
@@ -274,7 +274,7 @@
         ]
       },
       "vision": {
-        "title": "Onze Visie",
+        "title": "Onze visie",
         "description": "We zien een toekomst voor ons waarin iedereen in Nederland met vertrouwen zijn belastingzaken kan regelen, ondersteund door geavanceerde AI-technologie en menselijke expertise.",
         "points": [
           "AI-gedreven persoonlijk advies voor iedereen",
