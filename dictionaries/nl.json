@@ -530,6 +530,9 @@
             "answer": "Jan de Belastingman biedt verschillende vormen van ondersteuning: van directe antwoorden via onze AI-chatbot tot complete begeleiding door een persoonlijke adviseur. We helpen je bij het optimaliseren van je aangifte, het vinden van alle mogelijke aftrekposten en het correct invullen van alle formulieren."
           }
         ]
+      },
+      "form": {
+        "name": "tax-return"
       }
     },
     "income-tax-return": {
@@ -642,6 +645,9 @@
             "answer": "We gebruiken geavanceerde beveiligingsmaatregelen om je persoonlijke informatie te beschermen, in overeenstemming met strikte AVG-protocollen."
           }
         ]
+      },
+      "form": {
+        "name": "tax-return"
       }
     },
     "m-form": {
@@ -754,6 +760,9 @@
             "answer": "We bieden uitgebreide ondersteuning bij het invullen van M-formulieren, van het beantwoorden van specifieke vragen via onze AI-chatbot tot het verbinden met expert-adviseurs voor complexe situaties. We zorgen ervoor dat alle relevante aftrekposten en voordelen worden geclaimd met behoud van naleving van de Nederlandse belastingregels."
           }
         ]
+      },
+      "form": {
+        "name": "tax-return"
       }
     },
     "tax-credit": {
