@@ -1,7 +1,7 @@
 import { generatePageMetadata } from "@/lib/metadata";
 import { SupportedLocale } from "@/lib/types";
 import { Metadata } from "next";
-import { default as DefaultShowItWorks } from "../../hoe-werkt-het/page";
+import { default as DefaultShowItWorks } from "../../(pages)/hoe-werkt-het/page";
 
 type PageParams = Promise<{
   locale: SupportedLocale;

@@ -409,7 +409,7 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
         {isVisible && (
           <motion.div
             key={field.field_key}
-            className={fieldWidth}
+            className={cn(fieldWidth, "min-h-0")}
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
@@ -664,19 +664,19 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
           (values: z.infer<ReturnType<typeof generateZodSchema>>) =>
             onSubmit(values, locale)
         )}
-        className={cn("space-y-8", className)}
+        className={cn("space-y-4", className)}
       >
         {formData.form_sections.map((section, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg shadow-sm border border-gray-300 p-6 space-y-6"
+            className="bg-white rounded-lg shadow-sm border border-gray-300 p-4 space-y-4"
           >
-            <div className="border-b pb-4">
+            <div className="border-b pb-2">
               <h3 className="text-lg font-semibold text-gray-900">
                 {section.title}
               </h3>
             </div>
-            <div className="grid grid-cols-12 gap-6">
+            <div className="grid grid-cols-12 gap-4">
               {section.fields.map(renderField)}
             </div>
           </div>

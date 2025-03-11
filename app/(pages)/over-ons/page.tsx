@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { generatePageMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
-import { getDictionary } from "../dictionaries";
+import { getDictionary } from "../../dictionaries";
 
 type OverOnsPageProps = {
   params: {

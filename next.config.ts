@@ -24,29 +24,29 @@ const nextConfig: NextConfig = {
       // Tax advisor
       // { source: '/belastingaangifte-laten-doen', destination: '/onderwerpen/belastingaangifte-laten-doen', permanent: true },  ads page
       //{ source: '/en/tax-advisor', destination: '/en/topics/tax-advisor', permanent: true }, ads page
-      
+
       // Income tax return
       { source: '/belastingaangifte', destination: '/onderwerpen/belastingaangifte', permanent: true },
       { source: '/en/income-tax-return', destination: '/en/topics/income-tax-return', permanent: true },
-      
+
       // M form
-      { source: '/m-form', destination: '/onderwerpen/m-form', permanent: true },
+      { source: '/m-form', destination: '/chat/m-formulier', permanent: true },
       // { source: '/en/m-form', destination: '/en/topics/m-form', permanent: true }, ads page
       // { source: '/m-formulier', destination: '/onderwerpen/m-formulier', permanent: true }, ads page
-      
+
       // Tax credit
       { source: '/aftrekposten-en-kortingen', destination: '/onderwerpen/aftrekposten-en-kortingen', permanent: true },
       { source: '/en/tax-credit', destination: '/en/topics/tax-credit', permanent: true },
-      
+
       // Inheritance tax
       { source: '/erfbelasting', destination: '/onderwerpen/erfbelasting', permanent: true },
       { source: '/en/inheritance-tax', destination: '/en/topics/inheritance-tax', permanent: true },
-      
+
       // Private limited company
       // { source: '/besloten-vennootschap', destination: '/onderwerpen/besloten-vennootschap', permanent: true }, ads page
       { source: '/en/private-limited-company', destination: '/en/topics/private-limited-company', permanent: true },
       { source: '/en/private-limited-companies', destination: '/en/topics/private-limited-company', permanent: true },
-      
+
       // Self employed professional
       //{ source: '/zelfstandigen-zonder-personeel', destination: '/onderwerpen/zelfstandigen-zonder-personeel', permanent: true }, #ads page
       { source: '/en/self-employed-professional', destination: '/en/topics/entrepreneur', permanent: true },
@@ -55,36 +55,42 @@ const nextConfig: NextConfig = {
       // Healthcare allowance
       { source: '/zorgtoeslag', destination: '/onderwerpen/zorgtoeslag', permanent: true },
       { source: '/en/healthcare-allowance', destination: '/en/topics/healthcare-allowance', permanent: true },
-      
+
       // Housing allowance
       { source: '/huurtoeslag', destination: '/onderwerpen/huurtoeslag', permanent: true },
       { source: '/en/housing-allowance', destination: '/en/topics/housing-allowance', permanent: true },
-      
+
       // Childcare allowance
       { source: '/kinderopvangtoeslag', destination: '/onderwerpen/kinderopvangtoeslag', permanent: true },
       { source: '/en/childcare-allowance', destination: '/en/topics/childcare-allowance', permanent: true },
-      
+
       // Child benefit
       { source: '/kinderbijslag', destination: '/onderwerpen/kinderbijslag', permanent: true },
       { source: '/en/child-benefit', destination: '/en/topics/child-benefit', permanent: true },
-      
+
       // AOW pension
       { source: '/aow-pensioen', destination: '/onderwerpen/aow', permanent: true },
-      { source: '/en/aow-pension', destination: '/en/topics/general-old-age-act', permanent: true }, 
+      { source: '/en/aow-pension', destination: '/en/topics/general-old-age-act', permanent: true },
       { source: '/en/aow-pension-en', destination: '/en/topics/general-old-age-act', permanent: true },
-      
+
       // Income AOW pension
       { source: '/inkomen-aow-pensioen', destination: '/onderwerpen/inkomen-aow', permanent: true },
       { source: '/en/income-aow-pension', destination: '/en/topics/income-general-old-age-act', permanent: true },
-      
+
+      // Uitbetaling AOW
+      { source: '/uitbetaling-aow-2024', destination: '/uitbetaling-aow', permanent: false },
+      { source: '/uitbetaling-aow-2025', destination: '/uitbetaling-aow', permanent: false },
+      { source: '/uitbetaling-aow-2026', destination: '/uitbetaling-aow', permanent: false },
+      { source: '/uitbetaling-aow-2027', destination: '/uitbetaling-aow', permanent: false },
+
       // // Blog
       // { source: '/blog', destination: '/blog', permanent: true },
       // { source: '/en/blog', destination: '/en/blog', permanent: true },
-      
+
       // // About us
       // { source: '/over-ons', destination: '/over-ons', permanent: true },
       // { source: '/en/about-us', destination: '/en/about-us', permanent: true },
-      
+
       // // Find advisor
       // { source: '/vind-een-adviseur', destination: '/vind-een-adviseur', permanent: true },
       // { source: '/en/find-advisor', destination: '/en/find-advisor', permanent: true },
@@ -96,6 +102,7 @@ const nextConfig: NextConfig = {
       // { source: '/en/disclaimer', destination: '/en/disclaimer', permanent: true },
 
       // Chats
+      { source: '/algemene-ouderdomswet-chat', destination: '/chat/algemene-ouderdomswet', permanent: true },
       { source: '/aangifte-inkomstenbelasting', destination: '/chat/belastingaangifte', permanent: true },
       { source: '/en/income-tax-return', destination: '/en/chat/income-tax-return', permanent: true },
       { source: '/besloten-vennootschap-hulp', destination: '/chat/besloten-vennootschap', permanent: true },
@@ -114,7 +121,7 @@ const nextConfig: NextConfig = {
       { source: '/en/general-old-age-act', destination: '/en/chat/general-old-age-act', permanent: true },
       { source: '/zorgtoeslag-chat', destination: '/chat/zorgtoeslag', permanent: true },
       { source: '/en/health-care-allowance', destination: '/en/chat/healthcare-allowance', permanent: true },
-    
+
       // // Saas related
       // { source: '/saas', destination: '/saas', permanent: true },
       // { source: '/en/saas', destination: '/en/saas', permanent: true },

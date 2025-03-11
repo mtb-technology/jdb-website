@@ -1,4 +1,4 @@
-import OverOnsPage from "@/app/over-ons/page";
+import OverOnsPage from "@/app/(pages)/over-ons/page";
 
 // export const generateMetadata = generatePageMetadata;
 

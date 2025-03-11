@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import { generatePageMetadata } from "@/lib/metadata";
 import { SupportedLocale } from "@/lib/types";
 import { Metadata } from "next";
-import { getDictionary } from "../dictionaries";
+import { getDictionary } from "../../dictionaries";
 
 type PageParams = Promise<{
   locale: SupportedLocale;
