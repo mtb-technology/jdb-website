@@ -117,6 +117,8 @@ export function ChatInterface({
           chatSessionId: currentSession.chatSessionId,
           parentMessageId: currentSession.parentMessageId,
           assistantId: assistantId,
+          trackingId: trackingData?.trackingId,
+          leadSource: trackingData?.leadSource,
         });
 
         let fullResponse = "";
