@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Script from "next/script";
 import SidebarLayout from "../components/SidebarLayout";
+import { GTMProvider } from "./components/providers/gtm-provider";
 import { TrackingProvider } from "./components/providers/tracking-provider";
 import "./globals.css";
 
@@ -28,7 +29,6 @@ export const metadata: Metadata = {
   title: "Jan de Belastingman",
   description: "Belasting advies via AI",
 };
-
 
 export default function RootLayout({
   children,
@@ -66,7 +66,9 @@ export default function RootLayout({
           />
         </noscript>
         <TrackingProvider>
-          <SidebarLayout>{children}</SidebarLayout>
+          <GTMProvider>
+            <SidebarLayout>{children}</SidebarLayout>
+          </GTMProvider>
         </TrackingProvider>
       </body>
     </html>

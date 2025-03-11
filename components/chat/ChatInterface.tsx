@@ -163,6 +163,7 @@ export function ChatInterface({
                 });
               }
             } else if (Object.hasOwn(chunk, "tool_call") && chunk.tool_call) {
+              console.log("tool_call", chunk.tool_call);
               window.dataLayer = window.dataLayer || [];
               window.dataLayer.push({
                 event: "toolCall",
