@@ -79,11 +79,15 @@ export async function* sendMessage({
   chatSessionId,
   parentMessageId,
   assistantId,
+  trackingId,
+  leadSource,
 }: {
   message: string;
     chatSessionId?: string;
     parentMessageId?: string;
     assistantId: number;
+    trackingId?: string;
+    leadSource?: string;
 }) {
   if (!chatSessionId || !parentMessageId) {
     console.log("Creating chat session with assistantId", assistantId);
@@ -94,6 +98,8 @@ export async function* sendMessage({
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${API_KEY}`,
+          "tracking-id": trackingId,
+          "lead-source": leadSource,
         },
         body: JSON.stringify({
           persona_id: assistantId,
