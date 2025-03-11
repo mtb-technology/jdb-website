@@ -67,7 +67,7 @@ export function LanguageSwitcher() {
       <DropdownMenuContent align="end">
         <DropdownMenuItem
           onClick={() => handleLanguageChange("nl")}
-          className="flex items-center gap-2"
+          className="flex items-center gap-2 cursor-pointer"
         >
           <NLFlag />
           <span className={language === "nl" ? "font-bold" : ""}>
@@ -76,7 +76,7 @@ export function LanguageSwitcher() {
         </DropdownMenuItem>
         <DropdownMenuItem
           onClick={() => handleLanguageChange("en")}
-          className="flex items-center gap-2"
+          className="flex items-center gap-2 cursor-pointer"
         >
           <GBFlag />
           <span className={language === "en" ? "font-bold" : ""}>English</span>

@@ -222,7 +222,7 @@ export function getLocalizedPath(path: string, locale: SupportedLocale): string 
 
   // If path is just the locale or empty, return /
   if (cleanPath === "" || cleanPath === locale) {
-    return "/";
+    return "/en";
   }
 
   // Split path into segments
