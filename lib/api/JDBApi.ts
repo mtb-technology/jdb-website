@@ -190,6 +190,23 @@ export class JDBApi {
   async getForm(handle: string): Promise<FormResponse> {
     return this.fetchApi<FormResponse>(`/forms/${handle}`);
   }
+
+  async subscribeToNewsletter(email: string): Promise<{ success: boolean; message?: string }> {
+    const response = await fetch(`${this.baseUrl}/email-subscribe`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email }),
+    });
+
+    if (!response.ok) {
+      const errorData = await response.json();
+      throw new Error(errorData.message || 'Subscription failed');
+    }
+
+    return await response.json();
+  }
 }
 
 // Create a singleton instance
