@@ -64,37 +64,184 @@
         {
           "id": "income-tax",
           "title": "Income tax return",
-          "description": "Need help with your tax return? Our advisors will help you correctly complete and optimize your return."
+          "description": "Need help with your tax return? Our advisors will help you correctly complete and optimize your return.",
+          "form": {
+            "fields": {
+              "firstName": {
+                "type": "text",
+                "label": "First name",
+                "placeholder": "First name",
+                "width": "half",
+                "required": true
+              },
+              "lastName": {
+                "type": "text",
+                "label": "Last name",
+                "placeholder": "Last name",
+                "width": "half",
+                "required": true
+              },
+              "email": {
+                "type": "email",
+                "label": "Email address",
+                "placeholder": "Email address",
+                "width": "full",
+                "required": true
+              },
+              "phone": {
+                "type": "text",
+                "label": "Phone number",
+                "placeholder": "Phone number",
+                "width": "full",
+                "required": true
+              },
+              "message": {
+                "type": "textarea",
+                "label": "Your question or situation",
+                "placeholder": "Describe your situation so we can match you with the right advisor...",
+                "width": "full",
+                "required": true
+              }
+            }
+          }
         },
         {
           "id": "m-form",
           "title": "Help with M-form",
-          "description": "International relocation planned or completed? Our experts will help you with the M-form for emigration or immigration."
+          "description": "International relocation planned or completed? Our experts will help you with the M-form for emigration or immigration.",
+          "form": {
+            "fields": {
+              "firstName": {
+                "type": "text",
+                "label": "First name",
+                "placeholder": "First name",
+                "width": "half",
+                "required": true
+              },
+              "lastName": {
+                "type": "text",
+                "label": "Last name",
+                "placeholder": "Last name",
+                "width": "half",
+                "required": true
+              },
+              "email": {
+                "type": "email",
+                "label": "Email address",
+                "placeholder": "Email address",
+                "width": "full",
+                "required": true
+              },
+              "phone": {
+                "type": "text",
+                "label": "Phone number",
+                "placeholder": "Phone number",
+                "width": "full",
+                "required": true
+              },
+              "message": {
+                "type": "textarea",
+                "label": "Your question or situation",
+                "placeholder": "Describe your situation so we can match you with the right advisor...",
+                "width": "full",
+                "required": true
+              }
+            }
+          }
         },
         {
           "id": "business-admin",
           "title": "Business administration",
-          "description": "Let experts handle your business administration to keep everything organized and fiscally optimized."
+          "description": "Let experts handle your business administration to keep everything organized and fiscally optimized.",
+          "form": {
+            "fields": {
+              "firstName": {
+                "type": "text",
+                "label": "First name",
+                "placeholder": "First name",
+                "width": "half",
+                "required": true
+              },
+              "lastName": {
+                "type": "text",
+                "label": "Last name",
+                "placeholder": "Last name",
+                "width": "half",
+                "required": true
+              },
+              "email": {
+                "type": "email",
+                "label": "Email address",
+                "placeholder": "Email address",
+                "width": "full",
+                "required": true
+              },
+              "phone": {
+                "type": "text",
+                "label": "Phone number",
+                "placeholder": "Phone number",
+                "width": "full",
+                "required": true
+              },
+              "message": {
+                "type": "textarea",
+                "label": "Your question or situation",
+                "placeholder": "Describe your situation so we can match you with the right advisor...",
+                "width": "full",
+                "required": true
+              }
+            }
+          }
         },
         {
           "id": "business-creation",
           "title": "Entrepreneurs/Freelancers",
-          "description": "Need help with VAT, corporate tax, fiscal optimization, or bookkeeping."
+          "description": "Need help with VAT, corporate tax, fiscal optimization, or bookkeeping.",
+          "form": {
+            "fields": {
+              "firstName": {
+                "type": "text",
+                "label": "First name",
+                "placeholder": "First name",
+                "width": "half",
+                "required": true
+              },
+              "lastName": {
+                "type": "text",
+                "label": "Last name",
+                "placeholder": "Last name",
+                "width": "half",
+                "required": true
+              },
+              "email": {
+                "type": "email",
+                "label": "Email address",
+                "placeholder": "Email address",
+                "width": "full",
+                "required": true
+              },
+              "phone": {
+                "type": "text",
+                "label": "Phone number",
+                "placeholder": "Phone number",
+                "width": "full",
+                "required": true
+              },
+              "message": {
+                "type": "textarea",
+                "label": "Your question or situation",
+                "placeholder": "Describe your situation so we can match you with the right advisor...",
+                "width": "full",
+                "required": true
+              }
+            }
+          }
         }
+      
       ],
       "form": {
         "title": "What do you need help with?",
         "backButton": "Back to categories",
-        "fields": {
-          "firstName": "First name",
-          "lastName": "Last name",
-          "email": "Email address",
-          "phone": "Phone number",
-          "message": {
-            "label": "Your question or situation",
-            "placeholder": "Describe your situation so we can match you with the right advisor..."
-          }
-        },
         "privacyConsent": "I agree to the <a href=\"/privacy\" class=\"text-primary hover:underline\">privacy terms</a> and consent to being contacted.",
         "submitButton": "Submit request"
       },

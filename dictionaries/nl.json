@@ -64,37 +64,183 @@
         {
           "id": "income-tax",
           "title": "Aangifte inkomstenbelasting",
-          "description": "Hulp nodig bij je belastingaangifte? Onze adviseurs helpen je met het correct invullen en optimaliseren van je aangifte."
+          "description": "Hulp nodig bij je belastingaangifte? Onze adviseurs helpen je met het correct invullen en optimaliseren van je aangifte.",
+          "form": {
+            "fields": {
+              "firstName": {
+                "type": "text",
+                "label": "Voornaam",
+                "placeholder": "Voornaam",
+                "width": "half",
+                "required": true
+              },
+              "lastName": {
+                "type": "text",
+                "label": "Achternaam",
+                "placeholder": "Achternaam",
+                "width": "half",
+                "required": true
+              },
+              "email": {
+                "type": "email",
+                "label": "E-mailadres",
+                "placeholder": "E-mailadres",
+                "width": "full",
+                "required": true
+              },
+              "phone": {
+                "type": "text",
+                "label": "Telefoonnummer",
+                "placeholder": "Telefoonnummer",
+                "width": "full",
+                "required": true
+              },
+              "message": {
+                "type": "textarea",
+                "label": "Je vraag of situatie",
+                "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur...",
+                "width": "full",
+                "required": true
+              }
+            }
+          }
         },
         {
           "id": "m-form",
           "title": "Hulp bij M-formulier",
-          "description": "Internationale verhuizing gehad of gepland? Onze experts helpen je met het M-formulier voor emigratie of immigratie."
+          "description": "Internationale verhuizing gehad of gepland? Onze experts helpen je met het M-formulier voor emigratie of immigratie.",
+          "form": {
+            "fields": {
+              "firstName": {
+                "type": "text",
+                "label": "Voornaam",
+                "placeholder": "Voornaam",
+                "width": "half",
+                "required": true
+              },
+              "lastName": {
+                "type": "text",
+                "label": "Achternaam",
+                "placeholder": "Achternaam",
+                "width": "half",
+                "required": true
+              },
+              "email": {
+                "type": "email",
+                "label": "E-mailadres",
+                "placeholder": "E-mailadres",
+                "width": "full",
+                "required": true
+              },
+              "phone": {
+                "type": "text",
+                "label": "Telefoonnummer",
+                "placeholder": "Telefoonnummer",
+                "width": "full",
+                "required": true
+              },
+              "message": {
+                "type": "textarea",
+                "label": "Je vraag of situatie",
+                "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur...",
+                "width": "full",
+                "required": true
+              }
+            }
+          }
         },
         {
           "id": "business-admin",
           "title": "Administratie voor mijn bedrijf",
-          "description": "Laat je bedrijfsadministratie verzorgen door experts die je helpen alles op orde te houden en fiscaal te optimaliseren."
+          "description": "Laat je bedrijfsadministratie verzorgen door experts die je helpen alles op orde te houden en fiscaal te optimaliseren.",
+          "form": {
+            "fields": {
+              "firstName": {
+                "type": "text",
+                "label": "Voornaam",
+                "placeholder": "Voornaam",
+                "width": "half",
+                "required": true
+              },
+              "lastName": {
+                "type": "text",
+                "label": "Achternaam",
+                "placeholder": "Achternaam",
+                "width": "half",
+                "required": true
+              },
+              "email": {
+                "type": "email",
+                "label": "E-mailadres",
+                "placeholder": "E-mailadres",
+                "width": "full",
+                "required": true
+              },
+              "phone": {
+                "type": "text",
+                "label": "Telefoonnummer",
+                "placeholder": "Telefoonnummer",
+                "width": "full",
+                "required": true
+              },
+              "message": {
+                "type": "textarea",
+                "label": "Je vraag of situatie",
+                "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur...",
+                "width": "full",
+                "required": true
+              }
+            }
+          }
         },
         {
           "id": "business-creation",
           "title": "Ondernemers/ZZPers",
-          "description": "Hulp nodig bij BTW, vennootschapsbelasting, fiscale optimalisatie of boekhouding."
+          "description": "Hulp nodig bij BTW, vennootschapsbelasting, fiscale optimalisatie of boekhouding.",
+          "form": {
+            "fields": {
+              "firstName": {
+                "type": "text",
+                "label": "Voornaam",
+                "placeholder": "Voornaam",
+                "width": "half",
+                "required": true
+              },
+              "lastName": {
+                "type": "text",
+                "label": "Achternaam",
+                "placeholder": "Achternaam",
+                "width": "half",
+                "required": true
+              },
+              "email": {
+                "type": "email",
+                "label": "E-mailadres",
+                "placeholder": "E-mailadres",
+                "width": "full",
+                "required": true
+              },
+              "phone": {
+                "type": "text",
+                "label": "Telefoonnummer",
+                "placeholder": "Telefoonnummer",
+                "width": "full",
+                "required": true
+              },
+              "message": {
+                "type": "textarea",
+                "label": "Je vraag of situatie",
+                "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur...",
+                "width": "full",
+                "required": true
+              }
+            }
+          }
         }
       ],
       "form": {
         "title": "Waar heb je hulp bij nodig?",
         "backButton": "Terug naar categorieën",
-        "fields": {
-          "firstName": "Voornaam",
-          "lastName": "Achternaam",
-          "email": "E-mailadres",
-          "phone": "Telefoonnummer",
-          "message": {
-            "label": "Je vraag of situatie",
-            "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur..."
-          }
-        },
         "privacyConsent": "Ik ga akkoord met de <a href=\"/privacy\" class=\"text-primary hover:underline\">privacyvoorwaarden</a> en geef toestemming om contact met mij op te nemen.",
         "submitButton": "Verstuur aanvraag"
       },

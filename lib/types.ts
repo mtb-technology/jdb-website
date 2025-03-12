@@ -78,20 +78,22 @@ export interface AdvisorFinderDict {
     id: string;
     title: string;
     description: string;
+    form: {
+      fields: {
+        firstName: string;
+        lastName: string;
+        email: string;
+        phone: string;
+        message: {
+          label: string;
+          placeholder: string;
+        };
+      };
+    };
   }[];
   form: {
     title: string;
     backButton: string;
-    fields: {
-      firstName: string;
-      lastName: string;
-      email: string;
-      phone: string;
-      message: {
-        label: string;
-        placeholder: string;
-      };
-    };
     privacyConsent: string;
     submitButton: string;
   };

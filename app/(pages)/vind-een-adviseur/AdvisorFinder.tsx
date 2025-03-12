@@ -72,6 +72,10 @@ export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
     setFormSubmitted(false);
   };
 
+  const selectedCategoryData = dict.categories.find(
+    (category) => category.id === selectedCategory
+  );
+
   return (
     <div className="relative">
       {/* Blue background with wave */}
@@ -208,88 +212,144 @@ export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
                   </div>
                   <div className="bg-white rounded-xl shadow-md p-8 border border-gray-100">
                     <h3 className="text-xl font-bold mb-6">
-                      {
-                        dict.categories.find((c) => c.id === selectedCategory)
-                          ?.title
-                      }
+                      {selectedCategoryData?.title}
                     </h3>
                     <form onSubmit={handleSubmit} className="space-y-6">
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div>
-                          <label
-                            htmlFor="firstName"
-                            className="block text-sm font-medium text-gray-700 mb-1"
-                          >
-                            {dict.form.fields.firstName}
-                          </label>
-                          <input
-                            type="text"
-                            id="firstName"
-                            name="firstName"
-                            required
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                          />
-                        </div>
-                        <div>
-                          <label
-                            htmlFor="lastName"
-                            className="block text-sm font-medium text-gray-700 mb-1"
-                          >
-                            {dict.form.fields.lastName}
-                          </label>
-                          <input
-                            type="text"
-                            id="lastName"
-                            name="lastName"
-                            required
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                          />
-                        </div>
-                      </div>
-                      <div>
-                        <label
-                          htmlFor="email"
-                          className="block text-sm font-medium text-gray-700 mb-1"
-                        >
-                          {dict.form.fields.email}
-                        </label>
-                        <input
-                          type="email"
-                          id="email"
-                          name="email"
-                          required
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                        />
-                      </div>
-                      <div>
-                        <label
-                          htmlFor="phone"
-                          className="block text-sm font-medium text-gray-700 mb-1"
-                        >
-                          {dict.form.fields.phone}
-                        </label>
-                        <input
-                          type="tel"
-                          id="phone"
-                          name="phone"
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                        />
-                      </div>
-                      <div>
-                        <label
-                          htmlFor="message"
-                          className="block text-sm font-medium text-gray-700 mb-1"
-                        >
-                          {dict.form.fields.message.label}
-                        </label>
-                        <textarea
-                          id="message"
-                          name="message"
-                          rows={4}
-                          required
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                          placeholder={dict.form.fields.message.placeholder}
-                        ></textarea>
+                        {selectedCategoryData?.form.fields &&
+                          Object.entries(selectedCategoryData.form.fields).map(
+                            ([fieldKey, fieldConfig]) => {
+                              const { type, label, placeholder, options, required, width } = fieldConfig as {
+                                type: string;
+                                label: string;
+                                placeholder: string;
+                                options: { label: string; value: string }[];
+                                required: boolean;
+                                width?: "full" | "half" | "third" | "twoThird";
+                              };
+
+                              const widthClass = {
+                                full: "col-span-2",
+                                half: "col-span-1 md:col-span-1",
+                                third: "col-span-1 md:col-span-1",
+                                twoThird: "col-span-2 md:col-span-2",
+                              }[width || "full"];
+
+                              switch (type) {
+                                case "text":
+                                case "email":
+                                case "date":
+                                  return (
+                                    <div key={fieldKey} className={widthClass}>
+                                      <label
+                                        htmlFor={fieldKey}
+                                        className="block text-sm font-medium text-gray-700 mb-1"
+                                      >
+                                        {label}
+                                      </label>
+                                      <input
+                                        type={type}
+                                        id={fieldKey}
+                                        name={fieldKey}
+                                        placeholder={placeholder}
+                                        required={required}
+                                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                                      />
+                                    </div>
+                                  );
+                                case "textarea":
+                                  return (
+                                    <div key={fieldKey} className={widthClass}>
+                                      <label
+                                        htmlFor={fieldKey}
+                                        className="block text-sm font-medium text-gray-700 mb-1"
+                                      >
+                                        {label}
+                                      </label>
+                                      <textarea
+                                        id={fieldKey}
+                                        name={fieldKey}
+                                        placeholder={placeholder}
+                                        required={required}
+                                        rows={4}
+                                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                                      ></textarea>
+                                    </div>
+                                  );
+                                case "checkbox":
+                                  return (
+                                    <div key={fieldKey} className={widthClass}>
+                                      <input
+                                        type="checkbox"
+                                        id={fieldKey}
+                                        name={fieldKey}
+                                        required={required}
+                                        className="h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary"
+                                      />
+                                      <label
+                                        htmlFor={fieldKey}
+                                        className="ml-2 block text-sm text-gray-700"
+                                      >
+                                        {label}
+                                      </label>
+                                    </div>
+                                  );
+                                case "checkboxes":
+                                  return (
+                                    <div key={fieldKey} className={widthClass}>
+                                      <span className="block text-sm font-medium text-gray-700 mb-1">
+                                        {label}
+                                      </span>
+                                      {options?.map((option: { label: string; value: string }, index: number) => (
+                                        <div key={index} className="flex items-center">
+                                          <input
+                                            type="checkbox"
+                                            id={`${fieldKey}-${index}`}
+                                            name={fieldKey}
+                                            value={option.value}
+                                            className="h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary"
+                                          />
+                                          <label
+                                            htmlFor={`${fieldKey}-${index}`}
+                                            className="ml-2 block text-sm text-gray-700"
+                                          >
+                                            {option.label}
+                                          </label>
+                                        </div>
+                                      ))}
+                                    </div>
+                                  );
+                                case "dropdown":
+                                  return (
+                                    <div key={fieldKey} className={widthClass}>
+                                      <label
+                                        htmlFor={fieldKey}
+                                        className="block text-sm font-medium text-gray-700 mb-1"
+                                      >
+                                        {label}
+                                      </label>
+                                      <select
+                                        id={fieldKey}
+                                        name={fieldKey}
+                                        required={required}
+                                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                                      >
+                                        <option value="" disabled selected hidden>
+                                          {placeholder}
+                                        </option>
+                                        {options?.map((option: { label: string; value: string }, index: number) => (
+                                          <option key={index} value={option.value}>
+                                            {option.label}
+                                          </option>
+                                        ))}
+                                      </select>
+                                    </div>
+                                  );
+                                default:
+                                  return null;
+                              }
+                            }
+                          )}
                       </div>
 
                       <div className="flex items-start">
