@@ -156,6 +156,7 @@ export function ChatInterface({
                 });
               }
             } else if (Object.hasOwn(chunk, "message_id")) {
+              console.log("message_id", chunk.message_id);
               newMessageId = chunk.message_id;
               // Update session state when we receive chat session info
               if (chunk.chat_session_id) {
@@ -164,8 +165,9 @@ export function ChatInterface({
                   parentMessageId: chunk.message_id,
                 });
               }
-            } else if (Object.hasOwn(chunk, "tool_call") && chunk.tool_call) {
-              console.log("tool_call", chunk.tool_call);
+            }
+            if (Object.hasOwn(chunk, "tool_call") && chunk.tool_call) {
+              console.log("tool_call send data layer event w", chunk.tool_call);
               window.dataLayer = window.dataLayer || [];
               window.dataLayer.push({
                 event: "toolCall",

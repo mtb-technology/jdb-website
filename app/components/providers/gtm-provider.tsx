@@ -16,6 +16,7 @@ export function GTMProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (!trackingData) return;
+    console.log("trackingData", trackingData);
 
     // Initialize dataLayer
     window.dataLayer = window.dataLayer || [];
