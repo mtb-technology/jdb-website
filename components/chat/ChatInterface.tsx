@@ -165,7 +165,7 @@ export function ChatInterface({
                   parentMessageId: chunk.message_id,
                 });
               }
-            }
+            } 
             if (Object.hasOwn(chunk, "tool_call") && chunk.tool_call) {
               console.log("tool_call send data layer event w", chunk.tool_call);
               window.dataLayer = window.dataLayer || [];

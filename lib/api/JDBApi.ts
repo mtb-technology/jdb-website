@@ -191,11 +191,11 @@ export class JDBApi {
     return this.fetchApi<FormResponse>(`/forms/${handle}`);
   }
 
-  async subscribeToNewsletter(email: string): Promise<{ success: boolean; message?: string }> {
+  async subscribeToNewsletter(email: string): Promise<{ id: string }> {
     const response = await fetch(`${this.baseUrl}/email-subscribe`, {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify({ email }),
     });

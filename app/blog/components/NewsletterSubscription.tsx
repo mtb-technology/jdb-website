@@ -26,7 +26,7 @@ const NewsletterSubscription: React.FC<NewsletterSubscriptionProps> = ({
       if (response.id) {
         setSubscriptionSuccess(true);
       } else {
-        console.error("Subscription failed:", response.message);
+        console.error("Subscription failed:");
       }
     } catch (error) {
       console.error("Error subscribing to newsletter:", error);
