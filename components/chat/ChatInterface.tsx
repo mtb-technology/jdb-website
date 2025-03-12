@@ -119,6 +119,7 @@ export function ChatInterface({
           assistantId: assistantId,
           trackingId: trackingData?.trackingId,
           leadSource: trackingData?.leadSource,
+          language: isEnglish ? "en" : "nl",
         });
 
         let fullResponse = "";

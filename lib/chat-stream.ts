@@ -81,6 +81,7 @@ export async function* sendMessage({
   assistantId,
   trackingId,
   leadSource,
+  language,
 }: {
   message: string;
     chatSessionId?: string;
@@ -88,6 +89,7 @@ export async function* sendMessage({
     assistantId: number;
     trackingId?: string | null;
     leadSource?: string | null;
+    language: string;
 }) {
   if (!chatSessionId || !parentMessageId) {
     console.log("Creating chat session with assistantId", assistantId);
@@ -100,6 +102,7 @@ export async function* sendMessage({
           Authorization: `Bearer ${API_KEY}`,
           "tracking-id": trackingId || "",
           "lead-source": leadSource || "",
+          "app_locale": language,
         },
         body: JSON.stringify({
           persona_id: assistantId,
@@ -122,6 +125,9 @@ export async function* sendMessage({
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${API_KEY}`,
+      "tracking-id": trackingId || "",
+      "lead-source": leadSource || "",
+      "app_locale": language,
     },
     body: JSON.stringify({
       alternate_assistant_id: assistantId, // TODO: is this needed?      

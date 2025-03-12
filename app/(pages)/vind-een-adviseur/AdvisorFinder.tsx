@@ -17,6 +17,7 @@ export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const { trackingData } = useTracking();
+  const isEnglish = locale === "en";
 
   const handleCategorySelect = (categoryId: string) => {
     setSelectedCategory(categoryId);
@@ -43,6 +44,19 @@ export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
     try {
       const response = await jdbApi.submitForm("advisor-request", data);
       if (response.success) {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: "formSubmitted",
+          ecommerce: {
+            // form_id: response.id,
+            form_handle: "advisor_finder",
+            //form_data: visibleValues,
+            language: isEnglish ? "en" : "nl",
+            tracking_id: trackingData?.trackingId,
+            lead_source: trackingData?.leadSource,
+          },
+        });
+
         setFormSubmitted(true);
       } else {
         // Handle error case

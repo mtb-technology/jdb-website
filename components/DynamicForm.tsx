@@ -120,13 +120,13 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
       const normalizedFieldValue = normalizeValue(conditionFieldValue);
       const normalizedConditionValue = normalizeValue(field.condition_value);
 
-      console.log(`Checking visibility for field: ${field.field_key}`);
-      console.log(`Condition field: ${field.condition_field}`);
-      console.log(`Condition operator: ${field.condition_operator}`);
-      console.log(`Raw condition value:`, field.condition_value);
-      console.log(`Raw field value:`, conditionFieldValue);
-      console.log(`Normalized condition value:`, normalizedConditionValue);
-      console.log(`Normalized field value:`, normalizedFieldValue);
+      // console.log(`Checking visibility for field: ${field.field_key}`);
+      // console.log(`Condition field: ${field.condition_field}`);
+      // console.log(`Condition operator: ${field.condition_operator}`);
+      // console.log(`Raw condition value:`, field.condition_value);
+      // console.log(`Raw field value:`, conditionFieldValue);
+      // console.log(`Normalized condition value:`, normalizedConditionValue);
+      // console.log(`Normalized field value:`, normalizedFieldValue);
 
       // If the condition field doesn't exist in form values, hide the field
       if (normalizedFieldValue === undefined) {
@@ -390,6 +390,19 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
         throw new Error(response.message || "Form submission failed");
       }
 
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: "formSubmitted",
+        ecommerce: {
+          // form_id: response.id,
+          form_handle: handle,
+          form_name: formData?.name,
+          //form_data: visibleValues,
+          language: isEnglish ? "en" : "nl",
+          tracking_id: trackingData?.trackingId,
+          lead_source: trackingData?.leadSource,
+        },
+      });
       setFormSubmitted(true);
       toast.success("Form submitted successfully");
       form.reset();
