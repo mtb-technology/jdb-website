@@ -16,7 +16,8 @@
         "deductions": "Welke aftrekposten kan ik toepassen?",
         "vatReturn": "Hoe werkt de BTW aangifte?",
         "box3": "Hoe wordt vermogen in box 3 belast?",
-        "businessStructure": "Hoe zet ik mijn eenmanszaak om naar een BV?"
+        "businessStructure": "Hoe zet ik mijn eenmanszaak om naar een BV?",
+        "more": "Hoe voorkom ik teveel belasting betalen?"
       },
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
@@ -251,7 +252,8 @@
         "deductions": "What deductions can I apply?",
         "vatReturn": "How to file VAT returns as self-employed?",
         "box3": "Do I need to declare assets in box 3?",
-        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?"
+        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",
+        "more": "How do I avoid tax pitfalls?"
       },
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
