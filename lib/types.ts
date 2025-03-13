@@ -74,29 +74,6 @@ export interface AdvisorFinderDict {
     benefits: string[];
     networkDescription: string;
   };
-  categories: {
-    id: string;
-    title: string;
-    description: string;
-    form: {
-      fields: {
-        firstName: string;
-        lastName: string;
-        email: string;
-        phone: string;
-        message: {
-          label: string;
-          placeholder: string;
-        };
-      };
-    };
-  }[];
-  form: {
-    title: string;
-    backButton: string;
-    privacyConsent: string;
-    submitButton: string;
-  };
   success: {
     title: string;
     message: string;
