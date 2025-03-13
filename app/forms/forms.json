@@ -68,6 +68,182 @@
           }
         },
         {
+          "id": "additional_questions",
+          "type": "checkbox",
+          "label": "Selecteer wat van toepassing is op jouw situatie in het aangiftejaar",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Kinderen onder de 18",
+              "value": "children"
+            },
+            {
+              "label": "Gescheiden",
+              "value": "divorced_this_year"
+            },
+            {
+              "label": "Eigen woning",
+              "value": "own_house"
+            },
+            {
+              "label": "Hypotheek op woning",
+              "value": "mortgage_on_house"
+            },
+            {
+              "label": "Eigen woning verkocht",
+              "value": "house_sold"
+            },
+            {
+              "label": "Van plan te verhuizen",
+              "value": "moving"
+            },
+            {
+              "label": "In buitenland gewoond",
+              "value": "recent_abroad"
+            },
+            {
+              "label": "30% regeling",
+              "value": "30_percent_ruling"
+            }
+          ]
+        },
+        {
+          "id": "income_sources",
+          "type": "checkbox",
+          "label": "Wat zijn je inkomensbronnen?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Loondienst",
+              "value": "employment_income"
+            },
+            {
+              "label": "Loondienst buitenland",
+              "value": "foreign_employment"
+            },
+            {
+              "label": "Loondienst eigen B.V.",
+              "value": "own_company"
+            },
+            {
+              "label": "Eigen onderneming (ZZP)",
+              "value": "business_income"
+            },
+            {
+              "label": "Pensioen/uitkering uit Nederland",
+              "value": "pension_income"
+            },
+            {
+              "label": "Pensioen/uitkering uit buitenland",
+              "value": "foreign_pension_income"
+            },
+            {
+              "label": "Anders",
+              "value": "other_income"
+            }
+          ]
+        },
+        {
+          "id": "assets",
+          "type": "checkbox",
+          "label": "Wat zijn je vermogensbronnen?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Bank -en spaarrekeningen Nederland",
+              "value": "nl_bank"
+            },
+            {
+              "label": "Bank -en spaarrekeningen in het buitenland",
+              "value": "foreign_bank"
+            },
+            {
+              "label": "Aandelen",
+              "value": "stocks"
+            },
+            {
+              "label": "Aandelen in het buitenland",
+              "value": "foreign_stocks"
+            },
+            {
+              "label": "Cryptocurrency",
+              "value": "crypto"
+            },
+            {
+              "label": "Pensioenopbouw in het buitenland",
+              "value": "foreign_pension"
+            },
+            {
+              "label": "Openstaande vorderingen",
+              "value": "receivables"
+            },
+            {
+              "label": "Tweede woning in Nederland",
+              "value": "second_home_nl"
+            },
+            {
+              "label": "Woning in het buitenland",
+              "value": "foreign_property"
+            },
+            {
+              "label": "Leningen",
+              "value": "loans"
+            },
+            {
+              "label": "Leningen in het buitenland",
+              "value": "foreign_loans"
+            },
+            {
+              "label": "Overige bezittingen in Nederland",
+              "value": "other_assets_nl"
+            },
+            {
+              "label": "Overige bezittingen in het buitenland",
+              "value": "other_assets_foreign"
+            },
+            {
+              "label": "Aanmerkelijk belang in Nederland (>5%)",
+              "value": "substantial_interest_nl"
+            },
+            {
+              "label": "Aanmerkelijk belang in het buitenland (>5%)",
+              "value": "substantial_interest_foreign"
+            },
+            {
+              "label": "Aandeel in VvE",
+              "value": "vve_share"
+            }
+          ]
+        },
+        {
+          "id": "deductibles",
+          "type": "checkbox",
+          "label": "Zijn er nog extra aftrekposten?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Giften",
+              "value": "gifts"
+            },
+            {
+              "label": "Zorgkosten",
+              "value": "healthcare_expenses"
+            },
+            {
+              "label": "Betaalde partneralimentatie",
+              "value": "alimony_paid"
+            },
+            {
+              "label": "Lijfrente stortingen",
+              "value": "annuity"
+            }
+          ]
+        },
+        {
           "id": "name",
           "type": "text",
           "label": "Je volledige naam",
@@ -127,13 +303,23 @@
       ],
       "sections": [
         {
-          "title": "Persoonlijke situatie",
+          "title": "Belasting vraag",
           "fields": [
             "tax_year",
             "joint_filing",
             "question"
           ],
           "page": 1
+        },
+        {
+          "title": "Persoonlijke situatie",
+          "fields": [
+            "income_sources",
+            "additional_questions",
+            "assets",
+            "deductibles"
+          ],
+          "page": 2
         },
         {
           "title": "Contactgegevens",
@@ -145,7 +331,7 @@
             "phone_number",
             "birth_date"
           ],
-          "page": 2
+          "page": 3
         }
       ],
       "successMessage": {
@@ -226,6 +412,182 @@
           }
         },
         {
+          "id": "additional_questions",
+          "type": "checkbox",
+          "label": "Selecteer wat van toepassing is op jouw situatie in het aangiftejaar",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Kinderen onder de 18",
+              "value": "children"
+            },
+            {
+              "label": "Gescheiden",
+              "value": "divorced_this_year"
+            },
+            {
+              "label": "Eigen woning",
+              "value": "own_house"
+            },
+            {
+              "label": "Hypotheek op woning",
+              "value": "mortgage_on_house"
+            },
+            {
+              "label": "Eigen woning verkocht",
+              "value": "house_sold"
+            },
+            {
+              "label": "Van plan te verhuizen",
+              "value": "moving"
+            },
+            {
+              "label": "In buitenland gewoond",
+              "value": "recent_abroad"
+            },
+            {
+              "label": "30% regeling",
+              "value": "30_percent_ruling"
+            }
+          ]
+        },
+        {
+          "id": "income_sources",
+          "type": "checkbox",
+          "label": "Wat zijn je inkomensbronnen?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Loondienst",
+              "value": "employment_income"
+            },
+            {
+              "label": "Loondienst buitenland",
+              "value": "foreign_employment"
+            },
+            {
+              "label": "Loondienst eigen B.V.",
+              "value": "own_company"
+            },
+            {
+              "label": "Eigen onderneming (ZZP)",
+              "value": "business_income"
+            },
+            {
+              "label": "Pensioen/uitkering uit Nederland",
+              "value": "pension_income"
+            },
+            {
+              "label": "Pensioen/uitkering uit buitenland",
+              "value": "foreign_pension_income"
+            },
+            {
+              "label": "Anders",
+              "value": "other_income"
+            }
+          ]
+        },
+        {
+          "id": "assets",
+          "type": "checkbox",
+          "label": "Wat zijn je vermogensbronnen?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Bank -en spaarrekeningen Nederland",
+              "value": "nl_bank"
+            },
+            {
+              "label": "Bank -en spaarrekeningen in het buitenland",
+              "value": "foreign_bank"
+            },
+            {
+              "label": "Aandelen",
+              "value": "stocks"
+            },
+            {
+              "label": "Aandelen in het buitenland",
+              "value": "foreign_stocks"
+            },
+            {
+              "label": "Cryptocurrency",
+              "value": "crypto"
+            },
+            {
+              "label": "Pensioenopbouw in het buitenland",
+              "value": "foreign_pension"
+            },
+            {
+              "label": "Openstaande vorderingen",
+              "value": "receivables"
+            },
+            {
+              "label": "Tweede woning in Nederland",
+              "value": "second_home_nl"
+            },
+            {
+              "label": "Woning in het buitenland",
+              "value": "foreign_property"
+            },
+            {
+              "label": "Leningen",
+              "value": "loans"
+            },
+            {
+              "label": "Leningen in het buitenland",
+              "value": "foreign_loans"
+            },
+            {
+              "label": "Overige bezittingen in Nederland",
+              "value": "other_assets_nl"
+            },
+            {
+              "label": "Overige bezittingen in het buitenland",
+              "value": "other_assets_foreign"
+            },
+            {
+              "label": "Aanmerkelijk belang in Nederland (>5%)",
+              "value": "substantial_interest_nl"
+            },
+            {
+              "label": "Aanmerkelijk belang in het buitenland (>5%)",
+              "value": "substantial_interest_foreign"
+            },
+            {
+              "label": "Aandeel in VvE",
+              "value": "vve_share"
+            }
+          ]
+        },
+        {
+          "id": "deductibles",
+          "type": "checkbox",
+          "label": "Zijn er nog extra aftrekposten?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Giften",
+              "value": "gifts"
+            },
+            {
+              "label": "Zorgkosten",
+              "value": "healthcare_expenses"
+            },
+            {
+              "label": "Betaalde partneralimentatie",
+              "value": "alimony_paid"
+            },
+            {
+              "label": "Lijfrente stortingen",
+              "value": "annuity"
+            }
+          ]
+        },
+        {
           "id": "name",
           "type": "text",
           "label": "Je volledige naam",
@@ -285,13 +647,23 @@
       ],
       "sections": [
         {
-          "title": "Persoonlijke situatie",
+          "title": "Belastingvraag",
           "fields": [
             "tax_year",
             "joint_filing",
             "question"
           ],
           "page": 1
+        },
+        {
+          "title": "Persoonlijke situatie",
+          "fields": [
+            "income_sources",
+            "additional_questions",
+            "assets",
+            "deductibles"
+          ],
+          "page": 2
         },
         {
           "title": "Contactgegevens",
@@ -303,7 +675,7 @@
             "phone_number",
             "birth_date"
           ],
-          "page": 2
+          "page": 3
         }
       ],
       "successMessage": {
@@ -318,8 +690,8 @@
     },
     {
       "id": "business-administration",
-      "title": "Administratie voor mijn bedrijf",
-      "description": "Laat je bedrijfsadministratie verzorgen door specialisten die je helpen alles op orde te houden en fiscaal te optimaliseren.",
+      "title": "Bedrijfsadministratie",
+      "description": "Laat je financiële administratie verzorgen door specialisten die je helpen alles op orde te houden en fiscaal te optimaliseren.",
       "submitButtonText": "Verstuur bericht",
       "fields": [
         {
@@ -636,6 +1008,182 @@
           }
         },
         {
+          "id": "additional_questions",
+          "type": "checkbox",
+          "label": "Select what applies to your situation in the tax year",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Children under 18",
+              "value": "children"
+            },
+            {
+              "label": "Divorced",
+              "value": "divorced_this_year"
+            },
+            {
+              "label": "Own house",
+              "value": "own_house"
+            },
+            {
+              "label": "Mortgage on house",
+              "value": "mortgage_on_house"
+            },
+            {
+              "label": "House sold",
+              "value": "house_sold"
+            },
+            {
+              "label": "Plan on moving",
+              "value": "moving"
+            },
+            {
+              "label": "Lived abroad",
+              "value": "recent_abroad"
+            },
+            {
+              "label": "30% ruling",
+              "value": "30_percent_ruling"
+            }
+          ]
+        },
+        {
+          "id": "income_sources",
+          "type": "checkbox",
+          "label": "What are your income sources?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Employment income",
+              "value": "employment_income"
+            },
+            {
+              "label": "Foreign employment",
+              "value": "foreign_employment"
+            },
+            {
+              "label": "Own company",
+              "value": "own_company"
+            },
+            {
+              "label": "Own business (ZZP)",
+              "value": "business_income"
+            },
+            {
+              "label": "Pension/income from Netherlands",
+              "value": "pension_income"
+            },
+            {
+              "label": "Pension/income from abroad",
+              "value": "foreign_pension_income"
+            },
+            {
+              "label": "Other",
+              "value": "other_income"
+            }
+          ]
+        },
+        {
+          "id": "assets",
+          "type": "checkbox",
+          "label": "What are your assets?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Dutch bank- and savings accounts",
+              "value": "nl_bank"
+            },
+            {
+              "label": "Foreign bank- and savings accounts",
+              "value": "foreign_bank"
+            },
+            {
+              "label": "Stocks",
+              "value": "stocks"
+            },
+            {
+              "label": "Foreign stocks",
+              "value": "foreign_stocks"
+            },
+            {
+              "label": "Cryptocurrency",
+              "value": "crypto"
+            },
+            {
+              "label": "Pension/income from abroad",
+              "value": "foreign_pension"
+            },
+            {
+              "label": "Outstanding receivables",
+              "value": "receivables"
+            },
+            {
+              "label": "Second home in Netherlands",
+              "value": "second_home_nl"
+            },
+            {
+              "label": "Foreign property",
+              "value": "foreign_property"
+            },
+            {
+              "label": "Loans",
+              "value": "loans"
+            },
+            {
+              "label": "Foreign loans",
+              "value": "foreign_loans"
+            },
+            {
+              "label": "Other Dutch assets",
+              "value": "other_assets_nl"
+            },
+            {
+              "label": "Other foreign assets in abroad",
+              "value": "other_assets_foreign"
+            },
+            {
+              "label": "Significant interest in Netherlands (>5%)",
+              "value": "substantial_interest_nl"
+            },
+            {
+              "label": "Significant interest in abroad (>5%)",
+              "value": "substantial_interest_foreign"
+            },
+            {
+              "label": "Share in VvE",
+              "value": "vve_share"
+            }
+          ]
+        },
+        {
+          "id": "deductibles",
+          "type": "checkbox",
+          "label": "Are there any other deductions?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Gifts",
+              "value": "gifts"
+            },
+            {
+              "label": "Healthcare expenses",
+              "value": "healthcare_expenses"
+            },
+            {
+              "label": "Paid partner alimony",
+              "value": "alimony_paid"
+            },
+            {
+              "label": "Annuity contributions",
+              "value": "annuity"
+            }
+          ]
+        },
+        {
           "id": "name",
           "type": "text",
           "label": "Your full name",
@@ -695,13 +1243,23 @@
       ],
       "sections": [
         {
-          "title": "Personal situation",
+          "title": "Tax related question",
           "fields": [
             "tax_year",
             "joint_filing",
             "question"
           ],
           "page": 1
+        },
+        {
+          "title": "Personal situation",
+          "fields": [
+            "income_sources",
+            "additional_questions",
+            "assets",
+            "deductibles"
+          ],
+          "page": 2
         },
         {
           "title": "Contact details",
@@ -713,7 +1271,7 @@
             "phone_number",
             "birth_date"
           ],
-          "page": 2
+          "page": 3
         }
       ],
       "successMessage": {
@@ -794,6 +1352,182 @@
           }
         },
         {
+          "id": "additional_questions",
+          "type": "checkbox",
+          "label": "Select what applies to your situation in the tax year",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Children under 18",
+              "value": "children"
+            },
+            {
+              "label": "Divorced",
+              "value": "divorced_this_year"
+            },
+            {
+              "label": "Own house",
+              "value": "own_house"
+            },
+            {
+              "label": "Mortgage on house",
+              "value": "mortgage_on_house"
+            },
+            {
+              "label": "House sold",
+              "value": "house_sold"
+            },
+            {
+              "label": "Plan on moving",
+              "value": "moving"
+            },
+            {
+              "label": "Lived abroad",
+              "value": "recent_abroad"
+            },
+            {
+              "label": "30% ruling",
+              "value": "30_percent_ruling"
+            }
+          ]
+        },
+        {
+          "id": "income_sources",
+          "type": "checkbox",
+          "label": "What are your income sources?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Employment income",
+              "value": "employment_income"
+            },
+            {
+              "label": "Foreign employment",
+              "value": "foreign_employment"
+            },
+            {
+              "label": "Own company",
+              "value": "own_company"
+            },
+            {
+              "label": "Own business (ZZP)",
+              "value": "business_income"
+            },
+            {
+              "label": "Pension/income from Netherlands",
+              "value": "pension_income"
+            },
+            {
+              "label": "Pension/income from abroad",
+              "value": "foreign_pension_income"
+            },
+            {
+              "label": "Other",
+              "value": "other_income"
+            }
+          ]
+        },
+        {
+          "id": "assets",
+          "type": "checkbox",
+          "label": "What are your assets?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Dutch bank- and savings accounts",
+              "value": "nl_bank"
+            },
+            {
+              "label": "Foreign bank- and savings accounts",
+              "value": "foreign_bank"
+            },
+            {
+              "label": "Stocks",
+              "value": "stocks"
+            },
+            {
+              "label": "Foreign stocks",
+              "value": "foreign_stocks"
+            },
+            {
+              "label": "Cryptocurrency",
+              "value": "crypto"
+            },
+            {
+              "label": "Pension/income from abroad",
+              "value": "foreign_pension"
+            },
+            {
+              "label": "Outstanding receivables",
+              "value": "receivables"
+            },
+            {
+              "label": "Second home in Netherlands",
+              "value": "second_home_nl"
+            },
+            {
+              "label": "Foreign property",
+              "value": "foreign_property"
+            },
+            {
+              "label": "Loans",
+              "value": "loans"
+            },
+            {
+              "label": "Foreign loans",
+              "value": "foreign_loans"
+            },
+            {
+              "label": "Other Dutch assets",
+              "value": "other_assets_nl"
+            },
+            {
+              "label": "Other foreign assets in abroad",
+              "value": "other_assets_foreign"
+            },
+            {
+              "label": "Significant interest in Netherlands (>5%)",
+              "value": "substantial_interest_nl"
+            },
+            {
+              "label": "Significant interest in abroad (>5%)",
+              "value": "substantial_interest_foreign"
+            },
+            {
+              "label": "Share in VvE",
+              "value": "vve_share"
+            }
+          ]
+        },
+        {
+          "id": "deductibles",
+          "type": "checkbox",
+          "label": "Are there any other deductions?",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Gifts",
+              "value": "gifts"
+            },
+            {
+              "label": "Healthcare expenses",
+              "value": "healthcare_expenses"
+            },
+            {
+              "label": "Paid partner alimony",
+              "value": "alimony_paid"
+            },
+            {
+              "label": "Annuity contributions",
+              "value": "annuity"
+            }
+          ]
+        },
+        {
           "id": "name",
           "type": "text",
           "label": "Your full name",
@@ -853,13 +1587,23 @@
       ],
       "sections": [
         {
-          "title": "Personal situation",
+          "title": "Tax related question",
           "fields": [
             "tax_year",
             "joint_filing",
             "question"
           ],
           "page": 1
+        },
+        {
+          "title": "Personal situation",
+          "fields": [
+            "income_sources",
+            "additional_questions",
+            "assets",
+            "deductibles"
+          ],
+          "page": 2
         },
         {
           "title": "Contact details",
@@ -871,7 +1615,7 @@
             "phone_number",
             "birth_date"
           ],
-          "page": 2
+          "page": 3
         }
       ],
       "successMessage": {
@@ -886,7 +1630,7 @@
     },
     {
       "id": "business-administration",
-      "title": "Administration for my business",
+      "title": "Financial administration",
       "description": "Let specialists take care of your business administration to help you keep everything in order and optimize your taxes.",
       "submitButtonText": "Send message",
       "fields": [

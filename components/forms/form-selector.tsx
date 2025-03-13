@@ -31,24 +31,23 @@ export const FormSelector = memo(function FormSelector({
   className, 
   locale = "nl" 
 }: FormSelectorProps) {
-  // Get localized text content
   const t = useMemo(() => localeContent[locale] || localeContent.nl, [locale])
-
+  
   return (
     <div className={cn("grid gap-4", className)}>
-      <h2 className="text-xl font-semibold text-center w-full mb-2">{t.heading}</h2>
+      
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {forms.map((form) => (
           <Card
             key={form.id}
-            className="cursor-pointer transition-all hover:shadow-md"
+            className="flex flex-col h-full cursor-pointer transition-all hover:shadow-md"
             onClick={() => onSelect(form.id)}
           >
-            <CardHeader className="pb-2">
+            <CardHeader className="pb-2 flex-grow">
               <CardTitle className="text-lg">{form.title}</CardTitle>
-              <CardDescription className="line-clamp-2">{form.description}</CardDescription>
+              <CardDescription className="line-clamp-4">{form.description}</CardDescription>
             </CardHeader>
-            <CardContent>
+            <CardContent className="mt-auto">
               <Button variant="outline" className="w-full">
                 {t.selectButton}
               </Button>

@@ -9,32 +9,20 @@ import { useCallback, useEffect, useMemo, useState } from "react"
 
 const localeContent = {
   nl: {
-    title: "Jan de Belastingman",
-    subtitle: "Deskundige en persoonlijke hulp bij aangifte inkomstenbelasting",
+    title: "Waar heb je hulp bij nodig?",
     loading: "Formulieren laden...",
-    noForms: "Geen formulieren gevonden. Controleer de JSON-configuratie.",
-    backToForms: "← Terug naar formulieren",
-    whatHappens: "Wat gebeurt er als ik op",
-    click: "klik?",
-    confirmation: "Je krijgt een bevestiging per e-mail (hiermee kun je je ook uitschrijven).",
-    contact: "Een adviseur neemt binnen 2 werkdagen contact op via email.",
-    noMatch: "Indien we niemand vinden laten we dit ook weten.",
+    noForms: "Geen formulieren gevonden. Probeer het later aub opnieuw.",
+    backToForms: "← Terug naar categorieën",
     formNotFound: "Formulier niet gevonden. Ga terug naar de formulierenselectie.",
-    backToSelection: "Terug naar formulieren",
+    backToSelection: "Terug naar categorieën",
   },
   en: {
-    title: "John the Tax Man",
-    subtitle: "Expert and personal assistance with income tax returns",
+    title: "What do you need help with?",
     loading: "Loading forms...",
-    noForms: "No forms found. Check the JSON configuration.",
-    backToForms: "← Back to forms",
-    whatHappens: "What happens when I",
-    click: "click?",
-    confirmation: "You will receive a confirmation by email (which you can also use to unsubscribe).",
-    contact: "An advisor will contact you within 2 business days via email.",
-    noMatch: "If we cannot find anyone, we will also let you know.",
+    noForms: "No forms found. Please try again later.",
+    backToForms: "← Back to categories",
     formNotFound: "Form not found. Go back to form selection.",
-    backToSelection: "Back to forms",
+    backToSelection: "Back to categories",
   },
 }
 
@@ -77,23 +65,12 @@ export default function FormManager({locale}: FormManagerProps) {
     setSelectedFormId(null)
   }, [])
 
-  const handleSubmit = useCallback(async (values: any) => {
-    try {
-      await new Promise((resolve) => setTimeout(resolve, 1000))
-      return true
-    } catch (error) {
-      console.error("Error submitting form:", error)
-      return false
-    }
-  }, [])
-
   if (isLoading) {
     return (
       <div className="w-full max-w-4xl mx-auto p-4">
         <div className="flex justify-between items-center mb-6">
-          <h1 className="text-3xl font-bold">{t.title}</h1>
+          <h2 className="text-3xl font-bold">{t.title}</h2>
         </div>
-        <p className="text-lg mb-8">{t.subtitle}</p>
         <div className="flex justify-center items-center h-40">
           <p>{t.loading}</p>
         </div>
@@ -102,11 +79,10 @@ export default function FormManager({locale}: FormManagerProps) {
   }
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-4">
-      <div className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-bold">{t.title}</h1>
+    <div className="w-full mx-auto p-4">
+      <div className="flex justify-center items-center mb-6">
+        <h2 className="text-2xl font-bold text-center">{t.title}</h2>
       </div>
-      <p className="text-lg mb-8">{t.subtitle}</p>
 
       {error || formMetas.length === 0 ? (
         <div className="p-4 border border-red-300 bg-red-50 rounded-md mb-4">
@@ -121,18 +97,9 @@ export default function FormManager({locale}: FormManagerProps) {
               {t.backToForms}
             </Button>
           </div>
-          <DynamicForm config={selectedForm} onSubmit={handleSubmit} locale={locale} />
+          
+          <DynamicForm config={selectedForm} className="mb-8" locale={locale} />
 
-          <div className="mt-8 p-6 bg-muted rounded-lg">
-            <h3 className="text-lg font-medium mb-4">
-              {t.whatHappens} "{selectedForm.submitButtonText}" {t.click}
-            </h3>
-            <ul className="space-y-2 list-disc pl-5">
-              <li>{t.confirmation}</li>
-              <li>{t.contact}</li>
-              <li>{t.noMatch}</li>
-            </ul>
-          </div>
         </div>
       ) : (
         <div className="p-4 border border-yellow-300 bg-yellow-50 rounded-md">

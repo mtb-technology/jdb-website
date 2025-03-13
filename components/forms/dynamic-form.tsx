@@ -7,6 +7,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 
+import { useTracking } from "@/app/components/providers/tracking-provider"
 import { FormProgress } from "@/components/forms/form-progress"
 import { Button } from "@/components/ui/button"
 import { Calendar } from "@/components/ui/calendar"
@@ -18,6 +19,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Textarea } from "@/components/ui/textarea"
+import { jdbApi } from "@/lib/api/JDBApi"
 import type { SupportedLocale } from "@/lib/types"
 import { cn } from "@/lib/utils"
 
@@ -91,9 +93,10 @@ interface DynamicFormProps {
   locale?: SupportedLocale
 }
 
-export function DynamicForm({ config, onSubmit, className, locale = "nl" }: DynamicFormProps) {
+export function DynamicForm({ config, className, locale = "nl" }: DynamicFormProps) {
   const messages = useMemo(() => validationMessages[locale] || validationMessages.nl, [locale])
-
+  const { trackingData } = useTracking();
+  console.log("Rendering DynamicForm");
   const safeConfig = useMemo(
     () => ({
       ...config,
@@ -105,7 +108,9 @@ export function DynamicForm({ config, onSubmit, className, locale = "nl" }: Dyna
   )
 
   const [isSubmitting, setIsSubmitting] = useState(false)
+  console.log("useState for isSubmitting called");
   const [isSubmitted, setIsSubmitted] = useState(false)
+  console.log("useState for isSubmitted called");
   const [currentPage, setCurrentPage] = useState(1)
   const [validatedPages, setValidatedPages] = useState<Record<number, boolean>>({})
   const prevPageRef = useRef(currentPage)
@@ -220,11 +225,6 @@ export function DynamicForm({ config, onSubmit, className, locale = "nl" }: Dyna
   }, [defaultValues, form])
 
   const _handleNextPage = useCallback(() => {
-    setValidatedPages((prev) => ({
-      ...prev,
-      [currentPage]: true,
-    }))
-
     form.trigger(currentPageFieldIds).then((isValid) => {
       if (isValid) {
         const nextPage = Math.min(currentPage + 1, totalPages)
@@ -240,94 +240,53 @@ export function DynamicForm({ config, onSubmit, className, locale = "nl" }: Dyna
     window.scrollTo(0, 0)
   }, [currentPage])
 
-  const handleNextPageRef = useRef(_handleNextPage)
-  useEffect(() => {
-    handleNextPageRef.current = _handleNextPage
-  }, [_handleNextPage])
-
   const handleSubmit = useCallback(
-    async (values: any) => {
-      setValidatedPages((prev) => ({
-        ...prev,
-        [currentPage]: true,
-      }))
-
+    async (values: any): Promise<boolean> => {
       if (currentPage < totalPages) {
-        handleNextPageRef.current()
-        return
+        _handleNextPage()
+        return false
       }
 
-      const isValid = await form.trigger()
-      if (!isValid) return
+      const formData: Record<string, any> = {};
+      safeConfig.fields.forEach((field) => {
+        const fieldId = field.id;
+        formData[fieldId] = values[fieldId]; // Dynamically assign values based on field IDs
+      });
+
+      formData.lead_source = trackingData?.leadSource || "advisor_finder";
+      formData.tracking_id = trackingData?.trackingId;
+      formData.utm_params = trackingData?.utmParams;
+      formData.app_locale = locale;
 
       setIsSubmitting(true)
       try {
-        if (onSubmit) {
-          const success = await onSubmit(values)
-          if (success) {
-            setIsSubmitted(true)
-          }
-        } else {
-          await new Promise((resolve) => setTimeout(resolve, 1000)) // Simulate API call
+        const response = await jdbApi.submitForm(formData.id, formData)
+        if (response.success) {
+          window.dataLayer = window.dataLayer || []
+          window.dataLayer.push({
+            event: "formSubmitted",
+            ecommerce: {
+              form_handle: "advisor_finder",
+              language: locale,
+              tracking_id: trackingData?.trackingId,
+              lead_source: trackingData?.leadSource,
+            },
+          })
           setIsSubmitted(true)
+          return true
+        } else {
+          console.error("Form submission failed:", response.message)
+          return false
         }
       } catch (error) {
-        console.error("Form submission error:", error)
+        console.error("Error submitting form:", error)
+        return false
       } finally {
         setIsSubmitting(false)
       }
     },
-    [currentPage, form, onSubmit, totalPages],
+    [locale, trackingData, currentPage, totalPages, _handleNextPage]
   )
-
-  /* 
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [formSubmitted, setFormSubmitted] = useState(false);
-  const { trackingData } = useTracking();
-  const isEnglish = locale === "en";
-  
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-
-    const formData = new FormData(e.currentTarget);
-    const data = {
-      first_name: formData.get("firstName"),
-      last_name: formData.get("lastName"),
-      email: formData.get("email"),
-      phone: formData.get("phone"),
-      message: formData.get("message"),
-      category: selectedCategory,
-      lead_source: trackingData?.leadSource || "advisor_finder",
-      tracking_id: trackingData?.trackingId,
-      utm_params: trackingData?.utmParams,
-      app_locale: locale,
-    };
-
-    try {
-      const response = await jdbApi.submitForm("advisor-request", data);
-      if (response.success) {
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({
-          event: "formSubmitted",
-          ecommerce: {
-            // form_id: response.id,
-            form_handle: "advisor_finder",
-            //form_data: visibleValues,
-            language: isEnglish ? "en" : "nl",
-            tracking_id: trackingData?.trackingId,
-            lead_source: trackingData?.leadSource,
-          },
-        });
-
-        setFormSubmitted(true);
-      } else {
-        // Handle error case
-        console.error("Form submission failed:", response.message);
-      }
-    } catch (error) {
-      console.error("Error submitting form:", error);
-    }
-  }; */
 
   if (isSubmitted && safeConfig.successMessage) {
     return (
@@ -526,7 +485,7 @@ export function DynamicForm({ config, onSubmit, className, locale = "nl" }: Dyna
                     </FormLabel>
                     <div
                       className={cn(
-                        "grid grid-cols-2 gap-4",
+                        "flex flex-col space-y-2",
                         shouldShowErrors && fieldState.invalid ? "border-destructive border rounded-md p-2" : "",
                       )}
                     >
@@ -537,21 +496,21 @@ export function DynamicForm({ config, onSubmit, className, locale = "nl" }: Dyna
                           name={fieldId}
                           render={({ field }) => {
                             return (
-                              <FormItem key={option.value} className="flex flex-row items-start space-x-3 space-y-0">
+                              <FormItem key={option.value} className="flex flex-row items-start space-x-3">
                                 <FormControl>
                                   <Checkbox
                                     checked={field.value?.includes(option.value)}
                                     onCheckedChange={(checked) => {
                                       const updatedValue = checked
                                         ? [...(field.value || []), option.value]
-                                        : field.value?.filter((value: string) => value !== option.value)
-                                      field.onChange(updatedValue)
+                                        : field.value?.filter((value: string) => value !== option.value);
+                                      field.onChange(updatedValue);
                                     }}
                                   />
                                 </FormControl>
                                 <FormLabel className="font-normal">{option.label}</FormLabel>
                               </FormItem>
-                            )
+                            );
                           }}
                         />
                       ))}

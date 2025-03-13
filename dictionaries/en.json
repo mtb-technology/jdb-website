@@ -295,11 +295,12 @@
         ]
       },
       "promise": {
-        "title": "Our promise to you",
+        "title": "What happens if I submit a request?",
         "items": [
-          "We'll connect you with a suitable advisor within 24 hours",
-          "All advisors are certified and verified",
-          "No obligation and free of charge"
+          "You will receive a confirmation by email",
+          "We will connect you with a suitable advisor within 24 hours",
+          "An advisor will share an offer without obligation",
+          "If we cannot find anyone, we will also let you know"
         ]
       }
     },
