@@ -33,6 +33,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Inkomstenbelasting assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
+      "helpQuestionSubtitle": "Stel hier je vraag over belastingaangifte",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
         "deductions": "Mijn belastingaangifte is complex. Hoe pak ik dit aan?",
@@ -56,6 +57,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "B.V. assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
+      "helpQuestionSubtitle": "Stel hier je vraag over je Besloten Vennootschap (B.V.) en gerelateerde belastingszaken",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
         "deductions": "Hoe zet ik mijn eenmanszaak om naar een BV?",
@@ -79,6 +81,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Ondernemer / ZZP assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
+      "helpQuestionSubtitle": "Stel hier je vraag over belastingszaken als ondernemer / ZZPer",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
         "deductions": "Mijn administratie kost me te veel tijd. Wat zijn mijn opties?",
@@ -102,6 +105,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "M-formulier assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
+      "helpQuestionSubtitle": "Stel hier je vraag over het M-formulier of andere belastingszaken",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
         "deductions": "Wat is een M-formulier en wanneer moet ik het invullen?",
@@ -124,6 +128,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Zorgtoeslag assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
+      "helpQuestionSubtitle": "Stel hier je vraag over toeslagen zoals zorgtoeslag",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
         "deductions": "Kom ik in aanmerking voor zorgtoeslag?",
@@ -146,6 +151,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Belastingaangifte checklist assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
+      "helpQuestionSubtitle": "Stel hier je vraag over de belastingaangifte checklist",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
         "deductions": "Ik wil door de belastingaangifte checklist lopen.",
@@ -168,6 +174,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Kinderbijslag assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
+      "helpQuestionSubtitle": "Stel hier je vraag over toeslagen zoals kinderbijslag",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
         "deductions": "Wanneer heb ik recht op kinderbijslag?",
@@ -191,6 +198,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Algemene belastingvragen assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
+      "helpQuestionSubtitle": "Stel hier je vraag over algemene belastingzaken",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
         "deductions": "Welke aftrekposten kan ik toepassen?",
@@ -213,6 +221,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "AOW assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
+      "helpQuestionSubtitle": "Stel hier je vraag over AOW of andere belastingszaken",
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": {
         "deductions": "Wanneer krijg ik AOW?",
@@ -259,6 +268,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Income tax assistant",
       "helpQuestion": "How can I help you?",
+      "helpQuestionSubtitle": "Ask your questions about tax returns here",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
         "deductions": "My tax return is complex. How do I approach this?",
@@ -282,6 +292,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Private limited company assistant",
       "helpQuestion": "How can I help you?",
+      "helpQuestionSubtitle": "Ask your questions about your private limited company (B.V.) or other businesses here",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
         "deductions": "How do I convert my sole proprietorship into a BV?",
@@ -305,6 +316,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Entrepreneur / Freelancer assistant",
       "helpQuestion": "How can I help you?",
+      "helpQuestionSubtitle": "Ask your questions about being self-employed or freelancing here",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
         "deductions": "My bookkeeping takes too much time. What are my options?",
@@ -328,6 +340,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "M-form assistant",
       "helpQuestion": "How can I help you?",
+      "helpQuestionSubtitle": "Ask your questions about the M-form or other tax matters here",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
         "deductions": "What is an M-form and when should I fill it out?",
@@ -350,6 +363,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Healthcare allowance assistant",
       "helpQuestion": "How can I help you?",
+      "helpQuestionSubtitle": "Ask your questions about allowances like healthcare here",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
         "deductions": "Am I eligible for healthcare allowance?",
@@ -372,6 +386,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Tax return checklist assistant",
       "helpQuestion": "How can I help you?",
+      "helpQuestionSubtitle": "Ask your questions about the tax return checklist here",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
         "deductions": "I want to go through the tax return checklist.",
@@ -394,6 +409,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "Child benefit assistant",
       "helpQuestion": "How can I help you?",
+      "helpQuestionSubtitle": "Ask your questions about allowances like child benefit here",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
         "deductions": "When am I eligible for child benefit?",
@@ -417,6 +433,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "General tax questions assistant",
       "helpQuestion": "How can I help you?",
+      "helpQuestionSubtitle": "Ask your questions about general tax matters here",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
         "deductions": "What deductions can I apply?",
@@ -439,6 +456,7 @@
       "assistantName": "Jan de Belastingman",
       "assistantDescription": "AOW pension assistant",
       "helpQuestion": "How can I help you?",
+      "helpQuestionSubtitle": "Ask your questions about AOW or other tax matters here",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
         "deductions": "When will I receive AOW?",
