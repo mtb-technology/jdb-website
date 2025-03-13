@@ -49,11 +49,17 @@ export default function ChatWindow({ dict }: { dict: any }) {
               />
             </div>
 
-            <h1 className="text-3xl md:text-4xl font-bold text-[#1a1a1a] mb-6 md:mb-8">
+            <h1 className="text-3xl md:text-4xl font-bold text-[#1a1a1a] mb-6 md:mb-2">
               {dict.helpQuestion}
             </h1>
 
-            <div className="relative mb-8">
+            {dict.helpQuestionSubtitle && (
+              <h2 className="text-[#1a1a1a] mb-6 md:mb-10">
+                {dict.helpQuestionSubtitle}
+              </h2>
+            )}
+
+            <div className="relative mb-10">
               <Input
                 ref={inputRef}
                 type="text"
@@ -105,13 +111,13 @@ export default function ChatWindow({ dict }: { dict: any }) {
               >
                 {dict.commonQuestions.businessStructure}
               </Button>
-              {/* <Button
+              <Button
                 variant="outline"
                 className="rounded-full"
                 onClick={() => handleStartChat(dict.commonQuestions.more)}
               >
                 {dict.commonQuestions.more}
-              </Button> */}
+              </Button>
             </div>
 
             <p className="text-gray-500 mb-12 text-xs whitespace-pre-line hidden md:block">
