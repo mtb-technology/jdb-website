@@ -122,7 +122,7 @@ function StepsSection({ title, items, buttons, locale }: StepsSectionProps) {
         <div className="text-center">
           <Button
             asChild
-            className="w-full bg-primary text-white hover:bg-[#2341C7] transition-colors duration-300 py-3 sm:py-4"
+            className="w-full bg-primary text-white hover:bg-primary transition-colors duration-300 py-3 sm:py-4"
           >
             <Link href={buttons.chat.link}>{buttons.chat.text}</Link>
           </Button>

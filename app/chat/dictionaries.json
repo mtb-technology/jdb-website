@@ -12,13 +12,28 @@
       "assistantDescription": "Inkomstenbelasting assistent",
       "helpQuestion": "Hoe kan ik je helpen?",
       "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Welke aftrekposten kan ik toepassen?",
-        "vatReturn": "Hoe werkt de BTW aangifte?",
-        "box3": "Hoe wordt vermogen in box 3 belast?",
-        "businessStructure": "Hoe zet ik mijn eenmanszaak om naar een BV?",
-        "more": "Hoe voorkom ik teveel belasting betalen?"
-      },
+      "commonQuestions": [
+        {
+          "title": "Welke aftrekposten kan ik toepassen?",
+          "question": "Welke aftrekposten kan ik toepassen?"
+        },
+        {
+          "title": "Hoe werkt de BTW aangifte?",
+          "question": "Hoe werkt de BTW aangifte?"
+        },
+        {
+          "title": "Hoe wordt vermogen in box 3 belast?",
+          "question": "Hoe wordt vermogen in box 3 belast?"
+        },
+        {
+          "title": "Hoe zet ik mijn eenmanszaak om naar een BV?",
+          "question": "Hoe zet ik mijn eenmanszaak om naar een BV?"
+        },
+        {
+          "title": "Hoe voorkom ik teveel belasting betalen?",
+          "question": "Hoe voorkom ik teveel belasting betalen?"
+        }
+      ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
@@ -36,13 +51,28 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "helpQuestionSubtitle": "Stel hier je vraag over belastingaangifte",
       "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Mijn belastingaangifte is complex. Hoe pak ik dit aan?",
-        "vatReturn": "Hoe kan ik voorkomen dat ik te veel belasting betaal?",
-        "box3": "Hoe wordt vermogen in box 3 belast?",
-        "businessStructure": "Waar moet ik op letten bij mijn belastingaangifte?",
-        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
-      },
+      "commonQuestions": [
+        {
+          "title": "Mijn belastingaangifte is complex. Hoe pak ik dit aan?",
+          "question": "Mijn belastingaangifte is complex. Hoe pak ik dit aan?"
+        },
+        {
+          "title": "Hoe kan ik voorkomen dat ik te veel belasting betaal?",
+          "question": "Hoe kan ik voorkomen dat ik te veel belasting betaal?"
+        },
+        {
+          "title": "Hoe wordt vermogen in box 3 belast?",
+          "question": "Hoe wordt vermogen in box 3 belast?"
+        },
+        {
+          "title": "Waar moet ik op letten bij mijn belastingaangifte?",
+          "question": "Waar moet ik op letten bij mijn belastingaangifte?"
+        },
+        {
+          "title": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?",
+          "question": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
+        }
+      ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
@@ -60,13 +90,28 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "helpQuestionSubtitle": "Stel hier je vraag over je Besloten Vennootschap (B.V.) en gerelateerde belastingszaken",
       "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Hoe zet ik mijn eenmanszaak om naar een BV?",
-        "vatReturn": "Hoe kan ik de belastingdruk voor mijn BV verlagen?",
-        "box3": "Is dividend uitkeren slimmer dan salaris verhogen?",
-        "businessStructure": "Mijn administratie kost te veel tijd. Kan iemand dit voor mij regelen?",
-        "more": "Ik wil internationaal zakendoen. Hoe voorkom ik fiscale valkuilen?"
-      },
+      "commonQuestions": [
+        {
+          "title": "Hoe zet ik mijn eenmanszaak om naar een BV?",
+          "question": "Hoe zet ik mijn eenmanszaak om naar een BV?"
+        },
+        {
+          "title": "Hoe kan ik de belastingdruk voor mijn BV verlagen?",
+          "question": "Hoe kan ik de belastingdruk voor mijn BV verlagen?"
+        },
+        {
+          "title": "Is dividend uitkeren slimmer dan salaris verhogen?",
+          "question": "Is dividend uitkeren slimmer dan salaris verhogen?"
+        },
+        {
+          "title": "Mijn administratie kost te veel tijd. Kan iemand dit voor mij regelen?",
+          "question": "Mijn administratie kost te veel tijd. Kan iemand dit voor mij regelen?"
+        },
+        {
+          "title": "Ik wil internationaal zakendoen. Hoe voorkom ik fiscale valkuilen?",
+          "question": "Ik wil internationaal zakendoen. Hoe voorkom ik fiscale valkuilen?"
+        }
+      ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
@@ -84,13 +129,28 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "helpQuestionSubtitle": "Stel hier je vraag over belastingszaken als ondernemer / ZZPer",
       "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Mijn administratie kost me te veel tijd. Wat zijn mijn opties?",
-        "vatReturn": "Hoe zorg ik dat ik als ZZP’er geen belastingvoordelen misloop?",
-        "box3": "Hoe pak ik mijn BTW-aangifte aan?",
-        "businessStructure": "Ik twijfel of een BV voordeliger is dan ZZP. Hoe weet ik dat zeker?",
-        "more": "Wat zijn mijn fiscale verplichtingen als ik internationaal werk?"
-      },
+      "commonQuestions": [
+        {
+          "title": "Mijn administratie kost me te veel tijd. Wat zijn mijn opties?",
+          "question": "Mijn administratie kost me te veel tijd. Wat zijn mijn opties?"
+        },
+        {
+          "title": "Hoe zorg ik dat ik als ZZP'er geen belastingvoordelen misloop?",
+          "question": "Hoe zorg ik dat ik als ZZP'er geen belastingvoordelen misloop?"
+        },
+        {
+          "title": "Hoe pak ik mijn BTW-aangifte aan?",
+          "question": "Hoe pak ik mijn BTW-aangifte aan?"
+        },
+        {
+          "title": "Ik twijfel of een BV voordeliger is dan ZZP. Hoe weet ik dat zeker?",
+          "question": "Ik twijfel of een BV voordeliger is dan ZZP. Hoe weet ik dat zeker?"
+        },
+        {
+          "title": "Wat zijn mijn fiscale verplichtingen als ik internationaal werk?",
+          "question": "Wat zijn mijn fiscale verplichtingen als ik internationaal werk?"
+        }
+      ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
@@ -108,13 +168,28 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "helpQuestionSubtitle": "Stel hier je vraag over het M-formulier of andere belastingszaken",
       "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Wat is een M-formulier en wanneer moet ik het invullen?",
-        "vatReturn": "Wat moet ik invullen bij buitenlands inkomen?",
-        "box3": "Hoe werkt de 30%-regeling?",
-        "businessStructure": "Hoe kan ik hulp krijgen bij het invullen van mijn M-formulier?",
-        "more": "Kan ik in contact komen met een belastingadviseur?"
-      },
+      "commonQuestions": [
+        {
+          "title": "Wat is een M-formulier en wanneer moet ik het invullen?",
+          "question": "Wat is een M-formulier en wanneer moet ik het invullen?"
+        },
+        {
+          "title": "Wat moet ik invullen bij buitenlands inkomen?",
+          "question": "Wat moet ik invullen bij buitenlands inkomen?"
+        },
+        {
+          "title": "Hoe werkt de 30%-regeling?",
+          "question": "Hoe werkt de 30%-regeling?"
+        },
+        {
+          "title": "Hoe kan ik hulp krijgen bij het invullen van mijn M-formulier?",
+          "question": "Hoe kan ik hulp krijgen bij het invullen van mijn M-formulier?"
+        },
+        {
+          "title": "Kan ik in contact komen met een belastingadviseur?",
+          "question": "Kan ik in contact komen met een belastingadviseur?"
+        }
+      ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
@@ -131,13 +206,28 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "helpQuestionSubtitle": "Stel hier je vraag over toeslagen zoals zorgtoeslag",
       "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Kom ik in aanmerking voor zorgtoeslag?",
-        "vatReturn": "Hoeveel zorgtoeslag kan ik krijgen?",
-        "box3": "Wanneer moet ik wijzigingen doorgeven?",
-        "businessStructure": "Wat gebeurt er als mijn inkomen verandert?",
-        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
-      },
+      "commonQuestions": [
+        {
+          "title": "Kom ik in aanmerking voor zorgtoeslag?",
+          "question": "Kom ik in aanmerking voor zorgtoeslag?"
+        },
+        {
+          "title": "Hoeveel zorgtoeslag kan ik krijgen?",
+          "question": "Hoeveel zorgtoeslag kan ik krijgen?"
+        },
+        {
+          "title": "Wanneer moet ik wijzigingen doorgeven?",
+          "question": "Wanneer moet ik wijzigingen doorgeven?"
+        },
+        {
+          "title": "Wat gebeurt er als mijn inkomen verandert?",
+          "question": "Wat gebeurt er als mijn inkomen verandert?"
+        },
+        {
+          "title": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?",
+          "question": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
+        }
+      ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
@@ -154,13 +244,28 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "helpQuestionSubtitle": "Stel hier je vraag over de belastingaangifte checklist",
       "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Ik wil door de belastingaangifte checklist lopen.",
-        "vatReturn": "Wat moet ik voorbereiden?",
-        "box3": "Hoe lang moet ik documenten bewaren?",
-        "businessStructure": "Wat zijn belangrijke deadlines?",
-        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
-      },
+      "commonQuestions": [
+        {
+          "title": "Ik wil door de belastingaangifte checklist lopen.",
+          "question": "Ik wil door de belastingaangifte checklist lopen."
+        },
+        {
+          "title": "Wat moet ik voorbereiden?",
+          "question": "Wat moet ik voorbereiden?"
+        },
+        {
+          "title": "Hoe lang moet ik documenten bewaren?",
+          "question": "Hoe lang moet ik documenten bewaren?"
+        },
+        {
+          "title": "Wat zijn belangrijke deadlines?",
+          "question": "Wat zijn belangrijke deadlines?"
+        },
+        {
+          "title": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?",
+          "question": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
+        }
+      ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
@@ -177,13 +282,24 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "helpQuestionSubtitle": "Stel hier je vraag over toeslagen zoals kinderbijslag",
       "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Wanneer heb ik recht op kinderbijslag?",
-        "vatReturn": "Hoeveel kinderbijslag krijg ik?",
-        "box3": "Wat als mijn kind 18 wordt?",
-        "businessStructure": "Hoe vraag ik kinderbijslag aan?",
-        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
-      },
+      "commonQuestions": [
+        {
+          "title": "Wanneer heb ik recht op kinderbijslag?",
+          "question": "Wanneer heb ik recht op kinderbijslag?"
+        },
+        {
+          "title": "Hoeveel kinderbijslag krijg ik?",
+          "question": "Hoeveel kinderbijslag krijg ik?"
+        },
+        {
+          "title": "Wat als mijn kind 18 wordt?",
+          "question": "Wat als mijn kind 18 wordt?"
+        },
+        {
+          "title": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?",
+          "question": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
+        }
+      ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
@@ -201,13 +317,24 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "helpQuestionSubtitle": "Stel hier je vraag over algemene belastingzaken",
       "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Welke aftrekposten kan ik toepassen?",
-        "vatReturn": "Hoe werkt de BTW aangifte?",
-        "box3": "Wat is het verschil tussen box 1, 2 en 3?",
-        "businessStructure": "Wanneer moet ik belastingaangifte doen?",
-        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
-      },
+      "commonQuestions": [
+        {
+          "title": "Welke aftrekposten kan ik toepassen?",
+          "question": "Welke aftrekposten kan ik toepassen?"
+        },
+        {
+          "title": "Hoe werkt de BTW aangifte?",
+          "question": "Hoe werkt de BTW aangifte?"
+        },
+        {
+          "title": "Wat is het verschil tussen box 1, 2 en 3?",
+          "question": "Wat is het verschil tussen box 1, 2 en 3?"
+        },
+        {
+          "title": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?",
+          "question": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
+        }
+      ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     },
@@ -224,13 +351,24 @@
       "helpQuestion": "Hoe kan ik je helpen?",
       "helpQuestionSubtitle": "Stel hier je vraag over AOW of andere belastingszaken",
       "inputPlaceholder": "Stel je vraag",
-      "commonQuestions": {
-        "deductions": "Wanneer krijg ik AOW?",
-        "vatReturn": "Hoeveel AOW krijg ik?",
-        "box3": "Wat als ik in het buitenland heb gewoond?",
-        "businessStructure": "Kan ik blijven werken met AOW?",
-        "more": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
-      },
+      "commonQuestions": [
+        {
+          "title": "Wanneer krijg ik AOW?",
+          "question": "Wanneer krijg ik AOW?"
+        },
+        {
+          "title": "Hoeveel AOW krijg ik?",
+          "question": "Hoeveel AOW krijg ik?"
+        },
+        {
+          "title": "Wat als ik in het buitenland heb gewoond?",
+          "question": "Wat als ik in het buitenland heb gewoond?"
+        },
+        {
+          "title": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?",
+          "question": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
+        }
+      ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
       "knownFrom": "Bekend van"
     }
@@ -248,13 +386,28 @@
       "assistantDescription": "Tax assistent",
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "What deductions can I apply?",
-        "vatReturn": "How to file VAT returns as self-employed?",
-        "box3": "Do I need to declare assets in box 3?",
-        "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",
-        "more": "How do I avoid overpaying taxes?"
-      },
+      "commonQuestions": [
+        {
+          "title": "What deductions can I apply?",
+          "question": "What deductions can I apply?"
+        },
+        {
+          "title": "How to file VAT returns as self-employed?",
+          "question": "How to file VAT returns as self-employed?"
+        },
+        {
+          "title": "Do I need to declare assets in box 3?",
+          "question": "Do I need to declare assets in box 3?"
+        },
+        {
+          "title": "What's the impact of changing from sole proprietorship to LLC?",
+          "question": "What's the impact of changing from sole proprietorship to LLC?"
+        },
+        {
+          "title": "How do I avoid overpaying taxes?",
+          "question": "How do I avoid overpaying taxes?"
+        }
+      ],
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
@@ -272,13 +425,28 @@
       "helpQuestion": "How can I help you?",
       "helpQuestionSubtitle": "Ask your questions about tax returns here",
       "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "My tax return is complex. How do I approach this?",
-        "vatReturn": "How can I avoid overpaying taxes?",
-        "box3": "What assets are included in Box 3 and how are they taxed?",
-        "businessStructure": "What should I pay attention to when filing my tax return?",
-        "more": "I don’t want to make mistakes or miss out on deductions. Can someone check my return?"
-      },
+      "commonQuestions": [
+        {
+          "title": "My tax return is complex. How do I approach this?",
+          "question": "My tax return is complex. How do I approach this?"
+        },
+        {
+          "title": "How can I avoid overpaying taxes?",
+          "question": "How can I avoid overpaying taxes?"
+        },
+        {
+          "title": "What assets are included in Box 3 and how are they taxed?",
+          "question": "What assets are included in Box 3 and how are they taxed?"
+        },
+        {
+          "title": "What should I pay attention to when filing my tax return?",
+          "question": "What should I pay attention to when filing my tax return?"
+        },
+        {
+          "title": "I don't want to make mistakes or miss out on deductions. Can someone check my return?",
+          "question": "I don't want to make mistakes or miss out on deductions. Can someone check my return?"
+        }
+      ],
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
@@ -296,13 +464,28 @@
       "helpQuestion": "How can I help you?",
       "helpQuestionSubtitle": "Ask your questions about your private limited company (B.V.) or other businesses here",
       "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "How do I convert my sole proprietorship into a BV?",
-        "vatReturn": "How can I reduce my company’s tax burden?",
-        "box3": "Is paying out dividends smarter than increasing my salary?",
-        "businessStructure": "My bookkeeping takes too much time. Can I outsource it?",
-        "more": "I want to expand internationally. How do I avoid tax pitfalls?"
-      },
+      "commonQuestions": [
+        {
+          "title": "How do I convert my sole proprietorship into a BV?",
+          "question": "How do I convert my sole proprietorship into a BV?"
+        },
+        {
+          "title": "How can I reduce my company's tax burden?",
+          "question": "How can I reduce my company's tax burden?"
+        },
+        {
+          "title": "Is paying out dividends smarter than increasing my salary?",
+          "question": "Is paying out dividends smarter than increasing my salary?"
+        },
+        {
+          "title": "My bookkeeping takes too much time. Can I outsource it?",
+          "question": "My bookkeeping takes too much time. Can I outsource it?"
+        },
+        {
+          "title": "I want to expand internationally. How do I avoid tax pitfalls?",
+          "question": "I want to expand internationally. How do I avoid tax pitfalls?"
+        }
+      ],
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
@@ -320,13 +503,20 @@
       "helpQuestion": "How can I help you?",
       "helpQuestionSubtitle": "Ask your questions about being self-employed or freelancing here",
       "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "My bookkeeping takes too much time. What are my options?",
-        "vatReturn": "How do I make sure I’m not missing out on tax benefits?",
-        "box3": "How do I handle my VAT return?",
-        "businessStructure": "How do I know if a BV is better than being self-employed?",
-        "more": "What are my tax obligations if I work abroad?"
-      },
+      "commonQuestions": [
+        {
+          "title": "My bookkeeping takes too much time. What are my options?",
+          "question": "My bookkeeping takes too much time. What are my options?"
+        },
+        {
+          "title": "How do I make sure I'm not missing out on tax benefits?",
+          "question": "How do I make sure I'm not missing out on tax benefits?"
+        },
+        {
+          "title": "How do I handle my VAT return?",
+          "question": "How do I handle my VAT return?"
+        }
+      ],
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
@@ -344,15 +534,29 @@
       "helpQuestion": "How can I help you?",
       "helpQuestionSubtitle": "Ask your questions about the M-form or other tax matters here",
       "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "What is an M-form and when should I fill it out?",
-        "vatReturn": "How do I declare foreign income?",
-        "box3": "How does the 30% ruling work?",
-        "businessStructure": "What are the deadlines?",
-        "more": "The m-form is complex. Can an expert take care of it for me?"
-      },
-      "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
-      "knownFrom": "As featured in"
+      "commonQuestions": [
+        {
+          "title": "What is an M-form and when should I fill it out?",
+          "question": "What is an M-form and when should I fill it out?"
+        },
+        {
+          "title": "How do I declare foreign income?",
+          "question": "How do I declare foreign income?"
+        },
+        {
+          "title": "How does the 30% ruling work?",
+          "question": "How does the 30% ruling work?"
+        },
+        {
+          "title": "What are the deadlines?",
+          "question": "What are the deadlines?"
+        },
+        {
+          "title": "The m-form is complex. Can an expert take care of it for me?",
+          "question": "The m-form is complex. Can an expert take care of it for me?"
+        }
+      ],
+      "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information."
     },
     "healthcare-allowance": {
       "assistantId": 9,
@@ -367,13 +571,20 @@
       "helpQuestion": "How can I help you?",
       "helpQuestionSubtitle": "Ask your questions about allowances like healthcare here",
       "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "Am I eligible for healthcare allowance?",
-        "vatReturn": "How much healthcare allowance can I receive?",
-        "box3": "When do I need to report changes?",
-        "businessStructure": "What happens if my income changes?",
-        "more": "I don't want to make mistakes or lose money. Can an expert look over my shoulder?"
-      },
+      "commonQuestions": [
+        {
+          "title": "Am I eligible for healthcare allowance?",
+          "question": "Am I eligible for healthcare allowance?"
+        },
+        {
+          "title": "How much healthcare allowance can I receive?",
+          "question": "How much healthcare allowance can I receive?"
+        },
+        {
+          "title": "When do I need to report changes?",
+          "question": "When do I need to report changes?"
+        }
+      ],
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
@@ -390,13 +601,20 @@
       "helpQuestion": "How can I help you?",
       "helpQuestionSubtitle": "Ask your questions about the tax return checklist here",
       "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "I want to go through the tax return checklist.",
-        "vatReturn": "What should I prepare?",
-        "box3": "How long should I keep documents?",
-        "businessStructure": "What are important deadlines?",
-        "more": "I don't want to make mistakes or lose money. Can an expert look over my shoulder?"
-      },
+      "commonQuestions": [
+        {
+          "title": "I want to go through the tax return checklist.",
+          "question": "I want to go through the tax return checklist."
+        },
+        {
+          "title": "What should I prepare?",
+          "question": "What should I prepare?"
+        },
+        {
+          "title": "How long should I keep documents?",
+          "question": "How long should I keep documents?"
+        }
+      ],
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
@@ -413,13 +631,20 @@
       "helpQuestion": "How can I help you?",
       "helpQuestionSubtitle": "Ask your questions about allowances like child benefit here",
       "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "When am I eligible for child benefit?",
-        "vatReturn": "How much child benefit will I receive?",
-        "box3": "What happens when my child turns 18?",
-        "businessStructure": "How do I apply for child benefit?",
-        "more": "I don't want to make mistakes or lose money. Can an expert look over my shoulder?"
-      },
+      "commonQuestions": [
+        {
+          "title": "When am I eligible for child benefit?",
+          "question": "When am I eligible for child benefit?"
+        },
+        {
+          "title": "How much child benefit will I receive?",
+          "question": "How much child benefit will I receive?"
+        },
+        {
+          "title": "What happens when my child turns 18?",
+          "question": "What happens when my child turns 18?"
+        }
+      ],
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
@@ -437,13 +662,20 @@
       "helpQuestion": "How can I help you?",
       "helpQuestionSubtitle": "Ask your questions about general tax matters here",
       "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "What deductions can I apply?",
-        "vatReturn": "How does the VAT return work?",
-        "box3": "What is the difference between box 1, 2, and 3?",
-        "businessStructure": "When do I need to file my tax return?",
-        "more": "I don't want to make mistakes or lose money. Can an expert look over my shoulder?"
-      },
+      "commonQuestions": [
+        {
+          "title": "What deductions can I apply?",
+          "question": "What deductions can I apply?"
+        },
+        {
+          "title": "How does the VAT return work?",
+          "question": "How does the VAT return work?"
+        },
+        {
+          "title": "What is the difference between box 1, 2, and 3?",
+          "question": "What is the difference between box 1, 2, and 3?"
+        }
+      ],
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     },
@@ -460,13 +692,20 @@
       "helpQuestion": "How can I help you?",
       "helpQuestionSubtitle": "Ask your questions about AOW or other tax matters here",
       "inputPlaceholder": "Ask your question",
-      "commonQuestions": {
-        "deductions": "When will I receive AOW?",
-        "vatReturn": "How much AOW will I receive?",
-        "box3": "What if I lived abroad?",
-        "businessStructure": "Can I continue working with AOW?",
-        "more": "I don't want to make mistakes or lose money. Can an expert look over my shoulder?"
-      },
+      "commonQuestions": [
+        {
+          "title": "When will I receive AOW?",
+          "question": "When will I receive AOW?"
+        },
+        {
+          "title": "How much AOW will I receive?",
+          "question": "How much AOW will I receive?"
+        },
+        {
+          "title": "What if I lived abroad?",
+          "question": "What if I lived abroad?"
+        }
+      ],
       "disclaimer": "This service is a digital assistant, not a certified advisor.\nNo rights can be derived from the provided information.",
       "knownFrom": "As featured in"
     }

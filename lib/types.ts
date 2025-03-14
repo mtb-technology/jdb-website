@@ -50,11 +50,8 @@ export interface MetadataTranslations extends BaseMetadata {
 }
 
 export interface CommonQuestions {
-  deductions: string;
-  vatReturn: string;
-  box3: string;
-  businessStructure: string;
-  more: string;
+  title: string;
+  question: string;
 }
 
 export interface FooterLinks {

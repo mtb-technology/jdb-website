@@ -58,9 +58,10 @@ export default function Header({ dict }: HeaderProps) {
       </div>
       <div className="flex sm:hidden ml-auto">
         <LanguageSwitcher />
+
         <Button asChild variant="outline" size="sm" className="text-xs">
-          <Link href="https://app.jandebelastingman.nl/saas/login">
-            {locale === "nl" ? "Inloggen" : "Login"}
+          <Link href="https://app.jandebelastingman.nl/saas/register">
+            {locale === "nl" ? "Aanmelden" : "Sign up"}
           </Link>
         </Button>
       </div>

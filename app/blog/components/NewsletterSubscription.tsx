@@ -62,7 +62,7 @@ const NewsletterSubscription: React.FC<NewsletterSubscriptionProps> = ({
               className="flex-1 px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary"
               required
             />
-            <Button className="bg-primary text-white hover:bg-[#2341C7] whitespace-nowrap">
+            <Button className="bg-primary text-white hover:bg-primary whitespace-nowrap">
               {dict.pages.blog.newsletter.subscribeButton}
             </Button>
           </form>

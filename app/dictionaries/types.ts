@@ -25,12 +25,9 @@ export interface Dictionary {
       helpQuestion: string;
       inputPlaceholder: string;
       commonQuestions: {
-        deductions: string;
-        vatReturn: string;
-        box3: string;
-        businessStructure: string;
-        more: string;
-      };
+        title: string;
+        question: string;
+      }[];
       disclaimer: string;
       knownFrom: string;
     };

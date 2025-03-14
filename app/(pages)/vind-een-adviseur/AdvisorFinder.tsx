@@ -157,7 +157,7 @@ export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
             <p className="text-lg mb-6">{dict.success.message}</p>
             <Button
               onClick={resetForm}
-              className="bg-primary text-white hover:bg-[#2341C7]"
+              className="bg-primary text-white hover:bg-primary"
             >
               {dict.success.newRequestButton}
             </Button>
@@ -314,7 +314,7 @@ export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
                       <div>
                         <Button
                           type="submit"
-                          className="w-full bg-primary text-white hover:bg-[#2341C7] py-3"
+                          className="w-full bg-primary text-white hover:bg-primary py-3"
                         >
                           {dict.form.submitButton}
                         </Button>
