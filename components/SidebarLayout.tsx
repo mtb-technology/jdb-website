@@ -250,7 +250,7 @@ export default function SidebarLayout({
           </Link>
         </div>
 
-        <div className="space-y-6 mb-8 text-sm">
+        <div className="space-y-3 md:space-y-6 mb-8 text-sm">
           {currentFeatures.map((feature, index) => (
             <div key={index} className="flex items-start gap-3">
               <div className="mt-1 text-orange-400 text-xl">✓</div>
@@ -287,7 +287,7 @@ export default function SidebarLayout({
           </Button>
         </SheetTrigger>
         <SheetContent side="left" className="w-full p-0">
-          <div className="bg-primary text-white h-full p-6">
+          <div className="bg-primary text-white h-full overflow-scroll p-6">
             <SheetHeader className="mb-8">
               <SheetTitle className="text-white">
                 <SheetClose key={`menu-logo`} asChild>
@@ -304,18 +304,20 @@ export default function SidebarLayout({
               </SheetTitle>
             </SheetHeader>
 
-            <div className="space-y-6 mb-8 text-sm">
+            <div className="space-y-3 md:space-y-6 mb-8 text-sm items-center">
               {currentFeatures.map((feature, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <div className="mt-1 text-orange-400 text-xl">✓</div>
-                  <p className="leading-tight">{feature}</p>
+                <div key={index} className="flex items-start gap-3 ">
+                  <div className="md:mt-1 text-orange-400 text-xl">✓</div>
+                  <p className="leading-tight inline-block align-middle ">
+                    {feature}
+                  </p>
                 </div>
               ))}
             </div>
 
             <Separator className="bg-white/20" />
 
-            <nav className="space-y-4 my-6 text-lg">
+            <nav className="space-y-4 my-6 text-lg overflow-scroll">
               {currentNavLinks.map((link) => renderNavLink(link, true))}
             </nav>
 

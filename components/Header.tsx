@@ -39,9 +39,7 @@ export default function Header({ dict }: HeaderProps) {
             fill="url(#half)"
           />
           <span className="ml-2 text-gray-600 hidden lg:block">
-            {locale === "nl"
-              ? "4.8/5 uit reviews"
-              : "4.8 stars from reviews"}
+            {locale === "nl" ? "4.8/5 uit reviews" : "4.8 stars from reviews"}
           </span>
         </div>
         <LanguageSwitcher />
@@ -59,6 +57,7 @@ export default function Header({ dict }: HeaderProps) {
         </div>
       </div>
       <div className="flex sm:hidden ml-auto">
+        <LanguageSwitcher />
         <Button asChild variant="outline" size="sm" className="text-xs">
           <Link href="https://app.jandebelastingman.nl/saas/login">
             {locale === "nl" ? "Inloggen" : "Login"}
