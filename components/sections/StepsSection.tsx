@@ -40,7 +40,7 @@ export default function StepsSection({
               {step.showButton && (
                 <>
                   <Button
-                    className="bg-primary text-white hover:bg-[#2341C7] mt-6"
+                    className="bg-primary text-white hover:bg-primary mt-6"
                     asChild
                   >
                     <a href={buttonLink}>{buttonText}</a>

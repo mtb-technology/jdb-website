@@ -249,7 +249,10 @@
       "helpQuestion": "How can I help you?",
       "inputPlaceholder": "Ask your question",
       "commonQuestions": {
-        "deductions": "What deductions can I apply?",
+        {
+          "title": "What deductions can I apply?",
+          "question": "What deductions can I apply?",
+        },
         "vatReturn": "How to file VAT returns as self-employed?",
         "box3": "Do I need to declare assets in box 3?",
         "businessStructure": "What's the impact of changing from sole proprietorship to LLC?",

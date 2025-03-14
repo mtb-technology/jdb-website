@@ -251,7 +251,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
         </p>
         <div className="flex justify-center gap-4">
           <Link href={dict.cta.buttons.chatHref}>
-            <Button className="bg-primary text-white hover:bg-[#2341C7] transition-colors duration-300">
+            <Button className="bg-primary text-white hover:bg-primary transition-colors duration-300">
               {dict.cta.buttons.chat}
             </Button>
           </Link>

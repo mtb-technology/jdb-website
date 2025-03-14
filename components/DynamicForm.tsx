@@ -456,7 +456,7 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
         </p>
         <Button
           onClick={resetForm}
-          className="bg-primary text-white hover:bg-[#2341C7]"
+          className="bg-primary text-white hover:bg-primary"
         >
           {isEnglish ? "Submit another form" : "Nieuw formulier"}
         </Button>
@@ -756,7 +756,7 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
         <div className="flex justify-end">
           <Button
             type="submit"
-            className="w-full py-6 text-lg bg-primary text-white hover:bg-[#2341C7]"
+            className="w-full py-6 text-lg bg-primary text-white hover:bg-primary"
           >
             Submit
           </Button>

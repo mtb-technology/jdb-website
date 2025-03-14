@@ -38,7 +38,7 @@ function NotFoundSection() {
       </p>
 
       <Button
-        className="bg-[#2B4EE6] text-white hover:bg-[#2341C7] transition-colors duration-300 px-8 py-3"
+        className="bg-primary text-white hover:bg-primary/90 transition-colors duration-300 px-8 py-3"
         asChild
       >
         <Link href="/">Terug naar de homepagina</Link>
