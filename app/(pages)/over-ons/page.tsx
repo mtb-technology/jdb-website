@@ -106,7 +106,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
         <div className="max-w-3xl mx-auto">
           <div className="relative h-80 rounded-xl overflow-hidden shadow-xl">
             <Image
-              src="https://jandebelastingman.nl/storage/media/belastinghulp.png"
+              src="/storage/media/belastinghulp.png"
               alt="Jan de Belastingman Team"
               layout="fill"
               objectFit="cover"
