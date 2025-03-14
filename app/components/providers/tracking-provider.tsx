@@ -14,6 +14,11 @@ const TrackingContext = createContext<TrackingContextType>({
   setLeadSource: () => {},
 });
 
+function getHotjarUserIdFromCookies() {
+  const match = document.cookie.match(/_hjUserId=([^;]+)/);
+  return match ? match[1] : null;
+}
+
 export function TrackingProvider({ children }: { children: React.ReactNode }) {
   const [trackingData, setTrackingData] = useState<TrackingData | null>(null);
 
@@ -50,10 +55,14 @@ export function TrackingProvider({ children }: { children: React.ReactNode }) {
           cookieUtils.setUtmCookie(param, value);
         });
 
+        // Get Hotjar User ID
+        const hotjarUserId = getHotjarUserIdFromCookies();
+
         setTrackingData({
           trackingId,
           leadSource,
           utmParams,
+          hotjarUserId,
           timestamp: Date.now(),
         });
       } catch (error) {
@@ -63,6 +72,7 @@ export function TrackingProvider({ children }: { children: React.ReactNode }) {
           trackingId: uuidv4(),
           leadSource: "unknown",
           utmParams: {},
+          hotjarUserId: null,
           timestamp: Date.now(),
         });
       }

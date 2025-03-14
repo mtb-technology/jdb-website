@@ -31,6 +31,7 @@ export interface TrackingData {
     term?: string;
     content?: string;
   };
+  hotjarUserId: string | null;
   timestamp: number;
 }
 
