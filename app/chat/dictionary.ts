@@ -6,8 +6,9 @@ interface ChatSpecificDictionary {
   helpQuestion: string;
   inputPlaceholder: string;
   commonQuestions: {
-    [key: string]: string;
-  };
+    title: string;
+    question: string;
+  }[];
   assistantId?: number;
   assistantName?: string;
   assistantDescription?: string;

@@ -25,6 +25,8 @@ export default function ChatWindow({ dict }: { dict: any }) {
     setInitialMessage(undefined);
   };
 
+  console.log(dict);
+
   return (
     <div className="w-full h-full md:px-4 pt-[83px]">
       <div className="flex flex-col h-full max-w-4xl mx-auto w-full justify-center">
@@ -81,43 +83,18 @@ export default function ChatWindow({ dict }: { dict: any }) {
             </div>
 
             <div className="flex flex-wrap gap-2 justify-center mb-12 text-sm">
-              <Button
-                variant="outline"
-                className="rounded-full"
-                onClick={() => handleStartChat(dict.commonQuestions.deductions)}
-              >
-                {dict.commonQuestions.deductions}
-              </Button>
-              <Button
-                variant="outline"
-                className="rounded-full"
-                onClick={() => handleStartChat(dict.commonQuestions.vatReturn)}
-              >
-                {dict.commonQuestions.vatReturn}
-              </Button>
-              <Button
-                variant="outline"
-                className="rounded-full"
-                onClick={() => handleStartChat(dict.commonQuestions.box3)}
-              >
-                {dict.commonQuestions.box3}
-              </Button>
-              <Button
-                variant="outline"
-                className="rounded-full"
-                onClick={() =>
-                  handleStartChat(dict.commonQuestions.businessStructure)
-                }
-              >
-                {dict.commonQuestions.businessStructure}
-              </Button>
-              {/* <Button
-                variant="outline"
-                className="rounded-full"
-                onClick={() => handleStartChat(dict.commonQuestions.more)}
-              >
-                {dict.commonQuestions.more}
-              </Button> */}
+              {dict.commonQuestions.map(
+                (question: { title: string; question: string }) => (
+                  <Button
+                    key={question.title}
+                    variant="outline"
+                    className="rounded-full"
+                    onClick={() => handleStartChat(question.question)}
+                  >
+                    {question.title}
+                  </Button>
+                )
+              )}
             </div>
 
             <p className="text-gray-500 mb-12 text-xs whitespace-pre-line hidden md:block">

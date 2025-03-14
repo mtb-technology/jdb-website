@@ -26,12 +26,12 @@ vi.mock("next/link", () => ({
 
 const mockDict = {
   helpQuestion: "How can I help you?",
-  commonQuestions: {
-    deductions: "What deductions can I apply?",
-    vatReturn: "How to do VAT return?",
-    box3: "Box 3 questions",
-    businessStructure: "Business structure",
-  },
+  commonQuestions: [
+    {
+      title: "What deductions can I apply?",
+      question: "What deductions can I apply?",
+    },
+  ],
   disclaimer: "Test disclaimer",
   knownFrom: "Known from",
   assistantId: "12",
@@ -46,7 +46,7 @@ describe("ChatWindow", () => {
     expect(screen.getAllByPlaceholderText("Stel je vraag")[0]).toBeDefined();
     expect(
       screen.getAllByRole("button", {
-        name: mockDict.commonQuestions.deductions,
+        name: mockDict.commonQuestions[0].title,
       })[0]
     ).toBeDefined();
   });
@@ -55,7 +55,7 @@ describe("ChatWindow", () => {
     render(<ChatWindow dict={mockDict} />);
 
     const deductionsButton = screen.getAllByRole("button", {
-      name: mockDict.commonQuestions.deductions,
+      name: mockDict.commonQuestions[0].title,
     })[0];
     fireEvent.click(deductionsButton);
 
