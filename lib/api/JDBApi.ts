@@ -75,7 +75,7 @@ interface PaginatedPostResponse<T> {
 
 interface BlogPostsResponse extends PaginatedPostResponse<Post> {}
 
-interface BlogPostResponse extends Post {}
+export interface BlogPostResponse extends Post { }
 
 interface BlogCategoriesResponse {
   categories: Category[];
