@@ -1,14 +1,14 @@
-import { BackButton } from "@/app/components/back-button";
+import BlogPostContent from "@/app/components/BlogPostContent";
 import { getDictionary } from "@/app/dictionaries";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { jdbApi } from "@/lib/api/JDBApi";
-import { Calendar, Share2, User } from "lucide-react";
-import Image from "next/image";
+import { SupportedLocale } from "@/lib/types";
 import { notFound } from "next/navigation";
 
 type PageParams = Promise<{
   post: string;
+  locale?: SupportedLocale;
 }>;
 
 type PageProps = {
@@ -18,13 +18,7 @@ type PageProps = {
   }>;
 };
 
-// Parse HTML content
-const createMarkup = (htmlContent: string) => {
-  return { __html: htmlContent };
-};
-
 export async function generateStaticParams() {
-  // Fetch all blog posts for both locales
   const posts = await jdbApi.getBlogPosts({ locale: "nl" });
   return posts.posts.map((post) => ({
     post: post.slug,
@@ -35,11 +29,10 @@ export default async function BlogPostPage({
   params,
   searchParams,
 }: PageProps) {
-  const locale = params.locale || "nl"; // Default to Dutch
-  const dict = await getDictionary(locale);
   const resolvedParams = await params;
+  const locale = resolvedParams.locale || "nl"; // Default to Dutch
+  const dict = await getDictionary(locale);
 
-  console.log("resolvedParams", resolvedParams);
   const currentPost = await jdbApi.getBlogPost(resolvedParams.post, locale);
 
   if (!currentPost) {
@@ -68,79 +61,7 @@ export default async function BlogPostPage({
         </div>
 
         {/* Blog Post Detail */}
-        <div className="relative z-0 pt-12 pb-24">
-          {/* Back Button */}
-          <div className="max-w-4xl mx-auto px-6 mb-6">
-            <BackButton />
-          </div>
-
-          {/* Post Header */}
-          <div className="max-w-4xl mx-auto px-6 mb-8">
-            <div className="inline-block mb-4">
-              <span className="bg-primary text-white text-sm font-medium px-3 py-1 rounded-full">
-                {currentPost.category.name}
-              </span>
-            </div>
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">
-              {currentPost.title}
-            </h1>
-            <div className="flex flex-wrap items-center text-sm text-gray-600 gap-4 mb-6">
-              {currentPost.author && (
-                <div className="flex items-center">
-                  <User className="w-4 h-4 mr-2" />
-                  {currentPost.author.name}
-                </div>
-              )}
-              <div className="flex items-center">
-                <Calendar className="w-4 h-4 mr-2" />
-                {new Date(currentPost.published_at).toLocaleDateString(
-                  locale === "nl" ? "nl-NL" : "en-US",
-                  {
-                    weekday: "long",
-                    day: "numeric",
-                    month: "long",
-                    year: "numeric",
-                  }
-                )}
-              </div>
-            </div>
-          </div>
-
-          {/* Featured Image */}
-          <div className="max-w-4xl mx-auto px-6 mb-8">
-            <div className="relative h-64 md:h-96 overflow-hidden rounded-xl">
-              <Image
-                src={currentPost.banner?.large || "/placeholder.svg"}
-                alt={currentPost.title}
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-
-          {/* Post Content */}
-          <div className="max-w-4xl mx-auto px-6 mb-12">
-            {currentPost.content ? (
-              <div className="prose prose-lg max-w-none">
-                <div
-                  dangerouslySetInnerHTML={createMarkup(currentPost.content)}
-                />
-              </div>
-            ) : (
-              <p className="text-gray-600">
-                Inhoud is momenteel niet beschikbaar.
-              </p>
-            )}
-
-            {/* Share Buttons */}
-            <div className="mt-8 flex items-center gap-2">
-              <span className="text-sm text-gray-600">Deel dit artikel:</span>
-              <button className="p-2 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors">
-                <Share2 className="w-4 h-4" />
-              </button>
-            </div>
-          </div>
-        </div>
+        <BlogPostContent currentPost={currentPost} locale={locale} />
       </div>
       <Footer dict={dict} />
     </main>
