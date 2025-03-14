@@ -134,11 +134,19 @@ export function BlogContentClient({
             {categories.map((category, index) => (
               <Link
                 key={index + "-" + category.slug[locale]}
-                href={`/blog${
-                  category.slug[locale]
-                    ? `?category=${category.slug[locale]}`
-                    : ""
-                }`}
+                href={
+                  locale === "en"
+                    ? `/en/blog${
+                        category.slug[locale]
+                          ? `?category=${category.slug[locale]}`
+                          : ""
+                      }`
+                    : `/blog${
+                        category.slug[locale]
+                          ? `?category=${category.slug[locale]}`
+                          : ""
+                      }`
+                }
                 className={`px-6 py-2 rounded-full text-sm font-medium transition-colors whitespace-nowrap
                   ${
                     category.slug[locale] === activeCategory

@@ -35,10 +35,11 @@ export default async function BlogPostPage({
   params,
   searchParams,
 }: PageProps) {
-  const locale = "nl"; // Default to Dutch
+  const locale = params.locale || "nl"; // Default to Dutch
   const dict = await getDictionary(locale);
   const resolvedParams = await params;
 
+  console.log("resolvedParams", resolvedParams);
   const currentPost = await jdbApi.getBlogPost(resolvedParams.post, locale);
 
   if (!currentPost) {
