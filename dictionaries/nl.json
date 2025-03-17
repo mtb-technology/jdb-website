@@ -222,7 +222,7 @@
           {
             "year": "2020",
             "subtitle": "Opgericht met een missie",
-            "description": "We begonnen Jan de Belastingman om belastingadvies voor iedereen begrijpelijk en betaalbaar te maken."
+            "description": "We begonnen Jan de Belastingman om belastingadvies toegankelijk te maken."
           },
           {
             "year": "",
@@ -232,55 +232,55 @@
           {
             "year": "|",
             "subtitle": "",
-            "description": "Later maakten we de assistent slimmer, zodat hij ook kan adviseren over moeilijkere situaties."
+            "description": "We maakten de assistent slimmer, zodat hij ook kan adviseren over moeilijkere situaties."
           },
           {
             "year": "",
             "subtitle": "",
-            "description": "Ons team groeide, en we voegden nieuwe diensten toe voor ondernemers en freelancers."
+            "description": "Ons team groeide en nieuwe diensten toegevoegd voor ondernemers en freelancers."
           },
           {
             "year": "2025",
-            "subtitle": "De go-to belastingassistent worden",
-            "description": "We blijven innoveren en verbeteren, zodat we dé belastingassistent van Nederland worden."
+            "subtitle": "Go-To belastingassistent",
+            "description": "We blijven verbeteren, zodat we dé belastingassistent van Nederland worden."
           }
         ]
       },
       "partners": {
-        "title": "Onze vertrouwde partners",
-        "description": "Om onze diensten te verbeteren, werken we nauw samen met een netwerk van betrouwbare, gecertificeerde partners. Deze experts brengen diepe kennis en ervaring in specifieke belastingdomeinen, waardoor we een even breed scala aan gespecialiseerd belastingadvies kunnen bieden.",
+        "title": "Onze partners",
+        "description": "We werken samen met betrouwbare, gecertificeerde experts om jou beter te helpen. Zij brengen extra kennis en ervaring mee over specifieke belastingonderwerpen.",
         "types": [
           {
-            "title": "Belastingspecialisten",
-            "description": "Experts in complexe belastingwetgeving en planning voor bedrijven en particulieren."
+            "title": "Belastingadviseurs",
+            "description": "Voor complexe belastingzaken en advies voor bedrijven en particulieren."
           },
           {
             "title": "Accountants",
-            "description": "Gecertificeerde professionals voor financiële rapportage en compliance."
+            "description": "Voor hulp bij financiële rapportages, regels en boekhouding."
           },
           {
-            "title": "Juridisch adviseurs",
-            "description": "Gespecialiseerd in belastingrecht en bedrijfsstructurering."
+            "title": "Fiscaal juristen",
+            "description": "Voor advies over belastingwetten en bedrijfsstructuren."
           }
         ]
       },
       "mission": {
         "title": "Onze missie",
-        "description": "Jan de Belastingman streeft ernaar om kwalitatief belastingadvies toegankelijk te maken voor iedereen. We willen mensen tijd en geld besparen door betrouwbare, begrijpelijke begeleiding te bieden bij hun belastingzaken.",
+        "description": "Bij Jan de Belastingman willen we goed belastingadvies makkelijk en betaalbaar maken. We helpen mensen tijd en geld besparen met duidelijke en betrouwbare hulp.",
         "points": [
-          "Democratisering van belastingexpertise",
-          "Vereenvoudigen van complexe belastingkwesties",
-          "24/7 ondersteuning voor iedereen"
+          "Belastingadvies voor iedereen",
+          "Moeilijke belastingzaken simpel maken",
+          "Altijd bereikbaar voor hulp"
         ]
       },
       "vision": {
         "title": "Onze visie",
-        "description": "We zien een toekomst voor ons waarin iedereen in Nederland met vertrouwen zijn belastingzaken kan regelen, ondersteund door geavanceerde AI-technologie en menselijke expertise.",
+        "description": "Wij zien een toekomst waarin iedereen in Nederland zijn belastingzaken zelfverzekerd kan regelen, met hulp van slimme AI en echte experts.",
         "points": [
-          "AI-gedreven persoonlijk advies voor iedereen",
-          "Naadloze integratie met financiële systemen",
-          "Continue lerende en ontwikkelende dienstverlening",
-          "Samenwerking met experts voor specialistisch advies"
+          "Persoonlijk advies via AI",
+          "Makkelijk te koppelen aan je boekhouding",
+          "Slimmer en beter door te blijven leren",
+          "Samenwerken met specialisten voor extra hulp"
         ]
       },
       "cta": {

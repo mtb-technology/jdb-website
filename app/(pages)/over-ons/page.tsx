@@ -173,7 +173,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
       </section>
 
       {/* Company Evolution Section */}
-      <section className="bg-gradient-to-r from-[#214bc6] to-[#021857] text-white rounded-2xl shadow-lg overflow-hidden p-10">
+      <section className="bg-gradient-to-r from-primary to-[#021857] text-white rounded-2xl shadow-lg overflow-hidden p-10">
         <h2 className="text-3xl font-bold mb-8 text-center">
           {dict.journey.title}
         </h2>
@@ -245,14 +245,14 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
       </section>
 
       {/* Call to Action Section */}
-      <section className="bg-gradient-to-r from-[#214bc6] to-[#021857] text-white text-center rounded-2xl shadow-lg overflow-hidden p-10">
+      <section className="bg-gradient-to-r from-primary to-[#021857] text-white text-center rounded-2xl shadow-lg overflow-hidden p-10">
         <h2 className="text-3xl font-bold mb-6">{dict.cta.title}</h2>
         <p className="text-white/90 mb-8 max-w-2xl mx-auto">
           {dict.cta.description}
         </p>
         <div className="flex justify-center gap-4">
           <Link href={dict.cta.buttons.chatHref}>
-            <Button className="bg-primary text-white hover:bg-primary transition-colors duration-300">
+            <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300">
               {dict.cta.buttons.chat}
             </Button>
           </Link>
