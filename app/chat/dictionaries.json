@@ -53,11 +53,11 @@
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": [
         {
-          "title": "Mijn belastingaangifte is complex. Hoe pak ik dit aan?",
+          "title": "Mijn belastingaangifte is complexer geworden",
           "question": "Mijn belastingaangifte is complex. Hoe pak ik dit aan?"
         },
         {
-          "title": "Hoe kan ik voorkomen dat ik te veel belasting betaal?",
+          "title": "Hoe voorkom ik te veel belasting betalen?",
           "question": "Hoe kan ik voorkomen dat ik te veel belasting betaal?"
         },
         {
@@ -69,8 +69,8 @@
           "question": "Waar moet ik op letten bij mijn belastingaangifte?"
         },
         {
-          "title": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?",
-          "question": "Ik wil geen fouten maken of geld mislopen. Kan een expert meekijken?"
+          "title": "Welke aftrekposten kan ik toepassen?",
+          "question": "Welke aftrekposten kan ik toepassen?"
         }
       ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
@@ -100,16 +100,16 @@
           "question": "Hoe kan ik de belastingdruk voor mijn BV verlagen?"
         },
         {
-          "title": "Is dividend uitkeren slimmer dan salaris verhogen?",
+          "title": "Is dividend uitkeren slim?",
           "question": "Is dividend uitkeren slimmer dan salaris verhogen?"
         },
         {
-          "title": "Mijn administratie kost te veel tijd. Kan iemand dit voor mij regelen?",
-          "question": "Mijn administratie kost te veel tijd. Kan iemand dit voor mij regelen?"
+          "title": "Mijn administratie kost steeds meer tijd. Wat nu?",
+          "question": "Mijn administratie kost steeds meer tijd. Kan iemand dit voor mij regelen?"
         },
         {
-          "title": "Ik wil internationaal zakendoen. Hoe voorkom ik fiscale valkuilen?",
-          "question": "Ik wil internationaal zakendoen. Hoe voorkom ik fiscale valkuilen?"
+          "title": "Hoe voorkom ik fiscale valkuilen bij groei?",
+          "question": "Hoe voorkom ik fiscale valkuilen bij een groeiend bedrijf?"
         }
       ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
@@ -131,24 +131,24 @@
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": [
         {
-          "title": "Mijn administratie kost me te veel tijd. Wat zijn mijn opties?",
-          "question": "Mijn administratie kost me te veel tijd. Wat zijn mijn opties?"
+          "title": "Mijn administratie kost steeds meer tijd. Wat nu?",
+          "question": "Mijn administratie kost steeds meer tijd. Wat nu?"
         },
         {
-          "title": "Hoe zorg ik dat ik als ZZP'er geen belastingvoordelen misloop?",
-          "question": "Hoe zorg ik dat ik als ZZP'er geen belastingvoordelen misloop?"
+          "title": "Hoe loop ik geen belastingvoordelen mis?",
+          "question": "Hoe loop ik geen belastingvoordelen mis als ZZP'er?"
         },
         {
           "title": "Hoe pak ik mijn BTW-aangifte aan?",
           "question": "Hoe pak ik mijn BTW-aangifte aan?"
         },
         {
-          "title": "Ik twijfel of een BV voordeliger is dan ZZP. Hoe weet ik dat zeker?",
+          "title": "Ik twijfel of een BV voordeliger is dan ZZP.",
           "question": "Ik twijfel of een BV voordeliger is dan ZZP. Hoe weet ik dat zeker?"
         },
         {
-          "title": "Wat zijn mijn fiscale verplichtingen als ik internationaal werk?",
-          "question": "Wat zijn mijn fiscale verplichtingen als ik internationaal werk?"
+          "title": "Wat moet ik doen met internationale inkomsten?",
+          "question": "Wat zijn mijn fiscale verplichtingen met internationale inkomsten?"
         }
       ],
       "disclaimer": "Deze service is een digitale assistent, geen gecertificeerde adviseur.\nAan de verstrekte informatie kunnen geen rechten worden ontleend.",
@@ -170,7 +170,7 @@
       "inputPlaceholder": "Stel je vraag",
       "commonQuestions": [
         {
-          "title": "Wat is een M-formulier en wanneer moet ik het invullen?",
+          "title": "Wat is een M-formulier en wanneer invullen?",
           "question": "Wat is een M-formulier en wanneer moet ik het invullen?"
         },
         {
@@ -182,11 +182,11 @@
           "question": "Hoe werkt de 30%-regeling?"
         },
         {
-          "title": "Hoe kan ik hulp krijgen bij het invullen van mijn M-formulier?",
+          "title": "Hulp krijgen bij het invullen van mijn M-formulier?",
           "question": "Hoe kan ik hulp krijgen bij het invullen van mijn M-formulier?"
         },
         {
-          "title": "Kan ik in contact komen met een belastingadviseur?",
+          "title": "In contact komen met een belastingadviseur?",
           "question": "Kan ik in contact komen met een belastingadviseur?"
         }
       ],
@@ -400,8 +400,8 @@
           "question": "Do I need to declare assets in box 3?"
         },
         {
-          "title": "What's the impact of changing from sole proprietorship to LLC?",
-          "question": "What's the impact of changing from sole proprietorship to LLC?"
+          "title": "How do I include foreign assets in my tax return?",
+          "question": "How do I include foreign assets in my tax return?"
         },
         {
           "title": "How do I avoid overpaying taxes?",
@@ -427,24 +427,24 @@
       "inputPlaceholder": "Ask your question",
       "commonQuestions": [
         {
-          "title": "My tax return is complex. How do I approach this?",
-          "question": "My tax return is complex. How do I approach this?"
+          "title": "How do I approach a complex tax return?",
+          "question": "How do I approach a complex tax return?"
         },
         {
           "title": "How can I avoid overpaying taxes?",
           "question": "How can I avoid overpaying taxes?"
         },
         {
-          "title": "What assets are included in Box 3 and how are they taxed?",
-          "question": "What assets are included in Box 3 and how are they taxed?"
+          "title": "How are assets in Box 3 taxed?",
+          "question": "How are assets in Box 3 taxed?"
         },
         {
-          "title": "What should I pay attention to when filing my tax return?",
-          "question": "What should I pay attention to when filing my tax return?"
+          "title": "What is the m-form for tax returns?",
+          "question": "What is the m-form for tax returns?"
         },
         {
-          "title": "I don't want to make mistakes or miss out on deductions. Can someone check my return?",
-          "question": "I don't want to make mistakes or miss out on deductions. Can someone check my return?"
+          "title": "How do I include foreign assets in my tax return?",
+          "question": "How do I include foreign assets in my tax return?"
         }
       ],
       "disclaimer": "This service is a digital assistant, not a certified tax advisor.\nNo rights can be derived from the provided information.",
@@ -536,7 +536,7 @@
       "inputPlaceholder": "Ask your question",
       "commonQuestions": [
         {
-          "title": "What is an M-form and when should I fill it out?",
+          "title": "What is an M-form and when fill it out?",
           "question": "What is an M-form and when should I fill it out?"
         },
         {
@@ -549,10 +549,10 @@
         },
         {
           "title": "What are the deadlines?",
-          "question": "What are the deadlines?"
+          "question": "What are the deadlines for filing the m-form?"
         },
         {
-          "title": "The m-form is complex. Can an expert take care of it for me?",
+          "title": "Can an expert take care of the m-form for me?",
           "question": "The m-form is complex. Can an expert take care of it for me?"
         }
       ],
