@@ -173,7 +173,7 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
       </section>
 
       {/* Company Evolution Section */}
-      <section className="bg-primary text-white rounded-2xl p-10">
+      <section className="bg-gradient-to-r from-primary to-[#021857] text-white rounded-2xl shadow-lg overflow-hidden p-10">
         <h2 className="text-3xl font-bold mb-8 text-center">
           {dict.journey.title}
         </h2>
@@ -183,13 +183,14 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
               key={index}
               className="flex flex-col md:flex-row items-center gap-6"
             >
+              <div className="md:w-3/4">
+                <p>{milestone.description}</p>
+              </div>
               <div className="md:w-1/4 text-center">
                 <h3 className="text-xl font-bold">{milestone.year}</h3>
                 <p className="text-sm">{milestone.subtitle}</p>
               </div>
-              <div className="md:w-3/4">
-                <p>{milestone.description}</p>
-              </div>
+              
             </div>
           ))}
         </div>
@@ -244,21 +245,21 @@ function AboutUsContent({ dict }: AboutUsContentProps) {
       </section>
 
       {/* Call to Action Section */}
-      <section className="text-center bg-gray-50 rounded-2xl p-10">
+      <section className="bg-gradient-to-r from-primary to-[#021857] text-white text-center rounded-2xl shadow-lg overflow-hidden p-10">
         <h2 className="text-3xl font-bold mb-6">{dict.cta.title}</h2>
-        <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p className="text-white/90 mb-8 max-w-2xl mx-auto">
           {dict.cta.description}
         </p>
         <div className="flex justify-center gap-4">
           <Link href={dict.cta.buttons.chatHref}>
-            <Button className="bg-primary text-white hover:bg-primary transition-colors duration-300">
+            <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300">
               {dict.cta.buttons.chat}
             </Button>
           </Link>
           <Link href={dict.cta.buttons.howItWorksHref}>
             <Button
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300"
+              
+              className="bg-primary text-white hover:bg-[#2341C7] transition-colors duration-300"
             >
               {dict.cta.buttons.howItWorks}
             </Button>
