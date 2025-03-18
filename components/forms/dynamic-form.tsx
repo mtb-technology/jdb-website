@@ -752,7 +752,6 @@ export interface FormConfig {
   successMessage?: {
     title: string
     description: string
-    content?: string[]
     buttonText?: string
   }
 }
@@ -767,10 +766,10 @@ interface DynamicFormProps {
 export function DynamicForm({ config, className, locale = "nl" }: DynamicFormProps) {
   const messages = useMemo(() => validationMessages[locale] || validationMessages.nl, [locale])
   const { trackingData } = useTracking();
-  console.log("Rendering DynamicForm");
   const safeConfig = useMemo(
     () => ({
       ...config,
+      id: config.id || "advisor-request",
       fields: config.fields || [],
       sections: config.sections || [],
       submitButtonText: config.submitButtonText || "Submit",
@@ -779,9 +778,7 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
   )
 
   const [isSubmitting, setIsSubmitting] = useState(false)
-  console.log("useState for isSubmitting called");
   const [isSubmitted, setIsSubmitted] = useState(false)
-  console.log("useState for isSubmitted called");
   const [currentPage, setCurrentPage] = useState(1)
   const [validatedPages, setValidatedPages] = useState<Record<number, boolean>>({})
   const prevPageRef = useRef(currentPage)
@@ -798,19 +795,6 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
     if (!safeConfig.sections || safeConfig.sections.length === 0) return 1
     return Math.max(...safeConfig.sections.map((section) => section.page || 1))
   }, [safeConfig.sections])
-
-  useEffect(() => {
-    if (prevPageRef.current !== currentPage) {
-      prevPageRef.current = currentPage
-
-      if (!validatedPages[currentPage]) {
-        setValidatedPages((prev) => ({
-          ...prev,
-          [currentPage]: false,
-        }))
-      }
-    }
-  }, [currentPage, validatedPages])
 
   const { dynamicSchema, defaultValues } = useMemo(() => {
     const schemaObj: Record<string, any> = {}
@@ -889,12 +873,6 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
     mode: "onSubmit",
   })
 
-  useEffect(() => {
-    if (Object.keys(defaultValues).length > 0) {
-      form.reset(defaultValues)
-    }
-  }, [defaultValues, form])
-
   const _handleNextPage = useCallback(() => {
     form.trigger(currentPageFieldIds).then((isValid) => {
       if (isValid) {
@@ -919,9 +897,10 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
       }
 
       const formData: Record<string, any> = {};
+      formData.id = safeConfig.id;
       safeConfig.fields.forEach((field) => {
         const fieldId = field.id;
-        formData[fieldId] = values[fieldId]; // Dynamically assign values based on field IDs
+        formData[fieldId] = values[fieldId];
       });
 
       formData.lead_source = trackingData?.leadSource || "advisor_finder";
@@ -931,13 +910,13 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
 
       setIsSubmitting(true)
       try {
-        const response = await jdbApi.submitForm(formData.id, formData)
+        const response = await jdbApi.submitForm("advisor-request", formData)
         if (response.success) {
           window.dataLayer = window.dataLayer || []
           window.dataLayer.push({
             event: "formSubmitted",
             ecommerce: {
-              form_handle: "advisor_finder",
+              form_handle: formData.id,
               language: locale,
               tracking_id: trackingData?.trackingId,
               lead_source: trackingData?.leadSource,
@@ -956,36 +935,8 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
         setIsSubmitting(false)
       }
     },
-    [locale, trackingData, currentPage, totalPages, _handleNextPage]
+    [locale, trackingData, currentPage, totalPages, _handleNextPage, safeConfig]
   )
-
-  if (isSubmitted && safeConfig.successMessage) {
-    return (
-      <Card className={cn("w-full", className)}>
-        <CardHeader>
-          <CardTitle>{safeConfig.successMessage.title}</CardTitle>
-          <CardDescription>{safeConfig.successMessage.description}</CardDescription>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          {safeConfig.successMessage.content?.map((text, index) => (
-            <p key={index}>{text}</p>
-          ))}
-          {safeConfig.successMessage.buttonText && (
-            <Button
-              onClick={() => {
-                setIsSubmitted(false)
-                setCurrentPage(1)
-                setValidatedPages({})
-                form.reset(defaultValues)
-              }}
-            >
-              {safeConfig.successMessage.buttonText}
-            </Button>
-          )}
-        </CardContent>
-      </Card>
-    )
-  }
 
   const renderField = useCallback(
     (fieldId: string) => {
@@ -1248,10 +1199,50 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
           return null
       }
     },
-    [currentPage, form, safeConfig.fields, validatedPages],
+    [currentPage, form, safeConfig.fields, validatedPages]
   )
 
-  return (
+  useEffect(() => {
+    if (Object.keys(defaultValues).length > 0) {
+      form.reset(defaultValues)
+    }
+  }, [defaultValues, form])
+
+  useEffect(() => {
+    if (prevPageRef.current !== currentPage) {
+      prevPageRef.current = currentPage
+
+      if (!validatedPages[currentPage]) {
+        setValidatedPages((prev) => ({
+          ...prev,
+          [currentPage]: false,
+        }))
+      }
+    }
+  }, [currentPage, validatedPages])
+
+  const content = isSubmitted && safeConfig.successMessage ? (
+    <Card className={cn("w-full", className)}>
+      <CardHeader>
+        <CardTitle>{safeConfig.successMessage.title}</CardTitle>
+        <CardDescription>{safeConfig.successMessage.description}</CardDescription>
+      </CardHeader>
+      <CardContent className="space-y-4">
+        {safeConfig.successMessage.buttonText && (
+          <Button
+            onClick={() => {
+              setIsSubmitted(false)
+              setCurrentPage(1)
+              setValidatedPages({})
+              form.reset(defaultValues)
+            }}
+          >
+            {safeConfig.successMessage.buttonText}
+          </Button>
+        )}
+      </CardContent>
+    </Card>
+  ) : (
     <Card className={cn("w-full", className)}>
       <CardHeader>
         <CardTitle>{safeConfig.title}</CardTitle>
@@ -1301,4 +1292,12 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
       </CardContent>
     </Card>
   )
+<<<<<<< ours
 }>>>>>>> theirs
+||||||| ancestor
+}
+=======
+
+  return content;
+}
+>>>>>>> theirs
