@@ -25,13 +25,10 @@ export default function Footer({
 
   const footerLinks = [
     {
-      href: `/${locale === "en" ? "en/" : ""}privacy`,
+      href: locale === "nl" ? "privacy" : "en/privacy",
       label: dict.footer.privacy,
     },
-    { 
-      href: `/${locale === "en" ? "en/" : ""}terms`,
-      label: dict.footer.terms 
-    },
+    { href: locale === "nl" ? "terms" : "en/terms", label: dict.footer.terms },
   ];
 
   return (
