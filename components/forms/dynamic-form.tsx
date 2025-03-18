@@ -1301,6 +1301,4 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
       </CardContent>
     </Card>
   )
-}
-
->>>>>>> theirs
+}>>>>>>> theirs
