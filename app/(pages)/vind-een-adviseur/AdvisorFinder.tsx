@@ -93,19 +93,17 @@ export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
 
       {/* Advisor Finder Content */}
       <div className="relative z-0 pt-12 pb-24">
+        <h1 className="text-4xl font-bold mb-12 text-center">{dict.title}</h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-          <div>
-            <h1 className="text-4xl font-bold mb-6">{dict.title}</h1>
-            <h2 className="text-2xl font-semibold text-gray-700 mb-4">
-              {dict.subtitle}
-            </h2>
+          <div>  
+          <h2 className="text-2xl font-bold mb-4">{dict.subtitle}</h2>
             <div className="space-y-4 mb-6">
-              <p className="text-lg">{dict.intro.text}</p>
+              <p className="text-base">{dict.intro.text}</p>
               <ul className="list-none space-y-2">
                 {dict.intro.benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start">
                     <svg
-                      className="w-6 h-6 text-green-500 mr-2"
+                      className="w-5 h-5 text-green-500 mr-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -118,12 +116,12 @@ export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       ></path>
                     </svg>
-                    <span>{benefit}</span>
+                    <span className="text-base">{benefit}</span>
                   </li>
                 ))}
               </ul>
             </div>
-            <p className="text-lg mb-6">{dict.intro.networkDescription}</p>
+            <p className="text-base mb-6">{dict.intro.networkDescription}</p>
           </div>
           <div className="relative h-[400px] rounded-xl overflow-hidden shadow-lg">
             <Image
@@ -154,7 +152,7 @@ export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
               </svg>
             </div>
             <h2 className="text-2xl font-bold mb-4">{dict.success.title}</h2>
-            <p className="text-lg mb-6">{dict.success.message}</p>
+            <p className="text-base mb-6">{dict.success.message}</p>
             <Button
               onClick={resetForm}
               className="bg-primary text-white hover:bg-primary"
@@ -347,15 +345,15 @@ export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
                     </div>
                   </div>
                   <div className="md:w-2/3">
-                    <h3 className="text-xl font-bold mb-3">
+                    <h2 className="text-2xl font-bold mb-3">
                       {dict.promise.title}
-                    </h3>
+                    </h2>
                     <ul className="space-y-2">
                       {dict.promise.items.map((item, index) => (
                         <li key={index} className="flex items-start">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5 text-green-500 mr-2 mt-0.5"
+                            className="h-5 w-5 text-green-500 mr-2"
                             viewBox="0 0 20 20"
                             fill="currentColor"
                           >
@@ -365,7 +363,7 @@ export default function AdvisorFinder({ dict, locale }: AdvisorFinderProps) {
                               clipRule="evenodd"
                             />
                           </svg>
-                          <span>{item}</span>
+                          <span className="text-base">{item}</span>
                         </li>
                       ))}
                     </ul>
