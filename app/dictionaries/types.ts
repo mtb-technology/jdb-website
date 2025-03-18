@@ -1,3 +1,4 @@
+
 export interface Dictionary {
   metadata: {
     title: string;
@@ -25,9 +26,12 @@ export interface Dictionary {
       helpQuestion: string;
       inputPlaceholder: string;
       commonQuestions: {
-        title: string;
-        question: string;
-      }[];
+        deductions: string;
+        vatReturn: string;
+        box3: string;
+        businessStructure: string;
+        more: string;
+      };
       disclaimer: string;
       knownFrom: string;
     };
@@ -57,23 +61,25 @@ export interface Dictionary {
         id: string;
         title: string;
         description: string;
-      }>;
-      form: {
-        title: string;
-        backButton: string;
-        fields: {
-          firstName: string;
-          lastName: string;
-          email: string;
-          phone: string;
-          message: {
-            label: string;
-            placeholder: string;
+        form: {
+          fields: {
+            firstName: string;
+            lastName: string;
+            email: string;
+            phone: string;
+            message: {
+              label: string;
+              placeholder: string;
+            };
+            [key: string]: any; // Allow for additional fields
           };
         };
-        privacyConsent: string;
-        submitButton: string;
-      };
+      }>;
+      form: {
+        id: string;
+        title: string;
+        description: string;
+}
       success: {
         title: string;
         message: string;
