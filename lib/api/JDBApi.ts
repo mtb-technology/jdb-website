@@ -118,6 +118,7 @@ export class JDBApi {
           ...options.headers,
         },
       });
+      console.log(response)
 
       if (!response.ok) {
         throw new Error(`API Error: ${response.status} ${response.statusText}`);

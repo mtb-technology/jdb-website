@@ -336,11 +336,7 @@
       ],
       "successMessage": {
         "title": "Bedankt voor je aanvraag",
-        "description": "Je krijgt een bevestiging per e-mail.",
-        "content": [
-          "We nemen binnen 2 werkdagen contact op via email met meer informatie.",
-          "Indien we niemand vinden laten we dit ook weten."
-        ],
+        "description": "Je aanvraag is succesvol verstuurd.",
         "buttonText": "Nieuwe aanvraag"
       }
     },
@@ -680,11 +676,7 @@
       ],
       "successMessage": {
         "title": "Bedankt voor je aanvraag",
-        "description": "Je krijgt een bevestiging per e-mail.",
-        "content": [
-          "We nemen binnen 2 werkdagen contact op via email met meer informatie.",
-          "Indien we niemand vinden laten we dit ook weten."
-        ],
+        "description": "Je aanvraag is succesvol verstuurd.",
         "buttonText": "Nieuwe aanvraag"
       }
     },
@@ -808,9 +800,9 @@
         }
       ],
       "successMessage": {
-        "title": "Bedankt voor uw bericht",
-        "description": "We hebben uw bericht ontvangen en zullen zo spoedig mogelijk reageren.",
-        "buttonText": "Nieuw bericht"
+        "title": "Bedankt voor je aanvraag",
+        "description": "Je aanvraag is succesvol verstuurd.",
+        "buttonText": "Nieuwe aanvraag"
       }
     },
     {
@@ -933,9 +925,9 @@
         }
       ],
       "successMessage": {
-        "title": "Bedankt voor uw bericht",
-        "description": "We hebben uw bericht ontvangen en zullen zo spoedig mogelijk reageren.",
-        "buttonText": "Nieuw bericht"
+        "title": "Bedankt voor je aanvraag",
+        "description": "Je aanvraag is succesvol verstuurd.",
+        "buttonText": "Nieuwe aanvraag"
       }
     }
   ],
@@ -1276,11 +1268,7 @@
       ],
       "successMessage": {
         "title": "Thank you for your request",
-        "description": "You will receive a confirmation by email.",
-        "content": [
-          "We will contact you within 2 business days via email with more information.",
-          "If we cannot find anyone, we will also let you know."
-        ],
+        "description": "Your request was submitted successfully.",
         "buttonText": "New request"
       }
     },
@@ -1620,11 +1608,7 @@
       ],
       "successMessage": {
         "title": "Thank you for your request",
-        "description": "You will receive a confirmation by email.",
-        "content": [
-          "We will contact you within 2 business days via email with more information.",
-          "If we cannot find anyone, we will also let you know."
-        ],
+        "description": "Your request was submitted successfully.",
         "buttonText": "New request"
       }
     },
@@ -1748,9 +1732,9 @@
         }
       ],
       "successMessage": {
-        "title": "Thank you for your message",
-        "description": "We have received your message and will respond as soon as possible.",
-        "buttonText": "New message"
+        "title": "Thank you for your request",
+        "description": "Your request was submitted successfully.",
+        "buttonText": "New request"
       }
     },
     {
@@ -1873,9 +1857,9 @@
         }
       ],
       "successMessage": {
-        "title": "Thank you for your message",
-        "description": "We have received your message and will respond as soon as possible.",
-        "buttonText": "New message"
+        "title": "Thank you for your request",
+        "description": "Your request was submitted successfully.",
+        "buttonText": "New request"
       }
     }
   ]

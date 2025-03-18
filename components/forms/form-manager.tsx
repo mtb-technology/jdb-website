@@ -58,6 +58,7 @@ export default function FormManager({locale}: FormManagerProps) {
   )
 
   const handleFormSelect = useCallback((formId: string) => {
+    console.log(formId)
     setSelectedFormId(formId)
   }, [])
 
