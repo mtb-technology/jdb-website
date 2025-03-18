@@ -39,7 +39,7 @@ export default async function PrivacyPage({ params, searchParams }: PageProps) {
 
           <h2>1. Inleiding</h2>
           <p>
-            Welkom bij Jan de Belastingman, een handelsnaam van MTB Technology B.V. ("wij," "ons," of "onze"). Wij hechten veel waarde aan uw privacy en zetten ons in om uw persoonsgegevens te beschermen. In dit Privacybeleid leggen we uit hoe wij informatie verzamelen, gebruiken, delen en beschermen wanneer u gebruikmaakt van onze diensten, waaronder onze website, AI-gebaseerde chatfunctionaliteit en wanneer wij uw vragen doorsturen naar menselijke adviseurs.
+            Welkom bij Jan de Belastingman, een handelsnaam van MTB Technology B.V. (&ldquo;wij,&rdquo; &ldquo;ons,&rdquo; of &ldquo;onze&rdquo;). Wij hechten veel waarde aan uw privacy en zetten ons in om uw persoonsgegevens te beschermen. In dit Privacybeleid leggen we uit hoe wij informatie verzamelen, gebruiken, delen en beschermen wanneer u gebruikmaakt van onze diensten, waaronder onze website, AI-gebaseerde chatfunctionaliteit en wanneer wij uw vragen doorsturen naar menselijke adviseurs.
           </p>
           <p>
             Door gebruik te maken van onze diensten, gaat u akkoord met het verzamelen en gebruiken van informatie overeenkomstig dit Privacybeleid. Wij kunnen dit beleid van tijd tot tijd bijwerken; we raden u aan het periodiek te bekijken.
@@ -181,12 +181,12 @@ export default async function PrivacyPage({ params, searchParams }: PageProps) {
           <h2>11. Uw Rechten</h2>
           <p>Op grond van de Algemene Verordening Gegevensbescherming (AVG) hebt u bepaalde rechten met betrekking tot uw persoonsgegevens, waaronder:</p>
           <ol>
-            <li>Recht van inzage – het recht om een kopie van uw persoonsgegevens op te vragen.</li>
-            <li>Recht op rectificatie – het recht om ons te vragen onjuiste of onvolledige gegevens te corrigeren.</li>
-            <li>Recht op verwijdering ("recht om vergeten te worden") – het recht om onder bepaalde omstandigheden verwijdering van uw persoonsgegevens te vragen.</li>
-            <li>Recht van bezwaar – het recht om bezwaar te maken tegen bepaalde verwerkingsactiviteiten (bijv. direct marketing).</li>
-            <li>Recht op beperking van de verwerking – het recht om de verwerking van gegevens in specifieke situaties te beperken.</li>
-            <li>Recht op gegevensoverdraagbaarheid – het recht om uw persoonsgegevens te ontvangen in een gestructureerd, gangbaar en machineleesbaar formaat en deze over te dragen aan een andere organisatie, waar technisch haalbaar.</li>
+            <li>Recht van inzage &ndash; het recht om een kopie van uw persoonsgegevens op te vragen.</li>
+            <li>Recht op rectificatie &ndash; het recht om ons te vragen onjuiste of onvolledige gegevens te corrigeren.</li>
+            <li>Recht op verwijdering (&ldquo;recht om vergeten te worden&rdquo;) &ndash; het recht om onder bepaalde omstandigheden verwijdering van uw persoonsgegevens te vragen.</li>
+            <li>Recht van bezwaar &ndash; het recht om bezwaar te maken tegen bepaalde verwerkingsactiviteiten (bijv. direct marketing).</li>
+            <li>Recht op beperking van de verwerking &ndash; het recht om de verwerking van gegevens in specifieke situaties te beperken.</li>
+            <li>Recht op gegevensoverdraagbaarheid &ndash; het recht om uw persoonsgegevens te ontvangen in een gestructureerd, gangbaar en machineleesbaar formaat en deze over te dragen aan een andere organisatie, waar technisch haalbaar.</li>
           </ol>
           <p>
             Om een van deze rechten uit te oefenen, kunt u contact met ons opnemen via help@jandebelastingman.nl. Wij zullen binnen de wettelijk vereiste termijn op uw verzoek reageren.

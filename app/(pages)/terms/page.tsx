@@ -39,7 +39,7 @@ export default async function TermsPage({ params, searchParams }: PageProps) {
 
           <h2>1. Inleiding</h2>
           <p>
-            Welkom bij Jan de Belastingman, een handelsnaam van MTB Technology B.V. ("wij," "ons," of "onze"). Door gebruik te maken van onze website, chatbot en aanverwante diensten (gezamenlijk de "Diensten"), verklaart u dat u deze Gebruiksvoorwaarden ("Voorwaarden") hebt gelezen, begrepen en ermee instemt gebonden te zijn. Als u niet akkoord gaat, dient u geen gebruik te maken van onze Diensten.
+            Welkom bij Jan de Belastingman, een handelsnaam van MTB Technology B.V. (&ldquo;wij,&rdquo; &ldquo;ons,&rdquo; of &ldquo;onze&rdquo;). Door gebruik te maken van onze website, chatbot en aanverwante diensten (gezamenlijk de &ldquo;Diensten&rdquo;), verklaart u dat u deze Gebruiksvoorwaarden (&ldquo;Voorwaarden&rdquo;) hebt gelezen, begrepen en ermee instemt gebonden te zijn. Als u niet akkoord gaat, dient u geen gebruik te maken van onze Diensten.
           </p>
 
           <h2>2. Beschrijving van de Diensten</h2>
@@ -50,13 +50,13 @@ export default async function TermsPage({ params, searchParams }: PageProps) {
 
           <h3>2.2 Doorverwijzing naar externe adviseurs</h3>
           <p>
-            Wij kunnen uw vragen doorsturen of links aanbieden naar externe belastingadviseurs of professionals ("Adviseurs"). Hoewel wij ons inspannen om u in contact te brengen met betrouwbare Adviseurs, onderschrijven of garanderen wij hun diensten niet. Elke overeenkomst, afspraak of communicatie tussen u en deze Adviseurs is strikt tussen u en hen.
+            Wij kunnen uw vragen doorsturen of links aanbieden naar externe belastingadviseurs of professionals (&ldquo;Adviseurs&rdquo;). Hoewel wij ons inspannen om u in contact te brengen met betrouwbare Adviseurs, onderschrijven of garanderen wij hun diensten niet. Elke overeenkomst, afspraak of communicatie tussen u en deze Adviseurs is strikt tussen u en hen.
           </p>
 
           <h2>3. Afwijzing van aansprakelijkheid</h2>
           <h3>3.1 Geen juridisch of financieel advies</h3>
           <p>
-            De informatie die via onze Diensten wordt aangeboden—ongeacht of deze is gegenereerd door AI, door ons is samengesteld of door externe Adviseurs is verstrekt—mag niet worden opgevat als vervanging van professioneel advies. U blijft te allen tijde zelf verantwoordelijk voor uw beslissingen en handelingen.
+            De informatie die via onze Diensten wordt aangeboden&mdash;ongeacht of deze is gegenereerd door AI, door ons is samengesteld of door externe Adviseurs is verstrekt&mdash;mag niet worden opgevat als vervanging van professioneel advies. U blijft te allen tijde zelf verantwoordelijk voor uw beslissingen en handelingen.
           </p>
 
           <h3>3.2 Externe adviseurs</h3>

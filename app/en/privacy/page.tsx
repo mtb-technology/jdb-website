@@ -41,7 +41,7 @@ export default async function LocalizedPrivacyPage({
 
           <h2>1. Introduction</h2>
           <p>
-            Welcome to Jan de Belastingman, a trade name of MTB Technology B.V. ("we," "us," or "our"). We value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, share, and protect your information when you use our services, including our website, AI-based chat functionality, and when we forward your inquiries to human advisors.
+            Welcome to Jan de Belastingman, a trade name of MTB Technology B.V. (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;). We value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, share, and protect your information when you use our services, including our website, AI-based chat functionality, and when we forward your inquiries to human advisors.
           </p>
           <p>
             By using our services, you agree to the collection and use of information in accordance with this Privacy Policy. We may update this policy from time to time; we encourage you to review it periodically.
@@ -183,12 +183,12 @@ export default async function LocalizedPrivacyPage({
           <h2>11. Your Rights</h2>
           <p>Under the General Data Protection Regulation (GDPR), you have certain rights regarding your personal data, including:</p>
           <ol>
-            <li>Right of Access – to request a copy of your personal data.</li>
-            <li>Right to Rectification – to ask us to correct any inaccurate or incomplete data.</li>
-            <li>Right to Erasure ("Right to be Forgotten") – to request deletion of your personal data under certain circumstances.</li>
-            <li>Right to Object – to object to certain processing activities (e.g., direct marketing).</li>
-            <li>Right to Restrict Processing – to request limitation of data processing in specific situations.</li>
-            <li>Right to Data Portability – to receive your personal data in a structured, commonly used, and machine-readable format and transfer it to another organization where technically feasible.</li>
+            <li>Right of Access &ndash; to request a copy of your personal data.</li>
+            <li>Right to Rectification &ndash; to ask us to correct any inaccurate or incomplete data.</li>
+            <li>Right to Erasure (&ldquo;Right to be Forgotten&rdquo;) &ndash; to request deletion of your personal data under certain circumstances.</li>
+            <li>Right to Object &ndash; to object to certain processing activities (e.g., direct marketing).</li>
+            <li>Right to Restrict Processing &ndash; to request limitation of data processing in specific situations.</li>
+            <li>Right to Data Portability &ndash; to receive your personal data in a structured, commonly used, and machine-readable format and transfer it to another organization where technically feasible.</li>
           </ol>
           <p>
             To exercise any of these rights, please contact us at help@jandebelastingman.nl. We will respond to your request within the timeframe mandated by applicable law.
