@@ -631,4 +631,3 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
     </Card>
   )
 }
-
