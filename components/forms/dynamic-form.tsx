@@ -276,11 +276,11 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
 
       const widthClass =
         width === "half"
-          ? "col-span-1"
+          ? "col-span-full md:col-span-1"
           : width === "third"
-            ? "col-span-1"
+            ? "col-span-full md:col-span-1"
             : width === "twoThird"
-              ? "col-span-2"
+              ? "col-span-full md:col-span-2"
               : "col-span-full"
 
       const shouldShowErrors = validatedPages[currentPage] === true
@@ -306,7 +306,10 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                         type={type}
                         placeholder={placeholder}
                         {...field}
-                        className={cn(shouldShowErrors && fieldState.invalid ? "border-destructive" : "")}
+                        className={cn(
+                          "text-sm placeholder:text-sm",
+                          shouldShowErrors && fieldState.invalid ? "border-destructive" : ""
+                        )}
                       />
                     </FormControl>
                     {fieldConfig.description && <FormDescription>{fieldConfig.description}</FormDescription>}
@@ -333,7 +336,7 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                       <Textarea
                         placeholder={placeholder}
                         className={cn(
-                          "min-h-[120px]",
+                          "min-h-[120px] text-sm placeholder:text-sm",
                           shouldShowErrors && fieldState.invalid ? "border-destructive" : "",
                         )}
                         {...field}
@@ -492,7 +495,7 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                           <Button
                             variant={"outline"}
                             className={cn(
-                              "w-full pl-3 text-left font-normal",
+                              "w-full pl-3 text-left font-normal text-sm",
                               !field.value && "text-muted-foreground",
                               shouldShowErrors && fieldState.invalid ? "border-destructive" : "",
                             )}
@@ -500,19 +503,60 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                             {field.value ? (
                               format(field.value, "dd/MM/yyyy")
                             ) : (
-                              <span>{placeholder || "dd/mm/yyyy"}</span>
+                              <span>{placeholder || "Selecteer een datum"}</span>
                             )}
                             <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
                           </Button>
                         </FormControl>
                       </PopoverTrigger>
-                      <PopoverContent className="w-auto p-0" align="start">
+                      <PopoverContent className="w-auto p-3" align="start">
                         <Calendar
                           mode="single"
                           selected={field.value}
                           onSelect={field.onChange}
                           disabled={(date) => date > new Date() || date < new Date("1900-01-01")}
                           initialFocus
+                          captionLayout="dropdown"
+                          fromYear={1900}
+                          toYear={new Date().getFullYear()}
+                          showOutsideDays={false}
+                          classNames={{
+                            months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
+                            head_row: "hidden",
+                            head_cell: "hidden",
+                            row: "flex w-full mt-2",
+                            cell: "relative p-0 text-center text-sm focus-within:relative focus-within:z-20",
+                            day: cn(
+                              "h-8 w-8 p-0 font-normal aria-selected:opacity-100",
+                              "rounded-md hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            ),
+                            day_selected: "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground",
+                            day_today: "bg-accent text-accent-foreground",
+                            day_outside: "text-muted-foreground opacity-50",
+                            day_disabled: "text-muted-foreground opacity-50",
+                            day_hidden: "invisible",
+                            caption: "flex justify-center items-center space-x-1 mb-4",
+                            caption_label: "hidden",
+                            nav: "hidden",
+                            dropdown_month: "min-w-[90px] bg-background border rounded-md px-2 py-1 text-sm hover:bg-accent",
+                            dropdown_year: "min-w-[70px] bg-background border rounded-md px-2 py-1 text-sm hover:bg-accent",
+                            dropdown: "focus:ring-1 focus:ring-primary [&>*:first-child]:hidden [&>select]:!p-0 [&>select]:!pl-2",
+                            vhidden: "hidden"
+                          }}
+                          components={{
+                            Dropdown: ({ value, onChange, children, ...props }) => {
+                              return (
+                                <select
+                                  value={value}
+                                  onChange={onChange}
+                                  className="cursor-pointer border rounded-md px-2 py-1 text-sm hover:bg-accent"
+                                  {...props}
+                                >
+                                  {children}
+                                </select>
+                              )
+                            }
+                          }}
                         />
                       </PopoverContent>
                     </Popover>
@@ -598,14 +642,12 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
             ) : (
               <div className="grid grid-cols-2 gap-4">{safeConfig.fields.map((field) => renderField(field.id))}</div>
             )}
-
             <div className="flex justify-between mt-6">
               {currentPage > 1 && (
                 <Button type="button" variant="outline" onClick={handlePrevPage}>
                   {messages.previous}
                 </Button>
               )}
-
               {currentPage < totalPages ? (
                 <Button type="button" className="ml-auto" onClick={_handleNextPage}>
                   {messages.next}

@@ -84,7 +84,6 @@ export default function FormManager({locale}: FormManagerProps) {
       <div className="flex justify-center items-center mb-6">
         <h2 className="text-2xl font-bold text-center">{t.title}</h2>
       </div>
-
       {error || formMetas.length === 0 ? (
         <div className="p-4 border border-red-300 bg-red-50 rounded-md mb-4">
           <p className="text-red-700">{error || t.noForms}</p>
@@ -98,9 +97,7 @@ export default function FormManager({locale}: FormManagerProps) {
               {t.backToForms}
             </Button>
           </div>
-          
           <DynamicForm config={selectedForm} className="mb-8" locale={locale} />
-
         </div>
       ) : (
         <div className="p-4 border border-yellow-300 bg-yellow-50 rounded-md">

@@ -41,7 +41,7 @@
         {
           "id": "joint_filing",
           "type": "radio",
-          "label": "Wil je voor dat jaar samen met een partner belastingaangifte doen?",
+          "label": "Wil je gezamenlijk met een partner belastingaangifte doen?",
           "required": true,
           "width": "full",
           "options": [
@@ -58,19 +58,19 @@
         {
           "id": "question",
           "type": "textarea",
-          "label": "Beschrijf waarmee we je kunnen helpen en zaken die volgens jou van belang zijn bij je aangifte",
-          "placeholder": "Beschrijf je situatie",
+          "label": "Je vraag of situatie",
+          "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur",
           "required": true,
           "width": "full",
           "validation": {
-            "min": 10,
-            "message": "Beschrijving moet ten minste 10 karakters bevatten."
+            "min": 5,
+            "message": "Beschrijving moet ten minste 5 karakters bevatten."
           }
         },
         {
-          "id": "additional_questions",
+          "id": "additional_comments",
           "type": "checkbox",
-          "label": "Selecteer wat van toepassing is op jouw situatie in het aangiftejaar",
+          "label": "Jouw situatie:",
           "required": false,
           "width": "half",
           "options": [
@@ -111,7 +111,7 @@
         {
           "id": "income_sources",
           "type": "checkbox",
-          "label": "Wat zijn je inkomensbronnen?",
+          "label": "Inkomsten:",
           "required": false,
           "width": "half",
           "options": [
@@ -148,7 +148,7 @@
         {
           "id": "assets",
           "type": "checkbox",
-          "label": "Wat zijn je vermogensbronnen?",
+          "label": "Vermogen:",
           "required": false,
           "width": "half",
           "options": [
@@ -221,7 +221,7 @@
         {
           "id": "deductibles",
           "type": "checkbox",
-          "label": "Zijn er nog extra aftrekposten?",
+          "label": "Aftrekposten:",
           "required": false,
           "width": "half",
           "options": [
@@ -289,8 +289,7 @@
           "label": "Telefoonnummer",
           "placeholder": "0612345678",
           "required": true,
-          "width": "full",
-          "description": "Hierop wordt u eenmalig vrijblijvend gebeld door een adviseur voor een intake."
+          "width": "full"
         },
         {
           "id": "birth_date",
@@ -312,10 +311,10 @@
           "page": 1
         },
         {
-          "title": "Persoonlijke situatie",
+          "title": "Persoonlijke situatie (vink aan wat van toepassing is)",
           "fields": [
             "income_sources",
-            "additional_questions",
+            "additional_comments",
             "assets",
             "deductibles"
           ],
@@ -381,7 +380,7 @@
         {
           "id": "joint_filing",
           "type": "radio",
-          "label": "Wil je voor dat jaar samen met een partner belastingaangifte doen?",
+          "label": "Wil je gezamenlijk met een partner belastingaangifte doen?",
           "required": true,
           "width": "full",
           "options": [
@@ -398,19 +397,19 @@
         {
           "id": "question",
           "type": "textarea",
-          "label": "Beschrijf waarmee we je kunnen helpen en zaken die volgens jou van belang zijn bij je aangifte",
-          "placeholder": "Beschrijf je situatie",
+          "label": "Je vraag of situatie",
+          "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur",
           "required": true,
           "width": "full",
           "validation": {
-            "min": 10,
-            "message": "Beschrijving moet ten minste 10 karakters bevatten."
+            "min": 5,
+            "message": "Beschrijving moet ten minste 5 karakters bevatten."
           }
         },
         {
-          "id": "additional_questions",
+          "id": "additional_comments",
           "type": "checkbox",
-          "label": "Selecteer wat van toepassing is op jouw situatie in het aangiftejaar",
+          "label": "Jouw situatie:",
           "required": false,
           "width": "half",
           "options": [
@@ -451,7 +450,7 @@
         {
           "id": "income_sources",
           "type": "checkbox",
-          "label": "Wat zijn je inkomensbronnen?",
+          "label": "Inkomsten:",
           "required": false,
           "width": "half",
           "options": [
@@ -488,7 +487,7 @@
         {
           "id": "assets",
           "type": "checkbox",
-          "label": "Wat zijn je vermogensbronnen?",
+          "label": "Vermogen:",
           "required": false,
           "width": "half",
           "options": [
@@ -561,7 +560,7 @@
         {
           "id": "deductibles",
           "type": "checkbox",
-          "label": "Zijn er nog extra aftrekposten?",
+          "label": "Aftrekposten:",
           "required": false,
           "width": "half",
           "options": [
@@ -629,8 +628,7 @@
           "label": "Telefoonnummer",
           "placeholder": "0612345678",
           "required": true,
-          "width": "full",
-          "description": "Hierop wordt u eenmalig vrijblijvend gebeld door een adviseur voor een intake."
+          "width": "full"
         },
         {
           "id": "birth_date",
@@ -652,10 +650,10 @@
           "page": 1
         },
         {
-          "title": "Persoonlijke situatie",
+          "title": "Persoonlijke situatie (vink aan wat van toepassing is)",
           "fields": [
             "income_sources",
-            "additional_questions",
+            "additional_comments",
             "assets",
             "deductibles"
           ],
@@ -708,13 +706,12 @@
           "label": "Telefoonnummer",
           "placeholder": "0612345678",
           "required": true,
-          "width": "full",
-          "description": "Hierop wordt u gebeld als u telefonisch contact wenst."
+          "width": "full"
         },
         {
           "id": "business_entity",
           "type": "checkbox",
-          "label": "Om wat voor onderneming gaat het?",
+          "label": "Type onderneming:",
           "required": true,
           "width": "full",
           "options": [
@@ -743,13 +740,13 @@
         {
           "id": "question",
           "type": "textarea",
-          "label": "Met welk type belastingen of financiën heb je hulp nodig? Beschrijf eventueel andere relevante informatie.",
-          "placeholder": "Typ hier uw bericht...",
+          "label": "Je vraag of situatie",
+          "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur",
           "required": true,
           "width": "full",
           "validation": {
-            "min": 10,
-            "message": "Uw bericht moet ten minste 10 karakters bevatten."
+            "min": 5,
+            "message": "Uw bericht moet ten minste 5 karakters bevatten."
           }
         },
         {
@@ -763,7 +760,7 @@
         {
           "id": "previous_consultant",
           "type": "radio",
-          "label": "Heb je eerder met een adviseur/boekhouder gewerkt?",
+          "label": "Eerder met een adviseur gewerkt?",
           "required": false,
           "width": "full",
           "options": [
@@ -833,13 +830,12 @@
           "label": "Telefoonnummer",
           "placeholder": "0612345678",
           "required": true,
-          "width": "full",
-          "description": "Hierop wordt u gebeld als u telefonisch contact wenst."
+          "width": "full"
         },
         {
           "id": "business_entity",
           "type": "checkbox",
-          "label": "Om wat voor onderneming gaat het?",
+          "label": "Type onderneming:",
           "required": true,
           "width": "full",
           "options": [
@@ -868,13 +864,13 @@
         {
           "id": "question",
           "type": "textarea",
-          "label": "Met welk type belastingen of financiën heb je hulp nodig? Beschrijf eventueel andere relevante informatie.",
-          "placeholder": "Typ hier uw bericht...",
+          "label": "Je vraag of situatie",
+          "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur",
           "required": true,
           "width": "full",
           "validation": {
-            "min": 10,
-            "message": "Uw bericht moet ten minste 10 karakters bevatten."
+            "min": 5,
+            "message": "Uw bericht moet ten minste 5 karakters bevatten."
           }
         },
         {
@@ -888,7 +884,7 @@
         {
           "id": "previous_consultant",
           "type": "radio",
-          "label": "Heb je eerder met een adviseur/boekhouder gewerkt?",
+          "label": "Eerder met een adviseur gewerkt?",
           "required": false,
           "width": "full",
           "options": [
@@ -973,7 +969,7 @@
         {
           "id": "joint_filing",
           "type": "radio",
-          "label": "Do you want to file taxes with a partner for that year?",
+          "label": "Do you want to file taxes jointly with a partner?",
           "required": true,
           "width": "full",
           "options": [
@@ -990,19 +986,19 @@
         {
           "id": "question",
           "type": "textarea",
-          "label": "Describe what we can help you with and matters that you think are important for your tax return",
-          "placeholder": "Describe your situation",
+          "label": "Your question or situation",
+          "placeholder": "Describe your situation so we can connect you to the right advisor",
           "required": true,
           "width": "full",
           "validation": {
-            "min": 10,
-            "message": "Description must contain at least 10 characters."
+            "min": 5,
+            "message": "Description must contain at least 5 characters."
           }
         },
         {
-          "id": "additional_questions",
+          "id": "additional_comments",
           "type": "checkbox",
-          "label": "Select what applies to your situation in the tax year",
+          "label": "Your situation:",
           "required": false,
           "width": "half",
           "options": [
@@ -1043,7 +1039,7 @@
         {
           "id": "income_sources",
           "type": "checkbox",
-          "label": "What are your income sources?",
+          "label": "Income sources:",
           "required": false,
           "width": "half",
           "options": [
@@ -1064,11 +1060,11 @@
               "value": "business_income"
             },
             {
-              "label": "Pension/income from Netherlands",
+              "label": "Pension/benefits from Netherlands",
               "value": "pension_income"
             },
             {
-              "label": "Pension/income from abroad",
+              "label": "Pension/benefits from abroad",
               "value": "foreign_pension_income"
             },
             {
@@ -1080,7 +1076,7 @@
         {
           "id": "assets",
           "type": "checkbox",
-          "label": "What are your assets?",
+          "label": "Assets:",
           "required": false,
           "width": "half",
           "options": [
@@ -1105,7 +1101,7 @@
               "value": "crypto"
             },
             {
-              "label": "Pension/income from abroad",
+              "label": "Pension accruals from abroad",
               "value": "foreign_pension"
             },
             {
@@ -1153,7 +1149,7 @@
         {
           "id": "deductibles",
           "type": "checkbox",
-          "label": "Are there any other deductions?",
+          "label": "Deductibles:",
           "required": false,
           "width": "half",
           "options": [
@@ -1221,8 +1217,7 @@
           "label": "Phone number",
           "placeholder": "0612345678",
           "required": true,
-          "width": "full",
-          "description": "You will be called once by an advisor for an intake."
+          "width": "full"
         },
         {
           "id": "birth_date",
@@ -1244,10 +1239,10 @@
           "page": 1
         },
         {
-          "title": "Personal situation",
+          "title": "Personal situation (checkmark what applies to you)",
           "fields": [
             "income_sources",
-            "additional_questions",
+            "additional_comments",
             "assets",
             "deductibles"
           ],
@@ -1313,7 +1308,7 @@
         {
           "id": "joint_filing",
           "type": "radio",
-          "label": "Do you want to file taxes with a partner for that year?",
+          "label": "Do you want to file taxes jointly with a partner?",
           "required": true,
           "width": "full",
           "options": [
@@ -1330,19 +1325,19 @@
         {
           "id": "question",
           "type": "textarea",
-          "label": "Describe what we can help you with and matters that you think are important for your tax return",
-          "placeholder": "Describe your situation",
+          "label": "Your question or situation",
+          "placeholder": "Describe your situation so we can connect you to the right advisor",
           "required": true,
           "width": "full",
           "validation": {
-            "min": 10,
-            "message": "Description must contain at least 10 characters."
+            "min": 5,
+            "message": "Description must contain at least 5 characters."
           }
         },
         {
-          "id": "additional_questions",
+          "id": "additional_comments",
           "type": "checkbox",
-          "label": "Select what applies to your situation in the tax year",
+          "label": "Your situation:",
           "required": false,
           "width": "half",
           "options": [
@@ -1383,7 +1378,7 @@
         {
           "id": "income_sources",
           "type": "checkbox",
-          "label": "What are your income sources?",
+          "label": "Income sources:",
           "required": false,
           "width": "half",
           "options": [
@@ -1404,11 +1399,11 @@
               "value": "business_income"
             },
             {
-              "label": "Pension/income from Netherlands",
+              "label": "Pension/benefits from Netherlands",
               "value": "pension_income"
             },
             {
-              "label": "Pension/income from abroad",
+              "label": "Pension/benefits from abroad",
               "value": "foreign_pension_income"
             },
             {
@@ -1420,7 +1415,7 @@
         {
           "id": "assets",
           "type": "checkbox",
-          "label": "What are your assets?",
+          "label": "Assets:",
           "required": false,
           "width": "half",
           "options": [
@@ -1493,7 +1488,7 @@
         {
           "id": "deductibles",
           "type": "checkbox",
-          "label": "Are there any other deductions?",
+          "label": "Deductibles:",
           "required": false,
           "width": "half",
           "options": [
@@ -1561,8 +1556,7 @@
           "label": "Phone number",
           "placeholder": "0612345678",
           "required": true,
-          "width": "full",
-          "description": "You will be called once by an advisor for an intake."
+          "width": "full"
         },
         {
           "id": "birth_date",
@@ -1584,10 +1578,10 @@
           "page": 1
         },
         {
-          "title": "Personal situation",
+          "title": "Personal situation (checkmark what applies to you)",
           "fields": [
             "income_sources",
-            "additional_questions",
+            "additional_comments",
             "assets",
             "deductibles"
           ],
@@ -1640,13 +1634,12 @@
           "label": "Phone number",
           "placeholder": "0612345678",
           "required": true,
-          "width": "full",
-          "description": "You will be called if you want telephone contact."
+          "width": "full"
         },
         {
           "id": "business_entity",
           "type": "checkbox",
-          "label": "What type of business is it?",
+          "label": "Type of business entity:",
           "required": true,
           "width": "full",
           "options": [
@@ -1675,13 +1668,13 @@
         {
           "id": "question",
           "type": "textarea",
-          "label": "What type of taxes or finances do you need help with? Describe any other relevant information.",
-          "placeholder": "Type your message here...",
+          "label": "Your question or situation",
+          "placeholder": "Describe your situation so we can connect you to the right advisor",
           "required": true,
           "width": "full",
           "validation": {
-            "min": 10,
-            "message": "Your message must contain at least 10 characters."
+            "min": 5,
+            "message": "Your message must contain at least 5 characters."
           }
         },
         {
@@ -1695,7 +1688,7 @@
         {
           "id": "previous_consultant",
           "type": "radio",
-          "label": "Have you worked with an advisor/accountant before?",
+          "label": "Worked with an advisor before?",
           "required": false,
           "width": "full",
           "options": [
@@ -1765,13 +1758,12 @@
           "label": "Phone number",
           "placeholder": "0612345678",
           "required": true,
-          "width": "full",
-          "description": "You will be called if you want telephone contact."
+          "width": "full"
         },
         {
           "id": "business_entity",
           "type": "checkbox",
-          "label": "What type of business is it?",
+          "label": "Type of business entity:",
           "required": true,
           "width": "full",
           "options": [
@@ -1800,13 +1792,13 @@
         {
           "id": "question",
           "type": "textarea",
-          "label": "What type of taxes or finances do you need help with? Describe any other relevant information.",
-          "placeholder": "Type your message here...",
+          "label": "Your question or situation",
+          "placeholder": "Describe your situation so we can connect you to the right advisor",
           "required": true,
           "width": "full",
           "validation": {
-            "min": 10,
-            "message": "Your message must contain at least 10 characters."
+            "min": 5,
+            "message": "Your message must contain at least 5 characters."
           }
         },
         {
@@ -1820,7 +1812,7 @@
         {
           "id": "previous_consultant",
           "type": "radio",
-          "label": "Have you worked with an advisor/accountant before?",
+          "label": "Worked with an advisor before?",
           "required": false,
           "width": "full",
           "options": [
