@@ -65,7 +65,7 @@ export default async function LocalizedPrivacyPage({
             <li>Identification & Contact Details: name, address, gender, phone number, email address.</li>
             <li>Financial & Tax Information: data from annual statements, expenses, deductions, or other relevant information to provide tax advice.</li>
             <li>Communication Data: chat logs, email correspondence, or any other information you share with us.</li>
-            <li>Technical Data: IP address, browser type, operating system, and other technical information collected through cookies and similar technologies (see "Cookies" below).</li>
+            <li>Technical Data: IP address, browser type, operating system, and other technical information collected through cookies and similar technologies (see &quot;Cookies&quot; below).</li>
           </ol>
           <p>
             You are responsible for ensuring the accuracy of the personal data you submit and for not sharing more personal or sensitive information than necessary.

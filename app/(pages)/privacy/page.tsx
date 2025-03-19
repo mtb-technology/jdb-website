@@ -63,7 +63,7 @@ export default async function PrivacyPage({ params, searchParams }: PageProps) {
             <li>Identificatie- & contactgegevens: naam, adres, geslacht, telefoonnummer, e-mailadres.</li>
             <li>Financiële & fiscale gegevens: gegevens uit jaaropgaven, uitgaven, aftrekposten of andere relevante informatie voor het verstrekken van belastingadvies.</li>
             <li>Communicatiegegevens: chatlogs, e-mailcorrespondentie of alle andere informatie die u met ons deelt.</li>
-            <li>Technische gegevens: IP-adres, browsertype, besturingssysteem en andere technische informatie die wordt verzameld via cookies en vergelijkbare technologieën (zie "Cookies" hieronder).</li>
+            <li>Technische gegevens: IP-adres, browsertype, besturingssysteem en andere technische informatie die wordt verzameld via cookies en vergelijkbare technologieën (zie &quot;Cookies&quot; hieronder).</li>
           </ol>
           <p>
             U bent verantwoordelijk voor de nauwkeurigheid van de persoonsgegevens die u indient en voor het niet delen van meer persoonlijke of gevoelige informatie dan nodig.
