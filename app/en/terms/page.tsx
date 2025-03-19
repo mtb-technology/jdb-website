@@ -61,7 +61,7 @@ export default async function TermsPage({ params, searchParams }: PageProps) {
 
           <h3>3.2 Third-Party Advisors</h3>
           <p>
-            Even if you pay us directly for access to or use of our Services, any final advice or service you receive from an Advisor is the sole responsibility of that Advisor. We are not a party to the agreement between you and the Advisor and shall have no liability for any actions, omissions, or outcomes resulting from the Advisor's services.
+            Even if you pay us directly for access to or use of our Services, any final advice or service you receive from an Advisor is the sole responsibility of that Advisor. We are not a party to the agreement between you and the Advisor and shall have no liability for any actions, omissions, or outcomes resulting from the Advisor&apos;s services.
           </p>
 
           <h3>3.3 General Liability Exclusion</h3>

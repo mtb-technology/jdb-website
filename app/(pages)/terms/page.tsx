@@ -94,7 +94,7 @@ export default async function TermsPage({ params, searchParams }: PageProps) {
           <h2>5. Intellectueel eigendom</h2>
           <h3>5.1 Eigendom</h3>
           <p>
-            Alle content, functies en functionaliteit van de Diensten (inclusief maar niet beperkt tot tekst, grafische elementen, logo's, iconen, afbeeldingen en software) zijn eigendom van of in licentie gegeven aan ons, tenzij anders vermeld.
+            Alle content, functies en functionaliteit van de Diensten (inclusief maar niet beperkt tot tekst, grafische elementen, logo&apos;s, iconen, afbeeldingen en software) zijn eigendom van of in licentie gegeven aan ons, tenzij anders vermeld.
           </p>
 
           <h3>5.2 Beperkte licentie</h3>
