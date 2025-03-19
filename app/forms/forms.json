@@ -1,0 +1,1858 @@
+{
+  "nl": [
+    {
+      "id": "income-tax-advisor",
+      "title": "Aangifte inkomstenbelasting",
+      "description": "Hulp nodig bij je belastingaangifte? Onze adviseurs helpen je met het correct invullen en optimaliseren van je aangifte.",
+      "submitButtonText": "Verstuur je aanvraag",
+      "fields": [
+        {
+          "id": "tax_year",
+          "type": "checkbox",
+          "label": "Om welk belastingjaar gaat het?",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "2025",
+              "value": "2025"
+            },
+            {
+              "label": "2022",
+              "value": "2022"
+            },
+            {
+              "label": "2024",
+              "value": "2024"
+            },
+            {
+              "label": "2021",
+              "value": "2021"
+            },
+            {
+              "label": "2023",
+              "value": "2023"
+            }
+          ],
+          "defaultValue": [
+            "2024"
+          ]
+        },
+        {
+          "id": "joint_filing",
+          "type": "radio",
+          "label": "Wil je gezamenlijk met een partner belastingaangifte doen?",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "Ja",
+              "value": "Ja"
+            },
+            {
+              "label": "Nee",
+              "value": "Nee"
+            }
+          ]
+        },
+        {
+          "id": "question",
+          "type": "textarea",
+          "label": "Je vraag of situatie",
+          "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 5,
+            "message": "Beschrijving moet ten minste 5 karakters bevatten."
+          }
+        },
+        {
+          "id": "additional_comments",
+          "type": "checkbox",
+          "label": "Jouw situatie:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Kinderen onder de 18",
+              "value": "children"
+            },
+            {
+              "label": "Gescheiden",
+              "value": "divorced_this_year"
+            },
+            {
+              "label": "Eigen woning",
+              "value": "own_house"
+            },
+            {
+              "label": "Hypotheek op woning",
+              "value": "mortgage_on_house"
+            },
+            {
+              "label": "Eigen woning verkocht",
+              "value": "house_sold"
+            },
+            {
+              "label": "Van plan te verhuizen",
+              "value": "moving"
+            },
+            {
+              "label": "In buitenland gewoond",
+              "value": "recent_abroad"
+            },
+            {
+              "label": "30% regeling",
+              "value": "30_percent_ruling"
+            }
+          ]
+        },
+        {
+          "id": "income_sources",
+          "type": "checkbox",
+          "label": "Inkomsten:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Loondienst",
+              "value": "employment_income"
+            },
+            {
+              "label": "Loondienst buitenland",
+              "value": "foreign_employment"
+            },
+            {
+              "label": "Loondienst eigen B.V.",
+              "value": "own_company"
+            },
+            {
+              "label": "Eigen onderneming (ZZP)",
+              "value": "business_income"
+            },
+            {
+              "label": "Pensioen/uitkering uit Nederland",
+              "value": "pension_income"
+            },
+            {
+              "label": "Pensioen/uitkering uit buitenland",
+              "value": "foreign_pension_income"
+            },
+            {
+              "label": "Anders",
+              "value": "other_income"
+            }
+          ]
+        },
+        {
+          "id": "assets",
+          "type": "checkbox",
+          "label": "Vermogen:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Bank -en spaarrekeningen Nederland",
+              "value": "nl_bank"
+            },
+            {
+              "label": "Bank -en spaarrekeningen in het buitenland",
+              "value": "foreign_bank"
+            },
+            {
+              "label": "Aandelen",
+              "value": "stocks"
+            },
+            {
+              "label": "Aandelen in het buitenland",
+              "value": "foreign_stocks"
+            },
+            {
+              "label": "Cryptocurrency",
+              "value": "crypto"
+            },
+            {
+              "label": "Pensioenopbouw in het buitenland",
+              "value": "foreign_pension"
+            },
+            {
+              "label": "Openstaande vorderingen",
+              "value": "receivables"
+            },
+            {
+              "label": "Tweede woning in Nederland",
+              "value": "second_home_nl"
+            },
+            {
+              "label": "Woning in het buitenland",
+              "value": "foreign_property"
+            },
+            {
+              "label": "Leningen",
+              "value": "loans"
+            },
+            {
+              "label": "Leningen in het buitenland",
+              "value": "foreign_loans"
+            },
+            {
+              "label": "Overige bezittingen in Nederland",
+              "value": "other_assets_nl"
+            },
+            {
+              "label": "Overige bezittingen in het buitenland",
+              "value": "other_assets_foreign"
+            },
+            {
+              "label": "Aanmerkelijk belang in Nederland (>5%)",
+              "value": "substantial_interest_nl"
+            },
+            {
+              "label": "Aanmerkelijk belang in het buitenland (>5%)",
+              "value": "substantial_interest_foreign"
+            },
+            {
+              "label": "Aandeel in VvE",
+              "value": "vve_share"
+            }
+          ]
+        },
+        {
+          "id": "deductibles",
+          "type": "checkbox",
+          "label": "Aftrekposten:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Giften",
+              "value": "gifts"
+            },
+            {
+              "label": "Zorgkosten",
+              "value": "healthcare_expenses"
+            },
+            {
+              "label": "Betaalde partneralimentatie",
+              "value": "alimony_paid"
+            },
+            {
+              "label": "Lijfrente stortingen",
+              "value": "annuity"
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "label": "Je volledige naam",
+          "placeholder": "Jan Jansen",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 2,
+            "message": "Naam moet ten minste 2 karakters bevatten."
+          }
+        },
+        {
+          "id": "email",
+          "type": "email",
+          "label": "E-mailadres",
+          "placeholder": "voorbeeld@domein.com",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "house_number",
+          "type": "text",
+          "label": "Huisnummer",
+          "placeholder": "1234",
+          "required": true,
+          "width": "half"
+        },
+        {
+          "id": "postal_code",
+          "type": "text",
+          "label": "Postcode",
+          "placeholder": "1234 AB",
+          "required": true,
+          "width": "half",
+          "validation": {
+            "min": 6,
+            "message": "Voer een geldige postcode in (bijv. 1234 AB)."
+          }
+        },
+        {
+          "id": "phone_number",
+          "type": "tel",
+          "label": "Telefoonnummer",
+          "placeholder": "0612345678",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "birth_date",
+          "type": "date",
+          "label": "Geboortedatum",
+          "placeholder": "dd/mm/yyyy",
+          "required": true,
+          "width": "full"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Belasting vraag",
+          "fields": [
+            "tax_year",
+            "joint_filing",
+            "question"
+          ],
+          "page": 1
+        },
+        {
+          "title": "Persoonlijke situatie (vink aan wat van toepassing is)",
+          "fields": [
+            "income_sources",
+            "additional_comments",
+            "assets",
+            "deductibles"
+          ],
+          "page": 2
+        },
+        {
+          "title": "Contactgegevens",
+          "fields": [
+            "name",
+            "email",
+            "house_number",
+            "postal_code",
+            "phone_number",
+            "birth_date"
+          ],
+          "page": 3
+        }
+      ],
+      "successMessage": {
+        "title": "Bedankt voor je aanvraag",
+        "description": "Je aanvraag is succesvol verstuurd.",
+        "buttonText": "Nieuwe aanvraag"
+      }
+    },
+    {
+      "id": "m-form-advisor",
+      "title": "Hulp bij M-formulier",
+      "description": "Internationale verhuizing gehad of gepland? Onze adviseurs helpen je met het M-formulier voor emigratie of immigratie.",
+      "submitButtonText": "Verstuur je aanvraag",
+      "fields": [
+        {
+          "id": "tax_year",
+          "type": "checkbox",
+          "label": "Om welk belastingjaar gaat het?",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "2025",
+              "value": "2025"
+            },
+            {
+              "label": "2022",
+              "value": "2022"
+            },
+            {
+              "label": "2024",
+              "value": "2024"
+            },
+            {
+              "label": "2021",
+              "value": "2021"
+            },
+            {
+              "label": "2023",
+              "value": "2023"
+            }
+          ],
+          "defaultValue": [
+            "2024"
+          ]
+        },
+        {
+          "id": "joint_filing",
+          "type": "radio",
+          "label": "Wil je gezamenlijk met een partner belastingaangifte doen?",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "Ja",
+              "value": "Ja"
+            },
+            {
+              "label": "Nee",
+              "value": "Nee"
+            }
+          ]
+        },
+        {
+          "id": "question",
+          "type": "textarea",
+          "label": "Je vraag of situatie",
+          "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 5,
+            "message": "Beschrijving moet ten minste 5 karakters bevatten."
+          }
+        },
+        {
+          "id": "additional_comments",
+          "type": "checkbox",
+          "label": "Jouw situatie:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Kinderen onder de 18",
+              "value": "children"
+            },
+            {
+              "label": "Gescheiden",
+              "value": "divorced_this_year"
+            },
+            {
+              "label": "Eigen woning",
+              "value": "own_house"
+            },
+            {
+              "label": "Hypotheek op woning",
+              "value": "mortgage_on_house"
+            },
+            {
+              "label": "Eigen woning verkocht",
+              "value": "house_sold"
+            },
+            {
+              "label": "Van plan te verhuizen",
+              "value": "moving"
+            },
+            {
+              "label": "In buitenland gewoond",
+              "value": "recent_abroad"
+            },
+            {
+              "label": "30% regeling",
+              "value": "30_percent_ruling"
+            }
+          ]
+        },
+        {
+          "id": "income_sources",
+          "type": "checkbox",
+          "label": "Inkomsten:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Loondienst",
+              "value": "employment_income"
+            },
+            {
+              "label": "Loondienst buitenland",
+              "value": "foreign_employment"
+            },
+            {
+              "label": "Loondienst eigen B.V.",
+              "value": "own_company"
+            },
+            {
+              "label": "Eigen onderneming (ZZP)",
+              "value": "business_income"
+            },
+            {
+              "label": "Pensioen/uitkering uit Nederland",
+              "value": "pension_income"
+            },
+            {
+              "label": "Pensioen/uitkering uit buitenland",
+              "value": "foreign_pension_income"
+            },
+            {
+              "label": "Anders",
+              "value": "other_income"
+            }
+          ]
+        },
+        {
+          "id": "assets",
+          "type": "checkbox",
+          "label": "Vermogen:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Bank -en spaarrekeningen Nederland",
+              "value": "nl_bank"
+            },
+            {
+              "label": "Bank -en spaarrekeningen in het buitenland",
+              "value": "foreign_bank"
+            },
+            {
+              "label": "Aandelen",
+              "value": "stocks"
+            },
+            {
+              "label": "Aandelen in het buitenland",
+              "value": "foreign_stocks"
+            },
+            {
+              "label": "Cryptocurrency",
+              "value": "crypto"
+            },
+            {
+              "label": "Pensioenopbouw in het buitenland",
+              "value": "foreign_pension"
+            },
+            {
+              "label": "Openstaande vorderingen",
+              "value": "receivables"
+            },
+            {
+              "label": "Tweede woning in Nederland",
+              "value": "second_home_nl"
+            },
+            {
+              "label": "Woning in het buitenland",
+              "value": "foreign_property"
+            },
+            {
+              "label": "Leningen",
+              "value": "loans"
+            },
+            {
+              "label": "Leningen in het buitenland",
+              "value": "foreign_loans"
+            },
+            {
+              "label": "Overige bezittingen in Nederland",
+              "value": "other_assets_nl"
+            },
+            {
+              "label": "Overige bezittingen in het buitenland",
+              "value": "other_assets_foreign"
+            },
+            {
+              "label": "Aanmerkelijk belang in Nederland (>5%)",
+              "value": "substantial_interest_nl"
+            },
+            {
+              "label": "Aanmerkelijk belang in het buitenland (>5%)",
+              "value": "substantial_interest_foreign"
+            },
+            {
+              "label": "Aandeel in VvE",
+              "value": "vve_share"
+            }
+          ]
+        },
+        {
+          "id": "deductibles",
+          "type": "checkbox",
+          "label": "Aftrekposten:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Giften",
+              "value": "gifts"
+            },
+            {
+              "label": "Zorgkosten",
+              "value": "healthcare_expenses"
+            },
+            {
+              "label": "Betaalde partneralimentatie",
+              "value": "alimony_paid"
+            },
+            {
+              "label": "Lijfrente stortingen",
+              "value": "annuity"
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "label": "Je volledige naam",
+          "placeholder": "Jan Jansen",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 2,
+            "message": "Naam moet ten minste 2 karakters bevatten."
+          }
+        },
+        {
+          "id": "email",
+          "type": "email",
+          "label": "E-mailadres",
+          "placeholder": "voorbeeld@domein.com",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "house_number",
+          "type": "text",
+          "label": "Huisnummer",
+          "placeholder": "1234",
+          "required": true,
+          "width": "half"
+        },
+        {
+          "id": "postal_code",
+          "type": "text",
+          "label": "Postcode",
+          "placeholder": "1234 AB",
+          "required": true,
+          "width": "half",
+          "validation": {
+            "min": 6,
+            "message": "Voer een geldige postcode in (bijv. 1234 AB)."
+          }
+        },
+        {
+          "id": "phone_number",
+          "type": "tel",
+          "label": "Telefoonnummer",
+          "placeholder": "0612345678",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "birth_date",
+          "type": "date",
+          "label": "Geboortedatum",
+          "placeholder": "dd/mm/yyyy",
+          "required": true,
+          "width": "full"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Belastingvraag",
+          "fields": [
+            "tax_year",
+            "joint_filing",
+            "question"
+          ],
+          "page": 1
+        },
+        {
+          "title": "Persoonlijke situatie (vink aan wat van toepassing is)",
+          "fields": [
+            "income_sources",
+            "additional_comments",
+            "assets",
+            "deductibles"
+          ],
+          "page": 2
+        },
+        {
+          "title": "Contactgegevens",
+          "fields": [
+            "name",
+            "email",
+            "house_number",
+            "postal_code",
+            "phone_number",
+            "birth_date"
+          ],
+          "page": 3
+        }
+      ],
+      "successMessage": {
+        "title": "Bedankt voor je aanvraag",
+        "description": "Je aanvraag is succesvol verstuurd.",
+        "buttonText": "Nieuwe aanvraag"
+      }
+    },
+    {
+      "id": "business-administration",
+      "title": "Bedrijfsadministratie",
+      "description": "Laat je financiële administratie verzorgen door specialisten die je helpen alles op orde te houden en fiscaal te optimaliseren.",
+      "submitButtonText": "Verstuur bericht",
+      "fields": [
+        {
+          "id": "name",
+          "type": "text",
+          "label": "Naam",
+          "placeholder": "Uw naam",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "email",
+          "type": "email",
+          "label": "E-mailadres",
+          "placeholder": "uw.email@voorbeeld.nl",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "phone_number",
+          "type": "tel",
+          "label": "Telefoonnummer",
+          "placeholder": "0612345678",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "business_entity",
+          "type": "checkbox",
+          "label": "Type onderneming:",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "ZZP",
+              "value": "zzp"
+            },
+            {
+              "label": "Eenmanszaak",
+              "value": "eenmanszaak"
+            },
+            {
+              "label": "BV",
+              "value": "bv"
+            },
+            {
+              "label": "VOF",
+              "value": "vof"
+            },
+            {
+              "label": "Anders",
+              "value": "other"
+            }
+          ]
+        },
+        {
+          "id": "question",
+          "type": "textarea",
+          "label": "Je vraag of situatie",
+          "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 5,
+            "message": "Uw bericht moet ten minste 5 karakters bevatten."
+          }
+        },
+        {
+          "id": "revenue_indication",
+          "type": "text",
+          "label": "Omzetindicatie",
+          "placeholder": "100.000 per jaar",
+          "required": false,
+          "width": "full"
+        },
+        {
+          "id": "previous_consultant",
+          "type": "radio",
+          "label": "Eerder met een adviseur gewerkt?",
+          "required": false,
+          "width": "full",
+          "options": [
+            {
+              "label": "Ja",
+              "value": "yes"
+            },
+            {
+              "label": "Nee",
+              "value": "no"
+            }
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Bedrijfssituatie",
+          "fields": [
+            "business_entity",
+            "question",
+            "revenue_indication",
+            "previous_consultant"
+          ],
+          "page": 1
+        },
+        {
+          "title": "Contactgegevens",
+          "fields": [
+            "name",
+            "email",
+            "phone_number"
+          ],
+          "page": 2
+        }
+      ],
+      "successMessage": {
+        "title": "Bedankt voor je aanvraag",
+        "description": "Je aanvraag is succesvol verstuurd.",
+        "buttonText": "Nieuwe aanvraag"
+      }
+    },
+    {
+      "id": "entrepreneur-advisor",
+      "title": "Ondernemers / ZZPers",
+      "description": "Hulp nodig bij BTW, boekhouding, belastingaangifte, vpb of fiscale optimalisatie? Wij brengen je in contact met een passende adviseur.",
+      "submitButtonText": "Aanmelden",
+      "fields": [
+        {
+          "id": "name",
+          "type": "text",
+          "label": "Naam",
+          "placeholder": "Uw naam",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "email",
+          "type": "email",
+          "label": "E-mailadres",
+          "placeholder": "uw.email@voorbeeld.nl",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "phone_number",
+          "type": "tel",
+          "label": "Telefoonnummer",
+          "placeholder": "0612345678",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "business_entity",
+          "type": "checkbox",
+          "label": "Type onderneming:",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "ZZP",
+              "value": "zzp"
+            },
+            {
+              "label": "Eenmanszaak",
+              "value": "eenmanszaak"
+            },
+            {
+              "label": "BV",
+              "value": "bv"
+            },
+            {
+              "label": "VOF",
+              "value": "vof"
+            },
+            {
+              "label": "Anders",
+              "value": "other"
+            }
+          ]
+        },
+        {
+          "id": "question",
+          "type": "textarea",
+          "label": "Je vraag of situatie",
+          "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 5,
+            "message": "Uw bericht moet ten minste 5 karakters bevatten."
+          }
+        },
+        {
+          "id": "revenue_indication",
+          "type": "text",
+          "label": "Omzetindicatie",
+          "placeholder": "100.000 per jaar",
+          "required": false,
+          "width": "full"
+        },
+        {
+          "id": "previous_consultant",
+          "type": "radio",
+          "label": "Eerder met een adviseur gewerkt?",
+          "required": false,
+          "width": "full",
+          "options": [
+            {
+              "label": "Ja",
+              "value": "yes"
+            },
+            {
+              "label": "Nee",
+              "value": "no"
+            }
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Bedrijfssituatie",
+          "fields": [
+            "business_entity",
+            "question",
+            "revenue_indication",
+            "previous_consultant"
+          ],
+          "page": 1
+        },
+        {
+          "title": "Contactgegevens",
+          "fields": [
+            "name",
+            "email",
+            "phone_number"
+          ],
+          "page": 2
+        }
+      ],
+      "successMessage": {
+        "title": "Bedankt voor je aanvraag",
+        "description": "Je aanvraag is succesvol verstuurd.",
+        "buttonText": "Nieuwe aanvraag"
+      }
+    }
+  ],
+  "en": [
+    {
+      "id": "income-tax-advisor",
+      "title": "Income Tax Return",
+      "description": "Need help with your tax return? Our advisors help you correctly complete and optimize your tax return.",
+      "submitButtonText": "Submit your request",
+      "fields": [
+        {
+          "id": "tax_year",
+          "type": "checkbox",
+          "label": "Which tax year is it about?",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "2025",
+              "value": "2025"
+            },
+            {
+              "label": "2022",
+              "value": "2022"
+            },
+            {
+              "label": "2024",
+              "value": "2024"
+            },
+            {
+              "label": "2021",
+              "value": "2021"
+            },
+            {
+              "label": "2023",
+              "value": "2023"
+            }
+          ],
+          "defaultValue": [
+            "2024"
+          ]
+        },
+        {
+          "id": "joint_filing",
+          "type": "radio",
+          "label": "Do you want to file taxes jointly with a partner?",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ]
+        },
+        {
+          "id": "question",
+          "type": "textarea",
+          "label": "Your question or situation",
+          "placeholder": "Describe your situation so we can connect you to the right advisor",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 5,
+            "message": "Description must contain at least 5 characters."
+          }
+        },
+        {
+          "id": "additional_comments",
+          "type": "checkbox",
+          "label": "Your situation:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Children under 18",
+              "value": "children"
+            },
+            {
+              "label": "Divorced",
+              "value": "divorced_this_year"
+            },
+            {
+              "label": "Own house",
+              "value": "own_house"
+            },
+            {
+              "label": "Mortgage on house",
+              "value": "mortgage_on_house"
+            },
+            {
+              "label": "House sold",
+              "value": "house_sold"
+            },
+            {
+              "label": "Plan on moving",
+              "value": "moving"
+            },
+            {
+              "label": "Lived abroad",
+              "value": "recent_abroad"
+            },
+            {
+              "label": "30% ruling",
+              "value": "30_percent_ruling"
+            }
+          ]
+        },
+        {
+          "id": "income_sources",
+          "type": "checkbox",
+          "label": "Income sources:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Employment income",
+              "value": "employment_income"
+            },
+            {
+              "label": "Foreign employment",
+              "value": "foreign_employment"
+            },
+            {
+              "label": "Own company",
+              "value": "own_company"
+            },
+            {
+              "label": "Own business (ZZP)",
+              "value": "business_income"
+            },
+            {
+              "label": "Pension/benefits from Netherlands",
+              "value": "pension_income"
+            },
+            {
+              "label": "Pension/benefits from abroad",
+              "value": "foreign_pension_income"
+            },
+            {
+              "label": "Other",
+              "value": "other_income"
+            }
+          ]
+        },
+        {
+          "id": "assets",
+          "type": "checkbox",
+          "label": "Assets:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Dutch bank- and savings accounts",
+              "value": "nl_bank"
+            },
+            {
+              "label": "Foreign bank- and savings accounts",
+              "value": "foreign_bank"
+            },
+            {
+              "label": "Stocks",
+              "value": "stocks"
+            },
+            {
+              "label": "Foreign stocks",
+              "value": "foreign_stocks"
+            },
+            {
+              "label": "Cryptocurrency",
+              "value": "crypto"
+            },
+            {
+              "label": "Pension accruals from abroad",
+              "value": "foreign_pension"
+            },
+            {
+              "label": "Outstanding receivables",
+              "value": "receivables"
+            },
+            {
+              "label": "Second home in Netherlands",
+              "value": "second_home_nl"
+            },
+            {
+              "label": "Foreign property",
+              "value": "foreign_property"
+            },
+            {
+              "label": "Loans",
+              "value": "loans"
+            },
+            {
+              "label": "Foreign loans",
+              "value": "foreign_loans"
+            },
+            {
+              "label": "Other Dutch assets",
+              "value": "other_assets_nl"
+            },
+            {
+              "label": "Other foreign assets in abroad",
+              "value": "other_assets_foreign"
+            },
+            {
+              "label": "Significant interest in Netherlands (>5%)",
+              "value": "substantial_interest_nl"
+            },
+            {
+              "label": "Significant interest in abroad (>5%)",
+              "value": "substantial_interest_foreign"
+            },
+            {
+              "label": "Share in VvE",
+              "value": "vve_share"
+            }
+          ]
+        },
+        {
+          "id": "deductibles",
+          "type": "checkbox",
+          "label": "Deductibles:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Gifts",
+              "value": "gifts"
+            },
+            {
+              "label": "Healthcare expenses",
+              "value": "healthcare_expenses"
+            },
+            {
+              "label": "Paid partner alimony",
+              "value": "alimony_paid"
+            },
+            {
+              "label": "Annuity contributions",
+              "value": "annuity"
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "label": "Your full name",
+          "placeholder": "John Smith",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 2,
+            "message": "Name must contain at least 2 characters."
+          }
+        },
+        {
+          "id": "email",
+          "type": "email",
+          "label": "Email address",
+          "placeholder": "example@domain.com",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "house_number",
+          "type": "text",
+          "label": "House number",
+          "placeholder": "1234",
+          "required": true,
+          "width": "half"
+        },
+        {
+          "id": "postal_code",
+          "type": "text",
+          "label": "Postal code",
+          "placeholder": "1234 AB",
+          "required": true,
+          "width": "half",
+          "validation": {
+            "min": 6,
+            "message": "Enter a valid postal code (e.g. 1234 AB)."
+          }
+        },
+        {
+          "id": "phone_number",
+          "type": "tel",
+          "label": "Phone number",
+          "placeholder": "0612345678",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "birth_date",
+          "type": "date",
+          "label": "Date of birth",
+          "placeholder": "dd/mm/yyyy",
+          "required": true,
+          "width": "full"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Tax related question",
+          "fields": [
+            "tax_year",
+            "joint_filing",
+            "question"
+          ],
+          "page": 1
+        },
+        {
+          "title": "Personal situation (checkmark what applies to you)",
+          "fields": [
+            "income_sources",
+            "additional_comments",
+            "assets",
+            "deductibles"
+          ],
+          "page": 2
+        },
+        {
+          "title": "Contact details",
+          "fields": [
+            "name",
+            "email",
+            "house_number",
+            "postal_code",
+            "phone_number",
+            "birth_date"
+          ],
+          "page": 3
+        }
+      ],
+      "successMessage": {
+        "title": "Thank you for your request",
+        "description": "Your request was submitted successfully.",
+        "buttonText": "New request"
+      }
+    },
+    {
+      "id": "m-form-advisor",
+      "title": "Help with M-form",
+      "description": "Had or planning an international move? Our advisors help you with the M-form for emigration or immigration.",
+      "submitButtonText": "Submit your request",
+      "fields": [
+        {
+          "id": "tax_year",
+          "type": "checkbox",
+          "label": "Which tax year is it about?",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "2025",
+              "value": "2025"
+            },
+            {
+              "label": "2022",
+              "value": "2022"
+            },
+            {
+              "label": "2024",
+              "value": "2024"
+            },
+            {
+              "label": "2021",
+              "value": "2021"
+            },
+            {
+              "label": "2023",
+              "value": "2023"
+            }
+          ],
+          "defaultValue": [
+            "2024"
+          ]
+        },
+        {
+          "id": "joint_filing",
+          "type": "radio",
+          "label": "Do you want to file taxes jointly with a partner?",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ]
+        },
+        {
+          "id": "question",
+          "type": "textarea",
+          "label": "Your question or situation",
+          "placeholder": "Describe your situation so we can connect you to the right advisor",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 5,
+            "message": "Description must contain at least 5 characters."
+          }
+        },
+        {
+          "id": "additional_comments",
+          "type": "checkbox",
+          "label": "Your situation:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Children under 18",
+              "value": "children"
+            },
+            {
+              "label": "Divorced",
+              "value": "divorced_this_year"
+            },
+            {
+              "label": "Own house",
+              "value": "own_house"
+            },
+            {
+              "label": "Mortgage on house",
+              "value": "mortgage_on_house"
+            },
+            {
+              "label": "House sold",
+              "value": "house_sold"
+            },
+            {
+              "label": "Plan on moving",
+              "value": "moving"
+            },
+            {
+              "label": "Lived abroad",
+              "value": "recent_abroad"
+            },
+            {
+              "label": "30% ruling",
+              "value": "30_percent_ruling"
+            }
+          ]
+        },
+        {
+          "id": "income_sources",
+          "type": "checkbox",
+          "label": "Income sources:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Employment income",
+              "value": "employment_income"
+            },
+            {
+              "label": "Foreign employment",
+              "value": "foreign_employment"
+            },
+            {
+              "label": "Own company",
+              "value": "own_company"
+            },
+            {
+              "label": "Own business (ZZP)",
+              "value": "business_income"
+            },
+            {
+              "label": "Pension/benefits from Netherlands",
+              "value": "pension_income"
+            },
+            {
+              "label": "Pension/benefits from abroad",
+              "value": "foreign_pension_income"
+            },
+            {
+              "label": "Other",
+              "value": "other_income"
+            }
+          ]
+        },
+        {
+          "id": "assets",
+          "type": "checkbox",
+          "label": "Assets:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Dutch bank- and savings accounts",
+              "value": "nl_bank"
+            },
+            {
+              "label": "Foreign bank- and savings accounts",
+              "value": "foreign_bank"
+            },
+            {
+              "label": "Stocks",
+              "value": "stocks"
+            },
+            {
+              "label": "Foreign stocks",
+              "value": "foreign_stocks"
+            },
+            {
+              "label": "Cryptocurrency",
+              "value": "crypto"
+            },
+            {
+              "label": "Pension/income from abroad",
+              "value": "foreign_pension"
+            },
+            {
+              "label": "Outstanding receivables",
+              "value": "receivables"
+            },
+            {
+              "label": "Second home in Netherlands",
+              "value": "second_home_nl"
+            },
+            {
+              "label": "Foreign property",
+              "value": "foreign_property"
+            },
+            {
+              "label": "Loans",
+              "value": "loans"
+            },
+            {
+              "label": "Foreign loans",
+              "value": "foreign_loans"
+            },
+            {
+              "label": "Other Dutch assets",
+              "value": "other_assets_nl"
+            },
+            {
+              "label": "Other foreign assets in abroad",
+              "value": "other_assets_foreign"
+            },
+            {
+              "label": "Significant interest in Netherlands (>5%)",
+              "value": "substantial_interest_nl"
+            },
+            {
+              "label": "Significant interest in abroad (>5%)",
+              "value": "substantial_interest_foreign"
+            },
+            {
+              "label": "Share in VvE",
+              "value": "vve_share"
+            }
+          ]
+        },
+        {
+          "id": "deductibles",
+          "type": "checkbox",
+          "label": "Deductibles:",
+          "required": false,
+          "width": "half",
+          "options": [
+            {
+              "label": "Gifts",
+              "value": "gifts"
+            },
+            {
+              "label": "Healthcare expenses",
+              "value": "healthcare_expenses"
+            },
+            {
+              "label": "Paid partner alimony",
+              "value": "alimony_paid"
+            },
+            {
+              "label": "Annuity contributions",
+              "value": "annuity"
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "label": "Your full name",
+          "placeholder": "John Smith",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 2,
+            "message": "Name must contain at least 2 characters."
+          }
+        },
+        {
+          "id": "email",
+          "type": "email",
+          "label": "Email address",
+          "placeholder": "example@domain.com",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "house_number",
+          "type": "text",
+          "label": "House number",
+          "placeholder": "1234",
+          "required": true,
+          "width": "half"
+        },
+        {
+          "id": "postal_code",
+          "type": "text",
+          "label": "Postal code",
+          "placeholder": "1234 AB",
+          "required": true,
+          "width": "half",
+          "validation": {
+            "min": 6,
+            "message": "Enter a valid postal code (e.g. 1234 AB)."
+          }
+        },
+        {
+          "id": "phone_number",
+          "type": "tel",
+          "label": "Phone number",
+          "placeholder": "0612345678",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "birth_date",
+          "type": "date",
+          "label": "Date of birth",
+          "placeholder": "dd/mm/yyyy",
+          "required": true,
+          "width": "full"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Tax related question",
+          "fields": [
+            "tax_year",
+            "joint_filing",
+            "question"
+          ],
+          "page": 1
+        },
+        {
+          "title": "Personal situation (checkmark what applies to you)",
+          "fields": [
+            "income_sources",
+            "additional_comments",
+            "assets",
+            "deductibles"
+          ],
+          "page": 2
+        },
+        {
+          "title": "Contact details",
+          "fields": [
+            "name",
+            "email",
+            "house_number",
+            "postal_code",
+            "phone_number",
+            "birth_date"
+          ],
+          "page": 3
+        }
+      ],
+      "successMessage": {
+        "title": "Thank you for your request",
+        "description": "Your request was submitted successfully.",
+        "buttonText": "New request"
+      }
+    },
+    {
+      "id": "business-administration",
+      "title": "Financial administration",
+      "description": "Let specialists take care of your business administration to help you keep everything in order and optimize your taxes.",
+      "submitButtonText": "Send message",
+      "fields": [
+        {
+          "id": "name",
+          "type": "text",
+          "label": "Name",
+          "placeholder": "Your name",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "email",
+          "type": "email",
+          "label": "Email address",
+          "placeholder": "your.email@example.com",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "phone_number",
+          "type": "tel",
+          "label": "Phone number",
+          "placeholder": "0612345678",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "business_entity",
+          "type": "checkbox",
+          "label": "Type of business entity:",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "Freelancer",
+              "value": "zzp"
+            },
+            {
+              "label": "Sole proprietorship",
+              "value": "eenmanszaak"
+            },
+            {
+              "label": "Limited company",
+              "value": "bv"
+            },
+            {
+              "label": "Partnership",
+              "value": "vof"
+            },
+            {
+              "label": "Other",
+              "value": "other"
+            }
+          ]
+        },
+        {
+          "id": "question",
+          "type": "textarea",
+          "label": "Your question or situation",
+          "placeholder": "Describe your situation so we can connect you to the right advisor",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 5,
+            "message": "Your message must contain at least 5 characters."
+          }
+        },
+        {
+          "id": "revenue_indication",
+          "type": "text",
+          "label": "Revenue indication",
+          "placeholder": "100,000 per year",
+          "required": false,
+          "width": "full"
+        },
+        {
+          "id": "previous_consultant",
+          "type": "radio",
+          "label": "Worked with an advisor before?",
+          "required": false,
+          "width": "full",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "yes"
+            },
+            {
+              "label": "No",
+              "value": "no"
+            }
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Business situation",
+          "fields": [
+            "business_entity",
+            "question",
+            "revenue_indication",
+            "previous_consultant"
+          ],
+          "page": 1
+        },
+        {
+          "title": "Contact details",
+          "fields": [
+            "name",
+            "email",
+            "phone_number"
+          ],
+          "page": 2
+        }
+      ],
+      "successMessage": {
+        "title": "Thank you for your request",
+        "description": "Your request was submitted successfully.",
+        "buttonText": "New request"
+      }
+    },
+    {
+      "id": "entrepreneur-advisor",
+      "title": "Entrepreneurs / Freelancers",
+      "description": "Need help with VAT, bookkeeping, tax returns, corporate tax, or tax optimization? We connect you with a suitable advisor.",
+      "submitButtonText": "Register",
+      "fields": [
+        {
+          "id": "name",
+          "type": "text",
+          "label": "Name",
+          "placeholder": "Your name",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "email",
+          "type": "email",
+          "label": "Email address",
+          "placeholder": "your.email@example.com",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "phone_number",
+          "type": "tel",
+          "label": "Phone number",
+          "placeholder": "0612345678",
+          "required": true,
+          "width": "full"
+        },
+        {
+          "id": "business_entity",
+          "type": "checkbox",
+          "label": "Type of business entity:",
+          "required": true,
+          "width": "full",
+          "options": [
+            {
+              "label": "Freelancer",
+              "value": "zzp"
+            },
+            {
+              "label": "Sole proprietorship",
+              "value": "eenmanszaak"
+            },
+            {
+              "label": "Limited company",
+              "value": "bv"
+            },
+            {
+              "label": "Partnership",
+              "value": "vof"
+            },
+            {
+              "label": "Other",
+              "value": "other"
+            }
+          ]
+        },
+        {
+          "id": "question",
+          "type": "textarea",
+          "label": "Your question or situation",
+          "placeholder": "Describe your situation so we can connect you to the right advisor",
+          "required": true,
+          "width": "full",
+          "validation": {
+            "min": 5,
+            "message": "Your message must contain at least 5 characters."
+          }
+        },
+        {
+          "id": "revenue_indication",
+          "type": "text",
+          "label": "Revenue indication",
+          "placeholder": "100,000 per year",
+          "required": false,
+          "width": "full"
+        },
+        {
+          "id": "previous_consultant",
+          "type": "radio",
+          "label": "Worked with an advisor before?",
+          "required": false,
+          "width": "full",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "yes"
+            },
+            {
+              "label": "No",
+              "value": "no"
+            }
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "title": "Business situation",
+          "fields": [
+            "business_entity",
+            "question",
+            "revenue_indication",
+            "previous_consultant"
+          ],
+          "page": 1
+        },
+        {
+          "title": "Contact details",
+          "fields": [
+            "name",
+            "email",
+            "phone_number"
+          ],
+          "page": 2
+        }
+      ],
+      "successMessage": {
+        "title": "Thank you for your request",
+        "description": "Your request was submitted successfully.",
+        "buttonText": "New request"
+      }
+    }
+  ]
+}

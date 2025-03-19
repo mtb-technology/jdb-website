@@ -85,16 +85,6 @@
       "form": {
         "title": "Waar heb je hulp bij nodig?",
         "backButton": "Terug naar categorieën",
-        "fields": {
-          "firstName": "Voornaam",
-          "lastName": "Achternaam",
-          "email": "E-mailadres",
-          "phone": "Telefoonnummer",
-          "message": {
-            "label": "Je vraag of situatie",
-            "placeholder": "Beschrijf je situatie zodat we je kunnen koppelen aan de juiste adviseur..."
-          }
-        },
         "privacyConsent": "Ik ga akkoord met de <a href=\"/privacy\" class=\"text-primary hover:underline\">privacyvoorwaarden</a> en geef toestemming om contact met mij op te nemen.",
         "submitButton": "Verstuur aanvraag"
       },
@@ -148,11 +138,12 @@
         ]
       },
       "promise": {
-        "title": "Onze belofte aan jou",
+        "title": "Wat gebeurt er als ik een aanvraag indien?",
         "items": [
+          "Je krijgt een bevestiging per e-mail",
           "Binnen 24 uur koppelen we je aan een geschikte adviseur",
-          "Alle adviseurs zijn gecertificeerd en gecontroleerd",
-          "Vrijblijvend en zonder verplichtingen"
+          "Vrijblijvend en zonder verplichtingen",
+          "Indien we niemand vinden laten we dit ook weten"
         ]
       }
     },
