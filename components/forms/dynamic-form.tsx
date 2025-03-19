@@ -29,6 +29,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { Link } from "@/components/ui/link";
 import {
   Popover,
   PopoverContent,
@@ -785,6 +786,37 @@ export function DynamicForm({
                   {safeConfig.fields.map((field) => renderField(field.id))}
                 </div>
               )}
+
+              {currentPage === totalPages && (
+                <div className="col-span-full">
+                  <FormField
+                    control={form.control}
+                    name="privacy_consent"
+                    render={({ field }) => (
+                      <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                        <FormControl>
+                          <Checkbox
+                            checked={field.value}
+                            onCheckedChange={field.onChange}
+                            required
+                          />
+                        </FormControl>
+                        <div className="space-y-1 leading-none">
+                          <FormLabel>
+                            {locale === "en" ? (
+                              <>I have read the <Link href="/en/privacy">privacy policy</Link> and consent to being contacted.</>
+                            ) : (
+                              <>Ik heb het <Link href="/privacy">privacybeleid</Link> gelezen en ga ermee akkoord dat er contact met mij wordt opgenomen.</>
+                            )}
+                            <span className="text-destructive ml-1">*</span>
+                          </FormLabel>
+                        </div>
+                      </FormItem>
+                    )}
+                  />
+                </div>
+              )}
+
               <div className="flex justify-between mt-6">
                 {currentPage > 1 && (
                   <Button
