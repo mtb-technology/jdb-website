@@ -203,27 +203,36 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
     mode: "onSubmit",
   })
 
-  const _handleNextPage = useCallback(() => {
-    form.trigger(currentPageFieldIds).then((isValid) => {
-      if (isValid) {
-        const nextPage = Math.min(currentPage + 1, totalPages)
-        setCurrentPage(nextPage)
-        window.scrollTo(0, 0)
-      }
-    })
-  }, [currentPage, currentPageFieldIds, form, totalPages])
+  const _handleNextPage = useCallback(
+    (e?: React.MouseEvent<HTMLButtonElement>) => {
+      e?.preventDefault();
+      form.trigger(currentPageFieldIds).then((isValid) => {
+        if (isValid) {
+          const nextPage = Math.min(currentPage + 1, totalPages);
+          setCurrentPage(nextPage);
+          window.scrollTo(0, 0);
+        } else {
+          setValidatedPages((prev) => ({
+            ...prev,
+            [currentPage]: true,
+          }));
+        }
+      });
+    },
+    [currentPage, currentPageFieldIds, form, totalPages]
+  );
 
   const handlePrevPage = useCallback(() => {
-    const prevPage = Math.max(currentPage - 1, 1)
-    setCurrentPage(prevPage)
-    window.scrollTo(0, 0)
-  }, [currentPage])
+    const prevPage = Math.max(currentPage - 1, 1);
+    setCurrentPage(prevPage);
+    window.scrollTo(0, 0);
+  }, [currentPage]);
 
   const handleSubmit = useCallback(
     async (values: any): Promise<boolean> => {
       if (currentPage < totalPages) {
-        _handleNextPage()
-        return false
+        _handleNextPage();
+        return false;
       }
 
       const formData: Record<string, any> = {};
@@ -238,11 +247,11 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
       formData.utm_params = trackingData?.utmParams;
       formData.app_locale = locale;
 
-      setIsSubmitting(true)
+      setIsSubmitting(true);
       try {
-        const response = await jdbApi.submitForm("advisor-request", formData)
+        const response = await jdbApi.submitForm("advisor-request", formData);
         if (response.success) {
-          window.dataLayer = window.dataLayer || []
+          window.dataLayer = window.dataLayer || [];
           window.dataLayer.push({
             event: "formSubmitted",
             ecommerce: {
@@ -251,29 +260,30 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
               tracking_id: trackingData?.trackingId,
               lead_source: trackingData?.leadSource,
             },
-          })
-          setIsSubmitted(true)
-          return true
+          });
+          setIsSubmitted(true);
+          return true;
         } else {
-          console.error("Form submission failed:", response.message)
-          return false
+          console.error("Form submission failed:", response.message);
+          return false;
         }
       } catch (error) {
-        console.error("Error submitting form:", error)
-        return false
+        console.error("Error submitting form:", error);
+        return false;
       } finally {
-        setIsSubmitting(false)
+        setIsSubmitting(false);
       }
     },
     [locale, trackingData, currentPage, totalPages, _handleNextPage, safeConfig]
-  )
+  );
 
   const renderField = useCallback(
     (fieldId: string) => {
-      const fieldConfig = safeConfig.fields.find((f) => f.id === fieldId)
-      if (!fieldConfig) return null
+      const fieldConfig = safeConfig.fields.find((f) => f.id === fieldId);
+      if (!fieldConfig) return null;
 
-      const { type, label, placeholder, options, required, width } = fieldConfig
+      const { type, label, placeholder, options, required, width } =
+        fieldConfig;
 
       const widthClass =
         width === "half"
@@ -282,9 +292,9 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
             ? "col-span-full md:col-span-1"
             : width === "twoThird"
               ? "col-span-full md:col-span-2"
-              : "col-span-full"
+              : "col-span-full";
 
-      const shouldShowErrors = validatedPages[currentPage] === true
+      const shouldShowErrors = validatedPages[currentPage] === true;
 
       switch (type) {
         case "text":
@@ -300,7 +310,9 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                   <FormItem>
                     <FormLabel>
                       {label}
-                      {required && <span className="text-destructive ml-1">*</span>}
+                      {required && (
+                        <span className="text-destructive ml-1">*</span>
+                      )}
                     </FormLabel>
                     <FormControl>
                       <Input
@@ -309,17 +321,23 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                         {...field}
                         className={cn(
                           "text-sm placeholder:text-sm",
-                          shouldShowErrors && fieldState.invalid ? "border-destructive" : ""
+                          shouldShowErrors && fieldState.invalid
+                            ? "border-destructive"
+                            : ""
                         )}
                       />
                     </FormControl>
-                    {fieldConfig.description && <FormDescription>{fieldConfig.description}</FormDescription>}
-                    {shouldShowErrors && <FormMessage />}
+                    {fieldConfig.description && (
+                      <FormDescription>
+                        {fieldConfig.description}
+                      </FormDescription>
+                    )}
+                    {shouldShowErrors && fieldState.invalid && <FormMessage />}
                   </FormItem>
                 )}
               />
             </div>
-          )
+          );
 
         case "textarea":
           return (
@@ -331,25 +349,33 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                   <FormItem>
                     <FormLabel>
                       {label}
-                      {required && <span className="text-destructive ml-1">*</span>}
+                      {required && (
+                        <span className="text-destructive ml-1">*</span>
+                      )}
                     </FormLabel>
                     <FormControl>
                       <Textarea
                         placeholder={placeholder}
                         className={cn(
                           "min-h-[120px] text-sm placeholder:text-sm",
-                          shouldShowErrors && fieldState.invalid ? "border-destructive" : "",
+                          shouldShowErrors && fieldState.invalid
+                            ? "border-destructive"
+                            : ""
                         )}
                         {...field}
                       />
                     </FormControl>
-                    {fieldConfig.description && <FormDescription>{fieldConfig.description}</FormDescription>}
+                    {fieldConfig.description && (
+                      <FormDescription>
+                        {fieldConfig.description}
+                      </FormDescription>
+                    )}
                     {shouldShowErrors && <FormMessage />}
                   </FormItem>
                 )}
               />
             </div>
-          )
+          );
 
         case "select":
           return (
@@ -361,12 +387,21 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                   <FormItem>
                     <FormLabel>
                       {label}
-                      {required && <span className="text-destructive ml-1">*</span>}
+                      {required && (
+                        <span className="text-destructive ml-1">*</span>
+                      )}
                     </FormLabel>
-                    <Select onValueChange={field.onChange} defaultValue={field.value}>
+                    <Select
+                      onValueChange={field.onChange}
+                      defaultValue={field.value}
+                    >
                       <FormControl>
                         <SelectTrigger
-                          className={cn(shouldShowErrors && fieldState.invalid ? "border-destructive" : "")}
+                          className={cn(
+                            shouldShowErrors && fieldState.invalid
+                              ? "border-destructive"
+                              : ""
+                          )}
                         >
                           <SelectValue placeholder={placeholder} />
                         </SelectTrigger>
@@ -379,13 +414,17 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                         ))}
                       </SelectContent>
                     </Select>
-                    {fieldConfig.description && <FormDescription>{fieldConfig.description}</FormDescription>}
+                    {fieldConfig.description && (
+                      <FormDescription>
+                        {fieldConfig.description}
+                      </FormDescription>
+                    )}
                     {shouldShowErrors && <FormMessage />}
                   </FormItem>
                 )}
               />
             </div>
-          )
+          );
 
         case "radio":
           return (
@@ -397,7 +436,9 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                   <FormItem className="space-y-3">
                     <FormLabel>
                       {label}
-                      {required && <span className="text-destructive ml-1">*</span>}
+                      {required && (
+                        <span className="text-destructive ml-1">*</span>
+                      )}
                     </FormLabel>
                     <FormControl>
                       <RadioGroup
@@ -405,26 +446,37 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                         defaultValue={field.value}
                         className={cn(
                           "flex flex-row space-x-4",
-                          shouldShowErrors && fieldState.invalid ? "border-destructive border rounded-md p-2" : "",
+                          shouldShowErrors && fieldState.invalid
+                            ? "border-destructive border rounded-md p-2"
+                            : ""
                         )}
                       >
                         {options?.map((option) => (
-                          <FormItem key={option.value} className="flex items-center space-x-3 space-y-0">
+                          <FormItem
+                            key={option.value}
+                            className="flex items-center space-x-3 space-y-0"
+                          >
                             <FormControl>
                               <RadioGroupItem value={option.value} />
                             </FormControl>
-                            <FormLabel className="font-normal">{option.label}</FormLabel>
+                            <FormLabel className="font-normal">
+                              {option.label}
+                            </FormLabel>
                           </FormItem>
                         ))}
                       </RadioGroup>
                     </FormControl>
-                    {fieldConfig.description && <FormDescription>{fieldConfig.description}</FormDescription>}
+                    {fieldConfig.description && (
+                      <FormDescription>
+                        {fieldConfig.description}
+                      </FormDescription>
+                    )}
                     {shouldShowErrors && <FormMessage />}
                   </FormItem>
                 )}
               />
             </div>
-          )
+          );
 
         case "checkbox":
           return (
@@ -436,12 +488,16 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                   <FormItem>
                     <FormLabel>
                       {label}
-                      {required && <span className="text-destructive ml-1">*</span>}
+                      {required && (
+                        <span className="text-destructive ml-1">*</span>
+                      )}
                     </FormLabel>
                     <div
                       className={cn(
                         "flex flex-col space-y-2",
-                        shouldShowErrors && fieldState.invalid ? "border-destructive border rounded-md p-2" : "",
+                        shouldShowErrors && fieldState.invalid
+                          ? "border-destructive border rounded-md p-2"
+                          : ""
                       )}
                     >
                       {options?.map((option) => (
@@ -451,32 +507,46 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                           name={fieldId}
                           render={({ field }) => {
                             return (
-                              <FormItem key={option.value} className="flex flex-row items-start space-x-3">
+                              <FormItem
+                                key={option.value}
+                                className="flex flex-row items-start space-x-3"
+                              >
                                 <FormControl>
                                   <Checkbox
-                                    checked={field.value?.includes(option.value)}
+                                    checked={field.value?.includes(
+                                      option.value
+                                    )}
                                     onCheckedChange={(checked) => {
                                       const updatedValue = checked
                                         ? [...(field.value || []), option.value]
-                                        : field.value?.filter((value: string) => value !== option.value);
+                                        : field.value?.filter(
+                                            (value: string) =>
+                                              value !== option.value
+                                          );
                                       field.onChange(updatedValue);
                                     }}
                                   />
                                 </FormControl>
-                                <FormLabel className="font-normal">{option.label}</FormLabel>
+                                <FormLabel className="font-normal">
+                                  {option.label}
+                                </FormLabel>
                               </FormItem>
                             );
                           }}
                         />
                       ))}
                     </div>
-                    {fieldConfig.description && <FormDescription>{fieldConfig.description}</FormDescription>}
+                    {fieldConfig.description && (
+                      <FormDescription>
+                        {fieldConfig.description}
+                      </FormDescription>
+                    )}
                     {shouldShowErrors && <FormMessage />}
                   </FormItem>
                 )}
               />
             </div>
-          )
+          );
 
         case "date":
           return (
@@ -488,7 +558,9 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                   <FormItem className="flex flex-col">
                     <FormLabel>
                       {label}
-                      {required && <span className="text-destructive ml-1">*</span>}
+                      {required && (
+                        <span className="text-destructive ml-1">*</span>
+                      )}
                     </FormLabel>
                     <Popover>
                       <PopoverTrigger asChild>
@@ -498,13 +570,17 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                             className={cn(
                               "w-full pl-3 text-left font-normal text-sm",
                               !field.value && "text-muted-foreground",
-                              shouldShowErrors && fieldState.invalid ? "border-destructive" : "",
+                              shouldShowErrors && fieldState.invalid
+                                ? "border-destructive"
+                                : ""
                             )}
                           >
                             {field.value ? (
                               format(field.value, "dd/MM/yyyy")
                             ) : (
-                              <span>{placeholder || "Selecteer een datum"}</span>
+                              <span>
+                                {placeholder || "Selecteer een datum"}
+                              </span>
                             )}
                             <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
                           </Button>
@@ -515,14 +591,17 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                           mode="single"
                           selected={field.value}
                           onSelect={field.onChange}
-                          disabled={(date) => date > new Date() || date < new Date("1900-01-01")}
+                          disabled={(date) =>
+                            date > new Date() || date < new Date("1900-01-01")
+                          }
                           initialFocus
                           captionLayout="dropdown"
                           fromYear={1900}
                           toYear={new Date().getFullYear()}
                           showOutsideDays={false}
                           classNames={{
-                            months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
+                            months:
+                              "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
                             head_row: "hidden",
                             head_cell: "hidden",
                             row: "flex w-full mt-2",
@@ -531,21 +610,31 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                               "h-8 w-8 p-0 font-normal aria-selected:opacity-100",
                               "rounded-md hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                             ),
-                            day_selected: "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground",
+                            day_selected:
+                              "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground",
                             day_today: "bg-accent text-accent-foreground",
                             day_outside: "text-muted-foreground opacity-50",
                             day_disabled: "text-muted-foreground opacity-50",
                             day_hidden: "invisible",
-                            caption: "flex justify-center items-center space-x-1 mb-4",
+                            caption:
+                              "flex justify-center items-center space-x-1 mb-4",
                             caption_label: "hidden",
                             nav: "hidden",
-                            dropdown_month: "min-w-[90px] bg-background border rounded-md px-2 py-1 text-sm hover:bg-accent",
-                            dropdown_year: "min-w-[70px] bg-background border rounded-md px-2 py-1 text-sm hover:bg-accent",
-                            dropdown: "focus:ring-1 focus:ring-primary [&>*:first-child]:hidden [&>select]:!p-0 [&>select]:!pl-2",
-                            vhidden: "hidden"
+                            dropdown_month:
+                              "min-w-[90px] bg-background border rounded-md px-2 py-1 text-sm hover:bg-accent",
+                            dropdown_year:
+                              "min-w-[70px] bg-background border rounded-md px-2 py-1 text-sm hover:bg-accent",
+                            dropdown:
+                              "focus:ring-1 focus:ring-primary [&>*:first-child]:hidden [&>select]:!p-0 [&>select]:!pl-2",
+                            vhidden: "hidden",
                           }}
                           components={{
-                            Dropdown: ({ value, onChange, children, ...props }) => {
+                            Dropdown: ({
+                              value,
+                              onChange,
+                              children,
+                              ...props
+                            }) => {
                               return (
                                 <select
                                   value={value}
@@ -555,45 +644,30 @@ export function DynamicForm({ config, className, locale = "nl" }: DynamicFormPro
                                 >
                                   {children}
                                 </select>
-                              )
-                            }
+                              );
+                            },
                           }}
                         />
                       </PopoverContent>
                     </Popover>
-                    {fieldConfig.description && <FormDescription>{fieldConfig.description}</FormDescription>}
+                    {fieldConfig.description && (
+                      <FormDescription>
+                        {fieldConfig.description}
+                      </FormDescription>
+                    )}
                     {shouldShowErrors && <FormMessage />}
                   </FormItem>
                 )}
               />
             </div>
-          )
+          );
 
         default:
-          return null
+          return null;
       }
     },
     [currentPage, form, safeConfig.fields, validatedPages]
-  )
-
-  useEffect(() => {
-    if (Object.keys(defaultValues).length > 0) {
-      form.reset(defaultValues)
-    }
-  }, [defaultValues, form])
-
-  useEffect(() => {
-    if (prevPageRef.current !== currentPage) {
-      prevPageRef.current = currentPage
-
-      if (!validatedPages[currentPage]) {
-        setValidatedPages((prev) => ({
-          ...prev,
-          [currentPage]: false,
-        }))
-      }
-    }
-  }, [currentPage, validatedPages])
+  );
 
   const content = isSubmitted && safeConfig.successMessage ? (
     <Card className={cn("w-full", className)}>
