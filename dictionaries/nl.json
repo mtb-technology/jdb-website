@@ -396,6 +396,9 @@
             "answer": "Jan de Belastingman biedt deskundig advies en ondersteuning op verschillende gebieden van BV-beheer, waaronder belastingplanning, naleving van wet- en regelgeving, financiële rapportage en strategisch advies. Onze AI-chatbot kan direct antwoord geven op veelvoorkomende vragen, terwijl ons netwerk van ervaren adviseurs beschikbaar is voor complexere zaken. We helpen je om je BV financieel gezond te houden en optimaal gebruik te maken van beschikbare belastingvoordelen."
           }
         ]
+      },
+      "form": {
+        "name": "entrepreneur-advisor"
       }
     },
     "tax-advisor": {
@@ -523,7 +526,7 @@
         ]
       },
       "form": {
-        "name": "tax-return"
+        "name": "income-tax-advisor"
       }
     },
     "income-tax-return": {
@@ -638,7 +641,7 @@
         ]
       },
       "form": {
-        "name": "tax-return"
+        "name": "income-tax-advisor"
       }
     },
     "m-form": {
@@ -753,7 +756,7 @@
         ]
       },
       "form": {
-        "name": "tax-return"
+        "name": "m-form-advisor"
       }
     },
     "tax-credit": {
@@ -1132,6 +1135,9 @@
             "answer": "Zelfstandig professionals kunnen verschillende aftrekposten claimen, waaronder zakelijke uitgaven, thuiskantoorkosten, reiskosten en kosten voor professionele ontwikkeling. Ons systeem helpt te identificeren welke aftrekposten van toepassing zijn op jouw specifieke situatie."
           }
         ]
+      },
+      "form": {
+        "name": "entrepreneur-advisor"
       }
     },
     "healthcare-allowance": {
