@@ -87,7 +87,10 @@ const dictionary = {
         showButton: true
       }
     ]
-  }
+  },
+  form: {
+    name: "entrepreneur-advisor",
+  },
 };
 
 export default async function BeslotenVennootschapPage() {
