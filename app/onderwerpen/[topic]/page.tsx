@@ -88,6 +88,11 @@ export default async function TopicPage({ params }: TopicPageProps) {
             buttonLink={stepsSection.buttonLink}
             buttonSubtext={stepsSection.buttonSubtext}
           />
+          {form && form.name && (
+            <div className="container">
+              <FormSection formName={form.name} locale={locale as SupportedLocale} />
+            </div>
+          )}
           {faq && (
             <div className="container">
               <FAQAndBlogSection
@@ -99,12 +104,6 @@ export default async function TopicPage({ params }: TopicPageProps) {
                 buttonText={faq.buttonText}
                 buttonLink={faq.buttonLink}
               />
-            </div>
-          )}
-
-          {form && form.name && (
-            <div className="container">
-              <FormSection formName={form.name} locale={locale} />
             </div>
           )}
         </div>

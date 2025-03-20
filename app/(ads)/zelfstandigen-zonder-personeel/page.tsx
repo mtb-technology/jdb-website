@@ -102,6 +102,9 @@ const dictionary = {
       }
     ]
   },
+  form: {
+    name: "entrepreneur-advisor",
+  },
 };
 
 export default async function ZelfstandigenZonderPersoneelPage() {

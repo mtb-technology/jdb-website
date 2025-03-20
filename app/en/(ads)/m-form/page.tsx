@@ -87,7 +87,10 @@ const dictionary = {
         showButton: true
       }
     ]
-  }
+  },
+  form: {
+    name: "m-form-advisor",
+  },
 };
 
 export default async function MFormPage() {

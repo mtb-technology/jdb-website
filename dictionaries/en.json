@@ -396,6 +396,9 @@
             "answer": "Jan de Belastingman provides expert advice and support in various areas of BV management, including tax planning, compliance with laws and regulations, financial reporting, and strategic advice. Our AI-powered chatbot can provide immediate answers to common questions, while our network of experienced advisors is available for more complex matters. We help you keep your BV financially healthy and make optimal use of available tax benefits."
           }
         ]
+      },
+      "form": {
+        "name": "entrepreneur-advisor"
       }
     },
     "tax-advisor": {
@@ -521,6 +524,9 @@
             "answer": "Jan de Belastingman provides comprehensive tax support for expats, including assistance with tax returns, M-forms, applying for the 30% ruling, and handling international tax situations. Our AI chatbot can answer immediate questions, while our network of experienced advisors is available for complex cases. We ensure you comply with Dutch tax regulations while maximizing available benefits and deductions."
           }
         ]
+      },
+      "form": {
+        "name": "income-tax-advisor"
       }
     },
     "income-tax-return": {
@@ -633,6 +639,9 @@
             "answer": "We employ advanced security measures to protect your personal information, adhering to strict GDPR protocols."
           }
         ]
+      },
+      "form": {
+        "name": "income-tax-advisor"
       }
     },
     "m-form": {
@@ -745,6 +754,9 @@
             "answer": "We provide comprehensive support for M form filing, from answering specific questions through our AI chatbot to connecting you with expert advisors for complex situations. We ensure all relevant deductions and benefits are claimed while maintaining compliance with Dutch tax regulations."
           }
         ]
+      },
+      "form": {
+        "name": "m-form-advisor"
       }
     },
     "tax-credit": {
@@ -1123,6 +1135,9 @@
             "answer": "Self-employed professionals can claim various deductions including business expenses, home office costs, travel expenses, and professional development costs. Our system helps identify which deductions apply to your specific situation."
           }
         ]
+      },
+      "form": {
+        "name": "entrepreneur-advisor"
       }
     },
     "healthcare-allowance": {
