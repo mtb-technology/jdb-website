@@ -26,8 +26,8 @@ export default function FormSection({ formName, locale }: FormSectionProps) {
         </h2>
         <p className="text-gray-600">
           {locale === "nl"
-            ? "Heb je een complexe belastingaangifte of wil je dat een expert het voor je regelt? Vul het formulier in en krijg hulp van een belastingadviseur die jouw situatie begrijpt. Hoe meer informatie je deelt, hoe beter we je kunnen helpen zonder extra vragen of vertraging."
-            : "Got a complex tax situation or want an expert to handle your tax return? Fill out the form and get help from a tax advisor who understands your needs. The more information you share, the better we can help you without extra questions or delays."}
+            ? "Heb je een complexe belastingaangifte of wil je dat een expert administratie voor je regelt? Vul het formulier in en krijg hulp van een belastingadviseur die jouw situatie begrijpt. Hoe meer informatie je deelt, hoe beter we je kunnen helpen zonder extra vragen of vertraging."
+            : "Got a complex tax situation or want an expert to handle your tax administration? Fill out the form and get help from a tax advisor who understands your needs. The more information you share, the better we can help you without extra questions or delays."}
         </p>
       </div>
       <div className="py-4">
