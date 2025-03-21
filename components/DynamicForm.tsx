@@ -383,6 +383,8 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
         ...visibleValues,
         tracking_id: trackingData?.trackingId ?? undefined,
         lead_source: trackingData?.leadSource ?? undefined,
+        utm_params: trackingData?.utmParams ?? undefined,
+        hotjar_user_id: trackingData?.hotjarUserId ?? undefined,
         app_locale: locale,
       });
 
@@ -401,6 +403,8 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
           language: isEnglish ? "en" : "nl",
           tracking_id: trackingData?.trackingId,
           lead_source: trackingData?.leadSource,
+          utm_params: trackingData?.utmParams,
+          hotjar_user_id: trackingData?.hotjarUserId,
         },
       });
       setFormSubmitted(true);

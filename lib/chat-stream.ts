@@ -81,6 +81,8 @@ export async function* sendMessage({
   assistantId,
   trackingId,
   leadSource,
+  utmParams,
+  hotjarUserId,
   language,
 }: {
   message: string;
@@ -89,6 +91,8 @@ export async function* sendMessage({
     assistantId: number;
     trackingId?: string | null;
     leadSource?: string | null;
+    utmParams?: Record<string, string>;
+    hotjarUserId?: string | null;
     language: string;
 }) {
   if (!chatSessionId || !parentMessageId) {
@@ -103,6 +107,8 @@ export async function* sendMessage({
           "tracking-id": trackingId || "",
           "lead-source": leadSource || "",
           "app_locale": language,
+          "utm_params": utmParams ? JSON.stringify(utmParams) : undefined,
+          "hotjar_user_id": hotjarUserId,
         },
         body: JSON.stringify({
           persona_id: assistantId,
