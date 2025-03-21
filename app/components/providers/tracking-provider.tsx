@@ -35,6 +35,8 @@ export function TrackingProvider({ children }: { children: React.ReactNode }) {
 
         // Get or set lead source from referrer
         const existingLeadSource = cookieUtils.getLeadSourceCookie();
+        console.log("existingLeadSource", existingLeadSource);
+        console.log("document.referrer", document.referrer);
         const leadSource =
           existingLeadSource || parseReferrer(document.referrer);
 
