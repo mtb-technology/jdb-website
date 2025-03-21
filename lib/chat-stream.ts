@@ -104,11 +104,11 @@ export async function* sendMessage({
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${API_KEY}`,
-          "tracking-id": trackingId || "",
-          "lead-source": leadSource || "",
+          "tracking-id": trackingId ?? "",
+          "lead-source": leadSource ?? "",
           "app_locale": language,
-          "utm_params": utmParams ? JSON.stringify(utmParams) : undefined,
-          "hotjar_user_id": hotjarUserId,
+          "utm-params": utmParams ? JSON.stringify(utmParams) : "undefined",
+          "hotjar-user-id": hotjarUserId ?? "",
         },
         body: JSON.stringify({
           persona_id: assistantId,
