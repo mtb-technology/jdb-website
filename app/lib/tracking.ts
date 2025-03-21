@@ -35,7 +35,7 @@ export interface TrackingData {
   timestamp: number;
 }
 
-export function parseReferrer(referrer: string): LeadSource {
+export function parseReferrer(referrer: string): string {
   if (!referrer) return 'direct';
 
   return referrer || 'unknown';
