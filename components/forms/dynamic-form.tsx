@@ -291,6 +291,7 @@ export function DynamicForm({
       formData.lead_source = trackingData?.leadSource || "advisor_finder";
       formData.tracking_id = trackingData?.trackingId;
       formData.utm_params = trackingData?.utmParams;
+      formData.hotjar_user_id = trackingData?.hotjarUserId;
       formData.app_locale = locale;
 
       setIsSubmitting(true);
@@ -305,6 +306,8 @@ export function DynamicForm({
               language: locale,
               tracking_id: trackingData?.trackingId,
               lead_source: trackingData?.leadSource,
+              utm_params: trackingData?.utmParams,
+              hotjar_user_id: trackingData?.hotjarUserId,
             },
           });
           setIsSubmitted(true);

@@ -35,31 +35,29 @@ export interface TrackingData {
   timestamp: number;
 }
 
-export function parseReferrer(referrer: string): string {
+export function parseReferrer(referrer: string): LeadSource {
   if (!referrer) return 'direct';
 
-  return referrer || 'unknown';
-  
-  // try {
-  //   const url = new URL(referrer);
+  try {
+    const url = new URL(referrer);
+
+    // Check against known patterns
+    for (const { pattern, source } of REFERRER_PATTERNS) {
+      if (pattern.test(url.hostname)) {
+        return source;
+      }
+    }
     
-  //   // Check against known patterns
-  //   for (const { pattern, source } of REFERRER_PATTERNS) {
-  //     if (pattern.test(url.hostname)) {
-  //       return source;
-  //     }
-  //   }
+    // If no match, return the hostname without TLD
+    const hostParts = url.hostname.split('.');
+    if (hostParts.length >= 2) {
+      return hostParts[hostParts.length - 2].toLowerCase();
+    }
     
-  //   // If no match, return the hostname without TLD
-  //   const hostParts = url.hostname.split('.');
-  //   if (hostParts.length >= 2) {
-  //     return hostParts[hostParts.length - 2].toLowerCase();
-  //   }
-    
-  //   return 'unknown';
-  // } catch (e) {
-  //   return 'unknown';
-  // }
+    return 'unknown';
+  } catch (e) {
+    return 'unknown';
+  }
 }
 
 export function parseUtmParamsFromUrl(url: URL): Record<string, string> {
