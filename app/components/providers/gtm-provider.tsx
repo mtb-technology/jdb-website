@@ -27,6 +27,10 @@ export function GTMProvider({ children }: { children: React.ReactNode }) {
       tracking_id: trackingData.trackingId,
       lead_source: trackingData.leadSource,
       utm_params: trackingData.utmParams,
+      hotjar_user_id: trackingData.hotjarUserId,
+      gad_source: trackingData.gadSource,
+      gclid: trackingData.gclid,
+      fbclid: trackingData.fbclid,
       page_path: pathname,
       timestamp: trackingData.timestamp,
     });
