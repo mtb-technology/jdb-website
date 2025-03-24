@@ -119,6 +119,11 @@ export function ChatInterface({
           assistantId: assistantId,
           trackingId: trackingData?.trackingId,
           leadSource: trackingData?.leadSource,
+          utmParams: trackingData?.utmParams,
+          hotjarUserId: trackingData?.hotjarUserId,
+          gadSource: trackingData?.gadSource,
+          gclid: trackingData?.gclid,
+          fbclid: trackingData?.fbclid,
           language: isEnglish ? "en" : "nl",
         });
 

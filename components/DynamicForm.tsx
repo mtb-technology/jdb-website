@@ -385,6 +385,9 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
         lead_source: trackingData?.leadSource ?? undefined,
         utm_params: trackingData?.utmParams ?? undefined,
         hotjar_user_id: trackingData?.hotjarUserId ?? undefined,
+        gad_source: trackingData?.gadSource ?? undefined,
+        gclid: trackingData?.gclid ?? undefined,
+        fbclid: trackingData?.fbclid ?? undefined,
         app_locale: locale,
       });
 

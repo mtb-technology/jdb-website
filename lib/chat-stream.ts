@@ -83,6 +83,9 @@ export async function* sendMessage({
   leadSource,
   utmParams,
   hotjarUserId,
+  gadSource,
+  gclid,
+  fbclid,
   language,
 }: {
   message: string;
@@ -93,6 +96,9 @@ export async function* sendMessage({
     leadSource?: string | null;
     utmParams?: Record<string, string>;
     hotjarUserId?: string | null;
+    gadSource?: string | null;
+    gclid?: string | null;
+    fbclid?: string | null;
     language: string;
 }) {
   if (!chatSessionId || !parentMessageId) {
@@ -106,8 +112,11 @@ export async function* sendMessage({
           Authorization: `Bearer ${API_KEY}`,
           "tracking-id": trackingId ?? "",
           "lead-source": leadSource ?? "",
-          "app_locale": language,
-          "utm-params": utmParams ? JSON.stringify(utmParams) : "undefined",
+          "app-locale": language,
+          "utm-params": utmParams ? JSON.stringify(utmParams) : "undefined",  
+          "gad-source": gadSource ?? "",
+          "gclid": gclid ?? "",
+          "fbclid": fbclid ?? "",
           "hotjar-user-id": hotjarUserId ?? "",
         },
         body: JSON.stringify({

@@ -291,6 +291,9 @@ export function DynamicForm({
       formData.lead_source = trackingData?.leadSource || "advisor_finder";
       formData.tracking_id = trackingData?.trackingId;
       formData.utm_params = trackingData?.utmParams;
+      formData.gad_source = trackingData?.gadSource;
+      formData.gclid = trackingData?.gclid;
+      formData.fbclid = trackingData?.fbclid;
       formData.hotjar_user_id = trackingData?.hotjarUserId;
       formData.app_locale = locale;
 
