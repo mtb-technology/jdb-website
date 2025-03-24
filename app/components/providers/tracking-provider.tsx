@@ -4,17 +4,6 @@ import { cookieUtils, parseReferrer, TrackingData } from "@/app/lib/tracking";
 import { createContext, useContext, useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-interface TrackingData {
-  trackingId: string;
-  leadSource: string;
-  utmParams: Record<string, string>;
-  hotjarUserId: string | null;
-  gadSource: string;
-  gclid: string | null;
-  fbclid: string | null;
-  timestamp: number;
-}
-
 interface TrackingContextType {
   trackingData: TrackingData | null;
   setLeadSource: (source: string) => void;
