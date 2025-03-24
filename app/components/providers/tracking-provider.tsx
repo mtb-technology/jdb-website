@@ -4,6 +4,17 @@ import { cookieUtils, parseReferrer, TrackingData } from "@/app/lib/tracking";
 import { createContext, useContext, useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
+interface TrackingData {
+  trackingId: string;
+  leadSource: string;
+  utmParams: Record<string, string>;
+  hotjarUserId: string | null;
+  gadSource: string;
+  gclid: string | null;
+  fbclid: string | null;
+  timestamp: number;
+}
+
 interface TrackingContextType {
   trackingData: TrackingData | null;
   setLeadSource: (source: string) => void;
@@ -42,8 +53,12 @@ export function TrackingProvider({ children }: { children: React.ReactNode }) {
           cookieUtils.setLeadSourceCookie(leadSource);
         }
 
-        // Parse UTM parameters from URL
+        // Parse gclid and fbclid from URL
         const url = new URL(window.location.href);
+        const gclid = url.searchParams.get("gclid") || null;
+        const fbclid = url.searchParams.get("fbclid") || null;
+
+        // Parse UTM parameters from URL
         const utmParams = Object.fromEntries(
           Array.from(url.searchParams.entries())
             .filter(([key]) => key.startsWith("utm_"))
@@ -55,6 +70,9 @@ export function TrackingProvider({ children }: { children: React.ReactNode }) {
           cookieUtils.setUtmCookie(param, value);
         });
 
+        // Parse gad_source from URL
+        const gadSource = url.searchParams.get("gad_source") || "unknown";
+
         // Get Hotjar User ID
         const hotjarUserId = getHotjarUserIdFromCookies();
 
@@ -63,6 +81,9 @@ export function TrackingProvider({ children }: { children: React.ReactNode }) {
           leadSource,
           utmParams,
           hotjarUserId,
+          gadSource,
+          gclid,
+          fbclid,
           timestamp: Date.now(),
         });
       } catch (error) {
@@ -73,6 +94,9 @@ export function TrackingProvider({ children }: { children: React.ReactNode }) {
           leadSource: "unknown",
           utmParams: {},
           hotjarUserId: null,
+          gadSource: "unknown",
+          gclid: null,
+          fbclid: null,
           timestamp: Date.now(),
         });
       }
