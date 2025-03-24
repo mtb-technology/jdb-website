@@ -32,6 +32,9 @@ export interface TrackingData {
     content?: string;
   };
   hotjarUserId: string | null;
+  gadSource: string | null;
+  gclid: string | null;
+  fbclid: string | null;
   timestamp: number;
 }
 
