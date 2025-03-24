@@ -142,7 +142,11 @@ export async function* sendMessage({
       Authorization: `Bearer ${API_KEY}`,
       "tracking-id": trackingId || "",
       "lead-source": leadSource || "",
-      "app_locale": language,
+      "gad-source": gadSource || "",
+      "gclid": gclid || "",
+      "fbclid": fbclid || "",
+      "hotjar-user-id": hotjarUserId || "",
+      "app-locale": language,
     },
     body: JSON.stringify({
       alternate_assistant_id: assistantId, // TODO: is this needed?      
