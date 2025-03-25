@@ -162,7 +162,6 @@ export function ChatInterface({
                 });
               }
             } else if (Object.hasOwn(chunk, "message_id")) {
-              console.log("message_id", chunk.message_id);
               newMessageId = chunk.message_id;
               // Update session state when we receive chat session info
               if (chunk.chat_session_id) {

@@ -407,6 +407,9 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
           tracking_id: trackingData?.trackingId,
           lead_source: trackingData?.leadSource,
           utm_params: trackingData?.utmParams,
+          gad_source: trackingData?.gadSource,
+          gclid: trackingData?.gclid,
+          fbclid: trackingData?.fbclid,
           hotjar_user_id: trackingData?.hotjarUserId,
         },
       });
