@@ -307,7 +307,7 @@ export function DynamicForm({
             ecommerce: {
               form_handle: formData.id,
               language: locale,
-              tracking_id: trackingData?.trackingId,
+              transaction_id: trackingData?.trackingId,
               lead_source: trackingData?.leadSource,
               utm_params: trackingData?.utmParams,
               hotjar_user_id: trackingData?.hotjarUserId,
