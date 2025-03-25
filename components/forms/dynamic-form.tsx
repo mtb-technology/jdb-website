@@ -311,6 +311,9 @@ export function DynamicForm({
               lead_source: trackingData?.leadSource,
               utm_params: trackingData?.utmParams,
               hotjar_user_id: trackingData?.hotjarUserId,
+              gad_source: trackingData?.gadSource,
+              gclid: trackingData?.gclid,
+              fbclid: trackingData?.fbclid,
             },
           });
           setIsSubmitted(true);
