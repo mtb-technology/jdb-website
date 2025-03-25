@@ -24,7 +24,7 @@ export function GTMProvider({ children }: { children: React.ReactNode }) {
     // Push initial tracking data
     window.dataLayer.push({
       event: "tracking_initialized",
-      tracking_id: trackingData.trackingId,
+      transaction_id: trackingData.trackingId,
       lead_source: trackingData.leadSource,
       utm_params: trackingData.utmParams,
       hotjar_user_id: trackingData.hotjarUserId,
