@@ -172,20 +172,21 @@ export function ChatInterface({
               }
             } 
             if (Object.hasOwn(chunk, "tool_call") && chunk.tool_call) {
-              console.log("tool_call send data layer event w", chunk.tool_call);
-              window.dataLayer = window.dataLayer || [];
-              window.dataLayer.push({
-                event: "toolCall",
-                ecommerce: chunk.tool_call.tool_result,
-                language: isEnglish ? "en" : "nl",
-                tracking_id: trackingData?.trackingId,
-                lead_source: trackingData?.leadSource,
-                utm_params: trackingData?.utmParams,
-                hotjar_user_id: trackingData?.hotjarUserId,
-                gad_source: trackingData?.gadSource,
-                gclid: trackingData?.gclid,
-                fbclid: trackingData?.fbclid,
-              });
+              if (chunk.tool_call.tool_name === "submitQuote") {
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                  event: "toolCall",
+                  ecommerce: chunk.tool_call.tool_result,
+                  language: isEnglish ? "en" : "nl",
+                  transaction_id: trackingData?.trackingId,
+                  lead_source: trackingData?.leadSource,
+                  utm_params: trackingData?.utmParams,
+                  hotjar_user_id: trackingData?.hotjarUserId,
+                  gad_source: trackingData?.gadSource,
+                  gclid: trackingData?.gclid,
+                  fbclid: trackingData?.fbclid,
+                });
+              }
             }
           }
         }
