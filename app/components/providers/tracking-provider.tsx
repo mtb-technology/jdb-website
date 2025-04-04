@@ -1,17 +1,14 @@
 "use client";
 
-import { cookieUtils, parseReferrer, TrackingData } from "@/app/lib/tracking";
+import { TrackingData } from "@/lib/types/tracking";
 import { createContext, useContext, useEffect, useState } from "react";
-import { v4 as uuidv4 } from "uuid";
 
 interface TrackingContextType {
-  trackingData: TrackingData | null;
-  setLeadSource: (source: string) => void;
+  trackingData: TrackingData | undefined;
 }
 
 const TrackingContext = createContext<TrackingContextType>({
-  trackingData: null,
-  setLeadSource: () => {},
+  trackingData: undefined,
 });
 
 function getHotjarUserIdFromCookies() {
@@ -20,96 +17,46 @@ function getHotjarUserIdFromCookies() {
 }
 
 export function TrackingProvider({ children }: { children: React.ReactNode }) {
-  const [trackingData, setTrackingData] = useState<TrackingData | null>(null);
+  const [trackingData, setTrackingData] = useState<TrackingData | undefined>(
+    undefined
+  );
 
   useEffect(() => {
-    const initializeTracking = () => {
-      try {
-        // Get or create tracking ID
-        const existingTrackingId = cookieUtils.getTrackingCookie();
-        const trackingId = existingTrackingId || uuidv4();
-
-        if (!existingTrackingId) {
-          cookieUtils.setTrackingCookie(trackingId);
-        }
-
-        // Get or set lead source from referrer
-        const existingLeadSource = cookieUtils.getLeadSourceCookie();
-        const leadSource =
-          existingLeadSource || parseReferrer(document.referrer);
-
-        if (!existingLeadSource) {
-          cookieUtils.setLeadSourceCookie(leadSource);
-        }
-
-        // Parse gclid and fbclid from URL
-        const url = new URL(window.location.href);
-        const gclid = url.searchParams.get("gclid") || null;
-        const fbclid = url.searchParams.get("fbclid") || null;
-
-        // Parse UTM parameters from URL
-        const utmParams = Object.fromEntries(
-          Array.from(url.searchParams.entries())
-            .filter(([key]) => key.startsWith("utm_"))
-            .map(([key, value]) => [key.replace("utm_", ""), value])
-        );
-
-        // Set UTM cookies if present
-        Object.entries(utmParams).forEach(([param, value]) => {
-          cookieUtils.setUtmCookie(param, value);
-        });
-
-        // Parse gad_source from URL
-        const gadSource = url.searchParams.get("gad_source") || "unknown";
-
-        // Get Hotjar User ID
-        const hotjarUserId = getHotjarUserIdFromCookies();
-
-        setTrackingData({
-          trackingId,
-          leadSource,
-          utmParams,
-          hotjarUserId,
-          gadSource,
-          gclid,
-          fbclid,
-          timestamp: Date.now(),
-        });
-      } catch (error) {
-        console.error("Failed to initialize tracking:", error);
-        // Ensure we still set some tracking data even if something fails
-        setTrackingData({
-          trackingId: uuidv4(),
-          leadSource: "unknown",
-          utmParams: {},
-          hotjarUserId: null,
-          gadSource: "unknown",
-          gclid: null,
-          fbclid: null,
-          timestamp: Date.now(),
-        });
-      }
+    // Initialize tracking data from URL parameters or other sources
+    const params = new URLSearchParams(window.location.search);
+    const utmParams: Record<string, string | null> = {
+      source: params.get("utm_source"),
+      medium: params.get("utm_medium"),
+      campaign: params.get("utm_campaign"),
+      term: params.get("utm_term"),
+      content: params.get("utm_content"),
     };
 
-    initializeTracking();
+    const data: TrackingData = {
+      trackingId: params.get("tracking_id"),
+      leadSource: params.get("lead_source"),
+      utmParams,
+      hotjarUserId: params.get("hotjar_user_id"),
+      gadSource: params.get("gad_source"),
+      gclid: params.get("gclid"),
+      fbclid: params.get("fbclid"),
+      timestamp: new Date().toISOString(),
+    };
+
+    setTrackingData(data);
   }, []);
 
-  const setLeadSource = (source: string) => {
-    cookieUtils.setLeadSourceCookie(source);
-    setTrackingData((prev) => (prev ? { ...prev, leadSource: source } : null));
-  };
-
   return (
-    <TrackingContext.Provider value={{ trackingData, setLeadSource }}>
+    <TrackingContext.Provider value={{ trackingData }}>
       {children}
     </TrackingContext.Provider>
   );
 }
 
-export const useTracking = () => {
+export function useTracking() {
   const context = useContext(TrackingContext);
   if (!context) {
     throw new Error("useTracking must be used within a TrackingProvider");
   }
   return context;
-};
+}
