@@ -249,6 +249,9 @@ export function DynamicForm({
     mode: "onSubmit",
   });
 
+  // Add honeypot field to the form
+  const honeypotField = "company_name"; // Common field name that bots might try to fill
+
   const _handleNextPage = useCallback(
     (e?: React.MouseEvent<HTMLButtonElement>) => {
       e?.preventDefault();
@@ -278,6 +281,13 @@ export function DynamicForm({
     async (values: any): Promise<boolean> => {
       if (currentPage < totalPages) {
         _handleNextPage();
+        return false;
+      }
+
+      // Check honeypot field
+      if (values[honeypotField]) {
+        // If honeypot is filled, silently fail
+        console.log("Bot detected - honeypot field filled");
         return false;
       }
 
@@ -770,6 +780,16 @@ export function DynamicForm({
               onSubmit={form.handleSubmit(handleSubmit)}
               className="space-y-8"
             >
+              {/* Add honeypot field */}
+              <div className="hidden">
+                <input
+                  type="text"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  {...form.register(honeypotField)}
+                />
+              </div>
+
               {safeConfig.sections && safeConfig.sections.length > 0 ? (
                 safeConfig.sections
                   .filter((section) => (section.page || 1) === currentPage)
@@ -813,9 +833,18 @@ export function DynamicForm({
                         <div className="space-y-1 leading-none">
                           <FormLabel>
                             {locale === "en" ? (
-                              <>I have read the <Link href="/en/privacy">privacy policy</Link> and consent to being contacted.</>
+                              <>
+                                I have read the{" "}
+                                <Link href="/en/privacy">privacy policy</Link>{" "}
+                                and consent to being contacted.
+                              </>
                             ) : (
-                              <>Ik heb het <Link href="/privacy">privacybeleid</Link> gelezen en ga ermee akkoord dat er contact met mij wordt opgenomen.</>
+                              <>
+                                Ik heb het{" "}
+                                <Link href="/privacy">privacybeleid</Link>{" "}
+                                gelezen en ga ermee akkoord dat er contact met
+                                mij wordt opgenomen.
+                              </>
                             )}
                             <span className="text-destructive ml-1">*</span>
                           </FormLabel>

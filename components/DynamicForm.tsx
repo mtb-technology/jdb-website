@@ -288,6 +288,9 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
     reValidateMode: "onSubmit",
   });
 
+  // Add honeypot field to the form
+  const honeypotField = "contact_phone"; // Changed to a different common field name that bots might try to fill
+
   // Get all condition fields from the form data
   const getConditionFields = useCallback(() => {
     if (!formData) return new Set<string>();
@@ -355,6 +358,13 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
     locale: string
   ) => {
     try {
+      // Check honeypot field
+      if (values[honeypotField]) {
+        // If honeypot is filled, silently fail
+        console.log("Bot detected - honeypot field filled");
+        return;
+      }
+
       const formValues = form.getValues();
       const visibleFields = new Set<string>();
 
@@ -747,6 +757,16 @@ export function DynamicForm({ handle, className }: DynamicFormProps) {
         )}
         className={cn("space-y-4", className)}
       >
+        {/* Add honeypot field */}
+        <div className="hidden">
+          <input
+            type="text"
+            tabIndex={-1}
+            autoComplete="off"
+            {...form.register(honeypotField)}
+          />
+        </div>
+
         {formData.form_sections.map((section, index) => (
           <div
             key={index}
