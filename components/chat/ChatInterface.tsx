@@ -16,6 +16,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Message, sendMessage } from "@/lib/chat-stream";
+import { pushToolCallEvent } from "@/lib/events/tracking";
 import { chatENToDictionaryKey, chatNLToDictionaryKey } from "@/lib/routes";
 import confetti from "canvas-confetti";
 import { AnimatePresence, motion } from "framer-motion";
@@ -170,22 +171,15 @@ export function ChatInterface({
                   parentMessageId: chunk.message_id,
                 });
               }
-            } 
+            }
             if (Object.hasOwn(chunk, "tool_call") && chunk.tool_call) {
               if (chunk.tool_call.tool_name === "submitQuote") {
-                window.dataLayer = window.dataLayer || [];
-                window.dataLayer.push({
-                  event: "toolCall",
-                  ecommerce: chunk.tool_call.tool_result,
-                  language: isEnglish ? "en" : "nl",
-                  transaction_id: trackingData?.trackingId,
-                  lead_source: trackingData?.leadSource,
-                  utm_params: trackingData?.utmParams,
-                  hotjar_user_id: trackingData?.hotjarUserId,
-                  gad_source: trackingData?.gadSource,
-                  gclid: trackingData?.gclid,
-                  fbclid: trackingData?.fbclid,
-                });
+                pushToolCallEvent(
+                  chunk.tool_call.tool_name,
+                  chunk.tool_call.tool_result,
+                  isEnglish ? "en" : "nl",
+                  trackingData
+                );
               }
             }
           }

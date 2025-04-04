@@ -45,6 +45,7 @@ import {
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 import { jdbApi } from "@/lib/api/JDBApi";
+import { pushFormSubmissionEvent } from "@/lib/events/tracking";
 import type { SupportedLocale } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -311,21 +312,7 @@ export function DynamicForm({
       try {
         const response = await jdbApi.submitForm("advisor-request", formData);
         if (response.success) {
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({
-            event: "formSubmitted",
-            ecommerce: {
-              form_handle: formData.id,
-              language: locale,
-              transaction_id: trackingData?.trackingId,
-              lead_source: trackingData?.leadSource,
-              utm_params: trackingData?.utmParams,
-              hotjar_user_id: trackingData?.hotjarUserId,
-              gad_source: trackingData?.gadSource,
-              gclid: trackingData?.gclid,
-              fbclid: trackingData?.fbclid,
-            },
-          });
+          pushFormSubmissionEvent(formData.id, locale, trackingData);
           setIsSubmitted(true);
           return true;
         } else {

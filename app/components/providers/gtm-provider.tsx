@@ -1,6 +1,7 @@
 "use client";
 
 import { useTracking } from "@/app/components/providers/tracking-provider";
+import { pushLeadEvent } from "@/lib/events/tracking";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
@@ -16,24 +17,16 @@ export function GTMProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     if (!trackingData) return;
-    console.log("trackingData", trackingData);
 
-    // Initialize dataLayer
-    window.dataLayer = window.dataLayer || [];
-
-    // Push initial tracking data
-    window.dataLayer.push({
-      event: "tracking_initialized",
-      transaction_id: trackingData.trackingId,
-      lead_source: trackingData.leadSource,
-      utm_params: trackingData.utmParams,
-      hotjar_user_id: trackingData.hotjarUserId,
-      gad_source: trackingData.gadSource,
-      gclid: trackingData.gclid,
-      fbclid: trackingData.fbclid,
-      page_path: pathname,
-      timestamp: trackingData.timestamp,
-    });
+    pushLeadEvent(
+      "tracking_initialized",
+      {
+        language: pathname.startsWith("/en") ? "en" : "nl",
+        page_path: pathname,
+        timestamp: trackingData.timestamp,
+      },
+      trackingData
+    );
   }, [trackingData, pathname]);
 
   return <>{children}</>;
